@@ -44,9 +44,7 @@ jobs:
           cd YukkiMusic
           pylint --exit-zero --output-format=json --indent-string="    " --reports=no . > ../current_dir/warnings.json
           cd ../current_dir
-          rm -rf YukkiMusic config .github/docs/
           python script.py
-          rm .github/t.json .github/sort_pylint_warnings.json a.txt
           
       - name: Commit Changes
         uses: stefanzweifel/git-auto-commit-action@v5
