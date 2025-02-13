@@ -4,10 +4,13 @@ import os
 from os import path
 
 CURRENT_REPO_DIR = os.getcwd()
-YUKKI_MUSIC_DIR = path.join(path.dirname(CURRENT_REPO_DIR), "YukkiMusic")
+YUKKI_MUSIC_DIR = path.join(CURRENT_REPO_DIR, "..", "YukkiMusic")
 OUTPUT_FILE = path.join(CURRENT_REPO_DIR, "warnings.json")
-
 CHECK_DIR = [YUKKI_MUSIC_DIR]
+
+if not path.exists(YUKKI_MUSIC_DIR):
+    print(f"Error: {YUKKI_MUSIC_DIR} not found")
+    exit(1)
 
 async def run_pylint():
     cmd = [
