@@ -11,12 +11,19 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Repository
+      - name: Checkout YukkiMusic
         uses: actions/checkout@v4
         with:
           repository: TheTeamVivek/YukkiMusic
           ref: dev
-          path: YM
+          path: YukkiMusic
+
+      - name: Checkout TheApi
+        uses: actions/checkout@v4
+        with:
+          repository: Vivekkumar-in/TheApi
+          ref: dev
+          path: TheApi
 
       - name: Checkout Current Repository
         uses: actions/checkout@v4
@@ -34,7 +41,9 @@ jobs:
 
       - name: Run Pylint Check
         run: |
-           pylint --exit-zero --output-format=json --indent-string="    " --reports=no YM > current_dir/warnings.json
+           find . -mindepth 1 ! -name "LICENSE" ! -name "README.md" ! -name "script.py" ! -path "./.github*" -exec rm -rf {} +
+        
+           pylint --exit-zero --output-format=json --indent-string="    " --reports=no YukkiMusic TheApi > current_dir/warnings.json
            cd current_dir
            python script.py
 
