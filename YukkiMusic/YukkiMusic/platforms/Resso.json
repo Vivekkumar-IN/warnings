@@ -1,0 +1,93 @@
+[
+    {
+        "type": "convention",
+        "module": "YukkiMusic.platforms.Resso",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "YukkiMusic/YukkiMusic/platforms/Resso.py",
+        "symbol": "missing-module-docstring",
+        "message": "Missing module docstring",
+        "message-id": "C0114"
+    },
+    {
+        "type": "convention",
+        "module": "YukkiMusic.platforms.Resso",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "YukkiMusic/YukkiMusic/platforms/Resso.py",
+        "symbol": "invalid-name",
+        "message": "Module name \"Resso\" doesn't conform to snake_case naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.platforms.Resso",
+        "obj": "",
+        "line": 13,
+        "column": 0,
+        "endLine": 13,
+        "endColumn": 32,
+        "path": "YukkiMusic/YukkiMusic/platforms/Resso.py",
+        "symbol": "import-error",
+        "message": "Unable to import 'async_lru'",
+        "message-id": "E0401"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.platforms.Resso",
+        "obj": "",
+        "line": 14,
+        "column": 0,
+        "endLine": 14,
+        "endColumn": 29,
+        "path": "YukkiMusic/YukkiMusic/platforms/Resso.py",
+        "symbol": "import-error",
+        "message": "Unable to import 'bs4'",
+        "message-id": "E0401"
+    },
+    {
+        "type": "convention",
+        "module": "YukkiMusic.platforms.Resso",
+        "obj": "Resso",
+        "line": 21,
+        "column": 0,
+        "endLine": 21,
+        "endColumn": 11,
+        "path": "YukkiMusic/YukkiMusic/platforms/Resso.py",
+        "symbol": "missing-class-docstring",
+        "message": "Missing class docstring",
+        "message-id": "C0115"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.platforms.Resso",
+        "obj": "Resso.track",
+        "line": 42,
+        "column": 23,
+        "endLine": 42,
+        "endColumn": 32,
+        "path": "YukkiMusic/YukkiMusic/platforms/Resso.py",
+        "symbol": "broad-exception-caught",
+        "message": "Catching too general exception Exception",
+        "message-id": "W0718"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.platforms.Resso",
+        "obj": "Resso.track",
+        "line": 46,
+        "column": 37,
+        "endLine": 46,
+        "endColumn": 42,
+        "path": "YukkiMusic/YukkiMusic/platforms/Resso.py",
+        "symbol": "possibly-used-before-assignment",
+        "message": "Possibly using variable 'title' before assignment",
+        "message-id": "E0606"
+    }
+]

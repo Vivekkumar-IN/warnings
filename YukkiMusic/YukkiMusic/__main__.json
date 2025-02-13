@@ -1,0 +1,80 @@
+[
+    {
+        "type": "convention",
+        "module": "YukkiMusic.__main__",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "YukkiMusic/YukkiMusic/__main__.py",
+        "symbol": "missing-module-docstring",
+        "message": "Missing module docstring",
+        "message-id": "C0114"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.__main__",
+        "obj": "",
+        "line": 12,
+        "column": 0,
+        "endLine": 12,
+        "endColumn": 50,
+        "path": "YukkiMusic/YukkiMusic/__main__.py",
+        "symbol": "import-error",
+        "message": "Unable to import 'pytgcalls.exceptions'",
+        "message-id": "E0401"
+    },
+    {
+        "type": "convention",
+        "module": "YukkiMusic.__main__",
+        "obj": "init",
+        "line": 23,
+        "column": 0,
+        "endLine": 23,
+        "endColumn": 14,
+        "path": "YukkiMusic/YukkiMusic/__main__.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.__main__",
+        "obj": "init",
+        "line": 38,
+        "column": 11,
+        "endLine": 38,
+        "endColumn": 20,
+        "path": "YukkiMusic/YukkiMusic/__main__.py",
+        "symbol": "broad-exception-caught",
+        "message": "Catching too general exception Exception",
+        "message-id": "W0718"
+    },
+    {
+        "type": "refactor",
+        "module": "YukkiMusic.__main__",
+        "obj": "init",
+        "line": 23,
+        "column": 0,
+        "endLine": 23,
+        "endColumn": 14,
+        "path": "YukkiMusic/YukkiMusic/__main__.py",
+        "symbol": "too-many-branches",
+        "message": "Too many branches (17/12)",
+        "message-id": "R0912"
+    },
+    {
+        "type": "refactor",
+        "module": "YukkiMusic.__main__",
+        "obj": "init",
+        "line": 23,
+        "column": 0,
+        "endLine": 23,
+        "endColumn": 14,
+        "path": "YukkiMusic/YukkiMusic/__main__.py",
+        "symbol": "too-many-statements",
+        "message": "Too many statements (53/50)",
+        "message-id": "R0915"
+    }
+]

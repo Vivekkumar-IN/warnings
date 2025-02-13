@@ -1,0 +1,67 @@
+[
+    {
+        "type": "convention",
+        "module": "YukkiMusic.utils.inline.start",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "YukkiMusic/YukkiMusic/utils/inline/start.py",
+        "symbol": "missing-module-docstring",
+        "message": "Missing module docstring",
+        "message-id": "C0114"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.utils.inline.start",
+        "obj": "",
+        "line": 11,
+        "column": 0,
+        "endLine": 11,
+        "endColumn": 27,
+        "path": "YukkiMusic/YukkiMusic/utils/inline/start.py",
+        "symbol": "import-error",
+        "message": "Unable to import 'telethon'",
+        "message-id": "E0401"
+    },
+    {
+        "type": "convention",
+        "module": "YukkiMusic.utils.inline.start",
+        "obj": "start_pannel",
+        "line": 17,
+        "column": 0,
+        "endLine": 17,
+        "endColumn": 16,
+        "path": "YukkiMusic/YukkiMusic/utils/inline/start.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    },
+    {
+        "type": "convention",
+        "module": "YukkiMusic.utils.inline.start",
+        "obj": "private_panel",
+        "line": 42,
+        "column": 0,
+        "endLine": 42,
+        "endColumn": 17,
+        "path": "YukkiMusic/YukkiMusic/utils/inline/start.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.utils.inline.start",
+        "obj": "private_panel",
+        "line": 60,
+        "column": 36,
+        "endLine": 60,
+        "endColumn": 40,
+        "path": "YukkiMusic/YukkiMusic/utils/inline/start.py",
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'tbot'",
+        "message-id": "E0602"
+    }
+]

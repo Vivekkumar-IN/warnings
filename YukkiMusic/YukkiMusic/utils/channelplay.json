@@ -1,0 +1,67 @@
+[
+    {
+        "type": "convention",
+        "module": "YukkiMusic.utils.channelplay",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "YukkiMusic/YukkiMusic/utils/channelplay.py",
+        "symbol": "missing-module-docstring",
+        "message": "Missing module docstring",
+        "message-id": "C0114"
+    },
+    {
+        "type": "convention",
+        "module": "YukkiMusic.utils.channelplay",
+        "obj": "get_channeplay_cb",
+        "line": 15,
+        "column": 0,
+        "endLine": 15,
+        "endColumn": 27,
+        "path": "YukkiMusic/YukkiMusic/utils/channelplay.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.utils.channelplay",
+        "obj": "get_channeplay_cb",
+        "line": 21,
+        "column": 19,
+        "endLine": 21,
+        "endColumn": 28,
+        "path": "YukkiMusic/YukkiMusic/utils/channelplay.py",
+        "symbol": "broad-exception-caught",
+        "message": "Catching too general exception Exception",
+        "message-id": "W0718"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.utils.channelplay",
+        "obj": "get_channeplay_cb",
+        "line": 26,
+        "column": 15,
+        "endLine": 26,
+        "endColumn": 24,
+        "path": "YukkiMusic/YukkiMusic/utils/channelplay.py",
+        "symbol": "broad-exception-caught",
+        "message": "Catching too general exception Exception",
+        "message-id": "W0718"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.utils.channelplay",
+        "obj": "get_channeplay_cb",
+        "line": 29,
+        "column": 19,
+        "endLine": 29,
+        "endColumn": 28,
+        "path": "YukkiMusic/YukkiMusic/utils/channelplay.py",
+        "symbol": "broad-exception-caught",
+        "message": "Catching too general exception Exception",
+        "message-id": "W0718"
+    }
+]

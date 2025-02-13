@@ -1,0 +1,80 @@
+[
+    {
+        "type": "convention",
+        "module": "YukkiMusic.utils.formatters",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "YukkiMusic/YukkiMusic/utils/formatters.py",
+        "symbol": "missing-module-docstring",
+        "message": "Missing module docstring",
+        "message-id": "C0114"
+    },
+    {
+        "type": "convention",
+        "module": "YukkiMusic.utils.formatters",
+        "obj": "get_readable_time",
+        "line": 11,
+        "column": 0,
+        "endLine": 11,
+        "endColumn": 21,
+        "path": "YukkiMusic/YukkiMusic/utils/formatters.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    },
+    {
+        "type": "convention",
+        "module": "YukkiMusic.utils.formatters",
+        "obj": "int_to_alpha",
+        "line": 49,
+        "column": 0,
+        "endLine": 49,
+        "endColumn": 22,
+        "path": "YukkiMusic/YukkiMusic/utils/formatters.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    },
+    {
+        "type": "convention",
+        "module": "YukkiMusic.utils.formatters",
+        "obj": "alpha_to_int",
+        "line": 58,
+        "column": 0,
+        "endLine": 58,
+        "endColumn": 22,
+        "path": "YukkiMusic/YukkiMusic/utils/formatters.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    },
+    {
+        "type": "convention",
+        "module": "YukkiMusic.utils.formatters",
+        "obj": "time_to_seconds",
+        "line": 68,
+        "column": 0,
+        "endLine": 68,
+        "endColumn": 19,
+        "path": "YukkiMusic/YukkiMusic/utils/formatters.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    },
+    {
+        "type": "convention",
+        "module": "YukkiMusic.utils.formatters",
+        "obj": "seconds_to_min",
+        "line": 73,
+        "column": 0,
+        "endLine": 73,
+        "endColumn": 18,
+        "path": "YukkiMusic/YukkiMusic/utils/formatters.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    }
+]
