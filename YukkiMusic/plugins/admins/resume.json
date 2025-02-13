@@ -1,0 +1,28 @@
+[
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.admins.resume",
+        "obj": "",
+        "line": 15,
+        "column": 0,
+        "endLine": 15,
+        "endColumn": 27,
+        "path": "YukkiMusic/plugins/admins/resume.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'command' in module 'strings'",
+        "message-id": "E0611"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.plugins.admins.resume",
+        "obj": "resume_com",
+        "line": 24,
+        "column": 21,
+        "endLine": 24,
+        "endColumn": 24,
+        "path": "YukkiMusic/plugins/admins/resume.py",
+        "symbol": "unused-argument",
+        "message": "Unused argument 'cli'",
+        "message-id": "W0613"
+    }
+]

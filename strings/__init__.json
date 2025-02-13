@@ -1,0 +1,28 @@
+[
+    {
+        "type": "warning",
+        "module": "strings",
+        "obj": "replace_helpers",
+        "line": 45,
+        "column": 8,
+        "endLine": 45,
+        "endColumn": 11,
+        "path": "strings/__init__.py",
+        "symbol": "redefined-outer-name",
+        "message": "Redefining name 'key' from outer scope (line 74)",
+        "message-id": "W0621"
+    },
+    {
+        "type": "warning",
+        "module": "strings",
+        "obj": "update_helpers",
+        "line": 56,
+        "column": 8,
+        "endLine": 56,
+        "endColumn": 11,
+        "path": "strings/__init__.py",
+        "symbol": "redefined-outer-name",
+        "message": "Redefining name 'key' from outer scope (line 74)",
+        "message-id": "W0621"
+    }
+]

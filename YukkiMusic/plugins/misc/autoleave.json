@@ -1,0 +1,28 @@
+[
+    {
+        "type": "convention",
+        "module": "YukkiMusic.plugins.misc.autoleave",
+        "obj": "auto_leave",
+        "line": 33,
+        "column": 8,
+        "endLine": 33,
+        "endColumn": 54,
+        "path": "YukkiMusic/plugins/misc/autoleave.py",
+        "symbol": "import-outside-toplevel",
+        "message": "Import outside toplevel (YukkiMusic.core.userbot.assistants)",
+        "message-id": "C0415"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.misc.autoleave",
+        "obj": "auto_end",
+        "line": 102,
+        "column": 50,
+        "endLine": 102,
+        "endColumn": 57,
+        "path": "YukkiMusic/plugins/misc/autoleave.py",
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'message'",
+        "message-id": "E0602"
+    }
+]

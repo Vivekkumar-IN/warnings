@@ -1,0 +1,54 @@
+[
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.admins.seek",
+        "obj": "",
+        "line": 14,
+        "column": 0,
+        "endLine": 14,
+        "endColumn": 27,
+        "path": "YukkiMusic/plugins/admins/seek.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'command' in module 'strings'",
+        "message-id": "E0611"
+    },
+    {
+        "type": "refactor",
+        "module": "YukkiMusic.plugins.admins.seek",
+        "obj": "seek_comm",
+        "line": 25,
+        "column": 0,
+        "endLine": 25,
+        "endColumn": 19,
+        "path": "YukkiMusic/plugins/admins/seek.py",
+        "symbol": "too-many-return-statements",
+        "message": "Too many return statements (9/6)",
+        "message-id": "R0911"
+    },
+    {
+        "type": "refactor",
+        "module": "YukkiMusic.plugins.admins.seek",
+        "obj": "seek_comm",
+        "line": 25,
+        "column": 0,
+        "endLine": 25,
+        "endColumn": 19,
+        "path": "YukkiMusic/plugins/admins/seek.py",
+        "symbol": "too-many-branches",
+        "message": "Too many branches (14/12)",
+        "message-id": "R0912"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.plugins.admins.seek",
+        "obj": "seek_comm",
+        "line": 25,
+        "column": 20,
+        "endLine": 25,
+        "endColumn": 23,
+        "path": "YukkiMusic/plugins/admins/seek.py",
+        "symbol": "unused-argument",
+        "message": "Unused argument 'cli'",
+        "message-id": "W0613"
+    }
+]

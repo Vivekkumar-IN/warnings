@@ -1,0 +1,80 @@
+[
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.sudo.block",
+        "obj": "",
+        "line": 14,
+        "column": 0,
+        "endLine": 14,
+        "endColumn": 27,
+        "path": "YukkiMusic/plugins/sudo/block.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'command' in module 'strings'",
+        "message-id": "E0611"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.sudo.block",
+        "obj": "",
+        "line": 16,
+        "column": 0,
+        "endLine": 16,
+        "endColumn": 35,
+        "path": "YukkiMusic/plugins/sudo/block.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'SUDOERS' in module 'YukkiMusic.misc'",
+        "message-id": "E0611"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.plugins.sudo.block",
+        "obj": "useradd",
+        "line": 23,
+        "column": 18,
+        "endLine": 23,
+        "endColumn": 24,
+        "path": "YukkiMusic/plugins/sudo/block.py",
+        "symbol": "unused-argument",
+        "message": "Unused argument 'client'",
+        "message-id": "W0613"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.plugins.sudo.block",
+        "obj": "userdel",
+        "line": 50,
+        "column": 18,
+        "endLine": 50,
+        "endColumn": 24,
+        "path": "YukkiMusic/plugins/sudo/block.py",
+        "symbol": "unused-argument",
+        "message": "Unused argument 'client'",
+        "message-id": "W0613"
+    },
+    {
+        "type": "refactor",
+        "module": "YukkiMusic.plugins.sudo.block",
+        "obj": "sudoers_list",
+        "line": 88,
+        "column": 4,
+        "endLine": 91,
+        "endColumn": 42,
+        "path": "YukkiMusic/plugins/sudo/block.py",
+        "symbol": "no-else-return",
+        "message": "Unnecessary \"else\" after \"return\", remove the \"else\" and de-indent the code inside it",
+        "message-id": "R1705"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.plugins.sudo.block",
+        "obj": "sudoers_list",
+        "line": 74,
+        "column": 23,
+        "endLine": 74,
+        "endColumn": 29,
+        "path": "YukkiMusic/plugins/sudo/block.py",
+        "symbol": "unused-argument",
+        "message": "Unused argument 'client'",
+        "message-id": "W0613"
+    }
+]

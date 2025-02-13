@@ -1,0 +1,93 @@
+[
+    {
+        "type": "convention",
+        "module": "YukkiMusic.platforms.Youtube",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "YukkiMusic/platforms/Youtube.py",
+        "symbol": "invalid-name",
+        "message": "Module name \"Youtube\" doesn't conform to snake_case naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "refactor",
+        "module": "YukkiMusic.platforms.Youtube",
+        "obj": "shell_cmd",
+        "line": 30,
+        "column": 8,
+        "endLine": 33,
+        "endColumn": 41,
+        "path": "YukkiMusic/platforms/Youtube.py",
+        "symbol": "no-else-return",
+        "message": "Unnecessary \"else\" after \"return\", remove the \"else\" and de-indent the code inside it",
+        "message-id": "R1705"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.platforms.Youtube",
+        "obj": "YouTube.__init__",
+        "line": 39,
+        "column": 8,
+        "endLine": 39,
+        "endColumn": 22,
+        "path": "YukkiMusic/platforms/Youtube.py",
+        "symbol": "non-parent-init-called",
+        "message": "__init__ method from a non direct base class 'super' is called",
+        "message-id": "W0233"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.platforms.Youtube",
+        "obj": "YouTube.__init__",
+        "line": 39,
+        "column": 8,
+        "endLine": 39,
+        "endColumn": 13,
+        "path": "YukkiMusic/platforms/Youtube.py",
+        "symbol": "super-without-brackets",
+        "message": "Super call without brackets",
+        "message-id": "W0245"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.platforms.Youtube",
+        "obj": "YouTube.video",
+        "line": 65,
+        "column": 12,
+        "endLine": 65,
+        "endColumn": 24,
+        "path": "YukkiMusic/platforms/Youtube.py",
+        "symbol": "f-string-without-interpolation",
+        "message": "Using an f-string that does not have any interpolated variables",
+        "message-id": "W1309"
+    },
+    {
+        "type": "refactor",
+        "module": "YukkiMusic.platforms.Youtube",
+        "obj": "YouTube.video",
+        "line": 78,
+        "column": 8,
+        "endLine": 81,
+        "endColumn": 37,
+        "path": "YukkiMusic/platforms/Youtube.py",
+        "symbol": "no-else-return",
+        "message": "Unnecessary \"else\" after \"return\", remove the \"else\" and de-indent the code inside it",
+        "message-id": "R1705"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.platforms.Youtube",
+        "obj": "YouTube.formats",
+        "line": 100,
+        "column": 16,
+        "endLine": 100,
+        "endColumn": 22,
+        "path": "YukkiMusic/platforms/Youtube.py",
+        "symbol": "redefined-builtin",
+        "message": "Redefining built-in 'format'",
+        "message-id": "W0622"
+    }
+]

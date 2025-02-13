@@ -1,0 +1,54 @@
+[
+    {
+        "type": "refactor",
+        "module": "YukkiMusic.utils.database.memorydatabase",
+        "obj": "is_active_chat",
+        "line": 208,
+        "column": 4,
+        "endLine": 211,
+        "endColumn": 19,
+        "path": "YukkiMusic/utils/database/memorydatabase.py",
+        "symbol": "no-else-return",
+        "message": "Unnecessary \"else\" after \"return\", remove the \"else\" and de-indent the code inside it",
+        "message-id": "R1705"
+    },
+    {
+        "type": "refactor",
+        "module": "YukkiMusic.utils.database.memorydatabase",
+        "obj": "is_active_video_chat",
+        "line": 230,
+        "column": 4,
+        "endLine": 233,
+        "endColumn": 19,
+        "path": "YukkiMusic/utils/database/memorydatabase.py",
+        "symbol": "no-else-return",
+        "message": "Unnecessary \"else\" after \"return\", remove the \"else\" and de-indent the code inside it",
+        "message-id": "R1705"
+    },
+    {
+        "type": "refactor",
+        "module": "YukkiMusic.utils.database.memorydatabase",
+        "obj": "is_maintenance",
+        "line": 387,
+        "column": 8,
+        "endLine": 394,
+        "endColumn": 24,
+        "path": "YukkiMusic/utils/database/memorydatabase.py",
+        "symbol": "no-else-return",
+        "message": "Unnecessary \"else\" after \"return\", remove the \"else\" and de-indent the code inside it",
+        "message-id": "R1705"
+    },
+    {
+        "type": "refactor",
+        "module": "YukkiMusic.utils.database.memorydatabase",
+        "obj": "is_maintenance",
+        "line": 396,
+        "column": 8,
+        "endLine": 399,
+        "endColumn": 23,
+        "path": "YukkiMusic/utils/database/memorydatabase.py",
+        "symbol": "no-else-return",
+        "message": "Unnecessary \"else\" after \"return\", remove the \"else\" and de-indent the code inside it",
+        "message-id": "R1705"
+    }
+]

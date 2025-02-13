@@ -1,0 +1,54 @@
+[
+    {
+        "type": "refactor",
+        "module": "YukkiMusic.utils.inline.play",
+        "obj": "get_progress_bar",
+        "line": 20,
+        "column": 4,
+        "endLine": 41,
+        "endColumn": 44,
+        "path": "YukkiMusic/utils/inline/play.py",
+        "symbol": "no-else-return",
+        "message": "Unnecessary \"elif\" after \"return\", remove the leading \"el\" from \"elif\"",
+        "message-id": "R1705"
+    },
+    {
+        "type": "refactor",
+        "module": "YukkiMusic.utils.inline.play",
+        "obj": "get_progress_bar",
+        "line": 17,
+        "column": 0,
+        "endLine": 17,
+        "endColumn": 20,
+        "path": "YukkiMusic/utils/inline/play.py",
+        "symbol": "too-many-return-statements",
+        "message": "Too many return statements (11/6)",
+        "message-id": "R0911"
+    },
+    {
+        "type": "refactor",
+        "module": "YukkiMusic.utils.inline.play",
+        "obj": "slider_markup",
+        "line": 213,
+        "column": 0,
+        "endLine": 213,
+        "endColumn": 17,
+        "path": "YukkiMusic/utils/inline/play.py",
+        "symbol": "too-many-arguments",
+        "message": "Too many arguments (7/5)",
+        "message-id": "R0913"
+    },
+    {
+        "type": "refactor",
+        "module": "YukkiMusic.utils.inline.play",
+        "obj": "slider_markup",
+        "line": 213,
+        "column": 0,
+        "endLine": 213,
+        "endColumn": 17,
+        "path": "YukkiMusic/utils/inline/play.py",
+        "symbol": "too-many-positional-arguments",
+        "message": "Too many positional arguments (6/5)",
+        "message-id": "R0917"
+    }
+]

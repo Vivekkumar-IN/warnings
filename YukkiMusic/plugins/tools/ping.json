@@ -1,0 +1,80 @@
+[
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.tools.ping",
+        "obj": "ping_com",
+        "line": 25,
+        "column": 35,
+        "endLine": 25,
+        "endColumn": 38,
+        "path": "YukkiMusic/plugins/tools/ping.py",
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'app'",
+        "message-id": "E0602"
+    },
+    {
+        "type": "convention",
+        "module": "YukkiMusic.plugins.tools.ping",
+        "obj": "ping_com",
+        "line": 29,
+        "column": 4,
+        "endLine": 29,
+        "endColumn": 6,
+        "path": "YukkiMusic/plugins/tools/ping.py",
+        "symbol": "invalid-name",
+        "message": "Variable name \"UP\" doesn't conform to snake_case naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "convention",
+        "module": "YukkiMusic.plugins.tools.ping",
+        "obj": "ping_com",
+        "line": 29,
+        "column": 8,
+        "endLine": 29,
+        "endColumn": 11,
+        "path": "YukkiMusic/plugins/tools/ping.py",
+        "symbol": "invalid-name",
+        "message": "Variable name \"CPU\" doesn't conform to snake_case naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "convention",
+        "module": "YukkiMusic.plugins.tools.ping",
+        "obj": "ping_com",
+        "line": 29,
+        "column": 13,
+        "endLine": 29,
+        "endColumn": 16,
+        "path": "YukkiMusic/plugins/tools/ping.py",
+        "symbol": "invalid-name",
+        "message": "Variable name \"RAM\" doesn't conform to snake_case naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "convention",
+        "module": "YukkiMusic.plugins.tools.ping",
+        "obj": "ping_com",
+        "line": 29,
+        "column": 18,
+        "endLine": 29,
+        "endColumn": 22,
+        "path": "YukkiMusic/plugins/tools/ping.py",
+        "symbol": "invalid-name",
+        "message": "Variable name \"DISK\" doesn't conform to snake_case naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.tools.ping",
+        "obj": "ping_com",
+        "line": 34,
+        "column": 12,
+        "endLine": 34,
+        "endColumn": 15,
+        "path": "YukkiMusic/plugins/tools/ping.py",
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'app'",
+        "message-id": "E0602"
+    }
+]

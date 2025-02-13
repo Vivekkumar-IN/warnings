@@ -1,0 +1,67 @@
+[
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.sudo.blacklistchat",
+        "obj": "",
+        "line": 13,
+        "column": 0,
+        "endLine": 13,
+        "endColumn": 27,
+        "path": "YukkiMusic/plugins/sudo/blacklistchat.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'command' in module 'strings'",
+        "message-id": "E0611"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.sudo.blacklistchat",
+        "obj": "",
+        "line": 15,
+        "column": 0,
+        "endLine": 15,
+        "endColumn": 35,
+        "path": "YukkiMusic/plugins/sudo/blacklistchat.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'SUDOERS' in module 'YukkiMusic.misc'",
+        "message-id": "E0611"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.plugins.sudo.blacklistchat",
+        "obj": "blacklist_chat_func",
+        "line": 26,
+        "column": 30,
+        "endLine": 26,
+        "endColumn": 36,
+        "path": "YukkiMusic/plugins/sudo/blacklistchat.py",
+        "symbol": "unused-argument",
+        "message": "Unused argument 'client'",
+        "message-id": "W0613"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.plugins.sudo.blacklistchat",
+        "obj": "white_funciton",
+        "line": 45,
+        "column": 25,
+        "endLine": 45,
+        "endColumn": 31,
+        "path": "YukkiMusic/plugins/sudo/blacklistchat.py",
+        "symbol": "unused-argument",
+        "message": "Unused argument 'client'",
+        "message-id": "W0613"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.plugins.sudo.blacklistchat",
+        "obj": "all_chats",
+        "line": 59,
+        "column": 20,
+        "endLine": 59,
+        "endColumn": 26,
+        "path": "YukkiMusic/plugins/sudo/blacklistchat.py",
+        "symbol": "unused-argument",
+        "message": "Unused argument 'client'",
+        "message-id": "W0613"
+    }
+]

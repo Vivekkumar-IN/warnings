@@ -1,0 +1,28 @@
+[
+    {
+        "type": "refactor",
+        "module": "YukkiMusic.plugins.bot.inline",
+        "obj": "inline_query_handler",
+        "line": 29,
+        "column": 0,
+        "endLine": 29,
+        "endColumn": 30,
+        "path": "YukkiMusic/plugins/bot/inline.py",
+        "symbol": "too-many-locals",
+        "message": "Too many local variables (20/15)",
+        "message-id": "R0914"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.plugins.bot.inline",
+        "obj": "inline_query_handler",
+        "line": 78,
+        "column": 28,
+        "endLine": 78,
+        "endColumn": 52,
+        "path": "YukkiMusic/plugins/bot/inline.py",
+        "symbol": "protected-access",
+        "message": "Access to a protected member _parse_message_text of a client class",
+        "message-id": "W0212"
+    }
+]

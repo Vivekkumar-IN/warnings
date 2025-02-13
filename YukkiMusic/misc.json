@@ -1,0 +1,28 @@
+[
+    {
+        "type": "warning",
+        "module": "YukkiMusic.misc",
+        "obj": "heroku",
+        "line": 78,
+        "column": 16,
+        "endLine": 78,
+        "endColumn": 22,
+        "path": "YukkiMusic/misc.py",
+        "symbol": "redefined-outer-name",
+        "message": "Redefining name 'heroku' from outer scope (line 73)",
+        "message-id": "W0621"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.misc",
+        "obj": "heroku",
+        "line": 74,
+        "column": 4,
+        "endLine": 74,
+        "endColumn": 15,
+        "path": "YukkiMusic/misc.py",
+        "symbol": "global-statement",
+        "message": "Using the global statement",
+        "message-id": "W0603"
+    }
+]

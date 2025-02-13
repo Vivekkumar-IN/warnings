@@ -1,0 +1,15 @@
+[
+    {
+        "type": "error",
+        "module": "YukkiMusic.utils.inline.queue",
+        "obj": "queue_markup",
+        "line": 52,
+        "column": 10,
+        "endLine": 52,
+        "endColumn": 30,
+        "path": "YukkiMusic/utils/inline/queue.py",
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'InlineKeyboardMarkup'",
+        "message-id": "E0602"
+    }
+]

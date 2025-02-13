@@ -1,0 +1,54 @@
+[
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.sudo.maintenance",
+        "obj": "",
+        "line": 13,
+        "column": 0,
+        "endLine": 13,
+        "endColumn": 39,
+        "path": "YukkiMusic/plugins/sudo/maintenance.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'command' in module 'strings'",
+        "message-id": "E0611"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.sudo.maintenance",
+        "obj": "",
+        "line": 15,
+        "column": 0,
+        "endLine": 15,
+        "endColumn": 35,
+        "path": "YukkiMusic/plugins/sudo/maintenance.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'SUDOERS' in module 'YukkiMusic.misc'",
+        "message-id": "E0611"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.plugins.sudo.maintenance",
+        "obj": "maintenance",
+        "line": 34,
+        "column": 4,
+        "endLine": 34,
+        "endColumn": 19,
+        "path": "YukkiMusic/plugins/sudo/maintenance.py",
+        "symbol": "pointless-statement",
+        "message": "Statement seems to have no effect",
+        "message-id": "W0104"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.plugins.sudo.maintenance",
+        "obj": "maintenance",
+        "line": 25,
+        "column": 22,
+        "endLine": 25,
+        "endColumn": 28,
+        "path": "YukkiMusic/plugins/sudo/maintenance.py",
+        "symbol": "unused-argument",
+        "message": "Unused argument 'client'",
+        "message-id": "W0613"
+    }
+]

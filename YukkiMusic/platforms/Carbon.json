@@ -1,0 +1,41 @@
+[
+    {
+        "type": "convention",
+        "module": "YukkiMusic.platforms.Carbon",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "YukkiMusic/platforms/Carbon.py",
+        "symbol": "invalid-name",
+        "message": "Module name \"Carbon\" doesn't conform to snake_case naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "refactor",
+        "module": "YukkiMusic.platforms.Carbon",
+        "obj": "Carbon",
+        "line": 18,
+        "column": 0,
+        "endLine": 18,
+        "endColumn": 12,
+        "path": "YukkiMusic/platforms/Carbon.py",
+        "symbol": "too-many-instance-attributes",
+        "message": "Too many instance attributes (9/7)",
+        "message-id": "R0902"
+    },
+    {
+        "type": "refactor",
+        "module": "YukkiMusic.platforms.Carbon",
+        "obj": "Carbon",
+        "line": 18,
+        "column": 0,
+        "endLine": 18,
+        "endColumn": 12,
+        "path": "YukkiMusic/platforms/Carbon.py",
+        "symbol": "too-few-public-methods",
+        "message": "Too few public methods (1/2)",
+        "message-id": "R0903"
+    }
+]

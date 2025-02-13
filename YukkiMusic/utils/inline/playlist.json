@@ -1,0 +1,15 @@
+[
+    {
+        "type": "error",
+        "module": "YukkiMusic.utils.inline.playlist",
+        "obj": "top_play_markup",
+        "line": 57,
+        "column": 0,
+        "endLine": 57,
+        "endColumn": 19,
+        "path": "YukkiMusic/utils/inline/playlist.py",
+        "symbol": "function-redefined",
+        "message": "function already defined line 30",
+        "message-id": "E0102"
+    }
+]

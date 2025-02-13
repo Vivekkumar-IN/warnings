@@ -1,0 +1,54 @@
+[
+    {
+        "type": "convention",
+        "module": "config.__init__",
+        "obj": "",
+        "line": 44,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "config/__init__.py",
+        "symbol": "line-too-long",
+        "message": "Line too long (106/100)",
+        "message-id": "C0301"
+    },
+    {
+        "type": "warning",
+        "module": "config",
+        "obj": "fetch_cookies",
+        "line": 21,
+        "column": 4,
+        "endLine": 21,
+        "endColumn": 7,
+        "path": "config/__init__.py",
+        "symbol": "redefined-outer-name",
+        "message": "Redefining name 'url' from outer scope (line 14)",
+        "message-id": "W0621"
+    },
+    {
+        "type": "warning",
+        "module": "config",
+        "obj": "fetch_cookies",
+        "line": 26,
+        "column": 21,
+        "endLine": 26,
+        "endColumn": 60,
+        "path": "config/__init__.py",
+        "symbol": "unspecified-encoding",
+        "message": "Using open without explicitly specifying an encoding",
+        "message-id": "W1514"
+    },
+    {
+        "type": "warning",
+        "module": "config",
+        "obj": "fetch_cookies",
+        "line": 29,
+        "column": 22,
+        "endLine": 29,
+        "endColumn": 53,
+        "path": "config/__init__.py",
+        "symbol": "f-string-without-interpolation",
+        "message": "Using an f-string that does not have any interpolated variables",
+        "message-id": "W1309"
+    }
+]

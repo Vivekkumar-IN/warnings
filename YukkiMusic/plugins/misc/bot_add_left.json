@@ -1,0 +1,15 @@
+[
+    {
+        "type": "warning",
+        "module": "YukkiMusic.plugins.misc.bot_add_left",
+        "obj": "on_bot_kicked",
+        "line": 105,
+        "column": 4,
+        "endLine": 106,
+        "endColumn": 12,
+        "path": "YukkiMusic/plugins/misc/bot_add_left.py",
+        "symbol": "unused-variable",
+        "message": "Unused variable 'e'",
+        "message-id": "W0612"
+    }
+]

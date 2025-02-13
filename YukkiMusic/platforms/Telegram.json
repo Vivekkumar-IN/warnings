@@ -1,0 +1,41 @@
+[
+    {
+        "type": "convention",
+        "module": "YukkiMusic.platforms.Telegram",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "YukkiMusic/platforms/Telegram.py",
+        "symbol": "invalid-name",
+        "message": "Module name \"Telegram\" doesn't conform to snake_case naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "convention",
+        "module": "YukkiMusic.platforms.Telegram",
+        "obj": "Telegram.download",
+        "line": 226,
+        "column": 12,
+        "endLine": 227,
+        "endColumn": 44,
+        "path": "YukkiMusic/platforms/Telegram.py",
+        "symbol": "consider-using-dict-items",
+        "message": "Consider iterating with .items()",
+        "message-id": "C0206"
+    },
+    {
+        "type": "refactor",
+        "module": "YukkiMusic.platforms.Telegram",
+        "obj": "Telegram.download",
+        "line": 156,
+        "column": 4,
+        "endLine": 156,
+        "endColumn": 22,
+        "path": "YukkiMusic/platforms/Telegram.py",
+        "symbol": "too-many-statements",
+        "message": "Too many statements (53/50)",
+        "message-id": "R0915"
+    }
+]
