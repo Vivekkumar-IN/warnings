@@ -21,7 +21,7 @@ jobs:
       - name: Checkout Current Repository
         uses: actions/checkout@v4
         with:
-          path: current_repo
+          path: current_dir
         
       - name: Set Up Python
         uses: actions/setup-python@v4
@@ -34,7 +34,7 @@ jobs:
 
       - name: Run Pylint Check
         run: |
-           pylint --exit-zero --output-format=json --indent-string="    " --reports=no YM > warnings.json
+           pylint --exit-zero --output-format=json --indent-string="    " --reports=no YM > current_dir/warnings.json
         #  ls -R
          # cd current_repo
          # python script.py
@@ -42,9 +42,9 @@ jobs:
       - name: Commit Changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Format Codes"
+          commit_message: "."
           commit_options: "--no-verify"
-          repository: current_repo
+          repository: current_dir
           commit_user_name: "github-actions[bot]"
           commit_user_email: "41898282+github-actions[bot]@users.noreply.github.com"
           commit_author: "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>"
