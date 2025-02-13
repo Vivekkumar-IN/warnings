@@ -35,7 +35,7 @@ jobs:
       - name: Run Pylint Check
         run: |
            pylint --exit-zero --output-format=json --indent-string="    " --reports=no YM > current_dir/warnings.json
-           cd current_repo
+           cd current_dir
            python script.py
 
       - name: Commit Changes
