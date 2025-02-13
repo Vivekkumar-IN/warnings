@@ -40,12 +40,19 @@ jobs:
           ls -R > current_dir/a.txt
           pip install pylint
 
+   #   - name: Run Pylint Check
+  #      run: |
+   #        pylint --exit-zero --output-format=json --indent-string="    " --reports=no YukkiMusic/YukkiMusic TheApi/ > current_dir/warnings.json
+    #       cd current_dir
+    #       python script.py
+
       - name: Run Pylint Check
         run: |
-           pylint --exit-zero --output-format=json --indent-string="    " --reports=no YukkiMusic/YukkiMusic TheApi/ > current_dir/warnings.json
-           cd current_dir
-           python script.py
-
+          cd YukkiMusic
+          pylint --exit-zero --output-format=json --indent-string="    " --reports=no . > ../current_dir/warnings.json
+          cd ../current_dir
+          python script.py
+          
       - name: Commit Changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
