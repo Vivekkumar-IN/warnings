@@ -35,7 +35,7 @@ jobs:
 
       - name: Run Pylint Check
         run: |
-           pylint --exit-zero --output-format=json --indent-string="    " --reports=no YukkiMusic > current_dir/warnings.json
+           pylint --exit-zero --output-format=json --indent-string="    " --reports=no YukkiMusic/YukkiMusic > current_dir/warnings.json
            cd current_dir
            python script.py
 
