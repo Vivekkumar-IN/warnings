@@ -7,11 +7,11 @@ from os import path
 CURRENT_REPO_DIR = os.getcwd()
 warnings_json = path.join(CURRENT_REPO_DIR, "warnings.json")
 EXCLUDED_FILES = {
-    path.join(CURRENT_REPO_DIR, ".gitignore")
-    path.join(CURRENT_REPO_DIR, "LICENSE")
-    path.join(CURRENT_REPO_DIR, "README.md") 
+    path.join(CURRENT_REPO_DIR, ".gitignore"),
+    path.join(CURRENT_REPO_DIR, "LICENSE"),
+    path.join(CURRENT_REPO_DIR, "README.md"),
     path.join(CURRENT_REPO_DIR, "script.py"),
-    path.join(CURRENT_REPO_DIR, ".github", "workflows", "pylint.yml")
+    path.join(CURRENT_REPO_DIR, ".github", "workflows", "pylint.yml"),
 }
 
 for root, dirs, files in os.walk(CURRENT_REPO_DIR, topdown=False):
