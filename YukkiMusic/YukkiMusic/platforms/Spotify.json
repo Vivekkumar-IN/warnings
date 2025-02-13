@@ -152,7 +152,7 @@
         "endColumn": null,
         "path": "YukkiMusic/YukkiMusic/platforms/Spotify.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==YukkiMusic.utils.inline.playlist:[95:109]\n==YukkiMusic.utils.inline.stats:[105:118]\n            Button.inline(\n                text=_[\"CLOSE_BUTTON\"],\n                data=\"close\",\n            ),\n        ],\n    ]\n    return upl\n\n\ndef back_stats_buttons(_):\n    upl = [\n        [\n            Button.inline(",
+        "message": "Similar lines in 2 files\n==YukkiMusic.utils.inline.playlist:[95:109]\n==YukkiMusic.utils.inline.stats:[105:118]\n            Button.inline(\n                text=_[\"CLOSE_BUTTON\"],\n                data=\"close\",\n            ),\n        ],\n    ]\n\n    return upl\n\n\ndef close_markup(_):\n    upl = [\n        [\n            Button.inline(",
         "message-id": "R0801"
     },
     {
