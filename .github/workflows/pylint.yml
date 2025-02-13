@@ -33,15 +33,10 @@ jobs:
         run: |
           pip install pylint
 
-   #   - name: Run Pylint Check
-  #      run: |
-   #        pylint --exit-zero --output-format=json --indent-string="    " --reports=no YukkiMusic/YukkiMusic TheApi/ > current_dir/warnings.json
-    #       cd current_dir
-    #       python script.py
-
       - name: Run Pylint Check
         run: |
           cd YukkiMusic
+          rm -rf YukkiMusic config string .github/docs > error.txt
           pylint --exit-zero --output-format=json --indent-string="    " --reports=no . > ../current_dir/warnings.json
           cd ../current_dir
           python script.py
