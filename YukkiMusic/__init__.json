@@ -1,0 +1,15 @@
+[
+    {
+        "type": "fatal",
+        "module": "YukkiMusic",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "YukkiMusic/__init__.py",
+        "symbol": "parse-error",
+        "message": "error while code parsing: Unable to load file YukkiMusic/__init__.py:\n[Errno 2] No such file or directory: 'YukkiMusic/__init__.py'",
+        "message-id": "F0010"
+    }
+]
