@@ -41,8 +41,6 @@ jobs:
 
       - name: Run Pylint Check
         run: |
-           find . -mindepth 1 ! -name "LICENSE" ! -name "README.md" ! -name "script.py" ! -path "./.github*" -exec rm -rf {} +
-        
            pylint --exit-zero --output-format=json --indent-string="    " --reports=no YukkiMusic TheApi > current_dir/warnings.json
            cd current_dir
            python script.py
