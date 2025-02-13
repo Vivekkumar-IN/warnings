@@ -17,14 +17,7 @@ jobs:
           repository: TheTeamVivek/YukkiMusic
           ref: dev
           path: YukkiMusic
-
-      - name: Checkout TheApi
-        uses: actions/checkout@v4
-        with:
-          repository: Vivekkumar-in/TheApi
-          ref: master
-          path: TheApi
-
+          
       - name: Checkout Current Repository
         uses: actions/checkout@v4
         with:
@@ -41,7 +34,7 @@ jobs:
 
       - name: Run Pylint Check
         run: |
-           pylint --exit-zero --output-format=json --indent-string="    " --reports=no YukkiMusic TheApi > current_dir/warnings.json
+           pylint --exit-zero --output-format=json --indent-string="    " --reports=no YukkiMusic > current_dir/warnings.json
            cd current_dir
            python script.py
 
