@@ -3,10 +3,11 @@ import json
 import os
 from os import path
 
-CHECK_DIR = []
-OUTPUT_FILE = path.join(os.getcwd(), "warnings.json")
+CURRENT_REPO_DIR = os.getcwd()
+YUKKI_MUSIC_DIR = path.join(path.dirname(CURRENT_REPO_DIR), "YukkiMusic")
+OUTPUT_FILE = path.join(CURRENT_REPO_DIR, "warnings.json")
 
-CHECK_DIR.append[path.join(path.abspath(os.sep), "YukkiMusic"))
+CHECK_DIR = [YUKKI_MUSIC_DIR]
 
 async def run_pylint():
     cmd = [
@@ -29,14 +30,14 @@ async def run_pylint():
             f.write(stdout.decode())
 
 async def write_warnings(file_path, warnings):
-    file_path =  path.join(os.getcwd(), file_path)
-    os.makedirs(os.path.dirname(file_path), exist_ok=True)
+    file_path = path.join(CURRENT_REPO_DIR, f"{file_path}.pylint.json")
+    os.makedirs(path.dirname(file_path), exist_ok=True)
 
     with open(file_path, "w") as f:
         json.dump(warnings, f, indent=4)
 
 async def parse_and_write_warnings():
-    if not os.path.exists(OUTPUT_FILE):
+    if not path.exists(OUTPUT_FILE):
         print(f"{OUTPUT_FILE} Not found")
         return
 
@@ -48,8 +49,8 @@ async def parse_and_write_warnings():
 
     warnings_by_path = {}
     for entry in data:
-        path = entry["path"]
-        warnings_by_path.setdefault(path, []).append(entry)
+        file_path = entry["path"]
+        warnings_by_path.setdefault(file_path, []).append(entry)
 
     await asyncio.gather(*(write_warnings(file_path, warnings) for file_path, warnings in warnings_by_path.items()))
 
