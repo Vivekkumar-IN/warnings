@@ -17,6 +17,8 @@ EXCLUDED_FILES = {
 
 for root, dirs, files in os.walk(CURRENT_REPO_DIR, topdown=False):
 
+    dirs[:] = [d for d in dirs if not d == ".git"]
+  
     for file in files:
         file_path = path.join(root, file)
         if file_path not in EXCLUDED_FILES:
