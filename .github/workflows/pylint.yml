@@ -17,11 +17,11 @@ jobs:
           repository: TheTeamVivek/YukkiMusic
           ref: dev
           path: YukkiMusic
-      - name: chk
-        run: |
-          ls
+
       - name: Checkout Current Repository
         uses: actions/checkout@v4
+        with:
+          path: current_repo
         
       - name: Set Up Python
         uses: actions/setup-python@v4
@@ -35,7 +35,7 @@ jobs:
       - name: Run Pylint Check
         run: |
           ls
-          python script.py
+          python current_repo/script.py
 
       - name: Commit Changes
         uses: stefanzweifel/git-auto-commit-action@v5
