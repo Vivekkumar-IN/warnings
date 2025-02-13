@@ -35,9 +35,8 @@ jobs:
       - name: Run Pylint Check
         run: |
            pylint --exit-zero --output-format=json --indent-string="    " --reports=no YM > current_dir/warnings.json
-        #  ls -R
-         # cd current_repo
-         # python script.py
+           cd current_repo
+           python script.py
 
       - name: Commit Changes
         uses: stefanzweifel/git-auto-commit-action@v5
