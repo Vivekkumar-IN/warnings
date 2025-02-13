@@ -12,7 +12,7 @@ if not path.exists(warnings_json):
     exit(1)
 
 async def write_warnings(file_path, warnings):
-    file_path = path.join(CURRENT_REPO_DIR, , "YukkiMusic", f"{path.splitext(file_path)[0]}.json")
+    file_path = path.join(CURRENT_REPO_DIR, f"{path.splitext(file_path)[0]}.json")
 
     os.makedirs(path.dirname(file_path), exist_ok=True)
 
