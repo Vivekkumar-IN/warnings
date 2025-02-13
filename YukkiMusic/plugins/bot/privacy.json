@@ -13,19 +13,6 @@
         "message-id": "E0611"
     },
     {
-        "type": "error",
-        "module": "YukkiMusic.plugins.bot.privacy",
-        "obj": "",
-        "line": 12,
-        "column": 0,
-        "endLine": 12,
-        "endColumn": 35,
-        "path": "YukkiMusic/plugins/bot/privacy.py",
-        "symbol": "no-name-in-module",
-        "message": "No name 'SUDOERS' in module 'YukkiMusic.misc'",
-        "message-id": "E0611"
-    },
-    {
         "type": "warning",
         "module": "YukkiMusic.plugins.bot.privacy",
         "obj": "find_chat_ids_by_auth_user_id",

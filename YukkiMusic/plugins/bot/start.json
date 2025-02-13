@@ -91,19 +91,6 @@
         "message-id": "E0611"
     },
     {
-        "type": "error",
-        "module": "YukkiMusic.plugins.bot.start",
-        "obj": "",
-        "line": 23,
-        "column": 0,
-        "endLine": 23,
-        "endColumn": 43,
-        "path": "YukkiMusic/plugins/bot/start.py",
-        "symbol": "no-name-in-module",
-        "message": "No name 'SUDOERS' in module 'YukkiMusic.misc'",
-        "message-id": "E0611"
-    },
-    {
         "type": "refactor",
         "module": "YukkiMusic.plugins.bot.start",
         "obj": "start_comm",

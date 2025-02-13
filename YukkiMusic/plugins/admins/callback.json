@@ -26,19 +26,6 @@
         "message-id": "C0301"
     },
     {
-        "type": "error",
-        "module": "YukkiMusic.plugins.admins.callback",
-        "obj": "",
-        "line": 28,
-        "column": 0,
-        "endLine": 28,
-        "endColumn": 39,
-        "path": "YukkiMusic/plugins/admins/callback.py",
-        "symbol": "no-name-in-module",
-        "message": "No name 'SUDOERS' in module 'YukkiMusic.misc'",
-        "message-id": "E0611"
-    },
-    {
         "type": "warning",
         "module": "YukkiMusic.plugins.admins.callback",
         "obj": "",
