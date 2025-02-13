@@ -16,7 +16,7 @@ jobs:
         with:
           repository: TheTeamVivek/YukkiMusic
           ref: dev
-          path: YukkiMusic
+          path: YM
 
       - name: Checkout Current Repository
         uses: actions/checkout@v4
@@ -34,9 +34,10 @@ jobs:
 
       - name: Run Pylint Check
         run: |
-          ls -R
-          cd current_repo
-          python script.py
+           pylint --exit-zero --output-format=json --indent-string="    " --reports=no YM > warnings.json
+        #  ls -R
+         # cd current_repo
+         # python script.py
 
       - name: Commit Changes
         uses: stefanzweifel/git-auto-commit-action@v5
