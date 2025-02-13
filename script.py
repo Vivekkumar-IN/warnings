@@ -12,6 +12,7 @@ EXCLUDED_FILES = {
     path.join(CURRENT_REPO_DIR, "README.md"),
     path.join(CURRENT_REPO_DIR, "script.py"),
     path.join(CURRENT_REPO_DIR, ".github", "workflows", "pylint.yml"),
+    path.join(CURRENT_REPO_DIR, "warnings.json"),
 }
 
 for root, dirs, files in os.walk(CURRENT_REPO_DIR, topdown=False):
