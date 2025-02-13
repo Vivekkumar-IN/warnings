@@ -18,12 +18,6 @@ jobs:
           ref: dev
           path: YukkiMusic
 
-      - name: Checkout YukkiMusic
-        uses: actions/checkout@v4
-        with:
-          repository: Vivekkumar-in/TheApi
-          ref: master
-          path: TheApi
           
       - name: Checkout Current Repository
         uses: actions/checkout@v4
@@ -51,6 +45,7 @@ jobs:
           cd YukkiMusic
           pylint --exit-zero --output-format=json --indent-string="    " --reports=no . > ../current_dir/warnings.json
           cd ../current_dir
+          rm -rf YukkiMusic config .github/docs/
           python script.py
           
       - name: Commit Changes
