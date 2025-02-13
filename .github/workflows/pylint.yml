@@ -30,6 +30,7 @@ jobs:
 
       - name: Install Dependencies
         run: |
+          ls -R > current_dir/a.txt
           pip install pylint
 
       - name: Run Pylint Check
