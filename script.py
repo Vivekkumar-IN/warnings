@@ -4,7 +4,8 @@ import os
 from os import path
 
 CURRENT_REPO_DIR = os.getcwd()
-YUKKI_MUSIC_DIR = path.join(CURRENT_REPO_DIR, "..", "YukkiMusic")
+YUKKI_MUSIC_DIR = path.abspath(path.join(CURRENT_REPO_DIR, "../YukkiMusic/YukkiMusic"))
+OUTPUT_FILE = path.join(CURRENT_REPO_DIR, "warnings.json")
 OUTPUT_FILE = path.join(CURRENT_REPO_DIR, "warnings.json")
 CHECK_DIR = [YUKKI_MUSIC_DIR]
 
@@ -26,8 +27,11 @@ async def run_pylint():
         stdout=asyncio.subprocess.PIPE,
         stderr=asyncio.subprocess.DEVNULL
     )
-    stdout, _ = await process.communicate()
+    stdout, stderr = await process.communicate()
 
+    if stderr:
+        print("Pylint Error:", stderr.decode())
+        
     if stdout:
         with open(OUTPUT_FILE, "w") as f:
             f.write(stdout.decode())
