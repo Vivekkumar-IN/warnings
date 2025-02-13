@@ -1,0 +1,41 @@
+[
+    {
+        "type": "convention",
+        "module": ".github.sort_pylint_warnings",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "YM/.github/sort_pylint_warnings.py",
+        "symbol": "missing-module-docstring",
+        "message": "Missing module docstring",
+        "message-id": "C0114"
+    },
+    {
+        "type": "warning",
+        "module": ".github.sort_pylint_warnings",
+        "obj": "",
+        "line": 3,
+        "column": 5,
+        "endLine": 3,
+        "endColumn": 33,
+        "path": "YM/.github/sort_pylint_warnings.py",
+        "symbol": "unspecified-encoding",
+        "message": "Using open without explicitly specifying an encoding",
+        "message-id": "W1514"
+    },
+    {
+        "type": "warning",
+        "module": ".github.sort_pylint_warnings",
+        "obj": "",
+        "line": 22,
+        "column": 5,
+        "endLine": 22,
+        "endColumn": 38,
+        "path": "YM/.github/sort_pylint_warnings.py",
+        "symbol": "unspecified-encoding",
+        "message": "Using open without explicitly specifying an encoding",
+        "message-id": "W1514"
+    }
+]

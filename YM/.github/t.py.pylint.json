@@ -1,0 +1,54 @@
+[
+    {
+        "type": "convention",
+        "module": ".github.t",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "YM/.github/t.py",
+        "symbol": "missing-module-docstring",
+        "message": "Missing module docstring",
+        "message-id": "C0114"
+    },
+    {
+        "type": "error",
+        "module": ".github.t",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": 1,
+        "endColumn": 29,
+        "path": "YM/.github/t.py",
+        "symbol": "import-error",
+        "message": "Unable to import 'pytubefix'",
+        "message-id": "E0401"
+    },
+    {
+        "type": "error",
+        "module": ".github.t",
+        "obj": "",
+        "line": 2,
+        "column": 0,
+        "endLine": 2,
+        "endColumn": 37,
+        "path": "YM/.github/t.py",
+        "symbol": "import-error",
+        "message": "Unable to import 'pytubefix.cli'",
+        "message-id": "E0401"
+    },
+    {
+        "type": "convention",
+        "module": ".github.t",
+        "obj": "",
+        "line": 4,
+        "column": 0,
+        "endLine": 4,
+        "endColumn": 3,
+        "path": "YM/.github/t.py",
+        "symbol": "invalid-name",
+        "message": "Constant name \"url\" doesn't conform to UPPER_CASE naming style",
+        "message-id": "C0103"
+    }
+]

@@ -1,0 +1,67 @@
+[
+    {
+        "type": "convention",
+        "module": "YukkiMusic.plugins.tools.active",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "YM/YukkiMusic/plugins/tools/active.py",
+        "symbol": "missing-module-docstring",
+        "message": "Missing module docstring",
+        "message-id": "C0114"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.tools.active",
+        "obj": "",
+        "line": 11,
+        "column": 0,
+        "endLine": 11,
+        "endColumn": 39,
+        "path": "YM/YukkiMusic/plugins/tools/active.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'SUDOERS' in module 'YukkiMusic.misc'",
+        "message-id": "E0611"
+    },
+    {
+        "type": "convention",
+        "module": "YukkiMusic.plugins.tools.active",
+        "obj": "active_audio",
+        "line": 28,
+        "column": 0,
+        "endLine": 28,
+        "endColumn": 22,
+        "path": "YM/YukkiMusic/plugins/tools/active.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    },
+    {
+        "type": "convention",
+        "module": "YukkiMusic.plugins.tools.active",
+        "obj": "active_video",
+        "line": 58,
+        "column": 0,
+        "endLine": 58,
+        "endColumn": 22,
+        "path": "YM/YukkiMusic/plugins/tools/active.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    },
+    {
+        "type": "convention",
+        "module": "YukkiMusic.plugins.tools.active",
+        "obj": "ac_counts",
+        "line": 85,
+        "column": 0,
+        "endLine": 85,
+        "endColumn": 19,
+        "path": "YM/YukkiMusic/plugins/tools/active.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    }
+]

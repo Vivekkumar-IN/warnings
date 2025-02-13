@@ -1,0 +1,93 @@
+[
+    {
+        "type": "convention",
+        "module": "YukkiMusic.utils.thumbnails",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "YM/YukkiMusic/utils/thumbnails.py",
+        "symbol": "missing-module-docstring",
+        "message": "Missing module docstring",
+        "message-id": "C0114"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.utils.thumbnails",
+        "obj": "",
+        "line": 11,
+        "column": 0,
+        "endLine": 11,
+        "endColumn": 32,
+        "path": "YM/YukkiMusic/utils/thumbnails.py",
+        "symbol": "import-error",
+        "message": "Unable to import 'async_lru'",
+        "message-id": "E0401"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.utils.thumbnails",
+        "obj": "",
+        "line": 12,
+        "column": 0,
+        "endLine": 12,
+        "endColumn": 55,
+        "path": "YM/YukkiMusic/utils/thumbnails.py",
+        "symbol": "import-error",
+        "message": "Unable to import 'youtubesearchpython.__future__'",
+        "message-id": "E0401"
+    },
+    {
+        "type": "convention",
+        "module": "YukkiMusic.utils.thumbnails",
+        "obj": "gen_thumb",
+        "line": 16,
+        "column": 0,
+        "endLine": 16,
+        "endColumn": 19,
+        "path": "YM/YukkiMusic/utils/thumbnails.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.utils.thumbnails",
+        "obj": "gen_thumb",
+        "line": 23,
+        "column": 11,
+        "endLine": 23,
+        "endColumn": 20,
+        "path": "YM/YukkiMusic/utils/thumbnails.py",
+        "symbol": "broad-exception-caught",
+        "message": "Catching too general exception Exception",
+        "message-id": "W0718"
+    },
+    {
+        "type": "convention",
+        "module": "YukkiMusic.utils.thumbnails",
+        "obj": "gen_qthumb",
+        "line": 28,
+        "column": 0,
+        "endLine": 28,
+        "endColumn": 20,
+        "path": "YM/YukkiMusic/utils/thumbnails.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.utils.thumbnails",
+        "obj": "gen_qthumb",
+        "line": 35,
+        "column": 11,
+        "endLine": 35,
+        "endColumn": 20,
+        "path": "YM/YukkiMusic/utils/thumbnails.py",
+        "symbol": "broad-exception-caught",
+        "message": "Catching too general exception Exception",
+        "message-id": "W0718"
+    }
+]

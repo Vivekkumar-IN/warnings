@@ -1,0 +1,80 @@
+[
+    {
+        "type": "convention",
+        "module": "YukkiMusic.utils.decorators.asyncify",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "YM/YukkiMusic/utils/decorators/asyncify.py",
+        "symbol": "missing-module-docstring",
+        "message": "Missing module docstring",
+        "message-id": "C0114"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.utils.decorators.asyncify",
+        "obj": "",
+        "line": 6,
+        "column": 0,
+        "endLine": 6,
+        "endColumn": 31,
+        "path": "YM/YukkiMusic/utils/decorators/asyncify.py",
+        "symbol": "import-error",
+        "message": "Unable to import 'decorator'",
+        "message-id": "E0401"
+    },
+    {
+        "type": "convention",
+        "module": "YukkiMusic.utils.decorators.asyncify",
+        "obj": "asyncify",
+        "line": 10,
+        "column": 0,
+        "endLine": 10,
+        "endColumn": 12,
+        "path": "YM/YukkiMusic/utils/decorators/asyncify.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.utils.decorators.asyncify",
+        "obj": "asyncify",
+        "line": 10,
+        "column": 0,
+        "endLine": 10,
+        "endColumn": 12,
+        "path": "YM/YukkiMusic/utils/decorators/asyncify.py",
+        "symbol": "keyword-arg-before-vararg",
+        "message": "Keyword argument before variable positional arguments list in the definition of asyncify function",
+        "message-id": "W1113"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.utils.decorators.asyncify",
+        "obj": "asyncify.run",
+        "line": 24,
+        "column": 54,
+        "endLine": 24,
+        "endColumn": 58,
+        "path": "YM/YukkiMusic/utils/decorators/asyncify.py",
+        "symbol": "redefined-builtin",
+        "message": "Redefining built-in 'exec'",
+        "message-id": "W0622"
+    },
+    {
+        "type": "refactor",
+        "module": "YukkiMusic.utils.decorators.asyncify",
+        "obj": "asyncify.run",
+        "line": 20,
+        "column": 8,
+        "endLine": 25,
+        "endColumn": 62,
+        "path": "YM/YukkiMusic/utils/decorators/asyncify.py",
+        "symbol": "no-else-return",
+        "message": "Unnecessary \"else\" after \"return\", remove the \"else\" and de-indent the code inside it",
+        "message-id": "R1705"
+    }
+]

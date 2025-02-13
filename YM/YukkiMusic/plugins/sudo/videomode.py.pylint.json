@@ -1,0 +1,80 @@
+[
+    {
+        "type": "convention",
+        "module": "YukkiMusic.plugins.sudo.videomode",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "YM/YukkiMusic/plugins/sudo/videomode.py",
+        "symbol": "missing-module-docstring",
+        "message": "Missing module docstring",
+        "message-id": "C0114"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.sudo.videomode",
+        "obj": "",
+        "line": 11,
+        "column": 0,
+        "endLine": 11,
+        "endColumn": 34,
+        "path": "YM/YukkiMusic/plugins/sudo/videomode.py",
+        "symbol": "import-error",
+        "message": "Unable to import 'pyrogram.types'",
+        "message-id": "E0401"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.sudo.videomode",
+        "obj": "",
+        "line": 14,
+        "column": 0,
+        "endLine": 14,
+        "endColumn": 27,
+        "path": "YM/YukkiMusic/plugins/sudo/videomode.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'command' in module 'strings'",
+        "message-id": "E0611"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.sudo.videomode",
+        "obj": "",
+        "line": 16,
+        "column": 0,
+        "endLine": 16,
+        "endColumn": 35,
+        "path": "YM/YukkiMusic/plugins/sudo/videomode.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'SUDOERS' in module 'YukkiMusic.misc'",
+        "message-id": "E0611"
+    },
+    {
+        "type": "convention",
+        "module": "YukkiMusic.plugins.sudo.videomode",
+        "obj": "videoloaymode",
+        "line": 23,
+        "column": 0,
+        "endLine": 23,
+        "endColumn": 23,
+        "path": "YM/YukkiMusic/plugins/sudo/videomode.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.plugins.sudo.videomode",
+        "obj": "videoloaymode",
+        "line": 23,
+        "column": 24,
+        "endLine": 23,
+        "endColumn": 30,
+        "path": "YM/YukkiMusic/plugins/sudo/videomode.py",
+        "symbol": "unused-argument",
+        "message": "Unused argument 'client'",
+        "message-id": "W0613"
+    }
+]
