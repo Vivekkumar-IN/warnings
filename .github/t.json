@@ -1,0 +1,15 @@
+[
+    {
+        "type": "convention",
+        "module": ".github.t",
+        "obj": "",
+        "line": 4,
+        "column": 0,
+        "endLine": 4,
+        "endColumn": 3,
+        "path": ".github/t.py",
+        "symbol": "invalid-name",
+        "message": "Constant name \"url\" doesn't conform to UPPER_CASE naming style",
+        "message-id": "C0103"
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "type": "warning",
+        "module": ".github.sort_pylint_warnings",
+        "obj": "",
+        "line": 3,
+        "column": 5,
+        "endLine": 3,
+        "endColumn": 33,
+        "path": ".github/sort_pylint_warnings.py",
+        "symbol": "unspecified-encoding",
+        "message": "Using open without explicitly specifying an encoding",
+        "message-id": "W1514"
+    },
+    {
+        "type": "warning",
+        "module": ".github.sort_pylint_warnings",
+        "obj": "",
+        "line": 22,
+        "column": 5,
+        "endLine": 22,
+        "endColumn": 38,
+        "path": ".github/sort_pylint_warnings.py",
+        "symbol": "unspecified-encoding",
+        "message": "Using open without explicitly specifying an encoding",
+        "message-id": "W1514"
+    }
+]
