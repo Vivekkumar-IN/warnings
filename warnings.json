@@ -1,0 +1,15 @@
+[
+    {
+        "type": "fatal",
+        "module": "YukkiMusic",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "YukkiMusic",
+        "symbol": "fatal",
+        "message": "No module named YukkiMusic",
+        "message-id": "F0001"
+    }
+]
