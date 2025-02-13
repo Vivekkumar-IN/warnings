@@ -3,6 +3,7 @@ import subprocess
 import json
 import os
 
+
 CHECK_DIR = ["YukkiMusic"]
 OUTPUT_FILE = "warnings.json"
 
