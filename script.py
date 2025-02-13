@@ -1,11 +1,9 @@
 import asyncio
-import subprocess
 import json
 import os
 
-
 CHECK_DIR = ["YukkiMusic"]
-OUTPUT_FILE = "warnings.json"
+OUTPUT_FILE = "current_repo/warnings.json"
 
 async def run_pylint():
     cmd = [
@@ -23,16 +21,18 @@ async def run_pylint():
     )
     stdout, _ = await process.communicate()
 
-    with open(OUTPUT_FILE, "w") as f:
-        f.write(stdout.decode())
-        
+    if stdout:
+        os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)  # Ensure directory exists
+        with open(OUTPUT_FILE, "w") as f:
+            f.write(stdout.decode())
+
 async def write_warnings(file_path, warnings):
-    warning_file = f"{file_path}.pylint.json"
+    warning_file = f"current_repo/{file_path}.pylint.json"
     os.makedirs(os.path.dirname(warning_file), exist_ok=True)
 
     with open(warning_file, "w") as f:
         json.dump(warnings, f, indent=4)
-        
+
 async def parse_and_write_warnings():
     if not os.path.exists(OUTPUT_FILE):
         return
@@ -44,21 +44,15 @@ async def parse_and_write_warnings():
             return
 
     warnings_by_path = {}
-
     for entry in data:
         path = entry["path"]
-        if path not in warnings_by_path:
-            warnings_by_path[path] = []
-        warnings_by_path[path].append(entry)
+        warnings_by_path.setdefault(path, []).append(entry)
 
-    tasks = []
-    for file_path, warnings in warnings_by_path.items():
-        tasks.append(write_warnings(file_path, warnings))
-
-    await asyncio.gather(*tasks)
+    await asyncio.gather(*(write_warnings(file_path, warnings) for file_path, warnings in warnings_by_path.items()))
 
 async def main():
-    await asyncio.gather(run_pylint(), parse_and_write_warnings())
+    await run_pylint()
+    await parse_and_write_warnings()
 
 if __name__ == "__main__":
     asyncio.run(main())
