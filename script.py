@@ -3,6 +3,9 @@ import json
 import os
 from os import path
 
+CURRENT_REPO_DIR = os.getcwd()
+warnings_json = path.join(CURRENT_REPO_DIR, "warnings.json")
+
 if not path.exists(warnings_json):
     print(f"Error: {warnings_json} not found")
     exit(1)
