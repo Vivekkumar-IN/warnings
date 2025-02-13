@@ -35,7 +35,8 @@ jobs:
       - name: Run Pylint Check
         run: |
           ls
-          python current_repo/script.py
+          cd current_repo
+          python script.py
 
       - name: Commit Changes
         uses: stefanzweifel/git-auto-commit-action@v5
