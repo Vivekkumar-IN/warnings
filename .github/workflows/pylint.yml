@@ -22,7 +22,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: Vivekkumar-in/TheApi
-          ref: dev
+          ref: master
           path: TheApi
 
       - name: Checkout Current Repository
