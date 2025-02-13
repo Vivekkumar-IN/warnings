@@ -35,8 +35,10 @@ jobs:
 
       - name: Run Pylint Check
         run: |
-          cd YukkiMusic
+          cd current_dir
           rm -rf YukkiMusic config string .github/docs > error.txt
+         
+          cd ../YukkiMusic
           pylint --exit-zero --output-format=json --indent-string="    " --reports=no . > ../current_dir/warnings.json
           cd ../current_dir
           python script.py
