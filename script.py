@@ -1,12 +1,31 @@
 import asyncio
+import shutil
 import json
 import os
 from os import path
 
 CURRENT_REPO_DIR = os.getcwd()
 warnings_json = path.join(CURRENT_REPO_DIR, "warnings.json")
+EXCLUDED_FILES = {
+    path.join(CURRENT_REPO_DIR, ".gitignore")
+    path.join(CURRENT_REPO_DIR, "LICENSE")
+    path.join(CURRENT_REPO_DIR, "README.md") 
+    path.join(CURRENT_REPO_DIR, "script.py"),
+    path.join(CURRENT_REPO_DIR, ".github", "workflows", "pylint.yml")
+}
 
-print(CURRENT_REPO_DIR)
+for root, dirs, files in os.walk(CURRENT_REPO_DIR, topdown=False):
+
+    for file in files:
+        file_path = path.join(root, file)
+        if file_path not in EXCLUDED_FILES:
+            os.remove(file_path)
+
+    for dir_name in dirs:
+        dir_path = path.join(root, dir_name)
+        if dir_path not in [os.path.dirname(p) for p in EXCLUDED_FILES]:
+            shutil.rmtree(dir_path, ignore_errors=True)
+            
 if not path.exists(warnings_json):
     print(f"Error: {warnings_json} not found")
     exit(1)
