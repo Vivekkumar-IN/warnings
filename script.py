@@ -37,9 +37,9 @@ async def parse_and_write_warnings():
     await asyncio.gather(*(write_warnings(file_path, warnings) for file_path, warnings in warnings_by_path.items()))
 
 async def main():
-    await run_pylint()
     await parse_and_write_warnings()
-    os.remove(warnings_json)
+    if path.exists(warnings_json):
+        os.remove(warnings_json)
 
 if __name__ == "__main__":
     asyncio.run(main())
