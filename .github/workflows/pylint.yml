@@ -46,7 +46,7 @@ jobs:
       - name: Commit Changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "."
+          commit_message: "Update pylint warnings"
           commit_options: "--no-verify"
           repository: current_dir
           commit_user_name: "github-actions[bot]"
