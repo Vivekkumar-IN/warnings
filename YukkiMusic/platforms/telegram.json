@@ -1,0 +1,15 @@
+[
+    {
+        "type": "refactor",
+        "module": "YukkiMusic.platforms.telegram",
+        "obj": "Telegram.download",
+        "line": 156,
+        "column": 4,
+        "endLine": 156,
+        "endColumn": 22,
+        "path": "YukkiMusic/platforms/telegram.py",
+        "symbol": "too-many-statements",
+        "message": "Too many statements (52/50)",
+        "message-id": "R0915"
+    }
+]

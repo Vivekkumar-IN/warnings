@@ -78,19 +78,6 @@
         "message-id": "C0103"
     },
     {
-        "type": "error",
-        "module": "YukkiMusic.plugins.tools.queue",
-        "obj": "ping_com",
-        "line": 95,
-        "column": 28,
-        "endLine": 95,
-        "endColumn": 47,
-        "path": "YukkiMusic/plugins/tools/queue.py",
-        "symbol": "no-member",
-        "message": "Instance of 'Saavn' has no 'info' member",
-        "message-id": "E1101"
-    },
-    {
         "type": "refactor",
         "module": "YukkiMusic.plugins.tools.queue",
         "obj": "ping_com",
@@ -323,19 +310,6 @@
         "symbol": "invalid-name",
         "message": "Variable name \"DUR\" doesn't conform to snake_case naming style",
         "message-id": "C0103"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.tools.queue",
-        "obj": "queue_back",
-        "line": 259,
-        "column": 28,
-        "endLine": 259,
-        "endColumn": 47,
-        "path": "YukkiMusic/plugins/tools/queue.py",
-        "symbol": "no-member",
-        "message": "Instance of 'Saavn' has no 'info' member",
-        "message-id": "E1101"
     },
     {
         "type": "refactor",

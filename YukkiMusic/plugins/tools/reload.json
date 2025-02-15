@@ -1,28 +1,28 @@
 [
     {
-        "type": "error",
+        "type": "convention",
         "module": "YukkiMusic.plugins.tools.reload",
         "obj": "",
-        "line": 17,
+        "line": 36,
         "column": 0,
-        "endLine": 17,
-        "endColumn": 27,
+        "endLine": null,
+        "endColumn": null,
         "path": "YukkiMusic/plugins/tools/reload.py",
-        "symbol": "no-name-in-module",
-        "message": "No name 'command' in module 'strings'",
-        "message-id": "E0611"
+        "symbol": "line-too-long",
+        "message": "Line too long (149/100)",
+        "message-id": "C0301"
     },
     {
         "type": "warning",
         "module": "YukkiMusic.plugins.tools.reload",
-        "obj": "reload_admin_cache",
-        "line": 26,
-        "column": 29,
-        "endLine": 26,
-        "endColumn": 35,
+        "obj": "",
+        "line": 36,
+        "column": 17,
+        "endLine": null,
+        "endColumn": null,
         "path": "YukkiMusic/plugins/tools/reload.py",
-        "symbol": "unused-argument",
-        "message": "Unused argument 'client'",
-        "message-id": "W0613"
+        "symbol": "fixme",
+        "message": "TODO: Check docs of Telethon the participants is returning can be of supergrous or basic groups if basic so leave chat with warning",
+        "message-id": "W0511"
     }
 ]

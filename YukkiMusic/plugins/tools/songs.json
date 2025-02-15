@@ -13,6 +13,19 @@
         "message-id": "E0611"
     },
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.tools.songs",
+        "obj": "",
+        "line": 32,
+        "column": 0,
+        "endLine": 32,
+        "endColumn": 48,
+        "path": "YukkiMusic/plugins/tools/songs.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'Youtube' in module 'YukkiMusic.platforms'",
+        "message-id": "E0611"
+    },
+    {
         "type": "warning",
         "module": "YukkiMusic.plugins.tools.songs",
         "obj": "song_commad_group",
@@ -219,31 +232,5 @@
         "symbol": "too-many-locals",
         "message": "Too many local variables (19/15)",
         "message-id": "R0914"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.tools.songs",
-        "obj": "song_download_cb",
-        "line": 339,
-        "column": 30,
-        "endLine": 339,
-        "endColumn": 55,
-        "path": "YukkiMusic/plugins/tools/songs.py",
-        "symbol": "no-member",
-        "message": "Instance of 'YouTube' has no 'download' member",
-        "message-id": "E1101"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.tools.songs",
-        "obj": "song_download_cb",
-        "line": 384,
-        "column": 29,
-        "endLine": 384,
-        "endColumn": 54,
-        "path": "YukkiMusic/plugins/tools/songs.py",
-        "symbol": "no-member",
-        "message": "Instance of 'YouTube' has no 'download' member",
-        "message-id": "E1101"
     }
 ]

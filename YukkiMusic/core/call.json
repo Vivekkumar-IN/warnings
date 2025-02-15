@@ -208,19 +208,6 @@
         "message-id": "R1719"
     },
     {
-        "type": "error",
-        "module": "YukkiMusic.core.call",
-        "obj": "Call.change_stream",
-        "line": 471,
-        "column": 46,
-        "endLine": 471,
-        "endColumn": 71,
-        "path": "YukkiMusic/core/call.py",
-        "symbol": "no-member",
-        "message": "Instance of 'YouTube' has no 'download' member",
-        "message-id": "E1101"
-    },
-    {
         "type": "refactor",
         "module": "YukkiMusic.core.call",
         "obj": "Call.change_stream",
@@ -232,19 +219,6 @@
         "symbol": "simplifiable-if-expression",
         "message": "The if expression can be replaced with 'test'",
         "message-id": "R1719"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.core.call",
-        "obj": "Call.change_stream",
-        "line": 567,
-        "column": 36,
-        "endLine": 567,
-        "endColumn": 55,
-        "path": "YukkiMusic/core/call.py",
-        "symbol": "no-member",
-        "message": "Instance of 'Saavn' has no 'info' member",
-        "message-id": "E1101"
     },
     {
         "type": "refactor",

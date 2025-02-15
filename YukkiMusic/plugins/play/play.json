@@ -133,19 +133,6 @@
         "type": "error",
         "module": "YukkiMusic.plugins.play.play",
         "obj": "play_commnd",
-        "line": 287,
-        "column": 47,
-        "endLine": 287,
-        "endColumn": 70,
-        "path": "YukkiMusic/plugins/play/play.py",
-        "symbol": "no-member",
-        "message": "Instance of 'Saavn' has no 'download' member",
-        "message-id": "E1101"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.play.play",
-        "obj": "play_commnd",
         "line": 316,
         "column": 22,
         "endLine": 326,
@@ -154,19 +141,6 @@
         "symbol": "unexpected-keyword-arg",
         "message": "Unexpected keyword argument 'streamtype' in function call",
         "message-id": "E1123"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.play.play",
-        "obj": "play_commnd",
-        "line": 339,
-        "column": 44,
-        "endLine": 339,
-        "endColumn": 72,
-        "path": "YukkiMusic/plugins/play/play.py",
-        "symbol": "no-member",
-        "message": "Instance of 'SoundCloud' has no 'download' member",
-        "message-id": "E1101"
     },
     {
         "type": "error",

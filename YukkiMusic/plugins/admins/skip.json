@@ -52,32 +52,6 @@
         "message-id": "R1702"
     },
     {
-        "type": "error",
-        "module": "YukkiMusic.plugins.admins.skip",
-        "obj": "skip",
-        "line": 140,
-        "column": 38,
-        "endLine": 140,
-        "endColumn": 63,
-        "path": "YukkiMusic/plugins/admins/skip.py",
-        "symbol": "no-member",
-        "message": "Instance of 'YouTube' has no 'download' member",
-        "message-id": "E1101"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.admins.skip",
-        "obj": "skip",
-        "line": 218,
-        "column": 28,
-        "endLine": 218,
-        "endColumn": 47,
-        "path": "YukkiMusic/plugins/admins/skip.py",
-        "symbol": "no-member",
-        "message": "Instance of 'Saavn' has no 'info' member",
-        "message-id": "E1101"
-    },
-    {
         "type": "refactor",
         "module": "YukkiMusic.plugins.admins.skip",
         "obj": "skip",

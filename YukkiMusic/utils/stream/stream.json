@@ -390,19 +390,6 @@
         "message-id": "E0602"
     },
     {
-        "type": "error",
-        "module": "YukkiMusic.utils.stream.stream",
-        "obj": "stream",
-        "line": 108,
-        "column": 46,
-        "endLine": 108,
-        "endColumn": 71,
-        "path": "YukkiMusic/utils/stream/stream.py",
-        "symbol": "no-member",
-        "message": "Instance of 'YouTube' has no 'download' member",
-        "message-id": "E1101"
-    },
-    {
         "type": "warning",
         "module": "YukkiMusic.utils.stream.stream",
         "obj": "stream",
@@ -544,19 +531,6 @@
         "symbol": "undefined-variable",
         "message": "Undefined variable 'video'",
         "message-id": "E0602"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.utils.stream.stream",
-        "obj": "stream",
-        "line": 175,
-        "column": 38,
-        "endLine": 175,
-        "endColumn": 63,
-        "path": "YukkiMusic/utils/stream/stream.py",
-        "symbol": "no-member",
-        "message": "Instance of 'YouTube' has no 'download' member",
-        "message-id": "E1101"
     },
     {
         "type": "warning",
@@ -752,19 +726,6 @@
         "symbol": "undefined-variable",
         "message": "Undefined variable 'result'",
         "message-id": "E0602"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.utils.stream.stream",
-        "obj": "stream",
-        "line": 307,
-        "column": 37,
-        "endLine": 307,
-        "endColumn": 60,
-        "path": "YukkiMusic/utils/stream/stream.py",
-        "symbol": "no-member",
-        "message": "Instance of 'Saavn' has no 'download' member",
-        "message-id": "E1101"
     },
     {
         "type": "error",

@@ -234,32 +234,6 @@
         "message-id": "R1714"
     },
     {
-        "type": "error",
-        "module": "YukkiMusic.plugins.admins.callback",
-        "obj": "admin_callback",
-        "line": 290,
-        "column": 42,
-        "endLine": 290,
-        "endColumn": 67,
-        "path": "YukkiMusic/plugins/admins/callback.py",
-        "symbol": "no-member",
-        "message": "Instance of 'YouTube' has no 'download' member",
-        "message-id": "E1101"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.admins.callback",
-        "obj": "admin_callback",
-        "line": 369,
-        "column": 32,
-        "endLine": 369,
-        "endColumn": 51,
-        "path": "YukkiMusic/plugins/admins/callback.py",
-        "symbol": "no-member",
-        "message": "Instance of 'Saavn' has no 'info' member",
-        "message-id": "E1101"
-    },
-    {
         "type": "refactor",
         "module": "YukkiMusic.plugins.admins.callback",
         "obj": "admin_callback",

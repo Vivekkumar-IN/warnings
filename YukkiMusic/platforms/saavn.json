@@ -1,0 +1,41 @@
+[
+    {
+        "type": "warning",
+        "module": "YukkiMusic.platforms.saavn",
+        "obj": "",
+        "line": 24,
+        "column": 49,
+        "endLine": null,
+        "endColumn": null,
+        "path": "YukkiMusic/platforms/saavn.py",
+        "symbol": "fixme",
+        "message": "TODO remove this function",
+        "message-id": "W0511"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.platforms.saavn",
+        "obj": "",
+        "line": 28,
+        "column": 56,
+        "endLine": null,
+        "endColumn": null,
+        "path": "YukkiMusic/platforms/saavn.py",
+        "symbol": "fixme",
+        "message": "TODO Remove this function",
+        "message-id": "W0511"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.platforms.saavn",
+        "obj": "Saavn.track",
+        "line": 67,
+        "column": 4,
+        "endLine": 67,
+        "endColumn": 13,
+        "path": "YukkiMusic/platforms/saavn.py",
+        "symbol": "invalid-overridden-method",
+        "message": "Method 'track' was expected to be 'async', found it instead as 'non-async'",
+        "message-id": "W0236"
+    }
+]

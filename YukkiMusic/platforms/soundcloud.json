@@ -1,0 +1,15 @@
+[
+    {
+        "type": "warning",
+        "module": "YukkiMusic.platforms.soundcloud",
+        "obj": "SoundCloud.track",
+        "line": 24,
+        "column": 4,
+        "endLine": 24,
+        "endColumn": 13,
+        "path": "YukkiMusic/platforms/soundcloud.py",
+        "symbol": "invalid-overridden-method",
+        "message": "Method 'track' was expected to be 'async', found it instead as 'non-async'",
+        "message-id": "W0236"
+    }
+]
