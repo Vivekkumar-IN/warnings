@@ -26,6 +26,19 @@
         "message-id": "C0301"
     },
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.admins.callback",
+        "obj": "",
+        "line": 26,
+        "column": 0,
+        "endLine": 26,
+        "endColumn": 36,
+        "path": "YukkiMusic/plugins/admins/callback.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'Platform' in module 'YukkiMusic'",
+        "message-id": "E0611"
+    },
+    {
         "type": "warning",
         "module": "YukkiMusic.plugins.admins.callback",
         "obj": "",
@@ -147,9 +160,9 @@
         "module": "YukkiMusic.plugins.admins.callback",
         "obj": "pages_markup",
         "line": 129,
-        "column": 46,
+        "column": 41,
         "endLine": 129,
-        "endColumn": 53,
+        "endColumn": 48,
         "path": "YukkiMusic/plugins/admins/callback.py",
         "symbol": "used-before-assignment",
         "message": "Using variable 'buttons' before assignment",

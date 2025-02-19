@@ -1,5 +1,18 @@
 [
     {
+        "type": "convention",
+        "module": "config.config",
+        "obj": "",
+        "line": 130,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "config/config.py",
+        "symbol": "line-too-long",
+        "message": "Line too long (104/100)",
+        "message-id": "C0301"
+    },
+    {
         "type": "warning",
         "module": "config.config",
         "obj": "",

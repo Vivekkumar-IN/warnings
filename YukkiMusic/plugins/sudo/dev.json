@@ -106,19 +106,6 @@
     {
         "type": "warning",
         "module": "YukkiMusic.plugins.sudo.dev",
-        "obj": "shellrunner.run_command",
-        "line": 181,
-        "column": 8,
-        "endLine": 188,
-        "endColumn": 40,
-        "path": "YukkiMusic/plugins/sudo/dev.py",
-        "symbol": "unused-variable",
-        "message": "Unused variable 'err'",
-        "message-id": "W0612"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.sudo.dev",
         "obj": "shellrunner",
         "line": 210,
         "column": 13,

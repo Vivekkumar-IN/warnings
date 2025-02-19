@@ -221,6 +221,19 @@
         "message-id": "W0511"
     },
     {
+        "type": "error",
+        "module": "YukkiMusic.utils.stream.stream",
+        "obj": "",
+        "line": 18,
+        "column": 0,
+        "endLine": 18,
+        "endColumn": 36,
+        "path": "YukkiMusic/utils/stream/stream.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'Platform' in module 'YukkiMusic'",
+        "message-id": "E0611"
+    },
+    {
         "type": "refactor",
         "module": "YukkiMusic.utils.stream.stream",
         "obj": "stream",
@@ -256,7 +269,7 @@
         "endColumn": 16,
         "path": "YukkiMusic/utils/stream/stream.py",
         "symbol": "too-many-locals",
-        "message": "Too many local variables (32/15)",
+        "message": "Too many local variables (31/15)",
         "message-id": "R0914"
     },
     {
@@ -333,9 +346,9 @@
         "endLine": 85,
         "endColumn": 27,
         "path": "YukkiMusic/utils/stream/stream.py",
-        "symbol": "used-before-assignment",
-        "message": "Using variable 'duration_sec' before assignment",
-        "message-id": "E0601"
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'duration_sec'",
+        "message-id": "E0602"
     },
     {
         "type": "error",
@@ -726,6 +739,19 @@
         "symbol": "undefined-variable",
         "message": "Undefined variable 'result'",
         "message-id": "E0602"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.utils.stream.stream",
+        "obj": "stream",
+        "line": 304,
+        "column": 16,
+        "endLine": 304,
+        "endColumn": 38,
+        "path": "YukkiMusic/utils/stream/stream.py",
+        "symbol": "pointless-statement",
+        "message": "Statement seems to have no effect",
+        "message-id": "W0104"
     },
     {
         "type": "error",

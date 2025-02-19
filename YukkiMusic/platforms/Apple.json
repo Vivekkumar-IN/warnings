@@ -1,0 +1,15 @@
+[
+    {
+        "type": "convention",
+        "module": "YukkiMusic.platforms.Apple",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "YukkiMusic/platforms/Apple.py",
+        "symbol": "invalid-name",
+        "message": "Module name \"Apple\" doesn't conform to snake_case naming style",
+        "message-id": "C0103"
+    }
+]

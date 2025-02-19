@@ -13,6 +13,19 @@
         "message-id": "E0611"
     },
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.admins.skip",
+        "obj": "",
+        "line": 18,
+        "column": 0,
+        "endLine": 18,
+        "endColumn": 36,
+        "path": "YukkiMusic/plugins/admins/skip.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'Platform' in module 'YukkiMusic'",
+        "message-id": "E0611"
+    },
+    {
         "type": "refactor",
         "module": "YukkiMusic.plugins.admins.skip",
         "obj": "skip",
@@ -22,7 +35,7 @@
         "endColumn": 14,
         "path": "YukkiMusic/plugins/admins/skip.py",
         "symbol": "too-many-locals",
-        "message": "Too many local variables (26/15)",
+        "message": "Too many local variables (25/15)",
         "message-id": "R0914"
     },
     {
@@ -50,6 +63,19 @@
         "symbol": "too-many-nested-blocks",
         "message": "Too many nested blocks (8/5)",
         "message-id": "R1702"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.plugins.admins.skip",
+        "obj": "skip",
+        "line": 110,
+        "column": 4,
+        "endLine": 110,
+        "endColumn": 24,
+        "path": "YukkiMusic/plugins/admins/skip.py",
+        "symbol": "pointless-statement",
+        "message": "Statement seems to have no effect",
+        "message-id": "W0104"
     },
     {
         "type": "refactor",
@@ -114,19 +140,6 @@
         "path": "YukkiMusic/plugins/admins/skip.py",
         "symbol": "unused-variable",
         "message": "Unused variable 'x'",
-        "message-id": "W0612"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.admins.skip",
-        "obj": "skip",
-        "line": 110,
-        "column": 4,
-        "endLine": 110,
-        "endColumn": 11,
-        "path": "YukkiMusic/plugins/admins/skip.py",
-        "symbol": "unused-variable",
-        "message": "Unused variable 'user_id'",
         "message-id": "W0612"
     },
     {

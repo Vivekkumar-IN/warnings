@@ -1,0 +1,15 @@
+[
+    {
+        "type": "convention",
+        "module": "YukkiMusic.core.mongo",
+        "obj": "",
+        "line": 19,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "YukkiMusic/core/mongo.py",
+        "symbol": "line-too-long",
+        "message": "Line too long (138/100)",
+        "message-id": "C0301"
+    }
+]

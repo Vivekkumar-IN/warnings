@@ -26,6 +26,19 @@
         "message-id": "E0611"
     },
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.play.play",
+        "obj": "",
+        "line": 20,
+        "column": 0,
+        "endLine": 20,
+        "endColumn": 44,
+        "path": "YukkiMusic/plugins/play/play.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'Platform' in module 'YukkiMusic'",
+        "message-id": "E0611"
+    },
+    {
         "type": "refactor",
         "module": "YukkiMusic.plugins.play.play",
         "obj": "play_commnd",

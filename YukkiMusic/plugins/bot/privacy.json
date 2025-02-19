@@ -65,25 +65,12 @@
         "message-id": "W0613"
     },
     {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.bot.privacy",
-        "obj": "export_user_data",
-        "line": 220,
-        "column": 4,
-        "endLine": 221,
-        "endColumn": 12,
-        "path": "YukkiMusic/plugins/bot/privacy.py",
-        "symbol": "unused-variable",
-        "message": "Unused variable 'e'",
-        "message-id": "W0612"
-    },
-    {
         "type": "error",
         "module": "YukkiMusic.plugins.bot.privacy",
         "obj": "delete_user_data",
-        "line": 307,
+        "line": 303,
         "column": 10,
-        "endLine": 307,
+        "endLine": 303,
         "endColumn": 23,
         "path": "YukkiMusic/plugins/bot/privacy.py",
         "symbol": "undefined-variable",
