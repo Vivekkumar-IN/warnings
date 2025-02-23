@@ -26,6 +26,19 @@
         "message-id": "W0612"
     },
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.bot.privacy",
+        "obj": "privacy_menu",
+        "line": 113,
+        "column": 45,
+        "endLine": 113,
+        "endColumn": 58,
+        "path": "YukkiMusic/plugins/bot/privacy.py",
+        "symbol": "invalid-unary-operand-type",
+        "message": "bad operand type for unary ~: set",
+        "message-id": "E1130"
+    },
+    {
         "type": "warning",
         "module": "YukkiMusic.plugins.bot.privacy",
         "obj": "privacy_menu",
@@ -39,6 +52,19 @@
         "message-id": "W0613"
     },
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.bot.privacy",
+        "obj": "show_privacy_sections",
+        "line": 132,
+        "column": 64,
+        "endLine": 132,
+        "endColumn": 77,
+        "path": "YukkiMusic/plugins/bot/privacy.py",
+        "symbol": "invalid-unary-operand-type",
+        "message": "bad operand type for unary ~: set",
+        "message-id": "E1130"
+    },
+    {
         "type": "warning",
         "module": "YukkiMusic.plugins.bot.privacy",
         "obj": "show_privacy_sections",
@@ -50,6 +76,19 @@
         "symbol": "unused-argument",
         "message": "Unused argument 'client'",
         "message-id": "W0613"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.bot.privacy",
+        "obj": "privacy_section_callback",
+        "line": 155,
+        "column": 51,
+        "endLine": 155,
+        "endColumn": 64,
+        "path": "YukkiMusic/plugins/bot/privacy.py",
+        "symbol": "invalid-unary-operand-type",
+        "message": "bad operand type for unary ~: set",
+        "message-id": "E1130"
     },
     {
         "type": "warning",

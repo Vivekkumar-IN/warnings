@@ -1,0 +1,28 @@
+[
+    {
+        "type": "error",
+        "module": "YukkiMusic.core.bot",
+        "obj": "",
+        "line": 43,
+        "column": 0,
+        "endLine": 43,
+        "endColumn": 41,
+        "path": "YukkiMusic/core/bot.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'filters' in module ''",
+        "message-id": "E0611"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.core.bot",
+        "obj": "YukkiBot.load_plugin",
+        "line": 240,
+        "column": 8,
+        "endLine": 240,
+        "endColumn": 11,
+        "path": "YukkiMusic/core/bot.py",
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'mod'",
+        "message-id": "E0602"
+    }
+]

@@ -39,6 +39,19 @@
         "message-id": "R0914"
     },
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.admins.skip",
+        "obj": "skip",
+        "line": 28,
+        "column": 58,
+        "endLine": 28,
+        "endColumn": 71,
+        "path": "YukkiMusic/plugins/admins/skip.py",
+        "symbol": "invalid-unary-operand-type",
+        "message": "bad operand type for unary ~: set",
+        "message-id": "E1130"
+    },
+    {
         "type": "refactor",
         "module": "YukkiMusic.plugins.admins.skip",
         "obj": "skip",

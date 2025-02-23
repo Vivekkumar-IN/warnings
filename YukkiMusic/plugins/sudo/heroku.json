@@ -325,6 +325,19 @@
         "message-id": "W0613"
     },
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.sudo.heroku",
+        "obj": "reboot",
+        "line": 328,
+        "column": 60,
+        "endLine": 328,
+        "endColumn": 73,
+        "path": "YukkiMusic/plugins/sudo/heroku.py",
+        "symbol": "invalid-unary-operand-type",
+        "message": "bad operand type for unary ~: set",
+        "message-id": "E1130"
+    },
+    {
         "type": "warning",
         "module": "YukkiMusic.plugins.sudo.heroku",
         "obj": "reboot",
@@ -336,6 +349,19 @@
         "symbol": "unused-argument",
         "message": "Unused argument 'client'",
         "message-id": "W0613"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.sudo.heroku",
+        "obj": "restart_",
+        "line": 354,
+        "column": 45,
+        "endLine": 354,
+        "endColumn": 58,
+        "path": "YukkiMusic/plugins/sudo/heroku.py",
+        "symbol": "invalid-unary-operand-type",
+        "message": "bad operand type for unary ~: set",
+        "message-id": "E1130"
     },
     {
         "type": "error",

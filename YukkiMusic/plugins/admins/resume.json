@@ -13,6 +13,19 @@
         "message-id": "E0611"
     },
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.admins.resume",
+        "obj": "resume_com",
+        "line": 22,
+        "column": 60,
+        "endLine": 22,
+        "endColumn": 73,
+        "path": "YukkiMusic/plugins/admins/resume.py",
+        "symbol": "invalid-unary-operand-type",
+        "message": "bad operand type for unary ~: set",
+        "message-id": "E1130"
+    },
+    {
         "type": "warning",
         "module": "YukkiMusic.plugins.admins.resume",
         "obj": "resume_com",

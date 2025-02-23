@@ -78,6 +78,19 @@
         "message-id": "R0914"
     },
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.play.play",
+        "obj": "play_commnd",
+        "line": 42,
+        "column": 6,
+        "endLine": 42,
+        "endColumn": 19,
+        "path": "YukkiMusic/plugins/play/play.py",
+        "symbol": "invalid-unary-operand-type",
+        "message": "bad operand type for unary ~: set",
+        "message-id": "E1130"
+    },
+    {
         "type": "refactor",
         "module": "YukkiMusic.plugins.play.play",
         "obj": "play_commnd",

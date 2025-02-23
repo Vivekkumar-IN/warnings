@@ -104,6 +104,19 @@
         "message-id": "W0613"
     },
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.sudo.sudoers",
+        "obj": "sudoers_list",
+        "line": 94,
+        "column": 47,
+        "endLine": 94,
+        "endColumn": 60,
+        "path": "YukkiMusic/plugins/sudo/sudoers.py",
+        "symbol": "invalid-unary-operand-type",
+        "message": "bad operand type for unary ~: set",
+        "message-id": "E1130"
+    },
+    {
         "type": "warning",
         "module": "YukkiMusic.plugins.sudo.sudoers",
         "obj": "sudoers_list",

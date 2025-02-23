@@ -65,6 +65,19 @@
         "message-id": "W1514"
     },
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.tools.backup",
+        "obj": "export_database",
+        "line": 59,
+        "column": 44,
+        "endLine": 59,
+        "endColumn": 57,
+        "path": "YukkiMusic/plugins/tools/backup.py",
+        "symbol": "invalid-unary-operand-type",
+        "message": "bad operand type for unary ~: set",
+        "message-id": "E1130"
+    },
+    {
         "type": "warning",
         "module": "YukkiMusic.plugins.tools.backup",
         "obj": "export_database",
@@ -89,6 +102,19 @@
         "symbol": "unused-argument",
         "message": "Unused argument 'client'",
         "message-id": "W0613"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.tools.backup",
+        "obj": "import_database",
+        "line": 124,
+        "column": 44,
+        "endLine": 124,
+        "endColumn": 57,
+        "path": "YukkiMusic/plugins/tools/backup.py",
+        "symbol": "invalid-unary-operand-type",
+        "message": "bad operand type for unary ~: set",
+        "message-id": "E1130"
     },
     {
         "type": "warning",

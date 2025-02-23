@@ -120,6 +120,19 @@
         "type": "error",
         "module": "YukkiMusic.plugins.bot.start",
         "obj": "start_comm",
+        "line": 45,
+        "column": 61,
+        "endLine": 45,
+        "endColumn": 74,
+        "path": "YukkiMusic/plugins/bot/start.py",
+        "symbol": "invalid-unary-operand-type",
+        "message": "bad operand type for unary ~: set",
+        "message-id": "E1130"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.bot.start",
+        "obj": "start_comm",
         "line": 46,
         "column": 1,
         "endLine": 46,
@@ -245,6 +258,19 @@
         "symbol": "too-many-statements",
         "message": "Too many statements (107/50)",
         "message-id": "R0915"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.bot.start",
+        "obj": "testbot",
+        "line": 241,
+        "column": 59,
+        "endLine": 241,
+        "endColumn": 72,
+        "path": "YukkiMusic/plugins/bot/start.py",
+        "symbol": "invalid-unary-operand-type",
+        "message": "bad operand type for unary ~: set",
+        "message-id": "E1130"
     },
     {
         "type": "error",

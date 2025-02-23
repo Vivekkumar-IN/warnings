@@ -13,6 +13,19 @@
         "message-id": "E0611"
     },
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.admins.loop",
+        "obj": "admins",
+        "line": 21,
+        "column": 58,
+        "endLine": 21,
+        "endColumn": 71,
+        "path": "YukkiMusic/plugins/admins/loop.py",
+        "symbol": "invalid-unary-operand-type",
+        "message": "bad operand type for unary ~: set",
+        "message-id": "E1130"
+    },
+    {
         "type": "refactor",
         "module": "YukkiMusic.plugins.admins.loop",
         "obj": "admins",

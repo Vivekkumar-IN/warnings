@@ -39,6 +39,19 @@
         "message-id": "W0613"
     },
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.sudo.blacklistchat",
+        "obj": "all_chats",
+        "line": 57,
+        "column": 53,
+        "endLine": 57,
+        "endColumn": 66,
+        "path": "YukkiMusic/plugins/sudo/blacklistchat.py",
+        "symbol": "invalid-unary-operand-type",
+        "message": "bad operand type for unary ~: set",
+        "message-id": "E1130"
+    },
+    {
         "type": "warning",
         "module": "YukkiMusic.plugins.sudo.blacklistchat",
         "obj": "all_chats",

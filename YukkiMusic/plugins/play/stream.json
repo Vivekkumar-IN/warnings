@@ -52,6 +52,19 @@
         "message-id": "R0917"
     },
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.play.stream",
+        "obj": "stream_command",
+        "line": 25,
+        "column": 60,
+        "endLine": 25,
+        "endColumn": 73,
+        "path": "YukkiMusic/plugins/play/stream.py",
+        "symbol": "invalid-unary-operand-type",
+        "message": "bad operand type for unary ~: set",
+        "message-id": "E1130"
+    },
+    {
         "type": "refactor",
         "module": "YukkiMusic.plugins.play.stream",
         "obj": "stream_command",

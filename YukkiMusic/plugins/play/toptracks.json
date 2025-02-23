@@ -13,6 +13,19 @@
         "message-id": "C0103"
     },
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.play.toptracks",
+        "obj": "get_play_markup",
+        "line": 33,
+        "column": 57,
+        "endLine": 33,
+        "endColumn": 70,
+        "path": "YukkiMusic/plugins/play/toptracks.py",
+        "symbol": "invalid-unary-operand-type",
+        "message": "bad operand type for unary ~: set",
+        "message-id": "E1130"
+    },
+    {
         "type": "warning",
         "module": "YukkiMusic.plugins.play.toptracks",
         "obj": "get_play_markup",
@@ -39,6 +52,19 @@
         "message-id": "C0103"
     },
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.play.toptracks",
+        "obj": "get_topz_playlists",
+        "line": 46,
+        "column": 60,
+        "endLine": 46,
+        "endColumn": 73,
+        "path": "YukkiMusic/plugins/play/toptracks.py",
+        "symbol": "invalid-unary-operand-type",
+        "message": "bad operand type for unary ~: set",
+        "message-id": "E1130"
+    },
+    {
         "type": "warning",
         "module": "YukkiMusic.plugins.play.toptracks",
         "obj": "get_topz_playlists",
@@ -63,6 +89,19 @@
         "symbol": "invalid-name",
         "message": "Argument name \"CallbackQuery\" doesn't conform to snake_case naming style",
         "message-id": "C0103"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.play.toptracks",
+        "obj": "server_to_play",
+        "line": 59,
+        "column": 52,
+        "endLine": 59,
+        "endColumn": 65,
+        "path": "YukkiMusic/plugins/play/toptracks.py",
+        "symbol": "invalid-unary-operand-type",
+        "message": "bad operand type for unary ~: set",
+        "message-id": "E1130"
     },
     {
         "type": "error",

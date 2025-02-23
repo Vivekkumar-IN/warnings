@@ -13,6 +13,19 @@
         "message-id": "E0611"
     },
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.play.playmode",
+        "obj": "playmode_",
+        "line": 26,
+        "column": 62,
+        "endLine": 26,
+        "endColumn": 75,
+        "path": "YukkiMusic/plugins/play/playmode.py",
+        "symbol": "invalid-unary-operand-type",
+        "message": "bad operand type for unary ~: set",
+        "message-id": "E1130"
+    },
+    {
         "type": "convention",
         "module": "YukkiMusic.plugins.play.playmode",
         "obj": "playmode_",

@@ -26,6 +26,19 @@
         "message-id": "C0103"
     },
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.admins.shuffle",
+        "obj": "admins",
+        "line": 23,
+        "column": 61,
+        "endLine": 23,
+        "endColumn": 74,
+        "path": "YukkiMusic/plugins/admins/shuffle.py",
+        "symbol": "invalid-unary-operand-type",
+        "message": "bad operand type for unary ~: set",
+        "message-id": "E1130"
+    },
+    {
         "type": "warning",
         "module": "YukkiMusic.plugins.admins.shuffle",
         "obj": "admins",

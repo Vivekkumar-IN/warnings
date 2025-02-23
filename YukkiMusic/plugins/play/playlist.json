@@ -26,6 +26,19 @@
         "message-id": "E0611"
     },
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.play.playlist",
+        "obj": "check_playlist",
+        "line": 33,
+        "column": 46,
+        "endLine": 33,
+        "endColumn": 59,
+        "path": "YukkiMusic/plugins/play/playlist.py",
+        "symbol": "invalid-unary-operand-type",
+        "message": "bad operand type for unary ~: set",
+        "message-id": "E1130"
+    },
+    {
         "type": "warning",
         "module": "YukkiMusic.plugins.play.playlist",
         "obj": "check_playlist",
@@ -63,6 +76,19 @@
         "symbol": "f-string-without-interpolation",
         "message": "Using an f-string that does not have any interpolated variables",
         "message-id": "W1309"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.play.playlist",
+        "obj": "del_group_message",
+        "line": 86,
+        "column": 69,
+        "endLine": 86,
+        "endColumn": 82,
+        "path": "YukkiMusic/plugins/play/playlist.py",
+        "symbol": "invalid-unary-operand-type",
+        "message": "bad operand type for unary ~: set",
+        "message-id": "E1130"
     },
     {
         "type": "warning",
@@ -117,6 +143,19 @@
         "message-id": "W1309"
     },
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.play.playlist",
+        "obj": "del_plist_msg",
+        "line": 126,
+        "column": 71,
+        "endLine": 126,
+        "endColumn": 84,
+        "path": "YukkiMusic/plugins/play/playlist.py",
+        "symbol": "invalid-unary-operand-type",
+        "message": "bad operand type for unary ~: set",
+        "message-id": "E1130"
+    },
+    {
         "type": "warning",
         "module": "YukkiMusic.plugins.play.playlist",
         "obj": "del_plist_msg",
@@ -146,6 +185,19 @@
         "type": "error",
         "module": "YukkiMusic.plugins.play.playlist",
         "obj": "play_playlist",
+        "line": 138,
+        "column": 56,
+        "endLine": 138,
+        "endColumn": 69,
+        "path": "YukkiMusic/plugins/play/playlist.py",
+        "symbol": "invalid-unary-operand-type",
+        "message": "bad operand type for unary ~: set",
+        "message-id": "E1130"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.play.playlist",
+        "obj": "play_playlist",
         "line": 166,
         "column": 14,
         "endLine": 176,
@@ -167,6 +219,19 @@
         "symbol": "unused-argument",
         "message": "Unused argument 'client'",
         "message-id": "W0613"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.play.playlist",
+        "obj": "play_playlist_command",
+        "line": 186,
+        "column": 51,
+        "endLine": 186,
+        "endColumn": 64,
+        "path": "YukkiMusic/plugins/play/playlist.py",
+        "symbol": "invalid-unary-operand-type",
+        "message": "bad operand type for unary ~: set",
+        "message-id": "E1130"
     },
     {
         "type": "error",
@@ -221,6 +286,19 @@
         "message-id": "C0103"
     },
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.play.playlist",
+        "obj": "del_plist",
+        "line": 310,
+        "column": 58,
+        "endLine": 310,
+        "endColumn": 71,
+        "path": "YukkiMusic/plugins/play/playlist.py",
+        "symbol": "invalid-unary-operand-type",
+        "message": "bad operand type for unary ~: set",
+        "message-id": "E1130"
+    },
+    {
         "type": "warning",
         "module": "YukkiMusic.plugins.play.playlist",
         "obj": "del_plist",
@@ -245,6 +323,19 @@
         "symbol": "invalid-name",
         "message": "Argument name \"CallbackQuery\" doesn't conform to snake_case naming style",
         "message-id": "C0103"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.play.playlist",
+        "obj": "add_playlist",
+        "line": 330,
+        "column": 55,
+        "endLine": 330,
+        "endColumn": 68,
+        "path": "YukkiMusic/plugins/play/playlist.py",
+        "symbol": "invalid-unary-operand-type",
+        "message": "bad operand type for unary ~: set",
+        "message-id": "E1130"
     },
     {
         "type": "warning",
@@ -312,6 +403,19 @@
         "message-id": "E0102"
     },
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.play.playlist",
+        "obj": "del_plist",
+        "line": 375,
+        "column": 55,
+        "endLine": 375,
+        "endColumn": 68,
+        "path": "YukkiMusic/plugins/play/playlist.py",
+        "symbol": "invalid-unary-operand-type",
+        "message": "bad operand type for unary ~: set",
+        "message-id": "E1130"
+    },
+    {
         "type": "warning",
         "module": "YukkiMusic.plugins.play.playlist",
         "obj": "del_plist",
@@ -351,6 +455,19 @@
         "message-id": "C0103"
     },
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.play.playlist",
+        "obj": "del_whole_playlist",
+        "line": 396,
+        "column": 64,
+        "endLine": 396,
+        "endColumn": 77,
+        "path": "YukkiMusic/plugins/play/playlist.py",
+        "symbol": "invalid-unary-operand-type",
+        "message": "bad operand type for unary ~: set",
+        "message-id": "E1130"
+    },
+    {
         "type": "warning",
         "module": "YukkiMusic.plugins.play.playlist",
         "obj": "del_whole_playlist",
@@ -377,6 +494,19 @@
         "message-id": "C0103"
     },
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.play.playlist",
+        "obj": "get_playlist_playmode_",
+        "line": 406,
+        "column": 64,
+        "endLine": 406,
+        "endColumn": 77,
+        "path": "YukkiMusic/plugins/play/playlist.py",
+        "symbol": "invalid-unary-operand-type",
+        "message": "bad operand type for unary ~: set",
+        "message-id": "E1130"
+    },
+    {
         "type": "warning",
         "module": "YukkiMusic.plugins.play.playlist",
         "obj": "get_playlist_playmode_",
@@ -401,6 +531,19 @@
         "symbol": "invalid-name",
         "message": "Argument name \"CallbackQuery\" doesn't conform to snake_case naming style",
         "message-id": "C0103"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.play.playlist",
+        "obj": "home_play_",
+        "line": 417,
+        "column": 52,
+        "endLine": 417,
+        "endColumn": 65,
+        "path": "YukkiMusic/plugins/play/playlist.py",
+        "symbol": "invalid-unary-operand-type",
+        "message": "bad operand type for unary ~: set",
+        "message-id": "E1130"
     },
     {
         "type": "warning",
@@ -442,6 +585,19 @@
         "message-id": "C0103"
     },
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.play.playlist",
+        "obj": "delete_warning_message",
+        "line": 432,
+        "column": 57,
+        "endLine": 432,
+        "endColumn": 70,
+        "path": "YukkiMusic/plugins/play/playlist.py",
+        "symbol": "invalid-unary-operand-type",
+        "message": "bad operand type for unary ~: set",
+        "message-id": "E1130"
+    },
+    {
         "type": "warning",
         "module": "YukkiMusic.plugins.play.playlist",
         "obj": "delete_warning_message",
@@ -466,6 +622,19 @@
         "symbol": "invalid-name",
         "message": "Argument name \"CallbackQuery\" doesn't conform to snake_case naming style",
         "message-id": "C0103"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.play.playlist",
+        "obj": "del_back_playlist",
+        "line": 443,
+        "column": 60,
+        "endLine": 443,
+        "endColumn": 73,
+        "path": "YukkiMusic/plugins/play/playlist.py",
+        "symbol": "invalid-unary-operand-type",
+        "message": "bad operand type for unary ~: set",
+        "message-id": "E1130"
     },
     {
         "type": "warning",

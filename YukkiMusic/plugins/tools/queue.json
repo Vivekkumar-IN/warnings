@@ -78,6 +78,19 @@
         "message-id": "W0622"
     },
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.tools.queue",
+        "obj": "ping_com",
+        "line": 53,
+        "column": 59,
+        "endLine": 53,
+        "endColumn": 72,
+        "path": "YukkiMusic/plugins/tools/queue.py",
+        "symbol": "invalid-unary-operand-type",
+        "message": "bad operand type for unary ~: set",
+        "message-id": "E1130"
+    },
+    {
         "type": "convention",
         "module": "YukkiMusic.plugins.tools.queue",
         "obj": "ping_com",
@@ -156,6 +169,19 @@
         "message-id": "W0621"
     },
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.tools.queue",
+        "obj": "quite_timer",
+        "line": 154,
+        "column": 51,
+        "endLine": 154,
+        "endColumn": 64,
+        "path": "YukkiMusic/plugins/tools/queue.py",
+        "symbol": "invalid-unary-operand-type",
+        "message": "bad operand type for unary ~: set",
+        "message-id": "E1130"
+    },
+    {
         "type": "refactor",
         "module": "YukkiMusic.plugins.tools.queue",
         "obj": "ping_com",
@@ -206,6 +232,19 @@
         "symbol": "redefined-outer-name",
         "message": "Redefining name 'CallbackQuery' from outer scope (line 15)",
         "message-id": "W0621"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.tools.queue",
+        "obj": "queued_tracks",
+        "line": 162,
+        "column": 52,
+        "endLine": 162,
+        "endColumn": 65,
+        "path": "YukkiMusic/plugins/tools/queue.py",
+        "symbol": "invalid-unary-operand-type",
+        "message": "bad operand type for unary ~: set",
+        "message-id": "E1130"
     },
     {
         "type": "refactor",
@@ -310,6 +349,19 @@
         "symbol": "redefined-builtin",
         "message": "Redefining built-in 'type'",
         "message-id": "W0622"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.tools.queue",
+        "obj": "queue_back",
+        "line": 218,
+        "column": 59,
+        "endLine": 218,
+        "endColumn": 72,
+        "path": "YukkiMusic/plugins/tools/queue.py",
+        "symbol": "invalid-unary-operand-type",
+        "message": "bad operand type for unary ~: set",
+        "message-id": "E1130"
     },
     {
         "type": "convention",

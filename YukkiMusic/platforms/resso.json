@@ -1,0 +1,15 @@
+[
+    {
+        "type": "error",
+        "module": "YukkiMusic.platforms.resso",
+        "obj": "Resso.track",
+        "line": 46,
+        "column": 29,
+        "endLine": 46,
+        "endColumn": 34,
+        "path": "YukkiMusic/platforms/resso.py",
+        "symbol": "possibly-used-before-assignment",
+        "message": "Possibly using variable 'title' before assignment",
+        "message-id": "E0606"
+    }
+]

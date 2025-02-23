@@ -52,6 +52,19 @@
         "message-id": "E0611"
     },
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.tools.stats",
+        "obj": "stats_global",
+        "line": 50,
+        "column": 43,
+        "endLine": 50,
+        "endColumn": 56,
+        "path": "YukkiMusic/plugins/tools/stats.py",
+        "symbol": "invalid-unary-operand-type",
+        "message": "bad operand type for unary ~: set",
+        "message-id": "E1130"
+    },
+    {
         "type": "refactor",
         "module": "YukkiMusic.plugins.tools.stats",
         "obj": "stats_global",
@@ -76,6 +89,19 @@
         "symbol": "unused-argument",
         "message": "Unused argument 'client'",
         "message-id": "W0613"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.tools.stats",
+        "obj": "gstats_global",
+        "line": 61,
+        "column": 44,
+        "endLine": 61,
+        "endColumn": 57,
+        "path": "YukkiMusic/plugins/tools/stats.py",
+        "symbol": "invalid-unary-operand-type",
+        "message": "bad operand type for unary ~: set",
+        "message-id": "E1130"
     },
     {
         "type": "refactor",
@@ -198,6 +224,19 @@
         "type": "error",
         "module": "YukkiMusic.plugins.tools.stats",
         "obj": "top_users_ten",
+        "line": 119,
+        "column": 54,
+        "endLine": 119,
+        "endColumn": 67,
+        "path": "YukkiMusic/plugins/tools/stats.py",
+        "symbol": "invalid-unary-operand-type",
+        "message": "bad operand type for unary ~: set",
+        "message-id": "E1130"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.tools.stats",
+        "obj": "top_users_ten",
         "line": 143,
         "column": 11,
         "endLine": 143,
@@ -284,6 +323,19 @@
         "symbol": "redefined-outer-name",
         "message": "Redefining name 'CallbackQuery' from outer scope (line 18)",
         "message-id": "W0621"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.tools.stats",
+        "obj": "overall_stats",
+        "line": 230,
+        "column": 53,
+        "endLine": 230,
+        "endColumn": 66,
+        "path": "YukkiMusic/plugins/tools/stats.py",
+        "symbol": "invalid-unary-operand-type",
+        "message": "bad operand type for unary ~: set",
+        "message-id": "E1130"
     },
     {
         "type": "warning",
@@ -414,6 +466,19 @@
         "symbol": "redefined-outer-name",
         "message": "Redefining name 'command' from outer scope (line 23)",
         "message-id": "W0621"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.tools.stats",
+        "obj": "back_buttons",
+        "line": 369,
+        "column": 70,
+        "endLine": 369,
+        "endColumn": 83,
+        "path": "YukkiMusic/plugins/tools/stats.py",
+        "symbol": "invalid-unary-operand-type",
+        "message": "bad operand type for unary ~: set",
+        "message-id": "E1130"
     },
     {
         "type": "refactor",

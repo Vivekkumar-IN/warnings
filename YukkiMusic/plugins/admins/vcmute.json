@@ -13,6 +13,19 @@
         "message-id": "E0611"
     },
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.admins.vcmute",
+        "obj": "mute_admin",
+        "line": 22,
+        "column": 58,
+        "endLine": 22,
+        "endColumn": 71,
+        "path": "YukkiMusic/plugins/admins/vcmute.py",
+        "symbol": "invalid-unary-operand-type",
+        "message": "bad operand type for unary ~: set",
+        "message-id": "E1130"
+    },
+    {
         "type": "warning",
         "module": "YukkiMusic.plugins.admins.vcmute",
         "obj": "mute_admin",
@@ -37,6 +50,19 @@
         "symbol": "invalid-name",
         "message": "Argument name \"Client\" doesn't conform to snake_case naming style",
         "message-id": "C0103"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.admins.vcmute",
+        "obj": "unmute_admin",
+        "line": 36,
+        "column": 60,
+        "endLine": 36,
+        "endColumn": 73,
+        "path": "YukkiMusic/plugins/admins/vcmute.py",
+        "symbol": "invalid-unary-operand-type",
+        "message": "bad operand type for unary ~: set",
+        "message-id": "E1130"
     },
     {
         "type": "warning",
