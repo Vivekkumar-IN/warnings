@@ -2,40 +2,40 @@
     {
         "type": "error",
         "module": "YukkiMusic.plugins.admins.pause",
-        "obj": "",
-        "line": 15,
-        "column": 0,
-        "endLine": 15,
-        "endColumn": 27,
+        "obj": "pause_admin",
+        "line": 19,
+        "column": 4,
+        "endLine": 19,
+        "endColumn": 7,
         "path": "YukkiMusic/plugins/admins/pause.py",
-        "symbol": "no-name-in-module",
-        "message": "No name 'command' in module 'strings'",
-        "message-id": "E0611"
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'flt'",
+        "message-id": "E0602"
     },
     {
         "type": "error",
         "module": "YukkiMusic.plugins.admins.pause",
         "obj": "pause_admin",
-        "line": 22,
-        "column": 59,
-        "endLine": 22,
-        "endColumn": 72,
+        "line": 19,
+        "column": 41,
+        "endLine": 19,
+        "endColumn": 44,
         "path": "YukkiMusic/plugins/admins/pause.py",
-        "symbol": "invalid-unary-operand-type",
-        "message": "bad operand type for unary ~: set",
-        "message-id": "E1130"
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'flt'",
+        "message-id": "E0602"
     },
     {
-        "type": "warning",
+        "type": "error",
         "module": "YukkiMusic.plugins.admins.pause",
         "obj": "pause_admin",
-        "line": 24,
-        "column": 22,
-        "endLine": 24,
-        "endColumn": 25,
+        "line": 19,
+        "column": 54,
+        "endLine": 19,
+        "endColumn": 57,
         "path": "YukkiMusic/plugins/admins/pause.py",
-        "symbol": "unused-argument",
-        "message": "Unused argument 'cli'",
-        "message-id": "W0613"
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'flt'",
+        "message-id": "E0602"
     }
 ]
