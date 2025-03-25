@@ -1,0 +1,28 @@
+[
+    {
+        "type": "warning",
+        "module": "YukkiMusic.core.mongo",
+        "obj": "_mongo",
+        "line": 30,
+        "column": 8,
+        "endLine": 30,
+        "endColumn": 15,
+        "path": "YukkiMusic/core/mongo.py",
+        "symbol": "redefined-outer-name",
+        "message": "Redefining name 'mongodb' from outer scope (line 37)",
+        "message-id": "W0621"
+    },
+    {
+        "type": "convention",
+        "module": "YukkiMusic.core.mongo",
+        "obj": "_mongo",
+        "line": 26,
+        "column": 8,
+        "endLine": 26,
+        "endColumn": 35,
+        "path": "YukkiMusic/core/mongo.py",
+        "symbol": "import-outside-toplevel",
+        "message": "Import outside toplevel (YukkiMusic.tbot)",
+        "message-id": "C0415"
+    }
+]

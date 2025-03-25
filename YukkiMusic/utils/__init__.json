@@ -1,0 +1,28 @@
+[
+    {
+        "type": "convention",
+        "module": "YukkiMusic.utils.__init__",
+        "obj": "",
+        "line": 43,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "YukkiMusic/utils/__init__.py",
+        "symbol": "line-too-long",
+        "message": "Line too long (171/100)",
+        "message-id": "C0301"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.utils",
+        "obj": "parse_flags",
+        "line": 44,
+        "column": 30,
+        "endLine": 44,
+        "endColumn": 38,
+        "path": "YukkiMusic/utils/__init__.py",
+        "symbol": "redefined-outer-name",
+        "message": "Redefining name 'is_cplay' from outer scope (line 15)",
+        "message-id": "W0621"
+    }
+]

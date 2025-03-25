@@ -1,0 +1,15 @@
+[
+    {
+        "type": "error",
+        "module": "YukkiMusic.utils.channelplay",
+        "obj": "is_cplay",
+        "line": 19,
+        "column": 7,
+        "endLine": 19,
+        "endColumn": 16,
+        "path": "YukkiMusic/utils/channelplay.py",
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'isistance'",
+        "message-id": "E0602"
+    }
+]

@@ -54,15 +54,28 @@
     {
         "type": "error",
         "module": "YukkiMusic.plugins.tools.stats",
-        "obj": "stats_global",
-        "line": 50,
-        "column": 43,
-        "endLine": 50,
-        "endColumn": 56,
+        "obj": "",
+        "line": 26,
+        "column": 0,
+        "endLine": 26,
+        "endColumn": 46,
         "path": "YukkiMusic/plugins/tools/stats.py",
-        "symbol": "invalid-unary-operand-type",
-        "message": "bad operand type for unary ~: set",
-        "message-id": "E1130"
+        "symbol": "no-name-in-module",
+        "message": "No name 'SUDOERS' in module 'YukkiMusic.misc'",
+        "message-id": "E0611"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.tools.stats",
+        "obj": "",
+        "line": 26,
+        "column": 0,
+        "endLine": 26,
+        "endColumn": 46,
+        "path": "YukkiMusic/plugins/tools/stats.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'pymongodb' in module 'YukkiMusic.misc'",
+        "message-id": "E0611"
     },
     {
         "type": "refactor",
@@ -71,11 +84,24 @@
         "line": 53,
         "column": 27,
         "endLine": 53,
-        "endColumn": 77,
+        "endColumn": 72,
         "path": "YukkiMusic/plugins/tools/stats.py",
         "symbol": "simplifiable-if-expression",
         "message": "The if expression can be replaced with 'test'",
         "message-id": "R1719"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.tools.stats",
+        "obj": "stats_global",
+        "line": 53,
+        "column": 35,
+        "endLine": 53,
+        "endColumn": 40,
+        "path": "YukkiMusic/plugins/tools/stats.py",
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'event'",
+        "message-id": "E0602"
     },
     {
         "type": "warning",
@@ -94,14 +120,14 @@
         "type": "error",
         "module": "YukkiMusic.plugins.tools.stats",
         "obj": "gstats_global",
-        "line": 61,
-        "column": 44,
-        "endLine": 61,
-        "endColumn": 57,
+        "line": 64,
+        "column": 19,
+        "endLine": 64,
+        "endColumn": 24,
         "path": "YukkiMusic/plugins/tools/stats.py",
-        "symbol": "invalid-unary-operand-type",
-        "message": "bad operand type for unary ~: set",
-        "message-id": "E1130"
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'event'",
+        "message-id": "E0602"
     },
     {
         "type": "refactor",
@@ -123,11 +149,37 @@
         "line": 109,
         "column": 30,
         "endLine": 109,
-        "endColumn": 80,
+        "endColumn": 75,
         "path": "YukkiMusic/plugins/tools/stats.py",
         "symbol": "simplifiable-if-expression",
         "message": "The if expression can be replaced with 'test'",
         "message-id": "R1719"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.tools.stats",
+        "obj": "gstats_global",
+        "line": 109,
+        "column": 38,
+        "endLine": 109,
+        "endColumn": 43,
+        "path": "YukkiMusic/plugins/tools/stats.py",
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'event'",
+        "message-id": "E0602"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.tools.stats",
+        "obj": "gstats_global",
+        "line": 111,
+        "column": 8,
+        "endLine": 111,
+        "endColumn": 13,
+        "path": "YukkiMusic/plugins/tools/stats.py",
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'event'",
+        "message-id": "E0602"
     },
     {
         "type": "warning",
@@ -140,6 +192,19 @@
         "path": "YukkiMusic/plugins/tools/stats.py",
         "symbol": "unused-argument",
         "message": "Unused argument 'client'",
+        "message-id": "W0613"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.plugins.tools.stats",
+        "obj": "gstats_global",
+        "line": 63,
+        "column": 32,
+        "endLine": 63,
+        "endColumn": 48,
+        "path": "YukkiMusic/plugins/tools/stats.py",
+        "symbol": "unused-argument",
+        "message": "Unused argument 'message'",
         "message-id": "W0613"
     },
     {
@@ -219,19 +284,6 @@
         "symbol": "redefined-outer-name",
         "message": "Redefining name 'CallbackQuery' from outer scope (line 18)",
         "message-id": "W0621"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.tools.stats",
-        "obj": "top_users_ten",
-        "line": 119,
-        "column": 54,
-        "endLine": 119,
-        "endColumn": 67,
-        "path": "YukkiMusic/plugins/tools/stats.py",
-        "symbol": "invalid-unary-operand-type",
-        "message": "bad operand type for unary ~: set",
-        "message-id": "E1130"
     },
     {
         "type": "error",
@@ -323,19 +375,6 @@
         "symbol": "redefined-outer-name",
         "message": "Redefining name 'CallbackQuery' from outer scope (line 18)",
         "message-id": "W0621"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.tools.stats",
-        "obj": "overall_stats",
-        "line": 230,
-        "column": 53,
-        "endLine": 230,
-        "endColumn": 66,
-        "path": "YukkiMusic/plugins/tools/stats.py",
-        "symbol": "invalid-unary-operand-type",
-        "message": "bad operand type for unary ~: set",
-        "message-id": "E1130"
     },
     {
         "type": "warning",
@@ -466,19 +505,6 @@
         "symbol": "redefined-outer-name",
         "message": "Redefining name 'command' from outer scope (line 23)",
         "message-id": "W0621"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.tools.stats",
-        "obj": "back_buttons",
-        "line": 369,
-        "column": 70,
-        "endLine": 369,
-        "endColumn": 83,
-        "path": "YukkiMusic/plugins/tools/stats.py",
-        "symbol": "invalid-unary-operand-type",
-        "message": "bad operand type for unary ~: set",
-        "message-id": "E1130"
     },
     {
         "type": "refactor",

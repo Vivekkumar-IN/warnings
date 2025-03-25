@@ -1,0 +1,28 @@
+[
+    {
+        "type": "convention",
+        "module": "YukkiMusic.utils.thumbnails",
+        "obj": "gen_thumb",
+        "line": 18,
+        "column": 4,
+        "endLine": 18,
+        "endColumn": 46,
+        "path": "YukkiMusic/utils/thumbnails.py",
+        "symbol": "import-outside-toplevel",
+        "message": "Import outside toplevel (YukkiMusic.core.youtube.search)",
+        "message-id": "C0415"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.utils.thumbnails",
+        "obj": "gen_thumb",
+        "line": 18,
+        "column": 4,
+        "endLine": 18,
+        "endColumn": 46,
+        "path": "YukkiMusic/utils/thumbnails.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'youtube' in module 'YukkiMusic.core'",
+        "message-id": "E0611"
+    }
+]

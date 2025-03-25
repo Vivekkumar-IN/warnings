@@ -2,41 +2,54 @@
     {
         "type": "error",
         "module": "YukkiMusic.plugins.admins.seek",
-        "obj": "",
-        "line": 14,
-        "column": 0,
-        "endLine": 14,
-        "endColumn": 27,
+        "obj": "seek_comm",
+        "line": 20,
+        "column": 4,
+        "endLine": 20,
+        "endColumn": 7,
         "path": "YukkiMusic/plugins/admins/seek.py",
-        "symbol": "no-name-in-module",
-        "message": "No name 'command' in module 'strings'",
-        "message-id": "E0611"
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'flt'",
+        "message-id": "E0602"
     },
     {
         "type": "error",
         "module": "YukkiMusic.plugins.admins.seek",
-        "obj": "",
-        "line": 15,
-        "column": 0,
-        "endLine": 15,
-        "endColumn": 36,
+        "obj": "seek_comm",
+        "line": 21,
+        "column": 6,
+        "endLine": 21,
+        "endColumn": 9,
         "path": "YukkiMusic/plugins/admins/seek.py",
-        "symbol": "no-name-in-module",
-        "message": "No name 'Platform' in module 'YukkiMusic'",
-        "message-id": "E0611"
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'flt'",
+        "message-id": "E0602"
     },
     {
         "type": "error",
         "module": "YukkiMusic.plugins.admins.seek",
         "obj": "seek_comm",
         "line": 22,
-        "column": 69,
+        "column": 7,
         "endLine": 22,
-        "endColumn": 82,
+        "endColumn": 10,
         "path": "YukkiMusic/plugins/admins/seek.py",
-        "symbol": "invalid-unary-operand-type",
-        "message": "bad operand type for unary ~: set",
-        "message-id": "E1130"
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'flt'",
+        "message-id": "E0602"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.admins.seek",
+        "obj": "seek_comm",
+        "line": 71,
+        "column": 7,
+        "endLine": 71,
+        "endColumn": 14,
+        "path": "YukkiMusic/plugins/admins/seek.py",
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'message'",
+        "message-id": "E0602"
     },
     {
         "type": "refactor",
@@ -63,18 +76,5 @@
         "symbol": "too-many-branches",
         "message": "Too many branches (14/12)",
         "message-id": "R0912"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.admins.seek",
-        "obj": "seek_comm",
-        "line": 25,
-        "column": 20,
-        "endLine": 25,
-        "endColumn": 23,
-        "path": "YukkiMusic/plugins/admins/seek.py",
-        "symbol": "unused-argument",
-        "message": "Unused argument 'cli'",
-        "message-id": "W0613"
     }
 ]

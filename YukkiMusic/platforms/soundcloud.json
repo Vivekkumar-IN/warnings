@@ -1,5 +1,18 @@
 [
     {
+        "type": "error",
+        "module": "YukkiMusic.platforms.soundcloud",
+        "obj": "",
+        "line": 15,
+        "column": 0,
+        "endLine": 15,
+        "endColumn": 44,
+        "path": "YukkiMusic/platforms/soundcloud.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'youtube' in module 'YukkiMusic.core'",
+        "message-id": "E0611"
+    },
+    {
         "type": "warning",
         "module": "YukkiMusic.platforms.soundcloud",
         "obj": "SoundCloud.track",
@@ -11,31 +24,5 @@
         "symbol": "invalid-overridden-method",
         "message": "Method 'track' was expected to be 'async', found it instead as 'non-async'",
         "message-id": "W0236"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.platforms.soundcloud",
-        "obj": "SoundCloud.track",
-        "line": 39,
-        "column": 19,
-        "endLine": 44,
-        "endColumn": 13,
-        "path": "YukkiMusic/platforms/soundcloud.py",
-        "symbol": "unexpected-keyword-arg",
-        "message": "Unexpected keyword argument 'duration_sec' in constructor call",
-        "message-id": "E1123"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.platforms.soundcloud",
-        "obj": "SoundCloud.track",
-        "line": 39,
-        "column": 19,
-        "endLine": 44,
-        "endColumn": 13,
-        "path": "YukkiMusic/platforms/soundcloud.py",
-        "symbol": "no-value-for-parameter",
-        "message": "No value for argument 'duration' in constructor call",
-        "message-id": "E1120"
     }
 ]

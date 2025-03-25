@@ -42,6 +42,19 @@
         "type": "error",
         "module": "YukkiMusic.plugins.tools.reload",
         "obj": "reload_admin_cache",
+        "line": 30,
+        "column": 18,
+        "endLine": 30,
+        "endColumn": 23,
+        "path": "YukkiMusic/plugins/tools/reload.py",
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'event'",
+        "message-id": "E0602"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.tools.reload",
+        "obj": "reload_admin_cache",
         "line": 31,
         "column": 17,
         "endLine": 31,
@@ -49,6 +62,32 @@
         "path": "YukkiMusic/plugins/tools/reload.py",
         "symbol": "undefined-variable",
         "message": "Undefined variable 'app'",
+        "message-id": "E0602"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.tools.reload",
+        "obj": "reload_admin_cache",
+        "line": 40,
+        "column": 14,
+        "endLine": 40,
+        "endColumn": 19,
+        "path": "YukkiMusic/plugins/tools/reload.py",
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'event'",
+        "message-id": "E0602"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.tools.reload",
+        "obj": "reload_admin_cache",
+        "line": 42,
+        "column": 14,
+        "endLine": 42,
+        "endColumn": 19,
+        "path": "YukkiMusic/plugins/tools/reload.py",
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'event'",
         "message-id": "E0602"
     },
     {
@@ -62,6 +101,19 @@
         "path": "YukkiMusic/plugins/tools/reload.py",
         "symbol": "unused-argument",
         "message": "Unused argument 'client'",
+        "message-id": "W0613"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.plugins.tools.reload",
+        "obj": "reload_admin_cache",
+        "line": 28,
+        "column": 37,
+        "endLine": 28,
+        "endColumn": 53,
+        "path": "YukkiMusic/plugins/tools/reload.py",
+        "symbol": "unused-argument",
+        "message": "Unused argument 'message'",
         "message-id": "W0613"
     }
 ]

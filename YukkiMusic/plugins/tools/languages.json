@@ -42,14 +42,27 @@
         "type": "error",
         "module": "YukkiMusic.plugins.tools.languages",
         "obj": "langs_command",
-        "line": 47,
-        "column": 62,
-        "endLine": 47,
-        "endColumn": 75,
+        "line": 51,
+        "column": 10,
+        "endLine": 51,
+        "endColumn": 15,
         "path": "YukkiMusic/plugins/tools/languages.py",
-        "symbol": "invalid-unary-operand-type",
-        "message": "bad operand type for unary ~: set",
-        "message-id": "E1130"
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'event'",
+        "message-id": "E0602"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.tools.languages",
+        "obj": "langs_command",
+        "line": 52,
+        "column": 50,
+        "endLine": 52,
+        "endColumn": 55,
+        "path": "YukkiMusic/plugins/tools/languages.py",
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'event'",
+        "message-id": "E0602"
     },
     {
         "type": "warning",
@@ -78,19 +91,6 @@
         "message-id": "C0103"
     },
     {
-        "type": "error",
-        "module": "YukkiMusic.plugins.tools.languages",
-        "obj": "lanuagecb",
-        "line": 57,
-        "column": 45,
-        "endLine": 57,
-        "endColumn": 58,
-        "path": "YukkiMusic/plugins/tools/languages.py",
-        "symbol": "invalid-unary-operand-type",
-        "message": "bad operand type for unary ~: set",
-        "message-id": "E1130"
-    },
-    {
         "type": "warning",
         "module": "YukkiMusic.plugins.tools.languages",
         "obj": "lanuagecb",
@@ -115,19 +115,6 @@
         "symbol": "invalid-name",
         "message": "Argument name \"CallbackQuery\" doesn't conform to snake_case naming style",
         "message-id": "C0103"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.tools.languages",
-        "obj": "language_markup",
-        "line": 68,
-        "column": 59,
-        "endLine": 68,
-        "endColumn": 72,
-        "path": "YukkiMusic/plugins/tools/languages.py",
-        "symbol": "invalid-unary-operand-type",
-        "message": "bad operand type for unary ~: set",
-        "message-id": "E1130"
     },
     {
         "type": "warning",

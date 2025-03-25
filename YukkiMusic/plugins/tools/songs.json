@@ -42,14 +42,14 @@
         "type": "error",
         "module": "YukkiMusic.plugins.tools.songs",
         "obj": "song_commad_group",
-        "line": 38,
-        "column": 58,
-        "endLine": 38,
-        "endColumn": 71,
+        "line": 53,
+        "column": 10,
+        "endLine": 53,
+        "endColumn": 15,
         "path": "YukkiMusic/plugins/tools/songs.py",
-        "symbol": "invalid-unary-operand-type",
-        "message": "bad operand type for unary ~: set",
-        "message-id": "E1130"
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'event'",
+        "message-id": "E0602"
     },
     {
         "type": "warning",
@@ -65,17 +65,17 @@
         "message-id": "W0613"
     },
     {
-        "type": "error",
+        "type": "warning",
         "module": "YukkiMusic.plugins.tools.songs",
-        "obj": "song_commad_private",
-        "line": 59,
-        "column": 60,
-        "endLine": 59,
-        "endColumn": 73,
+        "obj": "song_commad_group",
+        "line": 40,
+        "column": 36,
+        "endLine": 40,
+        "endColumn": 52,
         "path": "YukkiMusic/plugins/tools/songs.py",
-        "symbol": "invalid-unary-operand-type",
-        "message": "bad operand type for unary ~: set",
-        "message-id": "E1130"
+        "symbol": "unused-argument",
+        "message": "Unused argument 'message'",
+        "message-id": "W0613"
     },
     {
         "type": "refactor",
@@ -84,11 +84,63 @@
         "line": 67,
         "column": 4,
         "endLine": 107,
-        "endColumn": 56,
+        "endColumn": 49,
         "path": "YukkiMusic/plugins/tools/songs.py",
         "symbol": "no-else-return",
         "message": "Unnecessary \"else\" after \"return\", remove the \"else\" and de-indent the code inside it",
         "message-id": "R1705"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.tools.songs",
+        "obj": "song_commad_private",
+        "line": 71,
+        "column": 25,
+        "endLine": 71,
+        "endColumn": 30,
+        "path": "YukkiMusic/plugins/tools/songs.py",
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'event'",
+        "message-id": "E0602"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.tools.songs",
+        "obj": "song_commad_private",
+        "line": 73,
+        "column": 23,
+        "endLine": 73,
+        "endColumn": 28,
+        "path": "YukkiMusic/plugins/tools/songs.py",
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'event'",
+        "message-id": "E0602"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.tools.songs",
+        "obj": "song_commad_private",
+        "line": 107,
+        "column": 25,
+        "endLine": 107,
+        "endColumn": 30,
+        "path": "YukkiMusic/plugins/tools/songs.py",
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'event'",
+        "message-id": "E0602"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.tools.songs",
+        "obj": "song_commad_private",
+        "line": 109,
+        "column": 19,
+        "endLine": 109,
+        "endColumn": 24,
+        "path": "YukkiMusic/plugins/tools/songs.py",
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'event'",
+        "message-id": "E0602"
     },
     {
         "type": "refactor",
@@ -128,19 +180,6 @@
         "symbol": "invalid-name",
         "message": "Argument name \"CallbackQuery\" doesn't conform to snake_case naming style",
         "message-id": "C0103"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.tools.songs",
-        "obj": "songs_back_helper",
-        "line": 148,
-        "column": 61,
-        "endLine": 148,
-        "endColumn": 74,
-        "path": "YukkiMusic/plugins/tools/songs.py",
-        "symbol": "invalid-unary-operand-type",
-        "message": "bad operand type for unary ~: set",
-        "message-id": "E1130"
     },
     {
         "type": "warning",
@@ -193,19 +232,6 @@
         "symbol": "too-many-locals",
         "message": "Too many local variables (17/15)",
         "message-id": "R0914"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.tools.songs",
-        "obj": "song_helper_cb",
-        "line": 165,
-        "column": 63,
-        "endLine": 165,
-        "endColumn": 76,
-        "path": "YukkiMusic/plugins/tools/songs.py",
-        "symbol": "invalid-unary-operand-type",
-        "message": "bad operand type for unary ~: set",
-        "message-id": "E1130"
     },
     {
         "type": "refactor",
@@ -297,18 +323,5 @@
         "symbol": "too-many-locals",
         "message": "Too many local variables (19/15)",
         "message-id": "R0914"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.tools.songs",
-        "obj": "song_download_cb",
-        "line": 295,
-        "column": 65,
-        "endLine": 295,
-        "endColumn": 78,
-        "path": "YukkiMusic/plugins/tools/songs.py",
-        "symbol": "invalid-unary-operand-type",
-        "message": "bad operand type for unary ~: set",
-        "message-id": "E1130"
     }
 ]

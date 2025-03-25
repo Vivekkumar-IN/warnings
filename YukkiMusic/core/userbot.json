@@ -1,0 +1,28 @@
+[
+    {
+        "type": "error",
+        "module": "YukkiMusic.core.userbot",
+        "obj": "Userbot.on_message.decorator.wrapper",
+        "line": 124,
+        "column": 30,
+        "endLine": 124,
+        "endColumn": 35,
+        "path": "YukkiMusic/core/userbot.py",
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'event'",
+        "message-id": "E0602"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.core.userbot",
+        "obj": "Userbot.on_message.decorator.wrapper",
+        "line": 125,
+        "column": 30,
+        "endLine": 125,
+        "endColumn": 35,
+        "path": "YukkiMusic/core/userbot.py",
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'event'",
+        "message-id": "E0602"
+    }
+]

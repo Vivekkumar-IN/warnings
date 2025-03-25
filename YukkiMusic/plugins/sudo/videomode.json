@@ -6,23 +6,36 @@
         "line": 14,
         "column": 0,
         "endLine": 14,
-        "endColumn": 27,
+        "endColumn": 35,
         "path": "YukkiMusic/plugins/sudo/videomode.py",
         "symbol": "no-name-in-module",
-        "message": "No name 'command' in module 'strings'",
+        "message": "No name 'SUDOERS' in module 'YukkiMusic.misc'",
         "message-id": "E0611"
     },
     {
-        "type": "warning",
+        "type": "error",
         "module": "YukkiMusic.plugins.sudo.videomode",
         "obj": "videoloaymode",
-        "line": 23,
-        "column": 24,
-        "endLine": 23,
-        "endColumn": 30,
+        "line": 19,
+        "column": 17,
+        "endLine": 19,
+        "endColumn": 20,
         "path": "YukkiMusic/plugins/sudo/videomode.py",
-        "symbol": "unused-argument",
-        "message": "Unused argument 'client'",
-        "message-id": "W0613"
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'flt'",
+        "message-id": "E0602"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.sudo.videomode",
+        "obj": "videoloaymode",
+        "line": 19,
+        "column": 58,
+        "endLine": 19,
+        "endColumn": 61,
+        "path": "YukkiMusic/plugins/sudo/videomode.py",
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'flt'",
+        "message-id": "E0602"
     }
 ]
