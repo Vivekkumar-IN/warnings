@@ -36,7 +36,7 @@ jobs:
       - name: Run Pylint Check
         run: |
           cd current_dir
-          find . -mindepth 1 ! -name 'script.py' -exec rm -rf {} +
+          find . -mindepth 1 ! -name 'script.py' ! -path './.git' ! -path './.git/*' ! -path './.github' ! -path './.github/*' -exec rm -rf {} +
          
           cd ../YukkiMusic
           pylint --exit-zero --output-format=json --indent-string="    " --reports=no . > ../current_dir/warnings.json
