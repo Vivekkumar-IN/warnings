@@ -39,10 +39,10 @@ jobs:
           cd current_dir
           find . -mindepth 1 ! -name 'script.py' ! -name '.pylintrc' ! -path './.git' ! -path './.git/*' ! -path './.github' ! -path './.github/*' -exec rm -rf {} +
          
+          cp current_dir/.pylintrc YukkiMusic/.pylintrc
           cd ../YukkiMusic
           pylint --exit-zero --output-format=json --indent-string="    " --reports=no . > ../current_dir/warnings.json
           cd ../current_dir
-          pylint --generate-rcfile > .pylintrc
           python script.py
           
       - name: Commit Changes
