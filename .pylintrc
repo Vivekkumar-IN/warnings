@@ -430,6 +430,7 @@ confidence=HIGH,
 # no Warning level messages displayed, use "--disable=all --enable=classes
 # --disable=W".
 disable=raw-checker-failed,
+        broad-exception-caught,
         bad-inline-option,
         locally-disabled,
         file-ignored,
@@ -443,6 +444,7 @@ disable=raw-checker-failed,
         missing-module-docstring,
         missing-class-docstring,
         import-error
+
 # Enable the message, report, category or checker with the given id(s). You can
 # either give multiple identifier separated by comma (,) or put this option
 # multiple time (only on the command line, not in the configuration file where
