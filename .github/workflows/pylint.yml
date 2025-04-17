@@ -36,11 +36,10 @@ jobs:
       - name: Run Pylint Check
         run: |
           cd current_dir
-          rm -rf * #YukkiMusic config string .github/docs > error.txt
+          find . -mindepth 1 ! -name 'script.py' -exec rm -rf {} +
          
           cd ../YukkiMusic
           pylint --exit-zero --output-format=json --indent-string="    " --reports=no . > ../current_dir/warnings.json
-          #rm -rf *
           
       - name: Commit Changes
         uses: stefanzweifel/git-auto-commit-action@v5
