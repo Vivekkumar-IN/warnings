@@ -2,19 +2,6 @@
     {
         "type": "convention",
         "module": "YukkiMusic.core.filters",
-        "obj": "Filter",
-        "line": 12,
-        "column": 0,
-        "endLine": 12,
-        "endColumn": 12,
-        "path": "YukkiMusic/core/filters.py",
-        "symbol": "missing-class-docstring",
-        "message": "Missing class docstring",
-        "message-id": "C0115"
-    },
-    {
-        "type": "convention",
-        "module": "YukkiMusic.core.filters",
         "obj": "",
         "line": 53,
         "column": 0,

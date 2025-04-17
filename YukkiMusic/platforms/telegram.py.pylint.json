@@ -26,19 +26,6 @@
         "message-id": "C0301"
     },
     {
-        "type": "convention",
-        "module": "YukkiMusic.platforms.telegram",
-        "obj": "Telegram",
-        "line": 30,
-        "column": 0,
-        "endLine": 30,
-        "endColumn": 14,
-        "path": "YukkiMusic/platforms/telegram.py",
-        "symbol": "missing-class-docstring",
-        "message": "Missing class docstring",
-        "message-id": "C0115"
-    },
-    {
         "type": "error",
         "module": "YukkiMusic.platforms.telegram",
         "obj": "Telegram.get_url_from_message",

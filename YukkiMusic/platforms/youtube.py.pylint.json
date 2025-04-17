@@ -13,19 +13,6 @@
         "message-id": "R1705"
     },
     {
-        "type": "convention",
-        "module": "YukkiMusic.platforms.youtube",
-        "obj": "YouTube",
-        "line": 44,
-        "column": 0,
-        "endLine": 44,
-        "endColumn": 13,
-        "path": "YukkiMusic/platforms/youtube.py",
-        "symbol": "missing-class-docstring",
-        "message": "Missing class docstring",
-        "message-id": "C0115"
-    },
-    {
         "type": "error",
         "module": "YukkiMusic.platforms.youtube",
         "obj": "YouTube.thumbnail",

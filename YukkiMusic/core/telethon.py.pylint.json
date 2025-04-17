@@ -1,31 +1,5 @@
 [
     {
-        "type": "convention",
-        "module": "YukkiMusic.core.telethon",
-        "obj": "ShellRunResult",
-        "line": 31,
-        "column": 0,
-        "endLine": 31,
-        "endColumn": 20,
-        "path": "YukkiMusic/core/telethon.py",
-        "symbol": "missing-class-docstring",
-        "message": "Missing class docstring",
-        "message-id": "C0115"
-    },
-    {
-        "type": "convention",
-        "module": "YukkiMusic.core.telethon",
-        "obj": "TelethonClient",
-        "line": 83,
-        "column": 0,
-        "endLine": 83,
-        "endColumn": 20,
-        "path": "YukkiMusic/core/telethon.py",
-        "symbol": "missing-class-docstring",
-        "message": "Missing class docstring",
-        "message-id": "C0115"
-    },
-    {
         "type": "warning",
         "module": "YukkiMusic.core.telethon",
         "obj": "TelethonClient.__init__",

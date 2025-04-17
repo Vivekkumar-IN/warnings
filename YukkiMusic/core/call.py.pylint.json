@@ -39,19 +39,6 @@
         "message-id": "W0718"
     },
     {
-        "type": "convention",
-        "module": "YukkiMusic.core.call",
-        "obj": "Call",
-        "line": 83,
-        "column": 0,
-        "endLine": 83,
-        "endColumn": 10,
-        "path": "YukkiMusic/core/call.py",
-        "symbol": "missing-class-docstring",
-        "message": "Missing class docstring",
-        "message-id": "C0115"
-    },
-    {
         "type": "warning",
         "module": "YukkiMusic.core.call",
         "obj": "Call.stop_stream",

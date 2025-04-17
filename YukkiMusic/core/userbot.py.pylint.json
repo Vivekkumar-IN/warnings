@@ -1,18 +1,5 @@
 [
     {
-        "type": "convention",
-        "module": "YukkiMusic.core.userbot",
-        "obj": "Userbot",
-        "line": 35,
-        "column": 0,
-        "endLine": 35,
-        "endColumn": 13,
-        "path": "YukkiMusic/core/userbot.py",
-        "symbol": "missing-class-docstring",
-        "message": "Missing class docstring",
-        "message-id": "C0115"
-    },
-    {
         "type": "warning",
         "module": "YukkiMusic.core.userbot",
         "obj": "Userbot._start",

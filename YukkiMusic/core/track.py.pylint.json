@@ -13,19 +13,6 @@
         "message-id": "E0611"
     },
     {
-        "type": "convention",
-        "module": "YukkiMusic.core.track",
-        "obj": "Track",
-        "line": 26,
-        "column": 0,
-        "endLine": 26,
-        "endColumn": 11,
-        "path": "YukkiMusic/core/track.py",
-        "symbol": "missing-class-docstring",
-        "message": "Missing class docstring",
-        "message-id": "C0115"
-    },
-    {
         "type": "refactor",
         "module": "YukkiMusic.core.track",
         "obj": "Track",

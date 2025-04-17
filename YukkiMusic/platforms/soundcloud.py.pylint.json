@@ -1,18 +1,5 @@
 [
     {
-        "type": "convention",
-        "module": "YukkiMusic.platforms.soundcloud",
-        "obj": "SoundCloud",
-        "line": 20,
-        "column": 0,
-        "endLine": 20,
-        "endColumn": 16,
-        "path": "YukkiMusic/platforms/soundcloud.py",
-        "symbol": "missing-class-docstring",
-        "message": "Missing class docstring",
-        "message-id": "C0115"
-    },
-    {
         "type": "warning",
         "module": "YukkiMusic.platforms.soundcloud",
         "obj": "SoundCloud.track",

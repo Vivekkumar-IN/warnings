@@ -1,18 +1,5 @@
 [
     {
-        "type": "convention",
-        "module": "YukkiMusic.platforms.resso",
-        "obj": "Resso",
-        "line": 22,
-        "column": 0,
-        "endLine": 22,
-        "endColumn": 11,
-        "path": "YukkiMusic/platforms/resso.py",
-        "symbol": "missing-class-docstring",
-        "message": "Missing class docstring",
-        "message-id": "C0115"
-    },
-    {
         "type": "warning",
         "module": "YukkiMusic.platforms.resso",
         "obj": "Resso.track",

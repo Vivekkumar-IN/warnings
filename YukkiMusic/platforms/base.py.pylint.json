@@ -11,18 +11,5 @@
         "symbol": "no-name-in-module",
         "message": "No name 'youtube' in module 'YukkiMusic.core'",
         "message-id": "E0611"
-    },
-    {
-        "type": "convention",
-        "module": "YukkiMusic.platforms.base",
-        "obj": "PlatformBase",
-        "line": 6,
-        "column": 0,
-        "endLine": 6,
-        "endColumn": 18,
-        "path": "YukkiMusic/platforms/base.py",
-        "symbol": "missing-class-docstring",
-        "message": "Missing class docstring",
-        "message-id": "C0115"
     }
 ]

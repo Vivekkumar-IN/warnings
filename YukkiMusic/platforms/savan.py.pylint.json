@@ -2,19 +2,6 @@
     {
         "type": "convention",
         "module": "YukkiMusic.platforms.savan",
-        "obj": "Saavn",
-        "line": 22,
-        "column": 0,
-        "endLine": 22,
-        "endColumn": 11,
-        "path": "YukkiMusic/platforms/savan.py",
-        "symbol": "missing-class-docstring",
-        "message": "Missing class docstring",
-        "message-id": "C0115"
-    },
-    {
-        "type": "convention",
-        "module": "YukkiMusic.platforms.savan",
         "obj": "Saavn.track.<lambda>",
         "line": 27,
         "column": 18,

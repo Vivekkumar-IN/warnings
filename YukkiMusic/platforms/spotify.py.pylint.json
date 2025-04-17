@@ -1,18 +1,5 @@
 [
     {
-        "type": "convention",
-        "module": "YukkiMusic.platforms.spotify",
-        "obj": "Spotify",
-        "line": 23,
-        "column": 0,
-        "endLine": 23,
-        "endColumn": 13,
-        "path": "YukkiMusic/platforms/spotify.py",
-        "symbol": "missing-class-docstring",
-        "message": "Missing class docstring",
-        "message-id": "C0115"
-    },
-    {
         "type": "warning",
         "module": "YukkiMusic.platforms.spotify",
         "obj": "Spotify.track",

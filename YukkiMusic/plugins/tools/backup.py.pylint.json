@@ -1,18 +1,5 @@
 [
     {
-        "type": "convention",
-        "module": "YukkiMusic.plugins.tools.backup",
-        "obj": "CustomJSONEncoder",
-        "line": 17,
-        "column": 0,
-        "endLine": 17,
-        "endColumn": 23,
-        "path": "YukkiMusic/plugins/tools/backup.py",
-        "symbol": "missing-class-docstring",
-        "message": "Missing class docstring",
-        "message-id": "C0115"
-    },
-    {
         "type": "warning",
         "module": "YukkiMusic.plugins.tools.backup",
         "obj": "ex_port",

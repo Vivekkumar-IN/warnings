@@ -2,19 +2,6 @@
     {
         "type": "convention",
         "module": "YukkiMusic.platforms.apple",
-        "obj": "Apple",
-        "line": 24,
-        "column": 0,
-        "endLine": 24,
-        "endColumn": 11,
-        "path": "YukkiMusic/platforms/apple.py",
-        "symbol": "missing-class-docstring",
-        "message": "Missing class docstring",
-        "message-id": "C0115"
-    },
-    {
-        "type": "convention",
-        "module": "YukkiMusic.platforms.apple",
         "obj": "Apple.__track",
         "line": 52,
         "column": 8,
