@@ -39,19 +39,6 @@
         "message-id": "E0602"
     },
     {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.sudo.private",
-        "obj": "authorize",
-        "line": 33,
-        "column": 11,
-        "endLine": 33,
-        "endColumn": 20,
-        "path": "YukkiMusic/plugins/sudo/private.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
         "type": "error",
         "module": "YukkiMusic.plugins.sudo.private",
         "obj": "unauthorize",
@@ -76,19 +63,6 @@
         "symbol": "undefined-variable",
         "message": "Undefined variable 'flt'",
         "message-id": "E0602"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.sudo.private",
-        "obj": "unauthorize",
-        "line": 51,
-        "column": 11,
-        "endLine": 51,
-        "endColumn": 20,
-        "path": "YukkiMusic/plugins/sudo/private.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
     },
     {
         "type": "refactor",
@@ -128,19 +102,6 @@
         "symbol": "undefined-variable",
         "message": "Undefined variable 'flt'",
         "message-id": "E0602"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.sudo.private",
-        "obj": "authorized",
-        "line": 79,
-        "column": 15,
-        "endLine": 79,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/sudo/private.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
     },
     {
         "type": "refactor",

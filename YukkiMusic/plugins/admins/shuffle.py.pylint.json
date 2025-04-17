@@ -11,18 +11,5 @@
         "symbol": "no-member",
         "message": "Module 'YukkiMusic.core.filters' has no 'user' member; maybe 'User'?",
         "message-id": "E1101"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.admins.shuffle",
-        "obj": "admins",
-        "line": 32,
-        "column": 11,
-        "endLine": 32,
-        "endColumn": 20,
-        "path": "YukkiMusic/plugins/admins/shuffle.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
     }
 ]

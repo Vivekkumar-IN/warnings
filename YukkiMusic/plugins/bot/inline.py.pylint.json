@@ -16,19 +16,6 @@
         "type": "warning",
         "module": "YukkiMusic.plugins.bot.inline",
         "obj": "inline_query_handler",
-        "line": 35,
-        "column": 15,
-        "endLine": 35,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/bot/inline.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.bot.inline",
-        "obj": "inline_query_handler",
         "line": 78,
         "column": 28,
         "endLine": 78,
@@ -37,18 +24,5 @@
         "symbol": "protected-access",
         "message": "Access to a protected member _parse_message_text of a client class",
         "message-id": "W0212"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.bot.inline",
-        "obj": "inline_query_handler",
-        "line": 94,
-        "column": 15,
-        "endLine": 94,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/bot/inline.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
     }
 ]

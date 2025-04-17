@@ -39,32 +39,6 @@
         "message-id": "W0621"
     },
     {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.bot.help",
-        "obj": "helper_private",
-        "line": 93,
-        "column": 15,
-        "endLine": 93,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/bot/help.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.bot.help",
-        "obj": "helper_private",
-        "line": 101,
-        "column": 19,
-        "endLine": 101,
-        "endColumn": 28,
-        "path": "YukkiMusic/plugins/bot/help.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
         "type": "error",
         "module": "YukkiMusic.plugins.bot.help",
         "obj": "help_com_group",
@@ -102,18 +76,5 @@
         "symbol": "too-many-locals",
         "message": "Too many local variables (16/15)",
         "message-id": "R0914"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.bot.help",
-        "obj": "help_button",
-        "line": 193,
-        "column": 15,
-        "endLine": 193,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/bot/help.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
     }
 ]

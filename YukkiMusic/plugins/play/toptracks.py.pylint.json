@@ -26,19 +26,6 @@
         "message-id": "E0602"
     },
     {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.play.toptracks",
-        "obj": "get_play_markup",
-        "line": 38,
-        "column": 11,
-        "endLine": 38,
-        "endColumn": 20,
-        "path": "YukkiMusic/plugins/play/toptracks.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
         "type": "error",
         "module": "YukkiMusic.plugins.play.toptracks",
         "obj": "get_play_markup",
@@ -63,19 +50,6 @@
         "symbol": "undefined-variable",
         "message": "Undefined variable 'tbot'",
         "message-id": "E0602"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.play.toptracks",
-        "obj": "server_to_play",
-        "line": 58,
-        "column": 11,
-        "endLine": 58,
-        "endColumn": 20,
-        "path": "YukkiMusic/plugins/play/toptracks.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
     },
     {
         "type": "error",
@@ -106,19 +80,6 @@
     {
         "type": "warning",
         "module": "YukkiMusic.plugins.play.toptracks",
-        "obj": "server_to_play",
-        "line": 108,
-        "column": 11,
-        "endLine": 108,
-        "endColumn": 20,
-        "path": "YukkiMusic/plugins/play/toptracks.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.play.toptracks",
         "obj": "",
         "line": 115,
         "column": 29,
@@ -128,18 +89,5 @@
         "symbol": "fixme",
         "message": "TODO: fix it",
         "message-id": "W0511"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.play.toptracks",
-        "obj": "server_to_play",
-        "line": 118,
-        "column": 11,
-        "endLine": 118,
-        "endColumn": 20,
-        "path": "YukkiMusic/plugins/play/toptracks.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
     }
 ]

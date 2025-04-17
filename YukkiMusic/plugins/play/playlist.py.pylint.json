@@ -169,19 +169,6 @@
         "message-id": "R1705"
     },
     {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.play.playlist",
-        "obj": "add_playlist",
-        "line": 151,
-        "column": 15,
-        "endLine": 151,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/play/playlist.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
         "type": "convention",
         "module": "YukkiMusic.plugins.play.playlist",
         "obj": "",
@@ -221,19 +208,6 @@
         "message-id": "E0602"
     },
     {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.play.playlist",
-        "obj": "add_playlist",
-        "line": 182,
-        "column": 15,
-        "endLine": 182,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/play/playlist.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
         "type": "error",
         "module": "YukkiMusic.plugins.play.playlist",
         "obj": "add_playlist",
@@ -247,32 +221,6 @@
         "message-id": "E0102"
     },
     {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.play.playlist",
-        "obj": "add_playlist",
-        "line": 197,
-        "column": 15,
-        "endLine": 197,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/play/playlist.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.play.playlist",
-        "obj": "add_playlist",
-        "line": 207,
-        "column": 15,
-        "endLine": 207,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/play/playlist.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
         "type": "error",
         "module": "YukkiMusic.plugins.play.playlist",
         "obj": "add_playlist",
@@ -284,45 +232,6 @@
         "symbol": "used-before-assignment",
         "message": "Using variable 'title' before assignment",
         "message-id": "E0601"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.play.playlist",
-        "obj": "add_playlist",
-        "line": 220,
-        "column": 11,
-        "endLine": 220,
-        "endColumn": 20,
-        "path": "YukkiMusic/plugins/play/playlist.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.play.playlist",
-        "obj": "del_plist",
-        "line": 234,
-        "column": 15,
-        "endLine": 234,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/play/playlist.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.play.playlist",
-        "obj": "del_plist",
-        "line": 239,
-        "column": 15,
-        "endLine": 239,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/play/playlist.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
     },
     {
         "type": "warning",
@@ -351,45 +260,6 @@
         "message-id": "E0602"
     },
     {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.play.playlist",
-        "obj": "del_back_playlist",
-        "line": 263,
-        "column": 15,
-        "endLine": 263,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/play/playlist.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.play.playlist",
-        "obj": "del_back_playlist",
-        "line": 268,
-        "column": 15,
-        "endLine": 268,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/play/playlist.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.play.playlist",
-        "obj": "playlist_multi_func",
-        "line": 282,
-        "column": 11,
-        "endLine": 282,
-        "endColumn": 20,
-        "path": "YukkiMusic/plugins/play/playlist.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
         "type": "error",
         "module": "YukkiMusic.plugins.play.playlist",
         "obj": "playlist_multi_func",
@@ -403,32 +273,6 @@
         "message-id": "E0606"
     },
     {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.play.playlist",
-        "obj": "play_playlist",
-        "line": 310,
-        "column": 15,
-        "endLine": 310,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/play/playlist.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.play.playlist",
-        "obj": "play_playlist",
-        "line": 317,
-        "column": 11,
-        "endLine": 317,
-        "endColumn": 20,
-        "path": "YukkiMusic/plugins/play/playlist.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
         "type": "error",
         "module": "YukkiMusic.plugins.play.playlist",
         "obj": "play_playlist",
@@ -440,19 +284,6 @@
         "symbol": "too-many-function-args",
         "message": "Too many positional arguments for staticmethod call",
         "message-id": "E1121"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.play.playlist",
-        "obj": "play_playlist",
-        "line": 330,
-        "column": 11,
-        "endLine": 330,
-        "endColumn": 20,
-        "path": "YukkiMusic/plugins/play/playlist.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
     },
     {
         "type": "error",
@@ -494,45 +325,6 @@
         "message-id": "E0602"
     },
     {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.play.playlist",
-        "obj": "play_playlist_command",
-        "line": 351,
-        "column": 15,
-        "endLine": 351,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/play/playlist.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.play.playlist",
-        "obj": "play_playlist_command",
-        "line": 364,
-        "column": 15,
-        "endLine": 364,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/play/playlist.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.play.playlist",
-        "obj": "play_playlist_command",
-        "line": 369,
-        "column": 11,
-        "endLine": 369,
-        "endColumn": 20,
-        "path": "YukkiMusic/plugins/play/playlist.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
         "type": "error",
         "module": "YukkiMusic.plugins.play.playlist",
         "obj": "play_playlist_command",
@@ -546,19 +338,6 @@
         "message-id": "E1121"
     },
     {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.play.playlist",
-        "obj": "play_playlist_command",
-        "line": 387,
-        "column": 11,
-        "endLine": 387,
-        "endColumn": 20,
-        "path": "YukkiMusic/plugins/play/playlist.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
         "type": "error",
         "module": "YukkiMusic.plugins.play.playlist",
         "obj": "del_plist",
@@ -570,31 +349,5 @@
         "symbol": "function-redefined",
         "message": "function already defined line 226",
         "message-id": "E0102"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.play.playlist",
-        "obj": "del_plist",
-        "line": 407,
-        "column": 15,
-        "endLine": 407,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/play/playlist.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.play.playlist",
-        "obj": "del_plist",
-        "line": 412,
-        "column": 15,
-        "endLine": 412,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/play/playlist.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
     }
 ]

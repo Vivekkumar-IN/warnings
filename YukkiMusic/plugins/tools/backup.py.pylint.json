@@ -15,19 +15,6 @@
     {
         "type": "warning",
         "module": "YukkiMusic.plugins.tools.backup",
-        "obj": "edit_or_reply",
-        "line": 54,
-        "column": 11,
-        "endLine": 54,
-        "endColumn": 20,
-        "path": "YukkiMusic/plugins/tools/backup.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.tools.backup",
         "obj": "export_database",
         "line": 60,
         "column": 26,
@@ -128,19 +115,6 @@
         "symbol": "line-too-long",
         "message": "Line too long (110/100)",
         "message-id": "C0301"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.tools.backup",
-        "obj": "export_database",
-        "line": 98,
-        "column": 15,
-        "endLine": 98,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/tools/backup.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
     },
     {
         "type": "warning",
@@ -271,18 +245,5 @@
         "symbol": "unspecified-encoding",
         "message": "Using open without explicitly specifying an encoding",
         "message-id": "W1514"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.tools.backup",
-        "obj": "import_database",
-        "line": 176,
-        "column": 11,
-        "endLine": 176,
-        "endColumn": 20,
-        "path": "YukkiMusic/plugins/tools/backup.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
     }
 ]

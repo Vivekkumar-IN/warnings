@@ -130,45 +130,6 @@
         "message-id": "W0613"
     },
     {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.play.play",
-        "obj": "play_commnd",
-        "line": 88,
-        "column": 15,
-        "endLine": 88,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/play/play.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.play.play",
-        "obj": "play_commnd",
-        "line": 113,
-        "column": 23,
-        "endLine": 113,
-        "endColumn": 32,
-        "path": "YukkiMusic/plugins/play/play.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.play.play",
-        "obj": "play_commnd",
-        "line": 126,
-        "column": 23,
-        "endLine": 126,
-        "endColumn": 32,
-        "path": "YukkiMusic/plugins/play/play.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
         "type": "error",
         "module": "YukkiMusic.plugins.play.play",
         "obj": "play_commnd",
@@ -195,58 +156,6 @@
         "message-id": "E0602"
     },
     {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.play.play",
-        "obj": "play_commnd",
-        "line": 135,
-        "column": 19,
-        "endLine": 135,
-        "endColumn": 28,
-        "path": "YukkiMusic/plugins/play/play.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.play.play",
-        "obj": "play_commnd",
-        "line": 144,
-        "column": 19,
-        "endLine": 144,
-        "endColumn": 28,
-        "path": "YukkiMusic/plugins/play/play.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.play.play",
-        "obj": "play_commnd",
-        "line": 152,
-        "column": 19,
-        "endLine": 152,
-        "endColumn": 28,
-        "path": "YukkiMusic/plugins/play/play.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.play.play",
-        "obj": "play_commnd",
-        "line": 161,
-        "column": 19,
-        "endLine": 161,
-        "endColumn": 28,
-        "path": "YukkiMusic/plugins/play/play.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
         "type": "error",
         "module": "YukkiMusic.plugins.play.play",
         "obj": "play_commnd",
@@ -258,19 +167,6 @@
         "symbol": "no-member",
         "message": "Instance of 'SoundCloud' has no 'details' member",
         "message-id": "E1101"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.play.play",
-        "obj": "play_commnd",
-        "line": 167,
-        "column": 19,
-        "endLine": 167,
-        "endColumn": 28,
-        "path": "YukkiMusic/plugins/play/play.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
     },
     {
         "type": "warning",
@@ -315,19 +211,6 @@
         "type": "warning",
         "module": "YukkiMusic.plugins.play.play",
         "obj": "play_commnd",
-        "line": 193,
-        "column": 15,
-        "endLine": 193,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/play/play.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.play.play",
-        "obj": "play_commnd",
         "line": 197,
         "column": 7,
         "endLine": 197,
@@ -349,19 +232,6 @@
         "symbol": "used-before-assignment",
         "message": "Using variable 'track_id' before assignment",
         "message-id": "E0601"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.play.play",
-        "obj": "play_commnd",
-        "line": 229,
-        "column": 15,
-        "endLine": 229,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/play/play.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
     },
     {
         "type": "error",

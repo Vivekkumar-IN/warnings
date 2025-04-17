@@ -11,18 +11,5 @@
         "symbol": "invalid-overridden-method",
         "message": "Method 'track' was expected to be 'async', found it instead as 'non-async'",
         "message-id": "W0236"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.platforms.soundcloud",
-        "obj": "SoundCloud.track",
-        "line": 37,
-        "column": 19,
-        "endLine": 37,
-        "endColumn": 28,
-        "path": "YukkiMusic/platforms/soundcloud.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
     }
 ]

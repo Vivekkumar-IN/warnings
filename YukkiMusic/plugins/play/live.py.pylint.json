@@ -1,44 +1,5 @@
 [
     {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.play.live",
-        "obj": "play_live_stream",
-        "line": 30,
-        "column": 15,
-        "endLine": 30,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/play/live.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.play.live",
-        "obj": "play_live_stream",
-        "line": 34,
-        "column": 11,
-        "endLine": 34,
-        "endColumn": 20,
-        "path": "YukkiMusic/plugins/play/live.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.play.live",
-        "obj": "play_live_stream",
-        "line": 40,
-        "column": 11,
-        "endLine": 40,
-        "endColumn": 20,
-        "path": "YukkiMusic/plugins/play/live.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
         "type": "error",
         "module": "YukkiMusic.plugins.play.live",
         "obj": "play_live_stream",
@@ -50,31 +11,5 @@
         "symbol": "too-many-function-args",
         "message": "Too many positional arguments for staticmethod call",
         "message-id": "E1121"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.play.live",
-        "obj": "play_live_stream",
-        "line": 46,
-        "column": 11,
-        "endLine": 46,
-        "endColumn": 20,
-        "path": "YukkiMusic/plugins/play/live.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.play.live",
-        "obj": "play_live_stream",
-        "line": 57,
-        "column": 15,
-        "endLine": 57,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/play/live.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
     }
 ]

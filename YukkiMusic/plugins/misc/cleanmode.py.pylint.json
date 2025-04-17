@@ -143,84 +143,6 @@
         "message-id": "E0606"
     },
     {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.misc.cleanmode",
-        "obj": "braodcast_message",
-        "line": 121,
-        "column": 27,
-        "endLine": 121,
-        "endColumn": 36,
-        "path": "YukkiMusic/plugins/misc/cleanmode.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.misc.cleanmode",
-        "obj": "braodcast_message",
-        "line": 129,
-        "column": 19,
-        "endLine": 129,
-        "endColumn": 28,
-        "path": "YukkiMusic/plugins/misc/cleanmode.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.misc.cleanmode",
-        "obj": "braodcast_message",
-        "line": 133,
-        "column": 15,
-        "endLine": 133,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/misc/cleanmode.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.misc.cleanmode",
-        "obj": "braodcast_message",
-        "line": 156,
-        "column": 27,
-        "endLine": 156,
-        "endColumn": 36,
-        "path": "YukkiMusic/plugins/misc/cleanmode.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.misc.cleanmode",
-        "obj": "braodcast_message",
-        "line": 164,
-        "column": 19,
-        "endLine": 164,
-        "endColumn": 28,
-        "path": "YukkiMusic/plugins/misc/cleanmode.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.misc.cleanmode",
-        "obj": "braodcast_message",
-        "line": 168,
-        "column": 15,
-        "endLine": 168,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/misc/cleanmode.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
         "type": "convention",
         "module": "YukkiMusic.plugins.misc.cleanmode",
         "obj": "braodcast_message",
@@ -258,32 +180,6 @@
         "symbol": "undefined-variable",
         "message": "Undefined variable 'message'",
         "message-id": "E0602"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.misc.cleanmode",
-        "obj": "braodcast_message",
-        "line": 200,
-        "column": 23,
-        "endLine": 200,
-        "endColumn": 32,
-        "path": "YukkiMusic/plugins/misc/cleanmode.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.misc.cleanmode",
-        "obj": "braodcast_message",
-        "line": 205,
-        "column": 15,
-        "endLine": 205,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/misc/cleanmode.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
     },
     {
         "type": "refactor",
@@ -351,19 +247,6 @@
         "message-id": "C0206"
     },
     {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.misc.cleanmode",
-        "obj": "auto_clean",
-        "line": 243,
-        "column": 15,
-        "endLine": 243,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/misc/cleanmode.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
         "type": "convention",
         "module": "YukkiMusic.plugins.misc.cleanmode",
         "obj": "auto_clean",
@@ -375,44 +258,5 @@
         "symbol": "consider-using-dict-items",
         "message": "Consider iterating with .items()",
         "message-id": "C0206"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.misc.cleanmode",
-        "obj": "auto_clean",
-        "line": 255,
-        "column": 31,
-        "endLine": 255,
-        "endColumn": 40,
-        "path": "YukkiMusic/plugins/misc/cleanmode.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.misc.cleanmode",
-        "obj": "auto_clean",
-        "line": 259,
-        "column": 15,
-        "endLine": 259,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/misc/cleanmode.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.misc.cleanmode",
-        "obj": "auto_clean",
-        "line": 275,
-        "column": 15,
-        "endLine": 275,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/misc/cleanmode.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
     }
 ]

@@ -169,19 +169,6 @@
         "message-id": "E0602"
     },
     {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.tools.songs",
-        "obj": "song_commad_private",
-        "line": 123,
-        "column": 11,
-        "endLine": 123,
-        "endColumn": 20,
-        "path": "YukkiMusic/plugins/tools/songs.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
         "type": "convention",
         "module": "YukkiMusic.plugins.tools.songs",
         "obj": "songs_back_helper",
@@ -260,19 +247,6 @@
         "message-id": "R0912"
     },
     {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.tools.songs",
-        "obj": "song_helper_cb",
-        "line": 179,
-        "column": 11,
-        "endLine": 179,
-        "endColumn": 20,
-        "path": "YukkiMusic/plugins/tools/songs.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
         "type": "refactor",
         "module": "YukkiMusic.plugins.tools.songs",
         "obj": "song_helper_cb",
@@ -302,19 +276,6 @@
         "type": "warning",
         "module": "YukkiMusic.plugins.tools.songs",
         "obj": "song_helper_cb",
-        "line": 189,
-        "column": 15,
-        "endLine": 189,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/tools/songs.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.tools.songs",
-        "obj": "song_helper_cb",
         "line": 233,
         "column": 71,
         "endLine": 233,
@@ -323,19 +284,6 @@
         "symbol": "f-string-without-interpolation",
         "message": "Using an f-string that does not have any interpolated variables",
         "message-id": "W1309"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.tools.songs",
-        "obj": "song_helper_cb",
-        "line": 244,
-        "column": 15,
-        "endLine": 244,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/tools/songs.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
     },
     {
         "type": "warning",
@@ -375,70 +323,5 @@
         "symbol": "too-many-locals",
         "message": "Too many local variables (19/15)",
         "message-id": "R0914"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.tools.songs",
-        "obj": "song_download_cb",
-        "line": 303,
-        "column": 11,
-        "endLine": 303,
-        "endColumn": 20,
-        "path": "YukkiMusic/plugins/tools/songs.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.tools.songs",
-        "obj": "song_download_cb",
-        "line": 347,
-        "column": 15,
-        "endLine": 347,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/tools/songs.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.tools.songs",
-        "obj": "song_download_cb",
-        "line": 372,
-        "column": 15,
-        "endLine": 372,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/tools/songs.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.tools.songs",
-        "obj": "song_download_cb",
-        "line": 392,
-        "column": 15,
-        "endLine": 392,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/tools/songs.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.tools.songs",
-        "obj": "song_download_cb",
-        "line": 415,
-        "column": 15,
-        "endLine": 415,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/tools/songs.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
     }
 ]

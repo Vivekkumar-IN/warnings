@@ -104,19 +104,6 @@
         "message-id": "W0613"
     },
     {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.tools.languages",
-        "obj": "lanuagecb",
-        "line": 62,
-        "column": 11,
-        "endLine": 62,
-        "endColumn": 20,
-        "path": "YukkiMusic/plugins/tools/languages.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
         "type": "convention",
         "module": "YukkiMusic.plugins.tools.languages",
         "obj": "language_markup",
@@ -141,18 +128,5 @@
         "symbol": "unused-argument",
         "message": "Unused argument 'client'",
         "message-id": "W0613"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.tools.languages",
-        "obj": "language_markup",
-        "line": 82,
-        "column": 11,
-        "endLine": 82,
-        "endColumn": 20,
-        "path": "YukkiMusic/plugins/tools/languages.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
     }
 ]

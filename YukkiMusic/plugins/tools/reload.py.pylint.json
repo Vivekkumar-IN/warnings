@@ -104,19 +104,6 @@
         "message-id": "E0602"
     },
     {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.tools.reload",
-        "obj": "reload_admin_cache",
-        "line": 41,
-        "column": 11,
-        "endLine": 41,
-        "endColumn": 20,
-        "path": "YukkiMusic/plugins/tools/reload.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
         "type": "error",
         "module": "YukkiMusic.plugins.tools.reload",
         "obj": "reload_admin_cache",

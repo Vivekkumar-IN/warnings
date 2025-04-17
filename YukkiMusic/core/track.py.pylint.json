@@ -80,19 +80,6 @@
     {
         "type": "warning",
         "module": "YukkiMusic.core.track",
-        "obj": "Track.delete",
-        "line": 106,
-        "column": 23,
-        "endLine": 106,
-        "endColumn": 32,
-        "path": "YukkiMusic/core/track.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.core.track",
         "obj": "",
         "line": 108,
         "column": 21,

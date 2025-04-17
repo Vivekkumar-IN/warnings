@@ -24,18 +24,5 @@
         "symbol": "import-outside-toplevel",
         "message": "Import outside toplevel (youtube.YouTube)",
         "message-id": "C0415"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.platforms.apple",
-        "obj": "Apple.playlist",
-        "line": 80,
-        "column": 19,
-        "endLine": 80,
-        "endColumn": 28,
-        "path": "YukkiMusic/platforms/apple.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
     }
 ]

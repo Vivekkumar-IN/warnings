@@ -39,19 +39,6 @@
         "message-id": "E1101"
     },
     {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.admins.callback",
-        "obj": "markup_panel",
-        "line": 72,
-        "column": 11,
-        "endLine": 72,
-        "endColumn": 20,
-        "path": "YukkiMusic/plugins/admins/callback.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
         "type": "error",
         "module": "YukkiMusic.plugins.admins.callback",
         "obj": "main_markup_",
@@ -63,19 +50,6 @@
         "symbol": "no-member",
         "message": "Module 'YukkiMusic.core.filters' has no 'user' member; maybe 'User'?",
         "message-id": "E1101"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.admins.callback",
-        "obj": "main_markup_",
-        "line": 93,
-        "column": 11,
-        "endLine": 93,
-        "endColumn": 20,
-        "path": "YukkiMusic/plugins/admins/callback.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
     },
     {
         "type": "error",
@@ -102,19 +76,6 @@
         "symbol": "used-before-assignment",
         "message": "Using variable 'buttons' before assignment",
         "message-id": "E0601"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.admins.callback",
-        "obj": "pages_markup",
-        "line": 125,
-        "column": 11,
-        "endLine": 125,
-        "endColumn": 20,
-        "path": "YukkiMusic/plugins/admins/callback.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
     },
     {
         "type": "error",
@@ -211,71 +172,6 @@
         "type": "warning",
         "module": "YukkiMusic.plugins.admins.callback",
         "obj": "admin_callback",
-        "line": 168,
-        "column": 15,
-        "endLine": 168,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/admins/callback.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.admins.callback",
-        "obj": "admin_callback",
-        "line": 199,
-        "column": 15,
-        "endLine": 199,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/admins/callback.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.admins.callback",
-        "obj": "admin_callback",
-        "line": 223,
-        "column": 27,
-        "endLine": 223,
-        "endColumn": 36,
-        "path": "YukkiMusic/plugins/admins/callback.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.admins.callback",
-        "obj": "admin_callback",
-        "line": 225,
-        "column": 19,
-        "endLine": 225,
-        "endColumn": 28,
-        "path": "YukkiMusic/plugins/admins/callback.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.admins.callback",
-        "obj": "admin_callback",
-        "line": 247,
-        "column": 19,
-        "endLine": 247,
-        "endColumn": 28,
-        "path": "YukkiMusic/plugins/admins/callback.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.admins.callback",
-        "obj": "admin_callback",
         "line": 265,
         "column": 27,
         "endLine": 265,
@@ -284,58 +180,6 @@
         "symbol": "unused-variable",
         "message": "Unused variable 'direct'",
         "message-id": "W0612"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.admins.callback",
-        "obj": "admin_callback",
-        "line": 271,
-        "column": 19,
-        "endLine": 271,
-        "endColumn": 28,
-        "path": "YukkiMusic/plugins/admins/callback.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.admins.callback",
-        "obj": "admin_callback",
-        "line": 275,
-        "column": 19,
-        "endLine": 275,
-        "endColumn": 28,
-        "path": "YukkiMusic/plugins/admins/callback.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.admins.callback",
-        "obj": "admin_callback",
-        "line": 296,
-        "column": 19,
-        "endLine": 296,
-        "endColumn": 28,
-        "path": "YukkiMusic/plugins/admins/callback.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.admins.callback",
-        "obj": "admin_callback",
-        "line": 310,
-        "column": 19,
-        "endLine": 310,
-        "endColumn": 28,
-        "path": "YukkiMusic/plugins/admins/callback.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
     },
     {
         "type": "convention",
@@ -362,19 +206,6 @@
         "symbol": "line-too-long",
         "message": "Line too long (141/100)",
         "message-id": "C0301"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.admins.callback",
-        "obj": "admin_callback",
-        "line": 415,
-        "column": 15,
-        "endLine": 415,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/admins/callback.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
     },
     {
         "type": "error",
@@ -414,58 +245,6 @@
         "symbol": "too-many-return-statements",
         "message": "Too many return statements (8/6)",
         "message-id": "R0911"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.admins.callback",
-        "obj": "play_music",
-        "line": 435,
-        "column": 15,
-        "endLine": 435,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/admins/callback.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.admins.callback",
-        "obj": "play_music",
-        "line": 439,
-        "column": 11,
-        "endLine": 439,
-        "endColumn": 20,
-        "path": "YukkiMusic/plugins/admins/callback.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.admins.callback",
-        "obj": "play_music",
-        "line": 445,
-        "column": 11,
-        "endLine": 445,
-        "endColumn": 20,
-        "path": "YukkiMusic/plugins/admins/callback.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.admins.callback",
-        "obj": "play_music",
-        "line": 450,
-        "column": 11,
-        "endLine": 450,
-        "endColumn": 20,
-        "path": "YukkiMusic/plugins/admins/callback.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
     },
     {
         "type": "error",
@@ -520,19 +299,6 @@
         "message-id": "E1125"
     },
     {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.admins.callback",
-        "obj": "play_music",
-        "line": 486,
-        "column": 11,
-        "endLine": 486,
-        "endColumn": 20,
-        "path": "YukkiMusic/plugins/admins/callback.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
         "type": "error",
         "module": "YukkiMusic.plugins.admins.callback",
         "obj": "anonymous_check",
@@ -544,19 +310,6 @@
         "symbol": "no-member",
         "message": "Module 'YukkiMusic.core.filters' has no 'user' member; maybe 'User'?",
         "message-id": "E1101"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.admins.callback",
-        "obj": "anonymous_check",
-        "line": 500,
-        "column": 11,
-        "endLine": 500,
-        "endColumn": 20,
-        "path": "YukkiMusic/plugins/admins/callback.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
     },
     {
         "type": "error",
@@ -614,58 +367,6 @@
         "type": "warning",
         "module": "YukkiMusic.plugins.admins.callback",
         "obj": "play_playlists_cb",
-        "line": 521,
-        "column": 15,
-        "endLine": 521,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/admins/callback.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.admins.callback",
-        "obj": "play_playlists_cb",
-        "line": 525,
-        "column": 11,
-        "endLine": 525,
-        "endColumn": 20,
-        "path": "YukkiMusic/plugins/admins/callback.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.admins.callback",
-        "obj": "play_playlists_cb",
-        "line": 531,
-        "column": 11,
-        "endLine": 531,
-        "endColumn": 20,
-        "path": "YukkiMusic/plugins/admins/callback.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.admins.callback",
-        "obj": "play_playlists_cb",
-        "line": 546,
-        "column": 15,
-        "endLine": 546,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/admins/callback.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.admins.callback",
-        "obj": "play_playlists_cb",
         "line": 550,
         "column": 20,
         "endLine": 550,
@@ -679,45 +380,6 @@
         "type": "warning",
         "module": "YukkiMusic.plugins.admins.callback",
         "obj": "play_playlists_cb",
-        "line": 551,
-        "column": 15,
-        "endLine": 551,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/admins/callback.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.admins.callback",
-        "obj": "play_playlists_cb",
-        "line": 556,
-        "column": 15,
-        "endLine": 556,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/admins/callback.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.admins.callback",
-        "obj": "play_playlists_cb",
-        "line": 561,
-        "column": 15,
-        "endLine": 561,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/admins/callback.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.admins.callback",
-        "obj": "play_playlists_cb",
         "line": 565,
         "column": 20,
         "endLine": 565,
@@ -726,19 +388,6 @@
         "symbol": "unused-variable",
         "message": "Unused variable 'apple_id'",
         "message-id": "W0612"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.admins.callback",
-        "obj": "play_playlists_cb",
-        "line": 566,
-        "column": 15,
-        "endLine": 566,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/admins/callback.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
     },
     {
         "type": "error",
@@ -819,19 +468,6 @@
         "message-id": "E0606"
     },
     {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.admins.callback",
-        "obj": "play_playlists_cb",
-        "line": 582,
-        "column": 11,
-        "endLine": 582,
-        "endColumn": 20,
-        "path": "YukkiMusic/plugins/admins/callback.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
         "type": "error",
         "module": "YukkiMusic.plugins.admins.callback",
         "obj": "slider_queries",
@@ -847,32 +483,6 @@
     {
         "type": "warning",
         "module": "YukkiMusic.plugins.admins.callback",
-        "obj": "slider_queries",
-        "line": 606,
-        "column": 15,
-        "endLine": 606,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/admins/callback.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.admins.callback",
-        "obj": "slider_queries",
-        "line": 617,
-        "column": 15,
-        "endLine": 617,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/admins/callback.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.admins.callback",
         "obj": "",
         "line": 621,
         "column": 12,
@@ -882,19 +492,6 @@
         "symbol": "fixme",
         "message": "todo use youtube.track",
         "message-id": "W0511"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.admins.callback",
-        "obj": "slider_queries",
-        "line": 638,
-        "column": 15,
-        "endLine": 638,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/admins/callback.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
     },
     {
         "type": "error",
@@ -910,19 +507,6 @@
         "message-id": "E1101"
     },
     {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.admins.callback",
-        "obj": "close_menu",
-        "line": 659,
-        "column": 11,
-        "endLine": 659,
-        "endColumn": 20,
-        "path": "YukkiMusic/plugins/admins/callback.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
         "type": "error",
         "module": "YukkiMusic.plugins.admins.callback",
         "obj": "stop_download",
@@ -934,31 +518,5 @@
         "symbol": "no-member",
         "message": "Module 'YukkiMusic.core.filters' has no 'user' member; maybe 'User'?",
         "message-id": "E1101"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.admins.callback",
-        "obj": "stop_download",
-        "line": 680,
-        "column": 19,
-        "endLine": 680,
-        "endColumn": 28,
-        "path": "YukkiMusic/plugins/admins/callback.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.admins.callback",
-        "obj": "stop_download",
-        "line": 686,
-        "column": 15,
-        "endLine": 686,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/admins/callback.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
     }
 ]

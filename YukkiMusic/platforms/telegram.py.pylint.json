@@ -91,19 +91,6 @@
         "message-id": "E0602"
     },
     {
-        "type": "warning",
-        "module": "YukkiMusic.platforms.telegram",
-        "obj": "Telegram.download.down_load.progress",
-        "line": 128,
-        "column": 27,
-        "endLine": 128,
-        "endColumn": 36,
-        "path": "YukkiMusic/platforms/telegram.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
         "type": "error",
         "module": "YukkiMusic.platforms.telegram",
         "obj": "Telegram.download.down_load",
@@ -115,32 +102,6 @@
         "symbol": "undefined-variable",
         "message": "Undefined variable 'tbot'",
         "message-id": "E0602"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.platforms.telegram",
-        "obj": "Telegram.download.down_load",
-        "line": 145,
-        "column": 19,
-        "endLine": 145,
-        "endColumn": 28,
-        "path": "YukkiMusic/platforms/telegram.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.platforms.telegram",
-        "obj": "Telegram.download",
-        "line": 153,
-        "column": 19,
-        "endLine": 153,
-        "endColumn": 28,
-        "path": "YukkiMusic/platforms/telegram.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
     },
     {
         "type": "error",

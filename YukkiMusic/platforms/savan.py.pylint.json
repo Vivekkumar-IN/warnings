@@ -39,19 +39,6 @@
         "message-id": "E1101"
     },
     {
-        "type": "warning",
-        "module": "YukkiMusic.platforms.savan",
-        "obj": "Saavn.playlist",
-        "line": 67,
-        "column": 19,
-        "endLine": 67,
-        "endColumn": 28,
-        "path": "YukkiMusic/platforms/savan.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
         "type": "error",
         "module": "YukkiMusic.platforms.savan",
         "obj": "Saavn.__track",

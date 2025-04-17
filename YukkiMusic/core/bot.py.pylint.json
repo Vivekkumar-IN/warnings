@@ -1,57 +1,5 @@
 [
     {
-        "type": "warning",
-        "module": "YukkiMusic.core.bot",
-        "obj": "YukkiBot.on_message.decorator.wrapper",
-        "line": 57,
-        "column": 23,
-        "endLine": 57,
-        "endColumn": 32,
-        "path": "YukkiMusic/core/bot.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.core.bot",
-        "obj": "YukkiBot.on_message.decorator.wrapper",
-        "line": 84,
-        "column": 27,
-        "endLine": 84,
-        "endColumn": 36,
-        "path": "YukkiMusic/core/bot.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.core.bot",
-        "obj": "YukkiBot.load_plugin",
-        "line": 110,
-        "column": 15,
-        "endLine": 110,
-        "endColumn": 24,
-        "path": "YukkiMusic/core/bot.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.core.bot",
-        "obj": "YukkiBot.load_plugins_from",
-        "line": 128,
-        "column": 19,
-        "endLine": 128,
-        "endColumn": 28,
-        "path": "YukkiMusic/core/bot.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
         "type": "convention",
         "module": "YukkiMusic.core.bot",
         "obj": "YukkiBot.load_plugins_from",

@@ -156,19 +156,6 @@
         "message-id": "C0301"
     },
     {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.bot.start",
-        "obj": "start_comm",
-        "line": 129,
-        "column": 19,
-        "endLine": 129,
-        "endColumn": 28,
-        "path": "YukkiMusic/plugins/bot/start.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
         "type": "error",
         "module": "YukkiMusic.plugins.bot.start",
         "obj": "start_comm",
@@ -260,19 +247,6 @@
         "message-id": "C0103"
     },
     {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.bot.start",
-        "obj": "start_comm",
-        "line": 213,
-        "column": 15,
-        "endLine": 213,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/bot/start.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
         "type": "convention",
         "module": "YukkiMusic.plugins.bot.start",
         "obj": "start_comm",
@@ -284,19 +258,6 @@
         "symbol": "invalid-name",
         "message": "Variable name \"OWNER\" doesn't conform to snake_case naming style",
         "message-id": "C0103"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.bot.start",
-        "obj": "start_comm",
-        "line": 223,
-        "column": 19,
-        "endLine": 223,
-        "endColumn": 28,
-        "path": "YukkiMusic/plugins/bot/start.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
     },
     {
         "type": "convention",

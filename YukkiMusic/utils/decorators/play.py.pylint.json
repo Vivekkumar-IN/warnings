@@ -182,19 +182,6 @@
         "message-id": "E0602"
     },
     {
-        "type": "warning",
-        "module": "YukkiMusic.utils.decorators.play",
-        "obj": "play_wrapper.wrapper",
-        "line": 67,
-        "column": 19,
-        "endLine": 67,
-        "endColumn": 28,
-        "path": "YukkiMusic/utils/decorators/play.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
         "type": "error",
         "module": "YukkiMusic.utils.decorators.play",
         "obj": "play_wrapper.wrapper",
@@ -234,19 +221,6 @@
         "message-id": "E0602"
     },
     {
-        "type": "warning",
-        "module": "YukkiMusic.utils.decorators.play",
-        "obj": "play_wrapper.wrapper",
-        "line": 97,
-        "column": 19,
-        "endLine": 97,
-        "endColumn": 28,
-        "path": "YukkiMusic/utils/decorators/play.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
         "type": "error",
         "module": "YukkiMusic.utils.decorators.play",
         "obj": "play_wrapper.wrapper",
@@ -284,19 +258,6 @@
         "symbol": "undefined-variable",
         "message": "Undefined variable 'event'",
         "message-id": "E0602"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.utils.decorators.play",
-        "obj": "play_wrapper.wrapper",
-        "line": 109,
-        "column": 15,
-        "endLine": 109,
-        "endColumn": 24,
-        "path": "YukkiMusic/utils/decorators/play.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
     },
     {
         "type": "error",

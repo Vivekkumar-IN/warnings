@@ -65,32 +65,6 @@
         "message-id": "W1514"
     },
     {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.sudo.heroku",
-        "obj": "log_._get_log",
-        "line": 60,
-        "column": 15,
-        "endLine": 60,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/sudo/heroku.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.sudo.heroku",
-        "obj": "log_",
-        "line": 77,
-        "column": 11,
-        "endLine": 77,
-        "endColumn": 20,
-        "path": "YukkiMusic/plugins/sudo/heroku.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
         "type": "error",
         "module": "YukkiMusic.plugins.sudo.heroku",
         "obj": "varget_",
@@ -302,19 +276,6 @@
         "type": "warning",
         "module": "YukkiMusic.plugins.sudo.heroku",
         "obj": "update_",
-        "line": 288,
-        "column": 19,
-        "endLine": 288,
-        "endColumn": 28,
-        "path": "YukkiMusic/plugins/sudo/heroku.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.sudo.heroku",
-        "obj": "update_",
         "line": 292,
         "column": 14,
         "endLine": 292,
@@ -323,19 +284,6 @@
         "symbol": "f-string-without-interpolation",
         "message": "Using an f-string that does not have any interpolated variables",
         "message-id": "W1309"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.sudo.heroku",
-        "obj": "update_",
-        "line": 295,
-        "column": 11,
-        "endLine": 295,
-        "endColumn": 20,
-        "path": "YukkiMusic/plugins/sudo/heroku.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
     },
     {
         "type": "convention",
@@ -349,19 +297,6 @@
         "symbol": "line-too-long",
         "message": "Line too long (120/100)",
         "message-id": "C0301"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.sudo.heroku",
-        "obj": "update_",
-        "line": 304,
-        "column": 15,
-        "endLine": 304,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/sudo/heroku.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
     },
     {
         "type": "error",
@@ -429,32 +364,6 @@
         "message-id": "E0602"
     },
     {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.sudo.heroku",
-        "obj": "reboot",
-        "line": 332,
-        "column": 11,
-        "endLine": 332,
-        "endColumn": 20,
-        "path": "YukkiMusic/plugins/sudo/heroku.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.sudo.heroku",
-        "obj": "reboot",
-        "line": 339,
-        "column": 15,
-        "endLine": 339,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/sudo/heroku.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
         "type": "error",
         "module": "YukkiMusic.plugins.sudo.heroku",
         "obj": "restart_",
@@ -505,31 +414,5 @@
         "symbol": "line-too-long",
         "message": "Line too long (104/100)",
         "message-id": "C0301"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.sudo.heroku",
-        "obj": "restart_",
-        "line": 360,
-        "column": 15,
-        "endLine": 360,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/sudo/heroku.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.sudo.heroku",
-        "obj": "restart_",
-        "line": 367,
-        "column": 11,
-        "endLine": 367,
-        "endColumn": 20,
-        "path": "YukkiMusic/plugins/sudo/heroku.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
     }
 ]

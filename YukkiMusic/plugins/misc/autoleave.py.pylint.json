@@ -11,57 +11,5 @@
         "symbol": "import-outside-toplevel",
         "message": "Import outside toplevel (YukkiMusic.core.userbot.assistants)",
         "message-id": "C0415"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.misc.autoleave",
-        "obj": "auto_leave.leave_inactive_chats",
-        "line": 58,
-        "column": 35,
-        "endLine": 58,
-        "endColumn": 44,
-        "path": "YukkiMusic/plugins/misc/autoleave.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.misc.autoleave",
-        "obj": "auto_leave.leave_inactive_chats",
-        "line": 60,
-        "column": 15,
-        "endLine": 60,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/misc/autoleave.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.misc.autoleave",
-        "obj": "auto_end",
-        "line": 94,
-        "column": 23,
-        "endLine": 94,
-        "endColumn": 32,
-        "path": "YukkiMusic/plugins/misc/autoleave.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.misc.autoleave",
-        "obj": "auto_end",
-        "line": 103,
-        "column": 23,
-        "endLine": 103,
-        "endColumn": 32,
-        "path": "YukkiMusic/plugins/misc/autoleave.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
     }
 ]

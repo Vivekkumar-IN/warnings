@@ -39,45 +39,6 @@
         "message-id": "R0912"
     },
     {
-        "type": "warning",
-        "module": "YukkiMusic.utils.decorators.admins",
-        "obj": "admin_rights_check.wrapper",
-        "line": 39,
-        "column": 19,
-        "endLine": 39,
-        "endColumn": 28,
-        "path": "YukkiMusic/utils/decorators/admins.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.utils.decorators.admins",
-        "obj": "admin_rights_check.wrapper",
-        "line": 44,
-        "column": 15,
-        "endLine": 44,
-        "endColumn": 24,
-        "path": "YukkiMusic/utils/decorators/admins.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.utils.decorators.admins",
-        "obj": "admin_rights_check.wrapper",
-        "line": 62,
-        "column": 19,
-        "endLine": 62,
-        "endColumn": 28,
-        "path": "YukkiMusic/utils/decorators/admins.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
         "type": "refactor",
         "module": "YukkiMusic.utils.decorators.admins",
         "obj": "admin_rights_check.wrapper",
@@ -91,58 +52,6 @@
         "message-id": "R1705"
     },
     {
-        "type": "warning",
-        "module": "YukkiMusic.utils.decorators.admins",
-        "obj": "admin_actual.wrapper",
-        "line": 91,
-        "column": 19,
-        "endLine": 91,
-        "endColumn": 28,
-        "path": "YukkiMusic/utils/decorators/admins.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.utils.decorators.admins",
-        "obj": "admin_actual.wrapper",
-        "line": 97,
-        "column": 15,
-        "endLine": 97,
-        "endColumn": 24,
-        "path": "YukkiMusic/utils/decorators/admins.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.utils.decorators.admins",
-        "obj": "admin_actual.wrapper",
-        "line": 126,
-        "column": 19,
-        "endLine": 126,
-        "endColumn": 28,
-        "path": "YukkiMusic/utils/decorators/admins.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.utils.decorators.admins",
-        "obj": "actual_admin_cb.wrapper",
-        "line": 139,
-        "column": 15,
-        "endLine": 139,
-        "endColumn": 24,
-        "path": "YukkiMusic/utils/decorators/admins.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
         "type": "error",
         "module": "YukkiMusic.utils.decorators.admins",
         "obj": "actual_admin_cb.wrapper",
@@ -154,19 +63,6 @@
         "symbol": "undefined-variable",
         "message": "Undefined variable 'query'",
         "message-id": "E0602"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.utils.decorators.admins",
-        "obj": "actual_admin_cb.wrapper",
-        "line": 175,
-        "column": 19,
-        "endLine": 175,
-        "endColumn": 28,
-        "path": "YukkiMusic/utils/decorators/admins.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
     },
     {
         "type": "error",

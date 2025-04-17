@@ -15,19 +15,6 @@
     {
         "type": "warning",
         "module": "YukkiMusic.core.telethon",
-        "obj": "TelethonClient.start",
-        "line": 120,
-        "column": 15,
-        "endLine": 120,
-        "endColumn": 24,
-        "path": "YukkiMusic/core/telethon.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.core.telethon",
         "obj": "TelethonClient.run_coro",
         "line": 126,
         "column": 4,
@@ -37,19 +24,6 @@
         "symbol": "keyword-arg-before-vararg",
         "message": "Keyword argument before variable positional arguments list in the definition of run_coro function",
         "message-id": "W1113"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.core.telethon",
-        "obj": "TelethonClient.run_coro",
-        "line": 133,
-        "column": 15,
-        "endLine": 133,
-        "endColumn": 24,
-        "path": "YukkiMusic/core/telethon.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
     },
     {
         "type": "refactor",
@@ -67,19 +41,6 @@
     {
         "type": "warning",
         "module": "YukkiMusic.core.telethon",
-        "obj": "TelethonClient.handle_error",
-        "line": 224,
-        "column": 15,
-        "endLine": 224,
-        "endColumn": 24,
-        "path": "YukkiMusic/core/telethon.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.core.telethon",
         "obj": "TelethonClient.on_message",
         "line": 227,
         "column": 4,
@@ -93,19 +54,6 @@
     {
         "type": "warning",
         "module": "YukkiMusic.core.telethon",
-        "obj": "TelethonClient.on_message.decorator.wrapper",
-        "line": 252,
-        "column": 23,
-        "endLine": 252,
-        "endColumn": 32,
-        "path": "YukkiMusic/core/telethon.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.core.telethon",
         "obj": "TelethonClient._set_default_commands",
         "line": 298,
         "column": 20,
@@ -115,19 +63,6 @@
         "symbol": "redefined-builtin",
         "message": "Redefining built-in 'id'",
         "message-id": "W0622"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.core.telethon",
-        "obj": "TelethonClient._set_default_commands",
-        "line": 309,
-        "column": 19,
-        "endLine": 309,
-        "endColumn": 28,
-        "path": "YukkiMusic/core/telethon.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
     },
     {
         "type": "warning",

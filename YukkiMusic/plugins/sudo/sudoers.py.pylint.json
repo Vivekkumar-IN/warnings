@@ -154,31 +154,5 @@
         "symbol": "undefined-variable",
         "message": "Undefined variable 'flt'",
         "message-id": "E0602"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.sudo.sudoers",
-        "obj": "sudoers_list",
-        "line": 100,
-        "column": 15,
-        "endLine": 100,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/sudo/sudoers.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.sudo.sudoers",
-        "obj": "sudoers_list",
-        "line": 114,
-        "column": 19,
-        "endLine": 114,
-        "endColumn": 28,
-        "path": "YukkiMusic/plugins/sudo/sudoers.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
     }
 ]

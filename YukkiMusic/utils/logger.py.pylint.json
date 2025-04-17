@@ -37,18 +37,5 @@
         "symbol": "undefined-variable",
         "message": "Undefined variable 'event'",
         "message-id": "E0602"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.utils.logger",
-        "obj": "play_logs",
-        "line": 41,
-        "column": 19,
-        "endLine": 41,
-        "endColumn": 28,
-        "path": "YukkiMusic/utils/logger.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
     }
 ]

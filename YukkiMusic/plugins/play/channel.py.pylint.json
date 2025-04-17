@@ -208,19 +208,6 @@
         "message-id": "E0602"
     },
     {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.play.channel",
-        "obj": "playmode_",
-        "line": 50,
-        "column": 15,
-        "endLine": 50,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/play/channel.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
         "type": "error",
         "module": "YukkiMusic.plugins.play.channel",
         "obj": "playmode_",
@@ -258,19 +245,6 @@
         "symbol": "undefined-variable",
         "message": "Undefined variable 'event'",
         "message-id": "E0602"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.play.channel",
-        "obj": "playmode_",
-        "line": 56,
-        "column": 15,
-        "endLine": 56,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/play/channel.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
     },
     {
         "type": "error",

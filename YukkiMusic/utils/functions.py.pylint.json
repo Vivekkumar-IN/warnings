@@ -1,18 +1,5 @@
 [
     {
-        "type": "warning",
-        "module": "YukkiMusic.utils.functions",
-        "obj": "extract_text_and_keyb",
-        "line": 123,
-        "column": 11,
-        "endLine": 123,
-        "endColumn": 20,
-        "path": "YukkiMusic/utils/functions.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
         "type": "error",
         "module": "YukkiMusic.utils.functions",
         "obj": "extract_user_and_reason",

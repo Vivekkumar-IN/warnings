@@ -1,31 +1,5 @@
 [
     {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.misc.seeker",
-        "obj": "leave_if_muted",
-        "line": 66,
-        "column": 27,
-        "endLine": 66,
-        "endColumn": 36,
-        "path": "YukkiMusic/plugins/misc/seeker.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.misc.seeker",
-        "obj": "leave_if_muted",
-        "line": 80,
-        "column": 19,
-        "endLine": 80,
-        "endColumn": 28,
-        "path": "YukkiMusic/plugins/misc/seeker.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
         "type": "refactor",
         "module": "YukkiMusic.plugins.misc.seeker",
         "obj": "markup_timer",
@@ -50,83 +24,5 @@
         "symbol": "too-many-statements",
         "message": "Too many statements (62/50)",
         "message-id": "R0915"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.misc.seeker",
-        "obj": "markup_timer",
-        "line": 101,
-        "column": 19,
-        "endLine": 101,
-        "endColumn": 28,
-        "path": "YukkiMusic/plugins/misc/seeker.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.misc.seeker",
-        "obj": "markup_timer",
-        "line": 116,
-        "column": 27,
-        "endLine": 116,
-        "endColumn": 36,
-        "path": "YukkiMusic/plugins/misc/seeker.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.misc.seeker",
-        "obj": "markup_timer",
-        "line": 141,
-        "column": 19,
-        "endLine": 141,
-        "endColumn": 28,
-        "path": "YukkiMusic/plugins/misc/seeker.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.misc.seeker",
-        "obj": "markup_timer",
-        "line": 150,
-        "column": 19,
-        "endLine": 150,
-        "endColumn": 28,
-        "path": "YukkiMusic/plugins/misc/seeker.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.misc.seeker",
-        "obj": "markup_timer",
-        "line": 157,
-        "column": 19,
-        "endLine": 157,
-        "endColumn": 28,
-        "path": "YukkiMusic/plugins/misc/seeker.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.misc.seeker",
-        "obj": "markup_timer",
-        "line": 180,
-        "column": 19,
-        "endLine": 180,
-        "endColumn": 28,
-        "path": "YukkiMusic/plugins/misc/seeker.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
     }
 ]

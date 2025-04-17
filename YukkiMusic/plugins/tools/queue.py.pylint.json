@@ -52,19 +52,6 @@
         "message-id": "E1136"
     },
     {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.tools.queue",
-        "obj": "ping_com",
-        "line": 52,
-        "column": 15,
-        "endLine": 52,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/tools/queue.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
         "type": "error",
         "module": "YukkiMusic.plugins.tools.queue",
         "obj": "ping_com",
@@ -130,19 +117,6 @@
         "message-id": "W0511"
     },
     {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.tools.queue",
-        "obj": "ping_com",
-        "line": 120,
-        "column": 15,
-        "endLine": 120,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/tools/queue.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
         "type": "error",
         "module": "YukkiMusic.plugins.tools.queue",
         "obj": "quite_timer",
@@ -154,19 +128,6 @@
         "symbol": "undefined-variable",
         "message": "Undefined variable 'events'",
         "message-id": "E0602"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.tools.queue",
-        "obj": "quite_timer",
-        "line": 128,
-        "column": 11,
-        "endLine": 128,
-        "endColumn": 20,
-        "path": "YukkiMusic/plugins/tools/queue.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
     },
     {
         "type": "error",
@@ -193,19 +154,6 @@
         "symbol": "unused-variable",
         "message": "Unused variable 'channel'",
         "message-id": "W0612"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.tools.queue",
-        "obj": "queued_tracks",
-        "line": 140,
-        "column": 11,
-        "endLine": 140,
-        "endColumn": 20,
-        "path": "YukkiMusic/plugins/tools/queue.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
     },
     {
         "type": "convention",
@@ -260,19 +208,6 @@
         "message-id": "W0612"
     },
     {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.tools.queue",
-        "obj": "queue_back",
-        "line": 180,
-        "column": 11,
-        "endLine": 180,
-        "endColumn": 20,
-        "path": "YukkiMusic/plugins/tools/queue.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
         "type": "convention",
         "module": "YukkiMusic.plugins.tools.queue",
         "obj": "queue_back",
@@ -284,18 +219,5 @@
         "symbol": "invalid-name",
         "message": "Variable name \"DUR\" doesn't conform to snake_case naming style",
         "message-id": "C0103"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.tools.queue",
-        "obj": "queue_back",
-        "line": 245,
-        "column": 15,
-        "endLine": 245,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/tools/queue.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
     }
 ]

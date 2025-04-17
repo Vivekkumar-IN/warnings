@@ -52,19 +52,6 @@
         "message-id": "R1705"
     },
     {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.sudo.globalban",
-        "obj": "gbanuser",
-        "line": 69,
-        "column": 15,
-        "endLine": 69,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/sudo/globalban.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
         "type": "error",
         "module": "YukkiMusic.plugins.sudo.globalban",
         "obj": "gungabn",
@@ -91,19 +78,6 @@
         "message-id": "E0602"
     },
     {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.sudo.globalban",
-        "obj": "gungabn",
-        "line": 109,
-        "column": 15,
-        "endLine": 109,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/sudo/globalban.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
         "type": "error",
         "module": "YukkiMusic.plugins.sudo.globalban",
         "obj": "gbanned_list",
@@ -128,19 +102,6 @@
         "symbol": "undefined-variable",
         "message": "Undefined variable 'flt'",
         "message-id": "E0602"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.sudo.globalban",
-        "obj": "gbanned_list",
-        "line": 132,
-        "column": 15,
-        "endLine": 132,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/sudo/globalban.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
     },
     {
         "type": "refactor",

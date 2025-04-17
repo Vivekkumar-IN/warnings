@@ -65,19 +65,6 @@
         "message-id": "W0622"
     },
     {
-        "type": "warning",
-        "module": "YukkiMusic.platforms.youtube",
-        "obj": "YouTube.formats",
-        "line": 109,
-        "column": 23,
-        "endLine": 109,
-        "endColumn": 32,
-        "path": "YukkiMusic/platforms/youtube.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
         "type": "error",
         "module": "YukkiMusic.platforms.youtube",
         "obj": "YouTube.playlist",
@@ -89,19 +76,6 @@
         "symbol": "undefined-variable",
         "message": "Undefined variable 'Track'",
         "message-id": "E0602"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.platforms.youtube",
-        "obj": "YouTube.playlist",
-        "line": 147,
-        "column": 15,
-        "endLine": 147,
-        "endColumn": 24,
-        "path": "YukkiMusic/platforms/youtube.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
     },
     {
         "type": "warning",
@@ -128,19 +102,6 @@
         "symbol": "undefined-variable",
         "message": "Undefined variable 'Track'",
         "message-id": "E0602"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.platforms.youtube",
-        "obj": "YouTube.track",
-        "line": 169,
-        "column": 15,
-        "endLine": 169,
-        "endColumn": 24,
-        "path": "YukkiMusic/platforms/youtube.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
     },
     {
         "type": "warning",
