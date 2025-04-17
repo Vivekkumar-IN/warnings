@@ -1,0 +1,93 @@
+[
+    {
+        "type": "convention",
+        "module": "YukkiMusic.utils.inline.help",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "YukkiMusic/utils/inline/help.py",
+        "symbol": "missing-module-docstring",
+        "message": "Missing module docstring",
+        "message-id": "C0114"
+    },
+    {
+        "type": "convention",
+        "module": "YukkiMusic.utils.inline.help",
+        "obj": "support_group_markup",
+        "line": 16,
+        "column": 0,
+        "endLine": 16,
+        "endColumn": 24,
+        "path": "YukkiMusic/utils/inline/help.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    },
+    {
+        "type": "convention",
+        "module": "YukkiMusic.utils.inline.help",
+        "obj": "help_back_markup",
+        "line": 28,
+        "column": 0,
+        "endLine": 28,
+        "endColumn": 20,
+        "path": "YukkiMusic/utils/inline/help.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    },
+    {
+        "type": "convention",
+        "module": "YukkiMusic.utils.inline.help",
+        "obj": "private_help_panel",
+        "line": 38,
+        "column": 0,
+        "endLine": 38,
+        "endColumn": 22,
+        "path": "YukkiMusic/utils/inline/help.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.utils.inline.help",
+        "obj": "",
+        "line": 10,
+        "column": 0,
+        "endLine": 10,
+        "endColumn": 27,
+        "path": "YukkiMusic/utils/inline/help.py",
+        "symbol": "import-error",
+        "message": "Unable to import 'telethon'",
+        "message-id": "E0401"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.utils.inline.help",
+        "obj": "help_back_markup",
+        "line": 31,
+        "column": 54,
+        "endLine": 31,
+        "endColumn": 77,
+        "path": "YukkiMusic/utils/inline/help.py",
+        "symbol": "f-string-without-interpolation",
+        "message": "Using an f-string that does not have any interpolated variables",
+        "message-id": "W1309"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.utils.inline.help",
+        "obj": "help_back_markup",
+        "line": 32,
+        "column": 55,
+        "endLine": 32,
+        "endColumn": 63,
+        "path": "YukkiMusic/utils/inline/help.py",
+        "symbol": "f-string-without-interpolation",
+        "message": "Using an f-string that does not have any interpolated variables",
+        "message-id": "W1309"
+    }
+]

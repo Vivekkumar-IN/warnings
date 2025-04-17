@@ -1,0 +1,80 @@
+[
+    {
+        "type": "convention",
+        "module": "YukkiMusic.utils.channelplay",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "YukkiMusic/utils/channelplay.py",
+        "symbol": "missing-module-docstring",
+        "message": "Missing module docstring",
+        "message-id": "C0114"
+    },
+    {
+        "type": "convention",
+        "module": "YukkiMusic.utils.channelplay",
+        "obj": "is_cplay",
+        "line": 15,
+        "column": 0,
+        "endLine": 15,
+        "endColumn": 12,
+        "path": "YukkiMusic/utils/channelplay.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    },
+    {
+        "type": "convention",
+        "module": "YukkiMusic.utils.channelplay",
+        "obj": "get_channeplay_cb",
+        "line": 26,
+        "column": 0,
+        "endLine": 26,
+        "endColumn": 27,
+        "path": "YukkiMusic/utils/channelplay.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.utils.channelplay",
+        "obj": "get_channeplay_cb",
+        "line": 32,
+        "column": 19,
+        "endLine": 32,
+        "endColumn": 28,
+        "path": "YukkiMusic/utils/channelplay.py",
+        "symbol": "broad-exception-caught",
+        "message": "Catching too general exception Exception",
+        "message-id": "W0718"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.utils.channelplay",
+        "obj": "get_channeplay_cb",
+        "line": 37,
+        "column": 15,
+        "endLine": 37,
+        "endColumn": 24,
+        "path": "YukkiMusic/utils/channelplay.py",
+        "symbol": "broad-exception-caught",
+        "message": "Catching too general exception Exception",
+        "message-id": "W0718"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.utils.channelplay",
+        "obj": "get_channeplay_cb",
+        "line": 40,
+        "column": 19,
+        "endLine": 40,
+        "endColumn": 28,
+        "path": "YukkiMusic/utils/channelplay.py",
+        "symbol": "broad-exception-caught",
+        "message": "Catching too general exception Exception",
+        "message-id": "W0718"
+    }
+]

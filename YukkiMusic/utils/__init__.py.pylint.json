@@ -1,0 +1,93 @@
+[
+    {
+        "type": "convention",
+        "module": "YukkiMusic.utils.__init__",
+        "obj": "",
+        "line": 52,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "YukkiMusic/utils/__init__.py",
+        "symbol": "line-too-long",
+        "message": "Line too long (171/100)",
+        "message-id": "C0301"
+    },
+    {
+        "type": "convention",
+        "module": "YukkiMusic.utils",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "YukkiMusic/utils/__init__.py",
+        "symbol": "missing-module-docstring",
+        "message": "Missing module docstring",
+        "message-id": "C0114"
+    },
+    {
+        "type": "convention",
+        "module": "YukkiMusic.utils",
+        "obj": "get_message_link",
+        "line": 30,
+        "column": 0,
+        "endLine": 30,
+        "endColumn": 26,
+        "path": "YukkiMusic/utils/__init__.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    },
+    {
+        "type": "convention",
+        "module": "YukkiMusic.utils",
+        "obj": "get_chat_id",
+        "line": 39,
+        "column": 0,
+        "endLine": 39,
+        "endColumn": 15,
+        "path": "YukkiMusic/utils/__init__.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    },
+    {
+        "type": "convention",
+        "module": "YukkiMusic.utils",
+        "obj": "parse_flags",
+        "line": 50,
+        "column": 0,
+        "endLine": 50,
+        "endColumn": 15,
+        "path": "YukkiMusic/utils/__init__.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.utils",
+        "obj": "",
+        "line": 13,
+        "column": 0,
+        "endLine": 13,
+        "endColumn": 29,
+        "path": "YukkiMusic/utils/__init__.py",
+        "symbol": "import-error",
+        "message": "Unable to import 'telethon.tl'",
+        "message-id": "E0401"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.utils",
+        "obj": "parse_flags",
+        "line": 53,
+        "column": 30,
+        "endLine": 53,
+        "endColumn": 38,
+        "path": "YukkiMusic/utils/__init__.py",
+        "symbol": "redefined-outer-name",
+        "message": "Redefining name 'is_cplay' from outer scope (line 15)",
+        "message-id": "W0621"
+    }
+]

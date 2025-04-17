@@ -1,0 +1,41 @@
+[
+    {
+        "type": "convention",
+        "module": "YukkiMusic.utils.thumbnails",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "YukkiMusic/utils/thumbnails.py",
+        "symbol": "missing-module-docstring",
+        "message": "Missing module docstring",
+        "message-id": "C0114"
+    },
+    {
+        "type": "convention",
+        "module": "YukkiMusic.utils.thumbnails",
+        "obj": "gen_thumb",
+        "line": 12,
+        "column": 0,
+        "endLine": 12,
+        "endColumn": 19,
+        "path": "YukkiMusic/utils/thumbnails.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    },
+    {
+        "type": "convention",
+        "module": "YukkiMusic.utils.thumbnails",
+        "obj": "gen_qthumb",
+        "line": 16,
+        "column": 0,
+        "endLine": 16,
+        "endColumn": 20,
+        "path": "YukkiMusic/utils/thumbnails.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    }
+]

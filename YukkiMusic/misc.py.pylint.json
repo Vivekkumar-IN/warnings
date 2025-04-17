@@ -1,0 +1,54 @@
+[
+    {
+        "type": "convention",
+        "module": "YukkiMusic.misc",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "YukkiMusic/misc.py",
+        "symbol": "missing-module-docstring",
+        "message": "Missing module docstring",
+        "message-id": "C0114"
+    },
+    {
+        "type": "convention",
+        "module": "YukkiMusic.misc",
+        "obj": "is_heroku",
+        "line": 27,
+        "column": 0,
+        "endLine": 27,
+        "endColumn": 13,
+        "path": "YukkiMusic/misc.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.misc",
+        "obj": "",
+        "line": 13,
+        "column": 0,
+        "endLine": 13,
+        "endColumn": 14,
+        "path": "YukkiMusic/misc.py",
+        "symbol": "import-error",
+        "message": "Unable to import 'heroku3'",
+        "message-id": "E0401"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.misc",
+        "obj": "",
+        "line": 63,
+        "column": 15,
+        "endLine": 63,
+        "endColumn": 24,
+        "path": "YukkiMusic/misc.py",
+        "symbol": "broad-exception-caught",
+        "message": "Catching too general exception Exception",
+        "message-id": "W0718"
+    }
+]

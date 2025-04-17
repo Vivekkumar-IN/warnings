@@ -1,0 +1,54 @@
+[
+    {
+        "type": "convention",
+        "module": "YukkiMusic.plugins.admins.loop",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "YukkiMusic/plugins/admins/loop.py",
+        "symbol": "missing-module-docstring",
+        "message": "Missing module docstring",
+        "message-id": "C0114"
+    },
+    {
+        "type": "convention",
+        "module": "YukkiMusic.plugins.admins.loop",
+        "obj": "admins",
+        "line": 23,
+        "column": 0,
+        "endLine": 23,
+        "endColumn": 16,
+        "path": "YukkiMusic/plugins/admins/loop.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.admins.loop",
+        "obj": "admins",
+        "line": 20,
+        "column": 53,
+        "endLine": 20,
+        "endColumn": 61,
+        "path": "YukkiMusic/plugins/admins/loop.py",
+        "symbol": "no-member",
+        "message": "Module 'YukkiMusic.core.filters' has no 'user' member; maybe 'User'?",
+        "message-id": "E1101"
+    },
+    {
+        "type": "refactor",
+        "module": "YukkiMusic.plugins.admins.loop",
+        "obj": "admins",
+        "line": 31,
+        "column": 8,
+        "endLine": 42,
+        "endColumn": 51,
+        "path": "YukkiMusic/plugins/admins/loop.py",
+        "symbol": "no-else-return",
+        "message": "Unnecessary \"else\" after \"return\", remove the \"else\" and de-indent the code inside it",
+        "message-id": "R1705"
+    }
+]

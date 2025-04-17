@@ -1,0 +1,67 @@
+[
+    {
+        "type": "convention",
+        "module": "YukkiMusic.utils.stream.queue",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "YukkiMusic/utils/stream/queue.py",
+        "symbol": "missing-module-docstring",
+        "message": "Missing module docstring",
+        "message-id": "C0114"
+    },
+    {
+        "type": "convention",
+        "module": "YukkiMusic.utils.stream.queue",
+        "obj": "put_queue",
+        "line": 17,
+        "column": 0,
+        "endLine": 17,
+        "endColumn": 19,
+        "path": "YukkiMusic/utils/stream/queue.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    },
+    {
+        "type": "convention",
+        "module": "YukkiMusic.utils.stream.queue",
+        "obj": "put_queue",
+        "line": 24,
+        "column": 4,
+        "endLine": 24,
+        "endColumn": 31,
+        "path": "YukkiMusic/utils/stream/queue.py",
+        "symbol": "import-outside-toplevel",
+        "message": "Import outside toplevel (YukkiMusic.tbot)",
+        "message-id": "C0415"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.utils.stream.queue",
+        "obj": "",
+        "line": 13,
+        "column": 0,
+        "endLine": 13,
+        "endColumn": 41,
+        "path": "YukkiMusic/utils/stream/queue.py",
+        "symbol": "import-error",
+        "message": "Unable to import 'YukkiMusic.core.youtube'",
+        "message-id": "E0401"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.utils.stream.queue",
+        "obj": "",
+        "line": 13,
+        "column": 0,
+        "endLine": 13,
+        "endColumn": 41,
+        "path": "YukkiMusic/utils/stream/queue.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'youtube' in module 'YukkiMusic.core'",
+        "message-id": "E0611"
+    }
+]

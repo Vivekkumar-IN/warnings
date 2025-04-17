@@ -1,0 +1,80 @@
+[
+    {
+        "type": "convention",
+        "module": "YukkiMusic.utils.logger",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "YukkiMusic/utils/logger.py",
+        "symbol": "missing-module-docstring",
+        "message": "Missing module docstring",
+        "message-id": "C0114"
+    },
+    {
+        "type": "convention",
+        "module": "YukkiMusic.utils.logger",
+        "obj": "play_logs",
+        "line": 14,
+        "column": 0,
+        "endLine": 14,
+        "endColumn": 19,
+        "path": "YukkiMusic/utils/logger.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.utils.logger",
+        "obj": "play_logs",
+        "line": 24,
+        "column": 15,
+        "endLine": 24,
+        "endColumn": 20,
+        "path": "YukkiMusic/utils/logger.py",
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'event'",
+        "message-id": "E0602"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.utils.logger",
+        "obj": "play_logs",
+        "line": 28,
+        "column": 15,
+        "endLine": 28,
+        "endColumn": 20,
+        "path": "YukkiMusic/utils/logger.py",
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'event'",
+        "message-id": "E0602"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.utils.logger",
+        "obj": "play_logs",
+        "line": 34,
+        "column": 11,
+        "endLine": 34,
+        "endColumn": 16,
+        "path": "YukkiMusic/utils/logger.py",
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'event'",
+        "message-id": "E0602"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.utils.logger",
+        "obj": "play_logs",
+        "line": 41,
+        "column": 19,
+        "endLine": 41,
+        "endColumn": 28,
+        "path": "YukkiMusic/utils/logger.py",
+        "symbol": "broad-exception-caught",
+        "message": "Catching too general exception Exception",
+        "message-id": "W0718"
+    }
+]

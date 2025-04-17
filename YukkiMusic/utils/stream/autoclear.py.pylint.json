@@ -1,0 +1,54 @@
+[
+    {
+        "type": "convention",
+        "module": "YukkiMusic.utils.stream.autoclear",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "YukkiMusic/utils/stream/autoclear.py",
+        "symbol": "missing-module-docstring",
+        "message": "Missing module docstring",
+        "message-id": "C0114"
+    },
+    {
+        "type": "convention",
+        "module": "YukkiMusic.utils.stream.autoclear",
+        "obj": "auto_clean",
+        "line": 18,
+        "column": 0,
+        "endLine": 18,
+        "endColumn": 14,
+        "path": "YukkiMusic/utils/stream/autoclear.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.utils.stream.autoclear",
+        "obj": "auto_clean._auto_clean",
+        "line": 30,
+        "column": 15,
+        "endLine": 30,
+        "endColumn": 24,
+        "path": "YukkiMusic/utils/stream/autoclear.py",
+        "symbol": "broad-exception-caught",
+        "message": "Catching too general exception Exception",
+        "message-id": "W0718"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.utils.stream.autoclear",
+        "obj": "auto_clean._auto_clean",
+        "line": 28,
+        "column": 27,
+        "endLine": 28,
+        "endColumn": 36,
+        "path": "YukkiMusic/utils/stream/autoclear.py",
+        "symbol": "broad-exception-caught",
+        "message": "Catching too general exception Exception",
+        "message-id": "W0718"
+    }
+]

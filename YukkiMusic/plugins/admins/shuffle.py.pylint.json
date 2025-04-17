@@ -1,0 +1,54 @@
+[
+    {
+        "type": "convention",
+        "module": "YukkiMusic.plugins.admins.shuffle",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "YukkiMusic/plugins/admins/shuffle.py",
+        "symbol": "missing-module-docstring",
+        "message": "Missing module docstring",
+        "message-id": "C0114"
+    },
+    {
+        "type": "convention",
+        "module": "YukkiMusic.plugins.admins.shuffle",
+        "obj": "admins",
+        "line": 24,
+        "column": 0,
+        "endLine": 24,
+        "endColumn": 16,
+        "path": "YukkiMusic/plugins/admins/shuffle.py",
+        "symbol": "missing-function-docstring",
+        "message": "Missing function or method docstring",
+        "message-id": "C0116"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.admins.shuffle",
+        "obj": "admins",
+        "line": 21,
+        "column": 56,
+        "endLine": 21,
+        "endColumn": 64,
+        "path": "YukkiMusic/plugins/admins/shuffle.py",
+        "symbol": "no-member",
+        "message": "Module 'YukkiMusic.core.filters' has no 'user' member; maybe 'User'?",
+        "message-id": "E1101"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.plugins.admins.shuffle",
+        "obj": "admins",
+        "line": 32,
+        "column": 11,
+        "endLine": 32,
+        "endColumn": 20,
+        "path": "YukkiMusic/plugins/admins/shuffle.py",
+        "symbol": "broad-exception-caught",
+        "message": "Catching too general exception Exception",
+        "message-id": "W0718"
+    }
+]
