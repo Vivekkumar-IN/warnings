@@ -50,31 +50,5 @@
         "symbol": "undefined-variable",
         "message": "Undefined variable 'flt'",
         "message-id": "E0602"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.sudo.logger",
-        "obj": "logger",
-        "line": 25,
-        "column": 21,
-        "endLine": 25,
-        "endColumn": 31,
-        "path": "YukkiMusic/plugins/sudo/logger.py",
-        "symbol": "no-member",
-        "message": "Module 'config' has no 'LOG' member",
-        "message-id": "E1101"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.sudo.logger",
-        "obj": "logger",
-        "line": 28,
-        "column": 22,
-        "endLine": 28,
-        "endColumn": 32,
-        "path": "YukkiMusic/plugins/sudo/logger.py",
-        "symbol": "no-member",
-        "message": "Module 'config' has no 'LOG' member",
-        "message-id": "E1101"
     }
 ]

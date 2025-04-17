@@ -2,32 +2,6 @@
     {
         "type": "error",
         "module": "YukkiMusic.utils.logger",
-        "obj": "",
-        "line": 9,
-        "column": 0,
-        "endLine": 9,
-        "endColumn": 36,
-        "path": "YukkiMusic/utils/logger.py",
-        "symbol": "no-name-in-module",
-        "message": "No name 'LOG' in module 'config'",
-        "message-id": "E0611"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.utils.logger",
-        "obj": "",
-        "line": 9,
-        "column": 0,
-        "endLine": 9,
-        "endColumn": 36,
-        "path": "YukkiMusic/utils/logger.py",
-        "symbol": "no-name-in-module",
-        "message": "No name 'LOG_GROUP_ID' in module 'config'",
-        "message-id": "E0611"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.utils.logger",
         "obj": "play_logs",
         "line": 24,
         "column": 15,

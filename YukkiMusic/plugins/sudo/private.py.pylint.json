@@ -41,19 +41,6 @@
     {
         "type": "error",
         "module": "YukkiMusic.plugins.sudo.private",
-        "obj": "authorize",
-        "line": 27,
-        "column": 11,
-        "endLine": 27,
-        "endColumn": 34,
-        "path": "YukkiMusic/plugins/sudo/private.py",
-        "symbol": "no-member",
-        "message": "Module 'config' has no 'PRIVATE_BOT_MODE' member",
-        "message-id": "E1101"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.sudo.private",
         "obj": "unauthorize",
         "line": 42,
         "column": 17,
@@ -80,19 +67,6 @@
     {
         "type": "error",
         "module": "YukkiMusic.plugins.sudo.private",
-        "obj": "unauthorize",
-        "line": 45,
-        "column": 11,
-        "endLine": 45,
-        "endColumn": 34,
-        "path": "YukkiMusic/plugins/sudo/private.py",
-        "symbol": "no-member",
-        "message": "Module 'config' has no 'PRIVATE_BOT_MODE' member",
-        "message-id": "E1101"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.sudo.private",
         "obj": "authorized",
         "line": 60,
         "column": 17,
@@ -115,19 +89,6 @@
         "symbol": "undefined-variable",
         "message": "Undefined variable 'flt'",
         "message-id": "E0602"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.sudo.private",
-        "obj": "authorized",
-        "line": 63,
-        "column": 11,
-        "endLine": 63,
-        "endColumn": 34,
-        "path": "YukkiMusic/plugins/sudo/private.py",
-        "symbol": "no-member",
-        "message": "Module 'config' has no 'PRIVATE_BOT_MODE' member",
-        "message-id": "E1101"
     },
     {
         "type": "refactor",

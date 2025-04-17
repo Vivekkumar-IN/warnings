@@ -1,18 +1,5 @@
 [
     {
-        "type": "error",
-        "module": "YukkiMusic.utils.inline.help",
-        "obj": "",
-        "line": 12,
-        "column": 0,
-        "endLine": 12,
-        "endColumn": 32,
-        "path": "YukkiMusic/utils/inline/help.py",
-        "symbol": "no-name-in-module",
-        "message": "No name 'SUPPORT_GROUP' in module 'config'",
-        "message-id": "E0611"
-    },
-    {
         "type": "warning",
         "module": "YukkiMusic.utils.inline.help",
         "obj": "help_back_markup",
