@@ -40,7 +40,7 @@ jobs:
          
           cd ../YukkiMusic
           pylint --exit-zero --output-format=json --indent-string="    " --reports=no . > ../current_dir/warnings.json
-          rm -rf *
+          #rm -rf *
           
       - name: Commit Changes
         uses: stefanzweifel/git-auto-commit-action@v5
