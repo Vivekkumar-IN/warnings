@@ -24,18 +24,5 @@
         "symbol": "broad-exception-caught",
         "message": "Catching too general exception Exception",
         "message-id": "W0718"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.__main__",
-        "obj": "init",
-        "line": 44,
-        "column": 10,
-        "endLine": 44,
-        "endColumn": 53,
-        "path": "YukkiMusic/__main__.py",
-        "symbol": "no-value-for-parameter",
-        "message": "No value for argument 'attrs' in method call",
-        "message-id": "E1120"
     }
 ]
