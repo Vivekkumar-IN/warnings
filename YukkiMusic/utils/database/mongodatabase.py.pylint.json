@@ -13,19 +13,6 @@
         "message-id": "E0602"
     },
     {
-        "type": "error",
-        "module": "YukkiMusic.utils.database.mongodatabase",
-        "obj": "get_authuser_names",
-        "line": 188,
-        "column": 46,
-        "endLine": 188,
-        "endColumn": 50,
-        "path": "YukkiMusic/utils/database/mongodatabase.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable 'List'",
-        "message-id": "E0602"
-    },
-    {
         "type": "warning",
         "module": "YukkiMusic.utils.database.mongodatabase",
         "obj": "",
@@ -37,5 +24,18 @@
         "symbol": "fixme",
         "message": "FIXME: MAYBE IF I GUESS RIGHT SO WE DONT NEED TO PROVIDE THE INFO BEACAUSE THIS IS NOT IN USED",
         "message-id": "W0511"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.utils.database.mongodatabase",
+        "obj": "get_authuser_names",
+        "line": 188,
+        "column": 46,
+        "endLine": 188,
+        "endColumn": 50,
+        "path": "YukkiMusic/utils/database/mongodatabase.py",
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'List'",
+        "message-id": "E0602"
     }
 ]

@@ -39,110 +39,6 @@
         "message-id": "E0602"
     },
     {
-        "type": "error",
-        "module": "YukkiMusic.plugins.play.play",
-        "obj": "play_commnd",
-        "line": 130,
-        "column": 19,
-        "endLine": 130,
-        "endColumn": 26,
-        "path": "YukkiMusic/plugins/play/play.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable 'spotify'",
-        "message-id": "E0602"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.play.play",
-        "obj": "play_commnd",
-        "line": 134,
-        "column": 32,
-        "endLine": 134,
-        "endColumn": 39,
-        "path": "YukkiMusic/plugins/play/play.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable 'spotify'",
-        "message-id": "E0602"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.play.play",
-        "obj": "play_commnd",
-        "line": 166,
-        "column": 32,
-        "endLine": 166,
-        "endColumn": 50,
-        "path": "YukkiMusic/plugins/play/play.py",
-        "symbol": "no-member",
-        "message": "Instance of 'SoundCloud' has no 'details' member",
-        "message-id": "E1101"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.play.play",
-        "obj": "play_commnd",
-        "line": 182,
-        "column": 15,
-        "endLine": 182,
-        "endColumn": 22,
-        "path": "YukkiMusic/plugins/play/play.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable 'message'",
-        "message-id": "E0602"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.play.play",
-        "obj": "play_commnd",
-        "line": 188,
-        "column": 16,
-        "endLine": 188,
-        "endColumn": 23,
-        "path": "YukkiMusic/plugins/play/play.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable 'message'",
-        "message-id": "E0602"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.play.play",
-        "obj": "play_commnd",
-        "line": 210,
-        "column": 16,
-        "endLine": 210,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/play/play.py",
-        "symbol": "used-before-assignment",
-        "message": "Using variable 'track_id' before assignment",
-        "message-id": "E0601"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.play.play",
-        "obj": "play_commnd",
-        "line": 239,
-        "column": 31,
-        "endLine": 239,
-        "endColumn": 38,
-        "path": "YukkiMusic/plugins/play/play.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable 'message'",
-        "message-id": "E0602"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.play.play",
-        "obj": "play_commnd",
-        "line": 239,
-        "column": 51,
-        "endLine": 239,
-        "endColumn": 61,
-        "path": "YukkiMusic/plugins/play/play.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable 'streamtype'",
-        "message-id": "E0602"
-    },
-    {
         "type": "refactor",
         "module": "YukkiMusic.plugins.play.play",
         "obj": "play_commnd",
@@ -224,6 +120,19 @@
         "type": "warning",
         "module": "YukkiMusic.plugins.play.play",
         "obj": "play_commnd",
+        "line": 47,
+        "column": 4,
+        "endLine": 47,
+        "endColumn": 12,
+        "path": "YukkiMusic/plugins/play/play.py",
+        "symbol": "unused-argument",
+        "message": "Unused argument 'playmode'",
+        "message-id": "W0613"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.plugins.play.play",
+        "obj": "play_commnd",
         "line": 88,
         "column": 15,
         "endLine": 88,
@@ -258,6 +167,32 @@
         "symbol": "broad-exception-caught",
         "message": "Catching too general exception Exception",
         "message-id": "W0718"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.play.play",
+        "obj": "play_commnd",
+        "line": 130,
+        "column": 19,
+        "endLine": 130,
+        "endColumn": 26,
+        "path": "YukkiMusic/plugins/play/play.py",
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'spotify'",
+        "message-id": "E0602"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.play.play",
+        "obj": "play_commnd",
+        "line": 134,
+        "column": 32,
+        "endLine": 134,
+        "endColumn": 39,
+        "path": "YukkiMusic/plugins/play/play.py",
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'spotify'",
+        "message-id": "E0602"
     },
     {
         "type": "warning",
@@ -312,6 +247,19 @@
         "message-id": "W0718"
     },
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.play.play",
+        "obj": "play_commnd",
+        "line": 166,
+        "column": 32,
+        "endLine": 166,
+        "endColumn": 50,
+        "path": "YukkiMusic/plugins/play/play.py",
+        "symbol": "no-member",
+        "message": "Instance of 'SoundCloud' has no 'details' member",
+        "message-id": "E1101"
+    },
+    {
         "type": "warning",
         "module": "YukkiMusic.plugins.play.play",
         "obj": "play_commnd",
@@ -323,6 +271,45 @@
         "symbol": "broad-exception-caught",
         "message": "Catching too general exception Exception",
         "message-id": "W0718"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.plugins.play.play",
+        "obj": "play_commnd",
+        "line": 173,
+        "column": 22,
+        "endLine": 173,
+        "endColumn": 27,
+        "path": "YukkiMusic/plugins/play/play.py",
+        "symbol": "unused-variable",
+        "message": "Unused variable 'track'",
+        "message-id": "W0612"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.play.play",
+        "obj": "play_commnd",
+        "line": 182,
+        "column": 15,
+        "endLine": 182,
+        "endColumn": 22,
+        "path": "YukkiMusic/plugins/play/play.py",
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'message'",
+        "message-id": "E0602"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.play.play",
+        "obj": "play_commnd",
+        "line": 188,
+        "column": 16,
+        "endLine": 188,
+        "endColumn": 23,
+        "path": "YukkiMusic/plugins/play/play.py",
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'message'",
+        "message-id": "E0602"
     },
     {
         "type": "warning",
@@ -351,6 +338,19 @@
         "message-id": "W0125"
     },
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.play.play",
+        "obj": "play_commnd",
+        "line": 210,
+        "column": 16,
+        "endLine": 210,
+        "endColumn": 24,
+        "path": "YukkiMusic/plugins/play/play.py",
+        "symbol": "used-before-assignment",
+        "message": "Using variable 'track_id' before assignment",
+        "message-id": "E0601"
+    },
+    {
         "type": "warning",
         "module": "YukkiMusic.plugins.play.play",
         "obj": "play_commnd",
@@ -364,6 +364,32 @@
         "message-id": "W0718"
     },
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.play.play",
+        "obj": "play_commnd",
+        "line": 239,
+        "column": 31,
+        "endLine": 239,
+        "endColumn": 38,
+        "path": "YukkiMusic/plugins/play/play.py",
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'message'",
+        "message-id": "E0602"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.play.play",
+        "obj": "play_commnd",
+        "line": 239,
+        "column": 51,
+        "endLine": 239,
+        "endColumn": 61,
+        "path": "YukkiMusic/plugins/play/play.py",
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'streamtype'",
+        "message-id": "E0602"
+    },
+    {
         "type": "warning",
         "module": "YukkiMusic.plugins.play.play",
         "obj": "play_commnd",
@@ -375,31 +401,5 @@
         "symbol": "pointless-string-statement",
         "message": "String statement has no effect",
         "message-id": "W0105"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.play.play",
-        "obj": "play_commnd",
-        "line": 47,
-        "column": 4,
-        "endLine": 47,
-        "endColumn": 12,
-        "path": "YukkiMusic/plugins/play/play.py",
-        "symbol": "unused-argument",
-        "message": "Unused argument 'playmode'",
-        "message-id": "W0613"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.play.play",
-        "obj": "play_commnd",
-        "line": 173,
-        "column": 22,
-        "endLine": 173,
-        "endColumn": 27,
-        "path": "YukkiMusic/plugins/play/play.py",
-        "symbol": "unused-variable",
-        "message": "Unused variable 'track'",
-        "message-id": "W0612"
     }
 ]

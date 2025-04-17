@@ -16,19 +16,6 @@
         "type": "refactor",
         "module": "YukkiMusic.utils.inline.play",
         "obj": "get_progress_bar",
-        "line": 22,
-        "column": 4,
-        "endLine": 43,
-        "endColumn": 44,
-        "path": "YukkiMusic/utils/inline/play.py",
-        "symbol": "no-else-return",
-        "message": "Unnecessary \"elif\" after \"return\", remove the leading \"el\" from \"elif\"",
-        "message-id": "R1705"
-    },
-    {
-        "type": "refactor",
-        "module": "YukkiMusic.utils.inline.play",
-        "obj": "get_progress_bar",
         "line": 19,
         "column": 0,
         "endLine": 19,
@@ -37,6 +24,19 @@
         "symbol": "too-many-return-statements",
         "message": "Too many return statements (11/6)",
         "message-id": "R0911"
+    },
+    {
+        "type": "refactor",
+        "module": "YukkiMusic.utils.inline.play",
+        "obj": "get_progress_bar",
+        "line": 22,
+        "column": 4,
+        "endLine": 43,
+        "endColumn": 44,
+        "path": "YukkiMusic/utils/inline/play.py",
+        "symbol": "no-else-return",
+        "message": "Unnecessary \"elif\" after \"return\", remove the leading \"el\" from \"elif\"",
+        "message-id": "R1705"
     },
     {
         "type": "refactor",

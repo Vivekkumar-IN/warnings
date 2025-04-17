@@ -1,5 +1,18 @@
 [
     {
+        "type": "warning",
+        "module": "YukkiMusic.utils.functions",
+        "obj": "extract_text_and_keyb",
+        "line": 123,
+        "column": 11,
+        "endLine": 123,
+        "endColumn": 20,
+        "path": "YukkiMusic/utils/functions.py",
+        "symbol": "broad-exception-caught",
+        "message": "Catching too general exception Exception",
+        "message-id": "W0718"
+    },
+    {
         "type": "error",
         "module": "YukkiMusic.utils.functions",
         "obj": "extract_user_and_reason",
@@ -11,6 +24,19 @@
         "symbol": "undefined-variable",
         "message": "Undefined variable 'event'",
         "message-id": "E0602"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.utils.functions",
+        "obj": "time_converter",
+        "line": 283,
+        "column": 25,
+        "endLine": 283,
+        "endColumn": 41,
+        "path": "YukkiMusic/utils/functions.py",
+        "symbol": "unused-argument",
+        "message": "Unused argument 'message'",
+        "message-id": "W0613"
     },
     {
         "type": "error",
@@ -37,31 +63,5 @@
         "symbol": "undefined-variable",
         "message": "Undefined variable 'event'",
         "message-id": "E0602"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.utils.functions",
-        "obj": "extract_text_and_keyb",
-        "line": 123,
-        "column": 11,
-        "endLine": 123,
-        "endColumn": 20,
-        "path": "YukkiMusic/utils/functions.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.utils.functions",
-        "obj": "time_converter",
-        "line": 283,
-        "column": 25,
-        "endLine": 283,
-        "endColumn": 41,
-        "path": "YukkiMusic/utils/functions.py",
-        "symbol": "unused-argument",
-        "message": "Unused argument 'message'",
-        "message-id": "W0613"
     }
 ]

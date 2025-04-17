@@ -2,6 +2,19 @@
     {
         "type": "convention",
         "module": "YukkiMusic.core.request",
+        "obj": "Request",
+        "line": 15,
+        "column": 0,
+        "endLine": 15,
+        "endColumn": 13,
+        "path": "YukkiMusic/core/request.py",
+        "symbol": "missing-class-docstring",
+        "message": "Missing class docstring",
+        "message-id": "C0115"
+    },
+    {
+        "type": "convention",
+        "module": "YukkiMusic.core.request",
         "obj": "",
         "line": 27,
         "column": 0,
@@ -76,18 +89,5 @@
         "symbol": "line-too-long",
         "message": "Line too long (116/100)",
         "message-id": "C0301"
-    },
-    {
-        "type": "convention",
-        "module": "YukkiMusic.core.request",
-        "obj": "Request",
-        "line": 15,
-        "column": 0,
-        "endLine": 15,
-        "endColumn": 13,
-        "path": "YukkiMusic/core/request.py",
-        "symbol": "missing-class-docstring",
-        "message": "Missing class docstring",
-        "message-id": "C0115"
     }
 ]

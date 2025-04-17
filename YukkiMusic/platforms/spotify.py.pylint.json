@@ -13,6 +13,32 @@
         "message-id": "C0115"
     },
     {
+        "type": "warning",
+        "module": "YukkiMusic.platforms.spotify",
+        "obj": "Spotify.track",
+        "line": 45,
+        "column": 22,
+        "endLine": 45,
+        "endColumn": 38,
+        "path": "YukkiMusic/platforms/spotify.py",
+        "symbol": "protected-access",
+        "message": "Access to a protected member __artist of a client class",
+        "message-id": "W0212"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.platforms.spotify",
+        "obj": "Spotify.track",
+        "line": 45,
+        "column": 22,
+        "endLine": 45,
+        "endColumn": 29,
+        "path": "YukkiMusic/platforms/spotify.py",
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'spotify'",
+        "message-id": "E0602"
+    },
+    {
         "type": "convention",
         "module": "YukkiMusic.platforms.spotify",
         "obj": "Spotify.__track",
@@ -52,6 +78,19 @@
         "message-id": "C0415"
     },
     {
+        "type": "warning",
+        "module": "YukkiMusic.platforms.spotify",
+        "obj": "Spotify.__artist",
+        "line": 114,
+        "column": 4,
+        "endLine": 114,
+        "endColumn": 22,
+        "path": "YukkiMusic/platforms/spotify.py",
+        "symbol": "unused-private-member",
+        "message": "Unused private member `Spotify.__artist(self, url: str)`",
+        "message-id": "W0238"
+    },
+    {
         "type": "convention",
         "module": "YukkiMusic.platforms.spotify",
         "obj": "Spotify.__artist",
@@ -76,44 +115,5 @@
         "symbol": "import-outside-toplevel",
         "message": "Import outside toplevel (youtube.YouTube)",
         "message-id": "C0415"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.platforms.spotify",
-        "obj": "Spotify.track",
-        "line": 45,
-        "column": 22,
-        "endLine": 45,
-        "endColumn": 29,
-        "path": "YukkiMusic/platforms/spotify.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable 'spotify'",
-        "message-id": "E0602"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.platforms.spotify",
-        "obj": "Spotify.track",
-        "line": 45,
-        "column": 22,
-        "endLine": 45,
-        "endColumn": 38,
-        "path": "YukkiMusic/platforms/spotify.py",
-        "symbol": "protected-access",
-        "message": "Access to a protected member __artist of a client class",
-        "message-id": "W0212"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.platforms.spotify",
-        "obj": "Spotify.__artist",
-        "line": 114,
-        "column": 4,
-        "endLine": 114,
-        "endColumn": 22,
-        "path": "YukkiMusic/platforms/spotify.py",
-        "symbol": "unused-private-member",
-        "message": "Unused private member `Spotify.__artist(self, url: str)`",
-        "message-id": "W0238"
     }
 ]

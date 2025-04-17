@@ -1,16 +1,16 @@
 [
     {
-        "type": "convention",
+        "type": "refactor",
         "module": "YukkiMusic.platforms.youtube",
-        "obj": "",
-        "line": 202,
-        "column": 0,
-        "endLine": null,
-        "endColumn": null,
+        "obj": "shell_cmd",
+        "line": 37,
+        "column": 8,
+        "endLine": 40,
+        "endColumn": 41,
         "path": "YukkiMusic/platforms/youtube.py",
-        "symbol": "line-too-long",
-        "message": "Line too long (112/100)",
-        "message-id": "C0301"
+        "symbol": "no-else-return",
+        "message": "Unnecessary \"else\" after \"return\", remove the \"else\" and de-indent the code inside it",
+        "message-id": "R1705"
     },
     {
         "type": "convention",
@@ -39,56 +39,17 @@
         "message-id": "E1101"
     },
     {
-        "type": "error",
+        "type": "warning",
         "module": "YukkiMusic.platforms.youtube",
-        "obj": "YouTube.playlist",
-        "line": 130,
-        "column": 14,
-        "endLine": 130,
-        "endColumn": 19,
-        "path": "YukkiMusic/platforms/youtube.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable 'Track'",
-        "message-id": "E0602"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.platforms.youtube",
-        "obj": "YouTube.track",
-        "line": 161,
-        "column": 23,
-        "endLine": 161,
-        "endColumn": 28,
-        "path": "YukkiMusic/platforms/youtube.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable 'Track'",
-        "message-id": "E0602"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.platforms.youtube",
-        "obj": "YouTube._track_from_ytdlp",
-        "line": 193,
-        "column": 19,
-        "endLine": 193,
+        "obj": "YouTube.video",
+        "line": 71,
+        "column": 12,
+        "endLine": 71,
         "endColumn": 24,
         "path": "YukkiMusic/platforms/youtube.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable 'Track'",
-        "message-id": "E0602"
-    },
-    {
-        "type": "refactor",
-        "module": "YukkiMusic.platforms.youtube",
-        "obj": "shell_cmd",
-        "line": 37,
-        "column": 8,
-        "endLine": 40,
-        "endColumn": 41,
-        "path": "YukkiMusic/platforms/youtube.py",
-        "symbol": "no-else-return",
-        "message": "Unnecessary \"else\" after \"return\", remove the \"else\" and de-indent the code inside it",
-        "message-id": "R1705"
+        "symbol": "f-string-without-interpolation",
+        "message": "Using an f-string that does not have any interpolated variables",
+        "message-id": "W1309"
     },
     {
         "type": "refactor",
@@ -102,32 +63,6 @@
         "symbol": "no-else-return",
         "message": "Unnecessary \"else\" after \"return\", remove the \"else\" and de-indent the code inside it",
         "message-id": "R1705"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.platforms.youtube",
-        "obj": "",
-        "line": 188,
-        "column": 16,
-        "endLine": null,
-        "endColumn": null,
-        "path": "YukkiMusic/platforms/youtube.py",
-        "symbol": "fixme",
-        "message": "TODO: THIS CAN RETURN SEARCH RESULT OF A CHANNEL FIX IT",
-        "message-id": "W0511"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.platforms.youtube",
-        "obj": "YouTube.video",
-        "line": 71,
-        "column": 12,
-        "endLine": 71,
-        "endColumn": 24,
-        "path": "YukkiMusic/platforms/youtube.py",
-        "symbol": "f-string-without-interpolation",
-        "message": "Using an f-string that does not have any interpolated variables",
-        "message-id": "W1309"
     },
     {
         "type": "warning",
@@ -156,6 +91,19 @@
         "message-id": "W0718"
     },
     {
+        "type": "error",
+        "module": "YukkiMusic.platforms.youtube",
+        "obj": "YouTube.playlist",
+        "line": 130,
+        "column": 14,
+        "endLine": 130,
+        "endColumn": 19,
+        "path": "YukkiMusic/platforms/youtube.py",
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'Track'",
+        "message-id": "E0602"
+    },
+    {
         "type": "warning",
         "module": "YukkiMusic.platforms.youtube",
         "obj": "YouTube.playlist",
@@ -182,6 +130,19 @@
         "message-id": "W0221"
     },
     {
+        "type": "error",
+        "module": "YukkiMusic.platforms.youtube",
+        "obj": "YouTube.track",
+        "line": 161,
+        "column": 23,
+        "endLine": 161,
+        "endColumn": 28,
+        "path": "YukkiMusic/platforms/youtube.py",
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'Track'",
+        "message-id": "E0602"
+    },
+    {
         "type": "warning",
         "module": "YukkiMusic.platforms.youtube",
         "obj": "YouTube.track",
@@ -206,5 +167,44 @@
         "symbol": "logging-fstring-interpolation",
         "message": "Use lazy % formatting in logging functions",
         "message-id": "W1203"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.platforms.youtube",
+        "obj": "",
+        "line": 188,
+        "column": 16,
+        "endLine": null,
+        "endColumn": null,
+        "path": "YukkiMusic/platforms/youtube.py",
+        "symbol": "fixme",
+        "message": "TODO: THIS CAN RETURN SEARCH RESULT OF A CHANNEL FIX IT",
+        "message-id": "W0511"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.platforms.youtube",
+        "obj": "YouTube._track_from_ytdlp",
+        "line": 193,
+        "column": 19,
+        "endLine": 193,
+        "endColumn": 24,
+        "path": "YukkiMusic/platforms/youtube.py",
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'Track'",
+        "message-id": "E0602"
+    },
+    {
+        "type": "convention",
+        "module": "YukkiMusic.platforms.youtube",
+        "obj": "",
+        "line": 202,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "YukkiMusic/platforms/youtube.py",
+        "symbol": "line-too-long",
+        "message": "Line too long (112/100)",
+        "message-id": "C0301"
     }
 ]

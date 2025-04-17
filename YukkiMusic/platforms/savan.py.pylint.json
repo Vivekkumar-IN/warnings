@@ -52,19 +52,6 @@
         "message-id": "E1101"
     },
     {
-        "type": "error",
-        "module": "YukkiMusic.platforms.savan",
-        "obj": "Saavn.__track",
-        "line": 74,
-        "column": 14,
-        "endLine": 74,
-        "endColumn": 28,
-        "path": "YukkiMusic/platforms/savan.py",
-        "symbol": "no-member",
-        "message": "Instance of 'Saavn' has no 'clean_url' member",
-        "message-id": "E1101"
-    },
-    {
         "type": "warning",
         "module": "YukkiMusic.platforms.savan",
         "obj": "Saavn.playlist",
@@ -76,5 +63,18 @@
         "symbol": "broad-exception-caught",
         "message": "Catching too general exception Exception",
         "message-id": "W0718"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.platforms.savan",
+        "obj": "Saavn.__track",
+        "line": 74,
+        "column": 14,
+        "endLine": 74,
+        "endColumn": 28,
+        "path": "YukkiMusic/platforms/savan.py",
+        "symbol": "no-member",
+        "message": "Instance of 'Saavn' has no 'clean_url' member",
+        "message-id": "E1101"
     }
 ]

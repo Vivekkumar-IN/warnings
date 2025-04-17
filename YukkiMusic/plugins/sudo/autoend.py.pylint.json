@@ -1,18 +1,5 @@
 [
     {
-        "type": "convention",
-        "module": "YukkiMusic.plugins.sudo.autoend",
-        "obj": "",
-        "line": 26,
-        "column": 0,
-        "endLine": null,
-        "endColumn": null,
-        "path": "YukkiMusic/plugins/sudo/autoend.py",
-        "symbol": "line-too-long",
-        "message": "Line too long (140/100)",
-        "message-id": "C0301"
-    },
-    {
         "type": "error",
         "module": "YukkiMusic.plugins.sudo.autoend",
         "obj": "",
@@ -50,5 +37,18 @@
         "symbol": "undefined-variable",
         "message": "Undefined variable 'flt'",
         "message-id": "E0602"
+    },
+    {
+        "type": "convention",
+        "module": "YukkiMusic.plugins.sudo.autoend",
+        "obj": "",
+        "line": 26,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "YukkiMusic/plugins/sudo/autoend.py",
+        "symbol": "line-too-long",
+        "message": "Line too long (140/100)",
+        "message-id": "C0301"
     }
 ]

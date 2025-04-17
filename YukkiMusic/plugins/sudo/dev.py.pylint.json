@@ -1,18 +1,5 @@
 [
     {
-        "type": "convention",
-        "module": "YukkiMusic.plugins.sudo.dev",
-        "obj": "",
-        "line": 92,
-        "column": 0,
-        "endLine": null,
-        "endColumn": null,
-        "path": "YukkiMusic/plugins/sudo/dev.py",
-        "symbol": "line-too-long",
-        "message": "Line too long (102/100)",
-        "message-id": "C0301"
-    },
-    {
         "type": "error",
         "module": "YukkiMusic.plugins.sudo.dev",
         "obj": "",
@@ -24,6 +11,19 @@
         "symbol": "no-name-in-module",
         "message": "No name 'SUDOERS' in module 'YukkiMusic.misc'",
         "message-id": "E0611"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.plugins.sudo.dev",
+        "obj": "aexec",
+        "line": 33,
+        "column": 4,
+        "endLine": 36,
+        "endColumn": 5,
+        "path": "YukkiMusic/plugins/sudo/dev.py",
+        "symbol": "exec-used",
+        "message": "Use of exec",
+        "message-id": "W0122"
     },
     {
         "type": "error",
@@ -104,6 +104,71 @@
         "message-id": "E0602"
     },
     {
+        "type": "warning",
+        "module": "YukkiMusic.plugins.sudo.dev",
+        "obj": "executor",
+        "line": 62,
+        "column": 15,
+        "endLine": 62,
+        "endColumn": 24,
+        "path": "YukkiMusic/plugins/sudo/dev.py",
+        "symbol": "broad-exception-caught",
+        "message": "Catching too general exception Exception",
+        "message-id": "W0718"
+    },
+    {
+        "type": "convention",
+        "module": "YukkiMusic.plugins.sudo.dev",
+        "obj": "",
+        "line": 92,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "YukkiMusic/plugins/sudo/dev.py",
+        "symbol": "line-too-long",
+        "message": "Line too long (102/100)",
+        "message-id": "C0301"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.plugins.sudo.dev",
+        "obj": "forceclose_command",
+        "line": 126,
+        "column": 4,
+        "endLine": 126,
+        "endColumn": 9,
+        "path": "YukkiMusic/plugins/sudo/dev.py",
+        "symbol": "unused-variable",
+        "message": "Unused variable 'query'",
+        "message-id": "W0612"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.plugins.sudo.dev",
+        "obj": "forceclose_command",
+        "line": 132,
+        "column": 15,
+        "endLine": 132,
+        "endColumn": 24,
+        "path": "YukkiMusic/plugins/sudo/dev.py",
+        "symbol": "broad-exception-caught",
+        "message": "Catching too general exception Exception",
+        "message-id": "W0718"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.plugins.sudo.dev",
+        "obj": "forceclose_command",
+        "line": 137,
+        "column": 11,
+        "endLine": 137,
+        "endColumn": 20,
+        "path": "YukkiMusic/plugins/sudo/dev.py",
+        "symbol": "broad-exception-caught",
+        "message": "Catching too general exception Exception",
+        "message-id": "W0718"
+    },
+    {
         "type": "error",
         "module": "YukkiMusic.plugins.sudo.dev",
         "obj": "shellrunner",
@@ -180,71 +245,6 @@
         "symbol": "undefined-variable",
         "message": "Undefined variable 'flt'",
         "message-id": "E0602"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.sudo.dev",
-        "obj": "aexec",
-        "line": 33,
-        "column": 4,
-        "endLine": 36,
-        "endColumn": 5,
-        "path": "YukkiMusic/plugins/sudo/dev.py",
-        "symbol": "exec-used",
-        "message": "Use of exec",
-        "message-id": "W0122"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.sudo.dev",
-        "obj": "executor",
-        "line": 62,
-        "column": 15,
-        "endLine": 62,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/sudo/dev.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.sudo.dev",
-        "obj": "forceclose_command",
-        "line": 132,
-        "column": 15,
-        "endLine": 132,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/sudo/dev.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.sudo.dev",
-        "obj": "forceclose_command",
-        "line": 137,
-        "column": 11,
-        "endLine": 137,
-        "endColumn": 20,
-        "path": "YukkiMusic/plugins/sudo/dev.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.sudo.dev",
-        "obj": "forceclose_command",
-        "line": 126,
-        "column": 4,
-        "endLine": 126,
-        "endColumn": 9,
-        "path": "YukkiMusic/plugins/sudo/dev.py",
-        "symbol": "unused-variable",
-        "message": "Unused variable 'query'",
-        "message-id": "W0612"
     },
     {
         "type": "warning",

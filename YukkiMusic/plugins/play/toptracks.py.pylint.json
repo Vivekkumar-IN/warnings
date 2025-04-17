@@ -26,6 +26,19 @@
         "message-id": "E0602"
     },
     {
+        "type": "warning",
+        "module": "YukkiMusic.plugins.play.toptracks",
+        "obj": "get_play_markup",
+        "line": 38,
+        "column": 11,
+        "endLine": 38,
+        "endColumn": 20,
+        "path": "YukkiMusic/plugins/play/toptracks.py",
+        "symbol": "broad-exception-caught",
+        "message": "Catching too general exception Exception",
+        "message-id": "W0718"
+    },
+    {
         "type": "error",
         "module": "YukkiMusic.plugins.play.toptracks",
         "obj": "get_play_markup",
@@ -52,45 +65,6 @@
         "message-id": "E0602"
     },
     {
-        "type": "error",
-        "module": "YukkiMusic.plugins.play.toptracks",
-        "obj": "server_to_play",
-        "line": 75,
-        "column": 11,
-        "endLine": 75,
-        "endColumn": 16,
-        "path": "YukkiMusic/plugins/play/toptracks.py",
-        "symbol": "possibly-used-before-assignment",
-        "message": "Possibly using variable 'stats' before assignment",
-        "message-id": "E0606"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.play.toptracks",
-        "obj": "",
-        "line": 115,
-        "column": 29,
-        "endLine": null,
-        "endColumn": null,
-        "path": "YukkiMusic/plugins/play/toptracks.py",
-        "symbol": "fixme",
-        "message": "TODO: fix it",
-        "message-id": "W0511"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.play.toptracks",
-        "obj": "get_play_markup",
-        "line": 38,
-        "column": 11,
-        "endLine": 38,
-        "endColumn": 20,
-        "path": "YukkiMusic/plugins/play/toptracks.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
         "type": "warning",
         "module": "YukkiMusic.plugins.play.toptracks",
         "obj": "server_to_play",
@@ -102,6 +76,19 @@
         "symbol": "broad-exception-caught",
         "message": "Catching too general exception Exception",
         "message-id": "W0718"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.play.toptracks",
+        "obj": "server_to_play",
+        "line": 75,
+        "column": 11,
+        "endLine": 75,
+        "endColumn": 16,
+        "path": "YukkiMusic/plugins/play/toptracks.py",
+        "symbol": "possibly-used-before-assignment",
+        "message": "Possibly using variable 'stats' before assignment",
+        "message-id": "E0606"
     },
     {
         "type": "warning",
@@ -128,6 +115,19 @@
         "symbol": "broad-exception-caught",
         "message": "Catching too general exception Exception",
         "message-id": "W0718"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.plugins.play.toptracks",
+        "obj": "",
+        "line": 115,
+        "column": 29,
+        "endLine": null,
+        "endColumn": null,
+        "path": "YukkiMusic/plugins/play/toptracks.py",
+        "symbol": "fixme",
+        "message": "TODO: fix it",
+        "message-id": "W0511"
     },
     {
         "type": "warning",

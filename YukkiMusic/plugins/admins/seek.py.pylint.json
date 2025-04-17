@@ -13,19 +13,6 @@
         "message-id": "E1101"
     },
     {
-        "type": "error",
-        "module": "YukkiMusic.plugins.admins.seek",
-        "obj": "seek_comm",
-        "line": 71,
-        "column": 7,
-        "endLine": 71,
-        "endColumn": 14,
-        "path": "YukkiMusic/plugins/admins/seek.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable 'message'",
-        "message-id": "E0602"
-    },
-    {
         "type": "refactor",
         "module": "YukkiMusic.plugins.admins.seek",
         "obj": "seek_comm",
@@ -54,6 +41,19 @@
     {
         "type": "warning",
         "module": "YukkiMusic.plugins.admins.seek",
+        "obj": "seek_comm",
+        "line": 69,
+        "column": 11,
+        "endLine": 69,
+        "endColumn": 20,
+        "path": "YukkiMusic/plugins/admins/seek.py",
+        "symbol": "broad-exception-caught",
+        "message": "Catching too general exception Exception",
+        "message-id": "W0718"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.plugins.admins.seek",
         "obj": "",
         "line": 71,
         "column": 40,
@@ -65,16 +65,16 @@
         "message-id": "W0511"
     },
     {
-        "type": "warning",
+        "type": "error",
         "module": "YukkiMusic.plugins.admins.seek",
         "obj": "seek_comm",
-        "line": 69,
-        "column": 11,
-        "endLine": 69,
-        "endColumn": 20,
+        "line": 71,
+        "column": 7,
+        "endLine": 71,
+        "endColumn": 14,
         "path": "YukkiMusic/plugins/admins/seek.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'message'",
+        "message-id": "E0602"
     }
 ]

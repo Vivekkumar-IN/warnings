@@ -2,32 +2,6 @@
     {
         "type": "convention",
         "module": "YukkiMusic.core.filters",
-        "obj": "",
-        "line": 53,
-        "column": 0,
-        "endLine": null,
-        "endColumn": null,
-        "path": "YukkiMusic/core/filters.py",
-        "symbol": "superfluous-parens",
-        "message": "Unnecessary parens after 'not' keyword",
-        "message-id": "C0325"
-    },
-    {
-        "type": "convention",
-        "module": "YukkiMusic.core.filters",
-        "obj": "",
-        "line": 145,
-        "column": 0,
-        "endLine": null,
-        "endColumn": null,
-        "path": "YukkiMusic/core/filters.py",
-        "symbol": "line-too-long",
-        "message": "Line too long (124/100)",
-        "message-id": "C0301"
-    },
-    {
-        "type": "convention",
-        "module": "YukkiMusic.core.filters",
         "obj": "Filter",
         "line": 12,
         "column": 0,
@@ -37,6 +11,19 @@
         "symbol": "missing-class-docstring",
         "message": "Missing class docstring",
         "message-id": "C0115"
+    },
+    {
+        "type": "convention",
+        "module": "YukkiMusic.core.filters",
+        "obj": "",
+        "line": 53,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "YukkiMusic/core/filters.py",
+        "symbol": "superfluous-parens",
+        "message": "Unnecessary parens after 'not' keyword",
+        "message-id": "C0325"
     },
     {
         "type": "error",
@@ -50,5 +37,18 @@
         "symbol": "method-hidden",
         "message": "An attribute defined in YukkiMusic.core.filters line 14 hides this method",
         "message-id": "E0202"
+    },
+    {
+        "type": "convention",
+        "module": "YukkiMusic.core.filters",
+        "obj": "",
+        "line": 145,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "YukkiMusic/core/filters.py",
+        "symbol": "line-too-long",
+        "message": "Line too long (124/100)",
+        "message-id": "C0301"
     }
 ]

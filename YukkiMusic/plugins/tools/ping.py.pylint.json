@@ -1,5 +1,44 @@
 [
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.tools.ping",
+        "obj": "ping_com",
+        "line": 21,
+        "column": 4,
+        "endLine": 21,
+        "endColumn": 7,
+        "path": "YukkiMusic/plugins/tools/ping.py",
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'flt'",
+        "message-id": "E0602"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.tools.ping",
+        "obj": "ping_com",
+        "line": 21,
+        "column": 53,
+        "endLine": 21,
+        "endColumn": 56,
+        "path": "YukkiMusic/plugins/tools/ping.py",
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'flt'",
+        "message-id": "E0602"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.tools.ping",
+        "obj": "ping_com",
+        "line": 27,
+        "column": 35,
+        "endLine": 27,
+        "endColumn": 38,
+        "path": "YukkiMusic/plugins/tools/ping.py",
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'app'",
+        "message-id": "E0602"
+    },
+    {
         "type": "convention",
         "module": "YukkiMusic.plugins.tools.ping",
         "obj": "ping_com",
@@ -50,45 +89,6 @@
         "symbol": "invalid-name",
         "message": "Variable name \"DISK\" doesn't conform to snake_case naming style",
         "message-id": "C0103"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.tools.ping",
-        "obj": "ping_com",
-        "line": 21,
-        "column": 4,
-        "endLine": 21,
-        "endColumn": 7,
-        "path": "YukkiMusic/plugins/tools/ping.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable 'flt'",
-        "message-id": "E0602"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.tools.ping",
-        "obj": "ping_com",
-        "line": 21,
-        "column": 53,
-        "endLine": 21,
-        "endColumn": 56,
-        "path": "YukkiMusic/plugins/tools/ping.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable 'flt'",
-        "message-id": "E0602"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.tools.ping",
-        "obj": "ping_com",
-        "line": 27,
-        "column": 35,
-        "endLine": 27,
-        "endColumn": 38,
-        "path": "YukkiMusic/plugins/tools/ping.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable 'app'",
-        "message-id": "E0602"
     },
     {
         "type": "error",

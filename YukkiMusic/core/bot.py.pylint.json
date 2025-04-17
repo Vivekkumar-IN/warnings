@@ -13,19 +13,6 @@
         "message-id": "C0115"
     },
     {
-        "type": "convention",
-        "module": "YukkiMusic.core.bot",
-        "obj": "YukkiBot.load_plugins_from",
-        "line": 136,
-        "column": 8,
-        "endLine": 136,
-        "endColumn": 39,
-        "path": "YukkiMusic/core/bot.py",
-        "symbol": "import-outside-toplevel",
-        "message": "Import outside toplevel (YukkiMusic.HELPABLE)",
-        "message-id": "C0415"
-    },
-    {
         "type": "warning",
         "module": "YukkiMusic.core.bot",
         "obj": "YukkiBot.on_message.decorator.wrapper",
@@ -76,5 +63,18 @@
         "symbol": "broad-exception-caught",
         "message": "Catching too general exception Exception",
         "message-id": "W0718"
+    },
+    {
+        "type": "convention",
+        "module": "YukkiMusic.core.bot",
+        "obj": "YukkiBot.load_plugins_from",
+        "line": 136,
+        "column": 8,
+        "endLine": 136,
+        "endColumn": 39,
+        "path": "YukkiMusic/core/bot.py",
+        "symbol": "import-outside-toplevel",
+        "message": "Import outside toplevel (YukkiMusic.HELPABLE)",
+        "message-id": "C0415"
     }
 ]

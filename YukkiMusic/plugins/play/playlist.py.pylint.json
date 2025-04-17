@@ -1,18 +1,5 @@
 [
     {
-        "type": "convention",
-        "module": "YukkiMusic.plugins.play.playlist",
-        "obj": "",
-        "line": 153,
-        "column": 0,
-        "endLine": null,
-        "endColumn": null,
-        "path": "YukkiMusic/plugins/play/playlist.py",
-        "symbol": "line-too-long",
-        "message": "Line too long (110/100)",
-        "message-id": "C0301"
-    },
-    {
         "type": "error",
         "module": "YukkiMusic.plugins.play.playlist",
         "obj": "",
@@ -24,6 +11,45 @@
         "symbol": "no-name-in-module",
         "message": "No name 'youtube' in module 'YukkiMusic.core'",
         "message-id": "E0611"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.plugins.play.playlist",
+        "obj": "",
+        "line": 22,
+        "column": 0,
+        "endLine": 22,
+        "endColumn": 48,
+        "path": "YukkiMusic/plugins/play/playlist.py",
+        "symbol": "unused-import",
+        "message": "Unused carbon imported from YukkiMusic.platforms",
+        "message-id": "W0611"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.plugins.play.playlist",
+        "obj": "get_keyboard",
+        "line": 56,
+        "column": 26,
+        "endLine": 56,
+        "endColumn": 43,
+        "path": "YukkiMusic/plugins/play/playlist.py",
+        "symbol": "f-string-without-interpolation",
+        "message": "Using an f-string that does not have any interpolated variables",
+        "message-id": "W1309"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.plugins.play.playlist",
+        "obj": "get_keyboard",
+        "line": 58,
+        "column": 67,
+        "endLine": 58,
+        "endColumn": 75,
+        "path": "YukkiMusic/plugins/play/playlist.py",
+        "symbol": "f-string-without-interpolation",
+        "message": "Using an f-string that does not have any interpolated variables",
+        "message-id": "W1309"
     },
     {
         "type": "error",
@@ -50,6 +76,19 @@
         "symbol": "undefined-variable",
         "message": "Undefined variable 'flt'",
         "message-id": "E0602"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.plugins.play.playlist",
+        "obj": "check_playlist",
+        "line": 87,
+        "column": 4,
+        "endLine": 87,
+        "endColumn": 10,
+        "path": "YukkiMusic/plugins/play/playlist.py",
+        "symbol": "redefined-outer-name",
+        "message": "Redefining name 'carbon' from outer scope (line 22)",
+        "message-id": "W0621"
     },
     {
         "type": "error",
@@ -91,160 +130,17 @@
         "message-id": "E0602"
     },
     {
-        "type": "error",
+        "type": "warning",
         "module": "YukkiMusic.plugins.play.playlist",
-        "obj": "add_playlist",
-        "line": 181,
-        "column": 35,
-        "endLine": 181,
-        "endColumn": 44,
-        "path": "YukkiMusic/plugins/play/playlist.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable 'thumbnail'",
-        "message-id": "E0602"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.play.playlist",
-        "obj": "add_playlist",
-        "line": 189,
-        "column": 0,
-        "endLine": 189,
-        "endColumn": 22,
-        "path": "YukkiMusic/plugins/play/playlist.py",
-        "symbol": "function-redefined",
-        "message": "function already defined line 116",
-        "message-id": "E0102"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.play.playlist",
-        "obj": "add_playlist",
-        "line": 210,
-        "column": 13,
-        "endLine": 210,
-        "endColumn": 18,
-        "path": "YukkiMusic/plugins/play/playlist.py",
-        "symbol": "used-before-assignment",
-        "message": "Using variable 'title' before assignment",
-        "message-id": "E0601"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.play.playlist",
-        "obj": "del_whole_playlist",
-        "line": 246,
-        "column": 1,
-        "endLine": 246,
-        "endColumn": 11,
-        "path": "YukkiMusic/plugins/play/playlist.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable 'languageCB'",
-        "message-id": "E0602"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.play.playlist",
-        "obj": "playlist_multi_func",
-        "line": 294,
-        "column": 36,
-        "endLine": 294,
-        "endColumn": 43,
-        "path": "YukkiMusic/plugins/play/playlist.py",
-        "symbol": "possibly-used-before-assignment",
-        "message": "Possibly using variable 'buttons' before assignment",
-        "message-id": "E0606"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.play.playlist",
-        "obj": "play_playlist",
-        "line": 322,
-        "column": 27,
-        "endLine": 322,
-        "endColumn": 83,
-        "path": "YukkiMusic/plugins/play/playlist.py",
-        "symbol": "too-many-function-args",
-        "message": "Too many positional arguments for staticmethod call",
-        "message-id": "E1121"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.play.playlist",
-        "obj": "play_playlist_command",
-        "line": 341,
-        "column": 17,
-        "endLine": 341,
-        "endColumn": 20,
-        "path": "YukkiMusic/plugins/play/playlist.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable 'flt'",
-        "message-id": "E0602"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.play.playlist",
-        "obj": "play_playlist_command",
-        "line": 341,
-        "column": 78,
-        "endLine": 341,
-        "endColumn": 81,
-        "path": "YukkiMusic/plugins/play/playlist.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable 'flt'",
-        "message-id": "E0602"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.play.playlist",
-        "obj": "play_playlist_command",
-        "line": 346,
-        "column": 24,
-        "endLine": 346,
-        "endColumn": 33,
-        "path": "YukkiMusic/plugins/play/playlist.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable 'get_cmode'",
-        "message-id": "E0602"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.play.playlist",
-        "obj": "play_playlist_command",
-        "line": 377,
-        "column": 27,
-        "endLine": 377,
-        "endColumn": 77,
-        "path": "YukkiMusic/plugins/play/playlist.py",
-        "symbol": "too-many-function-args",
-        "message": "Too many positional arguments for staticmethod call",
-        "message-id": "E1121"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.play.playlist",
-        "obj": "del_plist",
-        "line": 400,
-        "column": 0,
-        "endLine": 400,
-        "endColumn": 19,
-        "path": "YukkiMusic/plugins/play/playlist.py",
-        "symbol": "function-redefined",
-        "message": "function already defined line 226",
-        "message-id": "E0102"
-    },
-    {
-        "type": "refactor",
-        "module": "YukkiMusic.plugins.play.playlist",
-        "obj": "add_playlist",
-        "line": 123,
+        "obj": "",
+        "line": 114,
         "column": 4,
-        "endLine": 184,
-        "endColumn": 78,
+        "endLine": null,
+        "endColumn": null,
         "path": "YukkiMusic/plugins/play/playlist.py",
-        "symbol": "no-else-return",
-        "message": "Unnecessary \"else\" after \"return\", remove the \"else\" and de-indent the code inside it",
-        "message-id": "R1705"
+        "symbol": "fixme",
+        "message": "TODO: ADD SUPPORT FOR SPOTIFY, RESSO, APPLE",
+        "message-id": "W0511"
     },
     {
         "type": "refactor",
@@ -260,56 +156,17 @@
         "message-id": "R0912"
     },
     {
-        "type": "warning",
+        "type": "refactor",
         "module": "YukkiMusic.plugins.play.playlist",
-        "obj": "",
-        "line": 114,
+        "obj": "add_playlist",
+        "line": 123,
         "column": 4,
-        "endLine": null,
-        "endColumn": null,
+        "endLine": 184,
+        "endColumn": 78,
         "path": "YukkiMusic/plugins/play/playlist.py",
-        "symbol": "fixme",
-        "message": "TODO: ADD SUPPORT FOR SPOTIFY, RESSO, APPLE",
-        "message-id": "W0511"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.play.playlist",
-        "obj": "get_keyboard",
-        "line": 56,
-        "column": 26,
-        "endLine": 56,
-        "endColumn": 43,
-        "path": "YukkiMusic/plugins/play/playlist.py",
-        "symbol": "f-string-without-interpolation",
-        "message": "Using an f-string that does not have any interpolated variables",
-        "message-id": "W1309"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.play.playlist",
-        "obj": "get_keyboard",
-        "line": 58,
-        "column": 67,
-        "endLine": 58,
-        "endColumn": 75,
-        "path": "YukkiMusic/plugins/play/playlist.py",
-        "symbol": "f-string-without-interpolation",
-        "message": "Using an f-string that does not have any interpolated variables",
-        "message-id": "W1309"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.play.playlist",
-        "obj": "check_playlist",
-        "line": 87,
-        "column": 4,
-        "endLine": 87,
-        "endColumn": 10,
-        "path": "YukkiMusic/plugins/play/playlist.py",
-        "symbol": "redefined-outer-name",
-        "message": "Redefining name 'carbon' from outer scope (line 22)",
-        "message-id": "W0621"
+        "symbol": "no-else-return",
+        "message": "Unnecessary \"else\" after \"return\", remove the \"else\" and de-indent the code inside it",
+        "message-id": "R1705"
     },
     {
         "type": "warning",
@@ -325,6 +182,19 @@
         "message-id": "W0718"
     },
     {
+        "type": "convention",
+        "module": "YukkiMusic.plugins.play.playlist",
+        "obj": "",
+        "line": 153,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "YukkiMusic/plugins/play/playlist.py",
+        "symbol": "line-too-long",
+        "message": "Line too long (110/100)",
+        "message-id": "C0301"
+    },
+    {
         "type": "warning",
         "module": "YukkiMusic.plugins.play.playlist",
         "obj": "add_playlist",
@@ -338,6 +208,19 @@
         "message-id": "W1309"
     },
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.play.playlist",
+        "obj": "add_playlist",
+        "line": 181,
+        "column": 35,
+        "endLine": 181,
+        "endColumn": 44,
+        "path": "YukkiMusic/plugins/play/playlist.py",
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'thumbnail'",
+        "message-id": "E0602"
+    },
+    {
         "type": "warning",
         "module": "YukkiMusic.plugins.play.playlist",
         "obj": "add_playlist",
@@ -349,6 +232,19 @@
         "symbol": "broad-exception-caught",
         "message": "Catching too general exception Exception",
         "message-id": "W0718"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.play.playlist",
+        "obj": "add_playlist",
+        "line": 189,
+        "column": 0,
+        "endLine": 189,
+        "endColumn": 22,
+        "path": "YukkiMusic/plugins/play/playlist.py",
+        "symbol": "function-redefined",
+        "message": "function already defined line 116",
+        "message-id": "E0102"
     },
     {
         "type": "warning",
@@ -375,6 +271,19 @@
         "symbol": "broad-exception-caught",
         "message": "Catching too general exception Exception",
         "message-id": "W0718"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.play.playlist",
+        "obj": "add_playlist",
+        "line": 210,
+        "column": 13,
+        "endLine": 210,
+        "endColumn": 18,
+        "path": "YukkiMusic/plugins/play/playlist.py",
+        "symbol": "used-before-assignment",
+        "message": "Using variable 'title' before assignment",
+        "message-id": "E0601"
     },
     {
         "type": "warning",
@@ -429,6 +338,19 @@
         "message-id": "W0612"
     },
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.play.playlist",
+        "obj": "del_whole_playlist",
+        "line": 246,
+        "column": 1,
+        "endLine": 246,
+        "endColumn": 11,
+        "path": "YukkiMusic/plugins/play/playlist.py",
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'languageCB'",
+        "message-id": "E0602"
+    },
+    {
         "type": "warning",
         "module": "YukkiMusic.plugins.play.playlist",
         "obj": "del_back_playlist",
@@ -468,6 +390,19 @@
         "message-id": "W0718"
     },
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.play.playlist",
+        "obj": "playlist_multi_func",
+        "line": 294,
+        "column": 36,
+        "endLine": 294,
+        "endColumn": 43,
+        "path": "YukkiMusic/plugins/play/playlist.py",
+        "symbol": "possibly-used-before-assignment",
+        "message": "Possibly using variable 'buttons' before assignment",
+        "message-id": "E0606"
+    },
+    {
         "type": "warning",
         "module": "YukkiMusic.plugins.play.playlist",
         "obj": "play_playlist",
@@ -494,6 +429,19 @@
         "message-id": "W0718"
     },
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.play.playlist",
+        "obj": "play_playlist",
+        "line": 322,
+        "column": 27,
+        "endLine": 322,
+        "endColumn": 83,
+        "path": "YukkiMusic/plugins/play/playlist.py",
+        "symbol": "too-many-function-args",
+        "message": "Too many positional arguments for staticmethod call",
+        "message-id": "E1121"
+    },
+    {
         "type": "warning",
         "module": "YukkiMusic.plugins.play.playlist",
         "obj": "play_playlist",
@@ -505,6 +453,45 @@
         "symbol": "broad-exception-caught",
         "message": "Catching too general exception Exception",
         "message-id": "W0718"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.play.playlist",
+        "obj": "play_playlist_command",
+        "line": 341,
+        "column": 17,
+        "endLine": 341,
+        "endColumn": 20,
+        "path": "YukkiMusic/plugins/play/playlist.py",
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'flt'",
+        "message-id": "E0602"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.play.playlist",
+        "obj": "play_playlist_command",
+        "line": 341,
+        "column": 78,
+        "endLine": 341,
+        "endColumn": 81,
+        "path": "YukkiMusic/plugins/play/playlist.py",
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'flt'",
+        "message-id": "E0602"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.play.playlist",
+        "obj": "play_playlist_command",
+        "line": 346,
+        "column": 24,
+        "endLine": 346,
+        "endColumn": 33,
+        "path": "YukkiMusic/plugins/play/playlist.py",
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'get_cmode'",
+        "message-id": "E0602"
     },
     {
         "type": "warning",
@@ -546,6 +533,19 @@
         "message-id": "W0718"
     },
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.play.playlist",
+        "obj": "play_playlist_command",
+        "line": 377,
+        "column": 27,
+        "endLine": 377,
+        "endColumn": 77,
+        "path": "YukkiMusic/plugins/play/playlist.py",
+        "symbol": "too-many-function-args",
+        "message": "Too many positional arguments for staticmethod call",
+        "message-id": "E1121"
+    },
+    {
         "type": "warning",
         "module": "YukkiMusic.plugins.play.playlist",
         "obj": "play_playlist_command",
@@ -557,6 +557,19 @@
         "symbol": "broad-exception-caught",
         "message": "Catching too general exception Exception",
         "message-id": "W0718"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.play.playlist",
+        "obj": "del_plist",
+        "line": 400,
+        "column": 0,
+        "endLine": 400,
+        "endColumn": 19,
+        "path": "YukkiMusic/plugins/play/playlist.py",
+        "symbol": "function-redefined",
+        "message": "function already defined line 226",
+        "message-id": "E0102"
     },
     {
         "type": "warning",
@@ -583,18 +596,5 @@
         "symbol": "broad-exception-caught",
         "message": "Catching too general exception Exception",
         "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.play.playlist",
-        "obj": "",
-        "line": 22,
-        "column": 0,
-        "endLine": 22,
-        "endColumn": 48,
-        "path": "YukkiMusic/plugins/play/playlist.py",
-        "symbol": "unused-import",
-        "message": "Unused carbon imported from YukkiMusic.platforms",
-        "message-id": "W0611"
     }
 ]

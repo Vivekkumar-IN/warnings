@@ -1,44 +1,5 @@
 [
     {
-        "type": "convention",
-        "module": "YukkiMusic.plugins.tools.queue",
-        "obj": "",
-        "line": 158,
-        "column": 0,
-        "endLine": null,
-        "endColumn": null,
-        "path": "YukkiMusic/plugins/tools/queue.py",
-        "symbol": "line-too-long",
-        "message": "Line too long (103/100)",
-        "message-id": "C0301"
-    },
-    {
-        "type": "convention",
-        "module": "YukkiMusic.plugins.tools.queue",
-        "obj": "ping_com",
-        "line": 68,
-        "column": 4,
-        "endLine": 68,
-        "endColumn": 7,
-        "path": "YukkiMusic/plugins/tools/queue.py",
-        "symbol": "invalid-name",
-        "message": "Variable name \"DUR\" doesn't conform to snake_case naming style",
-        "message-id": "C0103"
-    },
-    {
-        "type": "convention",
-        "module": "YukkiMusic.plugins.tools.queue",
-        "obj": "queue_back",
-        "line": 193,
-        "column": 4,
-        "endLine": 193,
-        "endColumn": 7,
-        "path": "YukkiMusic/plugins/tools/queue.py",
-        "symbol": "invalid-name",
-        "message": "Variable name \"DUR\" doesn't conform to snake_case naming style",
-        "message-id": "C0103"
-    },
-    {
         "type": "error",
         "module": "YukkiMusic.plugins.tools.queue",
         "obj": "ping_com",
@@ -65,6 +26,19 @@
         "message-id": "E0602"
     },
     {
+        "type": "refactor",
+        "module": "YukkiMusic.plugins.tools.queue",
+        "obj": "ping_com",
+        "line": 44,
+        "column": 0,
+        "endLine": 44,
+        "endColumn": 18,
+        "path": "YukkiMusic/plugins/tools/queue.py",
+        "symbol": "too-many-locals",
+        "message": "Too many local variables (16/15)",
+        "message-id": "R0914"
+    },
+    {
         "type": "error",
         "module": "YukkiMusic.plugins.tools.queue",
         "obj": "ping_com",
@@ -76,6 +50,19 @@
         "symbol": "unsubscriptable-object",
         "message": "Value '_' is unsubscriptable",
         "message-id": "E1136"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.plugins.tools.queue",
+        "obj": "ping_com",
+        "line": 52,
+        "column": 15,
+        "endLine": 52,
+        "endColumn": 24,
+        "path": "YukkiMusic/plugins/tools/queue.py",
+        "symbol": "broad-exception-caught",
+        "message": "Catching too general exception Exception",
+        "message-id": "W0718"
     },
     {
         "type": "error",
@@ -117,69 +104,17 @@
         "message-id": "E1136"
     },
     {
-        "type": "error",
-        "module": "YukkiMusic.plugins.tools.queue",
-        "obj": "quite_timer",
-        "line": 124,
-        "column": 9,
-        "endLine": 124,
-        "endColumn": 15,
-        "path": "YukkiMusic/plugins/tools/queue.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable 'events'",
-        "message-id": "E0602"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.tools.queue",
-        "obj": "queued_tracks",
-        "line": 132,
-        "column": 9,
-        "endLine": 132,
-        "endColumn": 15,
-        "path": "YukkiMusic/plugins/tools/queue.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable 'events'",
-        "message-id": "E0602"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.tools.queue",
-        "obj": "queue_back",
-        "line": 173,
-        "column": 9,
-        "endLine": 173,
-        "endColumn": 15,
-        "path": "YukkiMusic/plugins/tools/queue.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable 'events'",
-        "message-id": "E0602"
-    },
-    {
-        "type": "refactor",
+        "type": "convention",
         "module": "YukkiMusic.plugins.tools.queue",
         "obj": "ping_com",
-        "line": 44,
-        "column": 0,
-        "endLine": 44,
-        "endColumn": 18,
+        "line": 68,
+        "column": 4,
+        "endLine": 68,
+        "endColumn": 7,
         "path": "YukkiMusic/plugins/tools/queue.py",
-        "symbol": "too-many-locals",
-        "message": "Too many local variables (16/15)",
-        "message-id": "R0914"
-    },
-    {
-        "type": "refactor",
-        "module": "YukkiMusic.plugins.tools.queue",
-        "obj": "queue_back",
-        "line": 175,
-        "column": 0,
-        "endLine": 175,
-        "endColumn": 20,
-        "path": "YukkiMusic/plugins/tools/queue.py",
-        "symbol": "too-many-locals",
-        "message": "Too many local variables (17/15)",
-        "message-id": "R0914"
+        "symbol": "invalid-name",
+        "message": "Variable name \"DUR\" doesn't conform to snake_case naming style",
+        "message-id": "C0103"
     },
     {
         "type": "warning",
@@ -198,19 +133,6 @@
         "type": "warning",
         "module": "YukkiMusic.plugins.tools.queue",
         "obj": "ping_com",
-        "line": 52,
-        "column": 15,
-        "endLine": 52,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/tools/queue.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.tools.queue",
-        "obj": "ping_com",
         "line": 120,
         "column": 15,
         "endLine": 120,
@@ -219,6 +141,19 @@
         "symbol": "broad-exception-caught",
         "message": "Catching too general exception Exception",
         "message-id": "W0718"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.tools.queue",
+        "obj": "quite_timer",
+        "line": 124,
+        "column": 9,
+        "endLine": 124,
+        "endColumn": 15,
+        "path": "YukkiMusic/plugins/tools/queue.py",
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'events'",
+        "message-id": "E0602"
     },
     {
         "type": "warning",
@@ -234,6 +169,32 @@
         "message-id": "W0718"
     },
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.tools.queue",
+        "obj": "queued_tracks",
+        "line": 132,
+        "column": 9,
+        "endLine": 132,
+        "endColumn": 15,
+        "path": "YukkiMusic/plugins/tools/queue.py",
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'events'",
+        "message-id": "E0602"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.plugins.tools.queue",
+        "obj": "queued_tracks",
+        "line": 139,
+        "column": 17,
+        "endLine": 139,
+        "endColumn": 24,
+        "path": "YukkiMusic/plugins/tools/queue.py",
+        "symbol": "unused-variable",
+        "message": "Unused variable 'channel'",
+        "message-id": "W0612"
+    },
+    {
         "type": "warning",
         "module": "YukkiMusic.plugins.tools.queue",
         "obj": "queued_tracks",
@@ -247,12 +208,51 @@
         "message-id": "W0718"
     },
     {
+        "type": "convention",
+        "module": "YukkiMusic.plugins.tools.queue",
+        "obj": "",
+        "line": 158,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "YukkiMusic/plugins/tools/queue.py",
+        "symbol": "line-too-long",
+        "message": "Line too long (103/100)",
+        "message-id": "C0301"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.tools.queue",
+        "obj": "queue_back",
+        "line": 173,
+        "column": 9,
+        "endLine": 173,
+        "endColumn": 15,
+        "path": "YukkiMusic/plugins/tools/queue.py",
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'events'",
+        "message-id": "E0602"
+    },
+    {
+        "type": "refactor",
+        "module": "YukkiMusic.plugins.tools.queue",
+        "obj": "queue_back",
+        "line": 175,
+        "column": 0,
+        "endLine": 175,
+        "endColumn": 20,
+        "path": "YukkiMusic/plugins/tools/queue.py",
+        "symbol": "too-many-locals",
+        "message": "Too many local variables (17/15)",
+        "message-id": "R0914"
+    },
+    {
         "type": "warning",
         "module": "YukkiMusic.plugins.tools.queue",
-        "obj": "queued_tracks",
-        "line": 139,
+        "obj": "queue_back",
+        "line": 179,
         "column": 17,
-        "endLine": 139,
+        "endLine": 179,
         "endColumn": 24,
         "path": "YukkiMusic/plugins/tools/queue.py",
         "symbol": "unused-variable",
@@ -273,6 +273,19 @@
         "message-id": "W0718"
     },
     {
+        "type": "convention",
+        "module": "YukkiMusic.plugins.tools.queue",
+        "obj": "queue_back",
+        "line": 193,
+        "column": 4,
+        "endLine": 193,
+        "endColumn": 7,
+        "path": "YukkiMusic/plugins/tools/queue.py",
+        "symbol": "invalid-name",
+        "message": "Variable name \"DUR\" doesn't conform to snake_case naming style",
+        "message-id": "C0103"
+    },
+    {
         "type": "warning",
         "module": "YukkiMusic.plugins.tools.queue",
         "obj": "queue_back",
@@ -284,18 +297,5 @@
         "symbol": "broad-exception-caught",
         "message": "Catching too general exception Exception",
         "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.tools.queue",
-        "obj": "queue_back",
-        "line": 179,
-        "column": 17,
-        "endLine": 179,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/tools/queue.py",
-        "symbol": "unused-variable",
-        "message": "Unused variable 'channel'",
-        "message-id": "W0612"
     }
 ]

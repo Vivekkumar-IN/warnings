@@ -39,6 +39,32 @@
         "message-id": "E0602"
     },
     {
+        "type": "refactor",
+        "module": "YukkiMusic.plugins.play.channel",
+        "obj": "playmode_",
+        "line": 25,
+        "column": 0,
+        "endLine": 25,
+        "endColumn": 19,
+        "path": "YukkiMusic/plugins/play/channel.py",
+        "symbol": "too-many-return-statements",
+        "message": "Too many return statements (9/6)",
+        "message-id": "R0911"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.plugins.play.channel",
+        "obj": "playmode_",
+        "line": 25,
+        "column": 20,
+        "endLine": 25,
+        "endColumn": 28,
+        "path": "YukkiMusic/plugins/play/channel.py",
+        "symbol": "unused-argument",
+        "message": "Unused argument 'language'",
+        "message-id": "W0613"
+    },
+    {
         "type": "error",
         "module": "YukkiMusic.plugins.play.channel",
         "obj": "playmode_",
@@ -91,6 +117,19 @@
         "message-id": "E0602"
     },
     {
+        "type": "refactor",
+        "module": "YukkiMusic.plugins.play.channel",
+        "obj": "playmode_",
+        "line": 31,
+        "column": 4,
+        "endLine": 62,
+        "endColumn": 74,
+        "path": "YukkiMusic/plugins/play/channel.py",
+        "symbol": "no-else-return",
+        "message": "Unnecessary \"elif\" after \"return\", remove the leading \"el\" from \"elif\"",
+        "message-id": "R1705"
+    },
+    {
         "type": "error",
         "module": "YukkiMusic.plugins.play.channel",
         "obj": "playmode_",
@@ -115,6 +154,19 @@
         "symbol": "undefined-variable",
         "message": "Undefined variable 'event'",
         "message-id": "E0602"
+    },
+    {
+        "type": "refactor",
+        "module": "YukkiMusic.plugins.play.channel",
+        "obj": "playmode_",
+        "line": 37,
+        "column": 8,
+        "endLine": 46,
+        "endColumn": 50,
+        "path": "YukkiMusic/plugins/play/channel.py",
+        "symbol": "no-else-return",
+        "message": "Unnecessary \"else\" after \"return\", remove the \"else\" and de-indent the code inside it",
+        "message-id": "R1705"
     },
     {
         "type": "error",
@@ -156,6 +208,19 @@
         "message-id": "E0602"
     },
     {
+        "type": "warning",
+        "module": "YukkiMusic.plugins.play.channel",
+        "obj": "playmode_",
+        "line": 50,
+        "column": 15,
+        "endLine": 50,
+        "endColumn": 24,
+        "path": "YukkiMusic/plugins/play/channel.py",
+        "symbol": "broad-exception-caught",
+        "message": "Catching too general exception Exception",
+        "message-id": "W0718"
+    },
+    {
         "type": "error",
         "module": "YukkiMusic.plugins.play.channel",
         "obj": "playmode_",
@@ -193,6 +258,19 @@
         "symbol": "undefined-variable",
         "message": "Undefined variable 'event'",
         "message-id": "E0602"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.plugins.play.channel",
+        "obj": "playmode_",
+        "line": 56,
+        "column": 15,
+        "endLine": 56,
+        "endColumn": 24,
+        "path": "YukkiMusic/plugins/play/channel.py",
+        "symbol": "broad-exception-caught",
+        "message": "Catching too general exception Exception",
+        "message-id": "W0718"
     },
     {
         "type": "error",
@@ -245,83 +323,5 @@
         "symbol": "undefined-variable",
         "message": "Undefined variable 'event'",
         "message-id": "E0602"
-    },
-    {
-        "type": "refactor",
-        "module": "YukkiMusic.plugins.play.channel",
-        "obj": "playmode_",
-        "line": 31,
-        "column": 4,
-        "endLine": 62,
-        "endColumn": 74,
-        "path": "YukkiMusic/plugins/play/channel.py",
-        "symbol": "no-else-return",
-        "message": "Unnecessary \"elif\" after \"return\", remove the leading \"el\" from \"elif\"",
-        "message-id": "R1705"
-    },
-    {
-        "type": "refactor",
-        "module": "YukkiMusic.plugins.play.channel",
-        "obj": "playmode_",
-        "line": 37,
-        "column": 8,
-        "endLine": 46,
-        "endColumn": 50,
-        "path": "YukkiMusic/plugins/play/channel.py",
-        "symbol": "no-else-return",
-        "message": "Unnecessary \"else\" after \"return\", remove the \"else\" and de-indent the code inside it",
-        "message-id": "R1705"
-    },
-    {
-        "type": "refactor",
-        "module": "YukkiMusic.plugins.play.channel",
-        "obj": "playmode_",
-        "line": 25,
-        "column": 0,
-        "endLine": 25,
-        "endColumn": 19,
-        "path": "YukkiMusic/plugins/play/channel.py",
-        "symbol": "too-many-return-statements",
-        "message": "Too many return statements (9/6)",
-        "message-id": "R0911"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.play.channel",
-        "obj": "playmode_",
-        "line": 50,
-        "column": 15,
-        "endLine": 50,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/play/channel.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.play.channel",
-        "obj": "playmode_",
-        "line": 56,
-        "column": 15,
-        "endLine": 56,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/play/channel.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.play.channel",
-        "obj": "playmode_",
-        "line": 25,
-        "column": 20,
-        "endLine": 25,
-        "endColumn": 28,
-        "path": "YukkiMusic/plugins/play/channel.py",
-        "symbol": "unused-argument",
-        "message": "Unused argument 'language'",
-        "message-id": "W0613"
     }
 ]

@@ -26,19 +26,6 @@
         "message-id": "C0115"
     },
     {
-        "type": "refactor",
-        "module": "YukkiMusic.core.telethon",
-        "obj": "TelethonClient.get_chat_member",
-        "line": 166,
-        "column": 8,
-        "endLine": 187,
-        "endColumn": 74,
-        "path": "YukkiMusic/core/telethon.py",
-        "symbol": "no-else-raise",
-        "message": "Unnecessary \"elif\" after \"raise\", remove the leading \"el\" from \"elif\"",
-        "message-id": "R1720"
-    },
-    {
         "type": "warning",
         "module": "YukkiMusic.core.telethon",
         "obj": "TelethonClient.__init__",
@@ -89,6 +76,19 @@
         "symbol": "broad-exception-caught",
         "message": "Catching too general exception Exception",
         "message-id": "W0718"
+    },
+    {
+        "type": "refactor",
+        "module": "YukkiMusic.core.telethon",
+        "obj": "TelethonClient.get_chat_member",
+        "line": 166,
+        "column": 8,
+        "endLine": 187,
+        "endColumn": 74,
+        "path": "YukkiMusic/core/telethon.py",
+        "symbol": "no-else-raise",
+        "message": "Unnecessary \"elif\" after \"raise\", remove the leading \"el\" from \"elif\"",
+        "message-id": "R1720"
     },
     {
         "type": "warning",

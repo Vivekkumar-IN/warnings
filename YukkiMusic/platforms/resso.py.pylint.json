@@ -13,6 +13,19 @@
         "message-id": "C0115"
     },
     {
+        "type": "warning",
+        "module": "YukkiMusic.platforms.resso",
+        "obj": "Resso.track",
+        "line": 41,
+        "column": 23,
+        "endLine": 41,
+        "endColumn": 32,
+        "path": "YukkiMusic/platforms/resso.py",
+        "symbol": "broad-exception-caught",
+        "message": "Catching too general exception Exception",
+        "message-id": "W0718"
+    },
+    {
         "type": "convention",
         "module": "YukkiMusic.platforms.resso",
         "obj": "Resso.track",
@@ -37,18 +50,5 @@
         "symbol": "possibly-used-before-assignment",
         "message": "Possibly using variable 'title' before assignment",
         "message-id": "E0606"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.platforms.resso",
-        "obj": "Resso.track",
-        "line": 41,
-        "column": 23,
-        "endLine": 41,
-        "endColumn": 32,
-        "path": "YukkiMusic/platforms/resso.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
     }
 ]

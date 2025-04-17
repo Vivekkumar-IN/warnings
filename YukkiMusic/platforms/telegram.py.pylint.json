@@ -1,5 +1,18 @@
 [
     {
+        "type": "error",
+        "module": "YukkiMusic.platforms.telegram",
+        "obj": "",
+        "line": 21,
+        "column": 0,
+        "endLine": 21,
+        "endColumn": 50,
+        "path": "YukkiMusic/platforms/telegram.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'downlod_markup' in module 'YukkiMusic.utils.inline'",
+        "message-id": "E0611"
+    },
+    {
         "type": "convention",
         "module": "YukkiMusic.platforms.telegram",
         "obj": "",
@@ -28,19 +41,6 @@
     {
         "type": "error",
         "module": "YukkiMusic.platforms.telegram",
-        "obj": "",
-        "line": 21,
-        "column": 0,
-        "endLine": 21,
-        "endColumn": 50,
-        "path": "YukkiMusic/platforms/telegram.py",
-        "symbol": "no-name-in-module",
-        "message": "No name 'downlod_markup' in module 'YukkiMusic.utils.inline'",
-        "message-id": "E0611"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.platforms.telegram",
         "obj": "Telegram.get_url_from_message",
         "line": 38,
         "column": 28,
@@ -50,58 +50,6 @@
         "symbol": "await-outside-async",
         "message": "'await' should be used within an async function",
         "message-id": "E1142"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.platforms.telegram",
-        "obj": "Telegram.download",
-        "line": 92,
-        "column": 42,
-        "endLine": 92,
-        "endColumn": 46,
-        "path": "YukkiMusic/platforms/telegram.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable 'file'",
-        "message-id": "E0602"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.platforms.telegram",
-        "obj": "Telegram.download.down_load.progress",
-        "line": 119,
-        "column": 24,
-        "endLine": 119,
-        "endColumn": 28,
-        "path": "YukkiMusic/platforms/telegram.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable 'tbot'",
-        "message-id": "E0602"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.platforms.telegram",
-        "obj": "Telegram.download.down_load",
-        "line": 138,
-        "column": 22,
-        "endLine": 138,
-        "endColumn": 26,
-        "path": "YukkiMusic/platforms/telegram.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable 'tbot'",
-        "message-id": "E0602"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.platforms.telegram",
-        "obj": "Telegram.download",
-        "line": 158,
-        "column": 65,
-        "endLine": 158,
-        "endColumn": 70,
-        "path": "YukkiMusic/platforms/telegram.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable 'event'",
-        "message-id": "E0602"
     },
     {
         "type": "refactor",
@@ -130,6 +78,32 @@
         "message-id": "R0915"
     },
     {
+        "type": "error",
+        "module": "YukkiMusic.platforms.telegram",
+        "obj": "Telegram.download",
+        "line": 92,
+        "column": 42,
+        "endLine": 92,
+        "endColumn": 46,
+        "path": "YukkiMusic/platforms/telegram.py",
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'file'",
+        "message-id": "E0602"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.platforms.telegram",
+        "obj": "Telegram.download.down_load.progress",
+        "line": 119,
+        "column": 24,
+        "endLine": 119,
+        "endColumn": 28,
+        "path": "YukkiMusic/platforms/telegram.py",
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'tbot'",
+        "message-id": "E0602"
+    },
+    {
         "type": "warning",
         "module": "YukkiMusic.platforms.telegram",
         "obj": "Telegram.download.down_load.progress",
@@ -141,6 +115,19 @@
         "symbol": "broad-exception-caught",
         "message": "Catching too general exception Exception",
         "message-id": "W0718"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.platforms.telegram",
+        "obj": "Telegram.download.down_load",
+        "line": 138,
+        "column": 22,
+        "endLine": 138,
+        "endColumn": 26,
+        "path": "YukkiMusic/platforms/telegram.py",
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'tbot'",
+        "message-id": "E0602"
     },
     {
         "type": "warning",
@@ -167,5 +154,18 @@
         "symbol": "broad-exception-caught",
         "message": "Catching too general exception Exception",
         "message-id": "W0718"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.platforms.telegram",
+        "obj": "Telegram.download",
+        "line": 158,
+        "column": 65,
+        "endLine": 158,
+        "endColumn": 70,
+        "path": "YukkiMusic/platforms/telegram.py",
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'event'",
+        "message-id": "E0602"
     }
 ]

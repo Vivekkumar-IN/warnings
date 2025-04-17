@@ -1,18 +1,5 @@
 [
     {
-        "type": "convention",
-        "module": "YukkiMusic.platforms.__init__",
-        "obj": "",
-        "line": 49,
-        "column": 0,
-        "endLine": null,
-        "endColumn": null,
-        "path": "YukkiMusic/platforms/__init__.py",
-        "symbol": "line-too-long",
-        "message": "Line too long (103/100)",
-        "message-id": "C0301"
-    },
-    {
         "type": "error",
         "module": "YukkiMusic.platforms",
         "obj": "",
@@ -37,19 +24,6 @@
         "symbol": "undefined-variable",
         "message": "Undefined variable 'Carbon'",
         "message-id": "E0602"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.platforms.__init__",
-        "obj": "",
-        "line": 49,
-        "column": 5,
-        "endLine": null,
-        "endColumn": null,
-        "path": "YukkiMusic/platforms/__init__.py",
-        "symbol": "fixme",
-        "message": "todo implement all classes and there info function in this function using SourceType and **kwargs",
-        "message-id": "W0511"
     },
     {
         "type": "warning",
@@ -89,5 +63,31 @@
         "symbol": "unused-argument",
         "message": "Unused argument 'kwargs'",
         "message-id": "W0613"
+    },
+    {
+        "type": "convention",
+        "module": "YukkiMusic.platforms.__init__",
+        "obj": "",
+        "line": 49,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "YukkiMusic/platforms/__init__.py",
+        "symbol": "line-too-long",
+        "message": "Line too long (103/100)",
+        "message-id": "C0301"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.platforms.__init__",
+        "obj": "",
+        "line": 49,
+        "column": 5,
+        "endLine": null,
+        "endColumn": null,
+        "path": "YukkiMusic/platforms/__init__.py",
+        "symbol": "fixme",
+        "message": "todo implement all classes and there info function in this function using SourceType and **kwargs",
+        "message-id": "W0511"
     }
 ]

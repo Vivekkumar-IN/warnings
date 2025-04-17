@@ -1,18 +1,5 @@
 [
     {
-        "type": "error",
-        "module": "YukkiMusic.plugins.play.live",
-        "obj": "play_live_stream",
-        "line": 45,
-        "column": 22,
-        "endLine": 45,
-        "endColumn": 53,
-        "path": "YukkiMusic/plugins/play/live.py",
-        "symbol": "too-many-function-args",
-        "message": "Too many positional arguments for staticmethod call",
-        "message-id": "E1121"
-    },
-    {
         "type": "warning",
         "module": "YukkiMusic.plugins.play.live",
         "obj": "play_live_stream",
@@ -50,6 +37,19 @@
         "symbol": "broad-exception-caught",
         "message": "Catching too general exception Exception",
         "message-id": "W0718"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.play.live",
+        "obj": "play_live_stream",
+        "line": 45,
+        "column": 22,
+        "endLine": 45,
+        "endColumn": 53,
+        "path": "YukkiMusic/plugins/play/live.py",
+        "symbol": "too-many-function-args",
+        "message": "Too many positional arguments for staticmethod call",
+        "message-id": "E1121"
     },
     {
         "type": "warning",

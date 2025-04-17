@@ -1,31 +1,5 @@
 [
     {
-        "type": "convention",
-        "module": "YukkiMusic.plugins.tools.languages",
-        "obj": "lanuagecb",
-        "line": 59,
-        "column": 28,
-        "endLine": 59,
-        "endColumn": 41,
-        "path": "YukkiMusic/plugins/tools/languages.py",
-        "symbol": "invalid-name",
-        "message": "Argument name \"CallbackQuery\" doesn't conform to snake_case naming style",
-        "message-id": "C0103"
-    },
-    {
-        "type": "convention",
-        "module": "YukkiMusic.plugins.tools.languages",
-        "obj": "language_markup",
-        "line": 70,
-        "column": 34,
-        "endLine": 70,
-        "endColumn": 47,
-        "path": "YukkiMusic/plugins/tools/languages.py",
-        "symbol": "invalid-name",
-        "message": "Argument name \"CallbackQuery\" doesn't conform to snake_case naming style",
-        "message-id": "C0103"
-    },
-    {
         "type": "error",
         "module": "YukkiMusic.plugins.tools.languages",
         "obj": "",
@@ -37,32 +11,6 @@
         "symbol": "no-name-in-module",
         "message": "No name 'command' in module 'strings'",
         "message-id": "E0611"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.tools.languages",
-        "obj": "langs_command",
-        "line": 51,
-        "column": 10,
-        "endLine": 51,
-        "endColumn": 15,
-        "path": "YukkiMusic/plugins/tools/languages.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable 'event'",
-        "message-id": "E0602"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.tools.languages",
-        "obj": "langs_command",
-        "line": 52,
-        "column": 50,
-        "endLine": 52,
-        "endColumn": 55,
-        "path": "YukkiMusic/plugins/tools/languages.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable 'event'",
-        "message-id": "E0602"
     },
     {
         "type": "warning",
@@ -104,17 +52,43 @@
         "message-id": "W0613"
     },
     {
-        "type": "warning",
+        "type": "error",
+        "module": "YukkiMusic.plugins.tools.languages",
+        "obj": "langs_command",
+        "line": 51,
+        "column": 10,
+        "endLine": 51,
+        "endColumn": 15,
+        "path": "YukkiMusic/plugins/tools/languages.py",
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'event'",
+        "message-id": "E0602"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.tools.languages",
+        "obj": "langs_command",
+        "line": 52,
+        "column": 50,
+        "endLine": 52,
+        "endColumn": 55,
+        "path": "YukkiMusic/plugins/tools/languages.py",
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'event'",
+        "message-id": "E0602"
+    },
+    {
+        "type": "convention",
         "module": "YukkiMusic.plugins.tools.languages",
         "obj": "lanuagecb",
-        "line": 62,
-        "column": 11,
-        "endLine": 62,
-        "endColumn": 20,
+        "line": 59,
+        "column": 28,
+        "endLine": 59,
+        "endColumn": 41,
         "path": "YukkiMusic/plugins/tools/languages.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
+        "symbol": "invalid-name",
+        "message": "Argument name \"CallbackQuery\" doesn't conform to snake_case naming style",
+        "message-id": "C0103"
     },
     {
         "type": "warning",
@@ -132,15 +106,28 @@
     {
         "type": "warning",
         "module": "YukkiMusic.plugins.tools.languages",
-        "obj": "language_markup",
-        "line": 82,
+        "obj": "lanuagecb",
+        "line": 62,
         "column": 11,
-        "endLine": 82,
+        "endLine": 62,
         "endColumn": 20,
         "path": "YukkiMusic/plugins/tools/languages.py",
         "symbol": "broad-exception-caught",
         "message": "Catching too general exception Exception",
         "message-id": "W0718"
+    },
+    {
+        "type": "convention",
+        "module": "YukkiMusic.plugins.tools.languages",
+        "obj": "language_markup",
+        "line": 70,
+        "column": 34,
+        "endLine": 70,
+        "endColumn": 47,
+        "path": "YukkiMusic/plugins/tools/languages.py",
+        "symbol": "invalid-name",
+        "message": "Argument name \"CallbackQuery\" doesn't conform to snake_case naming style",
+        "message-id": "C0103"
     },
     {
         "type": "warning",
@@ -154,5 +141,18 @@
         "symbol": "unused-argument",
         "message": "Unused argument 'client'",
         "message-id": "W0613"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.plugins.tools.languages",
+        "obj": "language_markup",
+        "line": 82,
+        "column": 11,
+        "endLine": 82,
+        "endColumn": 20,
+        "path": "YukkiMusic/plugins/tools/languages.py",
+        "symbol": "broad-exception-caught",
+        "message": "Catching too general exception Exception",
+        "message-id": "W0718"
     }
 ]

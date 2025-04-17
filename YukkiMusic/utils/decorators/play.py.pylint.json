@@ -26,6 +26,71 @@
         "message-id": "E0611"
     },
     {
+        "type": "refactor",
+        "module": "YukkiMusic.utils.decorators.play",
+        "obj": "play_wrapper",
+        "line": 35,
+        "column": 0,
+        "endLine": 35,
+        "endColumn": 16,
+        "path": "YukkiMusic/utils/decorators/play.py",
+        "symbol": "too-many-statements",
+        "message": "Too many statements (63/50)",
+        "message-id": "R0915"
+    },
+    {
+        "type": "refactor",
+        "module": "YukkiMusic.utils.decorators.play",
+        "obj": "play_wrapper.wrapper",
+        "line": 36,
+        "column": 4,
+        "endLine": 36,
+        "endColumn": 21,
+        "path": "YukkiMusic/utils/decorators/play.py",
+        "symbol": "too-many-locals",
+        "message": "Too many local variables (19/15)",
+        "message-id": "R0914"
+    },
+    {
+        "type": "refactor",
+        "module": "YukkiMusic.utils.decorators.play",
+        "obj": "play_wrapper.wrapper",
+        "line": 36,
+        "column": 4,
+        "endLine": 36,
+        "endColumn": 21,
+        "path": "YukkiMusic/utils/decorators/play.py",
+        "symbol": "too-many-return-statements",
+        "message": "Too many return statements (12/6)",
+        "message-id": "R0911"
+    },
+    {
+        "type": "refactor",
+        "module": "YukkiMusic.utils.decorators.play",
+        "obj": "play_wrapper.wrapper",
+        "line": 36,
+        "column": 4,
+        "endLine": 36,
+        "endColumn": 21,
+        "path": "YukkiMusic/utils/decorators/play.py",
+        "symbol": "too-many-branches",
+        "message": "Too many branches (29/12)",
+        "message-id": "R0912"
+    },
+    {
+        "type": "refactor",
+        "module": "YukkiMusic.utils.decorators.play",
+        "obj": "play_wrapper.wrapper",
+        "line": 36,
+        "column": 4,
+        "endLine": 36,
+        "endColumn": 21,
+        "path": "YukkiMusic/utils/decorators/play.py",
+        "symbol": "too-many-statements",
+        "message": "Too many statements (63/50)",
+        "message-id": "R0915"
+    },
+    {
         "type": "error",
         "module": "YukkiMusic.utils.decorators.play",
         "obj": "play_wrapper.wrapper",
@@ -117,6 +182,19 @@
         "message-id": "E0602"
     },
     {
+        "type": "warning",
+        "module": "YukkiMusic.utils.decorators.play",
+        "obj": "play_wrapper.wrapper",
+        "line": 67,
+        "column": 19,
+        "endLine": 67,
+        "endColumn": 28,
+        "path": "YukkiMusic/utils/decorators/play.py",
+        "symbol": "broad-exception-caught",
+        "message": "Catching too general exception Exception",
+        "message-id": "W0718"
+    },
+    {
         "type": "error",
         "module": "YukkiMusic.utils.decorators.play",
         "obj": "play_wrapper.wrapper",
@@ -156,6 +234,19 @@
         "message-id": "E0602"
     },
     {
+        "type": "warning",
+        "module": "YukkiMusic.utils.decorators.play",
+        "obj": "play_wrapper.wrapper",
+        "line": 97,
+        "column": 19,
+        "endLine": 97,
+        "endColumn": 28,
+        "path": "YukkiMusic/utils/decorators/play.py",
+        "symbol": "broad-exception-caught",
+        "message": "Catching too general exception Exception",
+        "message-id": "W0718"
+    },
+    {
         "type": "error",
         "module": "YukkiMusic.utils.decorators.play",
         "obj": "play_wrapper.wrapper",
@@ -193,6 +284,19 @@
         "symbol": "undefined-variable",
         "message": "Undefined variable 'event'",
         "message-id": "E0602"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.utils.decorators.play",
+        "obj": "play_wrapper.wrapper",
+        "line": 109,
+        "column": 15,
+        "endLine": 109,
+        "endColumn": 24,
+        "path": "YukkiMusic/utils/decorators/play.py",
+        "symbol": "broad-exception-caught",
+        "message": "Catching too general exception Exception",
+        "message-id": "W0718"
     },
     {
         "type": "error",
@@ -245,6 +349,19 @@
         "symbol": "undefined-variable",
         "message": "Undefined variable 'event'",
         "message-id": "E0602"
+    },
+    {
+        "type": "refactor",
+        "module": "YukkiMusic.utils.decorators.play",
+        "obj": "play_wrapper.wrapper",
+        "line": 117,
+        "column": 16,
+        "endLine": 121,
+        "endColumn": 61,
+        "path": "YukkiMusic/utils/decorators/play.py",
+        "symbol": "no-else-return",
+        "message": "Unnecessary \"else\" after \"return\", remove the \"else\" and de-indent the code inside it",
+        "message-id": "R1705"
     },
     {
         "type": "error",
@@ -310,122 +427,5 @@
         "symbol": "undefined-variable",
         "message": "Undefined variable 'event'",
         "message-id": "E0602"
-    },
-    {
-        "type": "refactor",
-        "module": "YukkiMusic.utils.decorators.play",
-        "obj": "play_wrapper.wrapper",
-        "line": 36,
-        "column": 4,
-        "endLine": 36,
-        "endColumn": 21,
-        "path": "YukkiMusic/utils/decorators/play.py",
-        "symbol": "too-many-locals",
-        "message": "Too many local variables (19/15)",
-        "message-id": "R0914"
-    },
-    {
-        "type": "refactor",
-        "module": "YukkiMusic.utils.decorators.play",
-        "obj": "play_wrapper.wrapper",
-        "line": 117,
-        "column": 16,
-        "endLine": 121,
-        "endColumn": 61,
-        "path": "YukkiMusic/utils/decorators/play.py",
-        "symbol": "no-else-return",
-        "message": "Unnecessary \"else\" after \"return\", remove the \"else\" and de-indent the code inside it",
-        "message-id": "R1705"
-    },
-    {
-        "type": "refactor",
-        "module": "YukkiMusic.utils.decorators.play",
-        "obj": "play_wrapper.wrapper",
-        "line": 36,
-        "column": 4,
-        "endLine": 36,
-        "endColumn": 21,
-        "path": "YukkiMusic/utils/decorators/play.py",
-        "symbol": "too-many-return-statements",
-        "message": "Too many return statements (12/6)",
-        "message-id": "R0911"
-    },
-    {
-        "type": "refactor",
-        "module": "YukkiMusic.utils.decorators.play",
-        "obj": "play_wrapper.wrapper",
-        "line": 36,
-        "column": 4,
-        "endLine": 36,
-        "endColumn": 21,
-        "path": "YukkiMusic/utils/decorators/play.py",
-        "symbol": "too-many-branches",
-        "message": "Too many branches (29/12)",
-        "message-id": "R0912"
-    },
-    {
-        "type": "refactor",
-        "module": "YukkiMusic.utils.decorators.play",
-        "obj": "play_wrapper.wrapper",
-        "line": 36,
-        "column": 4,
-        "endLine": 36,
-        "endColumn": 21,
-        "path": "YukkiMusic/utils/decorators/play.py",
-        "symbol": "too-many-statements",
-        "message": "Too many statements (63/50)",
-        "message-id": "R0915"
-    },
-    {
-        "type": "refactor",
-        "module": "YukkiMusic.utils.decorators.play",
-        "obj": "play_wrapper",
-        "line": 35,
-        "column": 0,
-        "endLine": 35,
-        "endColumn": 16,
-        "path": "YukkiMusic/utils/decorators/play.py",
-        "symbol": "too-many-statements",
-        "message": "Too many statements (63/50)",
-        "message-id": "R0915"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.utils.decorators.play",
-        "obj": "play_wrapper.wrapper",
-        "line": 67,
-        "column": 19,
-        "endLine": 67,
-        "endColumn": 28,
-        "path": "YukkiMusic/utils/decorators/play.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.utils.decorators.play",
-        "obj": "play_wrapper.wrapper",
-        "line": 97,
-        "column": 19,
-        "endLine": 97,
-        "endColumn": 28,
-        "path": "YukkiMusic/utils/decorators/play.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.utils.decorators.play",
-        "obj": "play_wrapper.wrapper",
-        "line": 109,
-        "column": 15,
-        "endLine": 109,
-        "endColumn": 24,
-        "path": "YukkiMusic/utils/decorators/play.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
     }
 ]

@@ -13,6 +13,19 @@
         "message-id": "E0611"
     },
     {
+        "type": "warning",
+        "module": "YukkiMusic.plugins.tools.speedtest",
+        "obj": "run_speedtest",
+        "line": 29,
+        "column": 11,
+        "endLine": 29,
+        "endColumn": 20,
+        "path": "YukkiMusic/plugins/tools/speedtest.py",
+        "symbol": "broad-exception-caught",
+        "message": "Catching too general exception Exception",
+        "message-id": "W0718"
+    },
+    {
         "type": "error",
         "module": "YukkiMusic.plugins.tools.speedtest",
         "obj": "speedtest_function",
@@ -37,18 +50,5 @@
         "symbol": "undefined-variable",
         "message": "Undefined variable 'flt'",
         "message-id": "E0602"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.tools.speedtest",
-        "obj": "run_speedtest",
-        "line": 29,
-        "column": 11,
-        "endLine": 29,
-        "endColumn": 20,
-        "path": "YukkiMusic/plugins/tools/speedtest.py",
-        "symbol": "broad-exception-caught",
-        "message": "Catching too general exception Exception",
-        "message-id": "W0718"
     }
 ]

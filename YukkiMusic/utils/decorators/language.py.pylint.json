@@ -13,19 +13,6 @@
         "message-id": "E0611"
     },
     {
-        "type": "error",
-        "module": "YukkiMusic.utils.decorators.language",
-        "obj": "language",
-        "line": 44,
-        "column": 18,
-        "endLine": 44,
-        "endColumn": 24,
-        "path": "YukkiMusic/utils/decorators/language.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable 'update'",
-        "message-id": "E0602"
-    },
-    {
         "type": "warning",
         "module": "YukkiMusic.utils.decorators.language",
         "obj": "language",
@@ -50,6 +37,19 @@
         "symbol": "broad-exception-caught",
         "message": "Catching too general exception Exception",
         "message-id": "W0718"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.utils.decorators.language",
+        "obj": "language",
+        "line": 44,
+        "column": 18,
+        "endLine": 44,
+        "endColumn": 24,
+        "path": "YukkiMusic/utils/decorators/language.py",
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'update'",
+        "message-id": "E0602"
     },
     {
         "type": "warning",

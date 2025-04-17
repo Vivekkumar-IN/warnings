@@ -1,18 +1,5 @@
 [
     {
-        "type": "convention",
-        "module": "YukkiMusic.plugins.bot.help",
-        "obj": "",
-        "line": 60,
-        "column": 0,
-        "endLine": null,
-        "endColumn": null,
-        "path": "YukkiMusic/plugins/bot/help.py",
-        "symbol": "line-too-long",
-        "message": "Line too long (103/100)",
-        "message-id": "C0301"
-    },
-    {
         "type": "error",
         "module": "YukkiMusic.plugins.bot.help",
         "obj": "",
@@ -26,43 +13,17 @@
         "message-id": "E0611"
     },
     {
-        "type": "error",
+        "type": "convention",
         "module": "YukkiMusic.plugins.bot.help",
-        "obj": "help_com_group",
-        "line": 120,
-        "column": 1,
-        "endLine": 120,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/bot/help.py",
-        "symbol": "no-value-for-parameter",
-        "message": "No value for argument 'func' in function call",
-        "message-id": "E1120"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.bot.help",
-        "obj": "help_com_group",
-        "line": 120,
-        "column": 1,
-        "endLine": 120,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/bot/help.py",
-        "symbol": "no-value-for-parameter",
-        "message": "No value for argument 'event' in function call",
-        "message-id": "E1120"
-    },
-    {
-        "type": "refactor",
-        "module": "YukkiMusic.plugins.bot.help",
-        "obj": "help_button",
-        "line": 127,
+        "obj": "",
+        "line": 60,
         "column": 0,
-        "endLine": 127,
-        "endColumn": 21,
+        "endLine": null,
+        "endColumn": null,
         "path": "YukkiMusic/plugins/bot/help.py",
-        "symbol": "too-many-locals",
-        "message": "Too many local variables (16/15)",
-        "message-id": "R0914"
+        "symbol": "line-too-long",
+        "message": "Line too long (103/100)",
+        "message-id": "C0301"
     },
     {
         "type": "warning",
@@ -102,6 +63,45 @@
         "symbol": "broad-exception-caught",
         "message": "Catching too general exception Exception",
         "message-id": "W0718"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.bot.help",
+        "obj": "help_com_group",
+        "line": 120,
+        "column": 1,
+        "endLine": 120,
+        "endColumn": 24,
+        "path": "YukkiMusic/plugins/bot/help.py",
+        "symbol": "no-value-for-parameter",
+        "message": "No value for argument 'func' in function call",
+        "message-id": "E1120"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.bot.help",
+        "obj": "help_com_group",
+        "line": 120,
+        "column": 1,
+        "endLine": 120,
+        "endColumn": 24,
+        "path": "YukkiMusic/plugins/bot/help.py",
+        "symbol": "no-value-for-parameter",
+        "message": "No value for argument 'event' in function call",
+        "message-id": "E1120"
+    },
+    {
+        "type": "refactor",
+        "module": "YukkiMusic.plugins.bot.help",
+        "obj": "help_button",
+        "line": 127,
+        "column": 0,
+        "endLine": 127,
+        "endColumn": 21,
+        "path": "YukkiMusic/plugins/bot/help.py",
+        "symbol": "too-many-locals",
+        "message": "Too many local variables (16/15)",
+        "message-id": "R0914"
     },
     {
         "type": "warning",
