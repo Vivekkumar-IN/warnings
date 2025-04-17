@@ -39,6 +39,19 @@
         "message-id": "C0415"
     },
     {
+        "type": "error",
+        "module": "YukkiMusic.platforms.apple",
+        "obj": "Apple.playlist",
+        "line": 61,
+        "column": 37,
+        "endLine": 61,
+        "endColumn": 64,
+        "path": "YukkiMusic/platforms/apple.py",
+        "symbol": "no-member",
+        "message": "Module 'config' has no 'PLAYLIST_FETCH_LIMIT' member",
+        "message-id": "E1101"
+    },
+    {
         "type": "warning",
         "module": "YukkiMusic.platforms.apple",
         "obj": "Apple.playlist",

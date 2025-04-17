@@ -11,5 +11,70 @@
         "symbol": "invalid-name",
         "message": "Module name \"YukkiMusic\" doesn't conform to snake_case naming style",
         "message-id": "C0103"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic",
+        "obj": "",
+        "line": 24,
+        "column": 11,
+        "endLine": 24,
+        "endColumn": 24,
+        "path": "YukkiMusic/__init__.py",
+        "symbol": "no-member",
+        "message": "Module 'config' has no 'API_ID' member",
+        "message-id": "E1101"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic",
+        "obj": "",
+        "line": 25,
+        "column": 13,
+        "endLine": 25,
+        "endColumn": 28,
+        "path": "YukkiMusic/__init__.py",
+        "symbol": "no-member",
+        "message": "Module 'config' has no 'API_HASH' member",
+        "message-id": "E1101"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic",
+        "obj": "",
+        "line": 26,
+        "column": 14,
+        "endLine": 26,
+        "endColumn": 30,
+        "path": "YukkiMusic/__init__.py",
+        "symbol": "no-member",
+        "message": "Module 'config' has no 'BOT_TOKEN' member",
+        "message-id": "E1101"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic",
+        "obj": "",
+        "line": 34,
+        "column": 11,
+        "endLine": 34,
+        "endColumn": 24,
+        "path": "YukkiMusic/__init__.py",
+        "symbol": "no-member",
+        "message": "Module 'config' has no 'API_ID' member",
+        "message-id": "E1101"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic",
+        "obj": "",
+        "line": 35,
+        "column": 13,
+        "endLine": 35,
+        "endColumn": 28,
+        "path": "YukkiMusic/__init__.py",
+        "symbol": "no-member",
+        "message": "Module 'config' has no 'API_HASH' member",
+        "message-id": "E1101"
     }
 ]

@@ -1,0 +1,41 @@
+[
+    {
+        "type": "error",
+        "module": "config.__init__",
+        "obj": "",
+        "line": 14,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "config/__init__.py",
+        "symbol": "syntax-error",
+        "message": "Cannot import 'config' due to ''(' was never closed (config.config, line 228)'",
+        "message-id": "E0001"
+    },
+    {
+        "type": "error",
+        "module": "config",
+        "obj": "fetch_cookies",
+        "line": 18,
+        "column": 11,
+        "endLine": 18,
+        "endColumn": 22,
+        "path": "config/__init__.py",
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'COOKIE_LINK'",
+        "message-id": "E0602"
+    },
+    {
+        "type": "error",
+        "module": "config",
+        "obj": "fetch_cookies",
+        "line": 20,
+        "column": 15,
+        "endLine": 20,
+        "endColumn": 26,
+        "path": "config/__init__.py",
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'COOKIE_LINK'",
+        "message-id": "E0602"
+    }
+]

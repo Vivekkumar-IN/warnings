@@ -1,5 +1,18 @@
 [
     {
+        "type": "error",
+        "module": "YukkiMusic.utils.stream.autoclear",
+        "obj": "",
+        "line": 13,
+        "column": 0,
+        "endLine": 13,
+        "endColumn": 28,
+        "path": "YukkiMusic/utils/stream/autoclear.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'autoclean' in module 'config'",
+        "message-id": "E0611"
+    },
+    {
         "type": "warning",
         "module": "YukkiMusic.utils.stream.autoclear",
         "obj": "auto_clean._auto_clean",

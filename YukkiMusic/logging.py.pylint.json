@@ -1,0 +1,15 @@
+[
+    {
+        "type": "error",
+        "module": "YukkiMusic.logging",
+        "obj": "",
+        "line": 14,
+        "column": 0,
+        "endLine": 14,
+        "endColumn": 32,
+        "path": "YukkiMusic/logging.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'LOG_FILE_NAME' in module 'config'",
+        "message-id": "E0611"
+    }
+]

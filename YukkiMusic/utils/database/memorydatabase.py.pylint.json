@@ -1,0 +1,28 @@
+[
+    {
+        "type": "error",
+        "module": "YukkiMusic.utils.database.memorydatabase",
+        "obj": "is_video_allowed",
+        "line": 267,
+        "column": 49,
+        "endLine": 267,
+        "endColumn": 74,
+        "path": "YukkiMusic/utils/database/memorydatabase.py",
+        "symbol": "no-member",
+        "message": "Module 'config' has no 'VIDEO_STREAM_LIMIT' member",
+        "message-id": "E1101"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.utils.database.memorydatabase",
+        "obj": "get_video_limit",
+        "line": 281,
+        "column": 55,
+        "endLine": 281,
+        "endColumn": 80,
+        "path": "YukkiMusic/utils/database/memorydatabase.py",
+        "symbol": "no-member",
+        "message": "Module 'config' has no 'VIDEO_STREAM_LIMIT' member",
+        "message-id": "E1101"
+    }
+]

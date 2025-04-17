@@ -37,5 +37,31 @@
         "symbol": "undefined-variable",
         "message": "Undefined variable 'flt'",
         "message-id": "E0602"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.sudo.videomode",
+        "obj": "videoloaymode",
+        "line": 28,
+        "column": 21,
+        "endLine": 28,
+        "endColumn": 40,
+        "path": "YukkiMusic/plugins/sudo/videomode.py",
+        "symbol": "no-member",
+        "message": "Module 'config' has no 'YTDOWNLOADER' member",
+        "message-id": "E1101"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.sudo.videomode",
+        "obj": "videoloaymode",
+        "line": 31,
+        "column": 22,
+        "endLine": 31,
+        "endColumn": 41,
+        "path": "YukkiMusic/plugins/sudo/videomode.py",
+        "symbol": "no-member",
+        "message": "Module 'config' has no 'YTDOWNLOADER' member",
+        "message-id": "E1101"
     }
 ]

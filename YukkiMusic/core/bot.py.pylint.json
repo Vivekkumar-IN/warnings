@@ -26,6 +26,32 @@
         "message-id": "C0415"
     },
     {
+        "type": "error",
+        "module": "YukkiMusic.core.bot",
+        "obj": "YukkiBot.on_message.decorator.wrapper",
+        "line": 81,
+        "column": 44,
+        "endLine": 81,
+        "endColumn": 63,
+        "path": "YukkiMusic/core/bot.py",
+        "symbol": "no-member",
+        "message": "Module 'config' has no 'LOG_GROUP_ID' member",
+        "message-id": "E1101"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.core.bot",
+        "obj": "YukkiBot.on_message.decorator.wrapper",
+        "line": 83,
+        "column": 48,
+        "endLine": 83,
+        "endColumn": 63,
+        "path": "YukkiMusic/core/bot.py",
+        "symbol": "no-member",
+        "message": "Module 'config' has no 'OWNER_ID' member",
+        "message-id": "E1101"
+    },
+    {
         "type": "warning",
         "module": "YukkiMusic.core.bot",
         "obj": "YukkiBot.on_message.decorator.wrapper",

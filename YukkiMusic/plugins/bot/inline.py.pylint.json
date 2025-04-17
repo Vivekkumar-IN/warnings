@@ -1,5 +1,18 @@
 [
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.bot.inline",
+        "obj": "",
+        "line": 23,
+        "column": 0,
+        "endLine": 23,
+        "endColumn": 31,
+        "path": "YukkiMusic/plugins/bot/inline.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'BANNED_USERS' in module 'config'",
+        "message-id": "E0611"
+    },
+    {
         "type": "refactor",
         "module": "YukkiMusic.plugins.bot.inline",
         "obj": "inline_query_handler",

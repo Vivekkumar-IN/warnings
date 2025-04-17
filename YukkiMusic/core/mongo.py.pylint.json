@@ -13,6 +13,32 @@
         "message-id": "C0415"
     },
     {
+        "type": "error",
+        "module": "YukkiMusic.core.mongo",
+        "obj": "_mongo",
+        "line": 24,
+        "column": 7,
+        "endLine": 24,
+        "endColumn": 26,
+        "path": "YukkiMusic/core/mongo.py",
+        "symbol": "no-member",
+        "message": "Module 'config' has no 'MONGO_DB_URI' member",
+        "message-id": "E1101"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.core.mongo",
+        "obj": "_mongo",
+        "line": 32,
+        "column": 43,
+        "endLine": 32,
+        "endColumn": 62,
+        "path": "YukkiMusic/core/mongo.py",
+        "symbol": "no-member",
+        "message": "Module 'config' has no 'MONGO_DB_URI' member",
+        "message-id": "E1101"
+    },
+    {
         "type": "warning",
         "module": "YukkiMusic.core.mongo",
         "obj": "_mongo",

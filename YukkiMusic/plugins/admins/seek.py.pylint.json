@@ -2,6 +2,19 @@
     {
         "type": "error",
         "module": "YukkiMusic.plugins.admins.seek",
+        "obj": "",
+        "line": 10,
+        "column": 0,
+        "endLine": 10,
+        "endColumn": 31,
+        "path": "YukkiMusic/plugins/admins/seek.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'BANNED_USERS' in module 'config'",
+        "message-id": "E0611"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.admins.seek",
         "obj": "seek_comm",
         "line": 22,
         "column": 7,

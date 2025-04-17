@@ -13,6 +13,45 @@
         "message-id": "C0415"
     },
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.misc.autoleave",
+        "obj": "auto_leave",
+        "line": 32,
+        "column": 7,
+        "endLine": 32,
+        "endColumn": 36,
+        "path": "YukkiMusic/plugins/misc/autoleave.py",
+        "symbol": "no-member",
+        "message": "Module 'config' has no 'AUTO_LEAVING_ASSISTANT' member",
+        "message-id": "E1101"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.misc.autoleave",
+        "obj": "auto_leave.leave_inactive_chats",
+        "line": 48,
+        "column": 24,
+        "endLine": 48,
+        "endColumn": 43,
+        "path": "YukkiMusic/plugins/misc/autoleave.py",
+        "symbol": "no-member",
+        "message": "Module 'config' has no 'LOG_GROUP_ID' member",
+        "message-id": "E1101"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.misc.autoleave",
+        "obj": "auto_leave",
+        "line": 67,
+        "column": 16,
+        "endLine": 67,
+        "endColumn": 43,
+        "path": "YukkiMusic/plugins/misc/autoleave.py",
+        "symbol": "no-member",
+        "message": "Module 'config' has no 'ASSISTANT_LEAVE_TIME' member",
+        "message-id": "E1101"
+    },
+    {
         "type": "warning",
         "module": "YukkiMusic.plugins.misc.autoleave",
         "obj": "auto_leave.leave_inactive_chats",
