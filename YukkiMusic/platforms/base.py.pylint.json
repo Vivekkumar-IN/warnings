@@ -2,19 +2,6 @@
     {
         "type": "convention",
         "module": "YukkiMusic.platforms.base",
-        "obj": "",
-        "line": 1,
-        "column": 0,
-        "endLine": null,
-        "endColumn": null,
-        "path": "YukkiMusic/platforms/base.py",
-        "symbol": "missing-module-docstring",
-        "message": "Missing module docstring",
-        "message-id": "C0114"
-    },
-    {
-        "type": "convention",
-        "module": "YukkiMusic.platforms.base",
         "obj": "PlatformBase",
         "line": 6,
         "column": 0,
@@ -24,19 +11,6 @@
         "symbol": "missing-class-docstring",
         "message": "Missing class docstring",
         "message-id": "C0115"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.platforms.base",
-        "obj": "",
-        "line": 3,
-        "column": 0,
-        "endLine": 3,
-        "endColumn": 32,
-        "path": "YukkiMusic/platforms/base.py",
-        "symbol": "import-error",
-        "message": "Unable to import 'YukkiMusic.core.youtube'",
-        "message-id": "E0401"
     },
     {
         "type": "error",

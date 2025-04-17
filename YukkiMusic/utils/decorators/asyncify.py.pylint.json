@@ -1,44 +1,5 @@
 [
     {
-        "type": "convention",
-        "module": "YukkiMusic.utils.decorators.asyncify",
-        "obj": "",
-        "line": 1,
-        "column": 0,
-        "endLine": null,
-        "endColumn": null,
-        "path": "YukkiMusic/utils/decorators/asyncify.py",
-        "symbol": "missing-module-docstring",
-        "message": "Missing module docstring",
-        "message-id": "C0114"
-    },
-    {
-        "type": "convention",
-        "module": "YukkiMusic.utils.decorators.asyncify",
-        "obj": "asyncify",
-        "line": 10,
-        "column": 0,
-        "endLine": 10,
-        "endColumn": 12,
-        "path": "YukkiMusic/utils/decorators/asyncify.py",
-        "symbol": "missing-function-docstring",
-        "message": "Missing function or method docstring",
-        "message-id": "C0116"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.utils.decorators.asyncify",
-        "obj": "",
-        "line": 6,
-        "column": 0,
-        "endLine": 6,
-        "endColumn": 31,
-        "path": "YukkiMusic/utils/decorators/asyncify.py",
-        "symbol": "import-error",
-        "message": "Unable to import 'decorator'",
-        "message-id": "E0401"
-    },
-    {
         "type": "refactor",
         "module": "YukkiMusic.utils.decorators.asyncify",
         "obj": "asyncify.run",

@@ -80,19 +80,6 @@
     {
         "type": "convention",
         "module": "YukkiMusic.core.request",
-        "obj": "",
-        "line": 1,
-        "column": 0,
-        "endLine": null,
-        "endColumn": null,
-        "path": "YukkiMusic/core/request.py",
-        "symbol": "missing-module-docstring",
-        "message": "Missing module docstring",
-        "message-id": "C0114"
-    },
-    {
-        "type": "convention",
-        "module": "YukkiMusic.core.request",
         "obj": "Request",
         "line": 15,
         "column": 0,
@@ -102,18 +89,5 @@
         "symbol": "missing-class-docstring",
         "message": "Missing class docstring",
         "message-id": "C0115"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.core.request",
-        "obj": "",
-        "line": 12,
-        "column": 0,
-        "endLine": 12,
-        "endColumn": 14,
-        "path": "YukkiMusic/core/request.py",
-        "symbol": "import-error",
-        "message": "Unable to import 'aiohttp'",
-        "message-id": "E0401"
     }
 ]

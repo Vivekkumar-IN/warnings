@@ -2,19 +2,6 @@
     {
         "type": "convention",
         "module": "YukkiMusic.core.mongo",
-        "obj": "",
-        "line": 1,
-        "column": 0,
-        "endLine": null,
-        "endColumn": null,
-        "path": "YukkiMusic/core/mongo.py",
-        "symbol": "missing-module-docstring",
-        "message": "Missing module docstring",
-        "message-id": "C0114"
-    },
-    {
-        "type": "convention",
-        "module": "YukkiMusic.core.mongo",
         "obj": "_mongo",
         "line": 26,
         "column": 8,
@@ -24,19 +11,6 @@
         "symbol": "import-outside-toplevel",
         "message": "Import outside toplevel (YukkiMusic.tbot)",
         "message-id": "C0415"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.core.mongo",
-        "obj": "",
-        "line": 13,
-        "column": 0,
-        "endLine": 13,
-        "endColumn": 50,
-        "path": "YukkiMusic/core/mongo.py",
-        "symbol": "import-error",
-        "message": "Unable to import 'motor.motor_asyncio'",
-        "message-id": "E0401"
     },
     {
         "type": "warning",

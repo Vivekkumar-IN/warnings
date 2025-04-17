@@ -2,19 +2,6 @@
     {
         "type": "convention",
         "module": "YukkiMusic.core.userbot",
-        "obj": "",
-        "line": 1,
-        "column": 0,
-        "endLine": null,
-        "endColumn": null,
-        "path": "YukkiMusic/core/userbot.py",
-        "symbol": "missing-module-docstring",
-        "message": "Missing module docstring",
-        "message-id": "C0114"
-    },
-    {
-        "type": "convention",
-        "module": "YukkiMusic.core.userbot",
         "obj": "Userbot",
         "line": 35,
         "column": 0,
@@ -24,45 +11,6 @@
         "symbol": "missing-class-docstring",
         "message": "Missing class docstring",
         "message-id": "C0115"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.core.userbot",
-        "obj": "",
-        "line": 16,
-        "column": 0,
-        "endLine": 16,
-        "endColumn": 44,
-        "path": "YukkiMusic/core/userbot.py",
-        "symbol": "import-error",
-        "message": "Unable to import 'pyrogram'",
-        "message-id": "E0401"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.core.userbot",
-        "obj": "",
-        "line": 17,
-        "column": 0,
-        "endLine": 24,
-        "endColumn": 1,
-        "path": "YukkiMusic/core/userbot.py",
-        "symbol": "import-error",
-        "message": "Unable to import 'pyrogram.errors'",
-        "message-id": "E0401"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.core.userbot",
-        "obj": "",
-        "line": 25,
-        "column": 0,
-        "endLine": 25,
-        "endColumn": 44,
-        "path": "YukkiMusic/core/userbot.py",
-        "symbol": "import-error",
-        "message": "Unable to import 'pyrogram.handlers'",
-        "message-id": "E0401"
     },
     {
         "type": "warning",

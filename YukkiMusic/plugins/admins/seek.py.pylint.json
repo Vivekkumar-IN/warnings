@@ -1,31 +1,5 @@
 [
     {
-        "type": "convention",
-        "module": "YukkiMusic.plugins.admins.seek",
-        "obj": "",
-        "line": 1,
-        "column": 0,
-        "endLine": null,
-        "endColumn": null,
-        "path": "YukkiMusic/plugins/admins/seek.py",
-        "symbol": "missing-module-docstring",
-        "message": "Missing module docstring",
-        "message-id": "C0114"
-    },
-    {
-        "type": "convention",
-        "module": "YukkiMusic.plugins.admins.seek",
-        "obj": "seek_comm",
-        "line": 25,
-        "column": 0,
-        "endLine": 25,
-        "endColumn": 19,
-        "path": "YukkiMusic/plugins/admins/seek.py",
-        "symbol": "missing-function-docstring",
-        "message": "Missing function or method docstring",
-        "message-id": "C0116"
-    },
-    {
         "type": "error",
         "module": "YukkiMusic.plugins.admins.seek",
         "obj": "seek_comm",

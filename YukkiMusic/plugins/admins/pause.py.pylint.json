@@ -1,31 +1,5 @@
 [
     {
-        "type": "convention",
-        "module": "YukkiMusic.plugins.admins.pause",
-        "obj": "",
-        "line": 1,
-        "column": 0,
-        "endLine": null,
-        "endColumn": null,
-        "path": "YukkiMusic/plugins/admins/pause.py",
-        "symbol": "missing-module-docstring",
-        "message": "Missing module docstring",
-        "message-id": "C0114"
-    },
-    {
-        "type": "convention",
-        "module": "YukkiMusic.plugins.admins.pause",
-        "obj": "pause_admin",
-        "line": 22,
-        "column": 0,
-        "endLine": 22,
-        "endColumn": 21,
-        "path": "YukkiMusic/plugins/admins/pause.py",
-        "symbol": "missing-function-docstring",
-        "message": "Missing function or method docstring",
-        "message-id": "C0116"
-    },
-    {
         "type": "error",
         "module": "YukkiMusic.plugins.admins.pause",
         "obj": "pause_admin",

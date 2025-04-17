@@ -2,32 +2,6 @@
     {
         "type": "convention",
         "module": "YukkiMusic.plugins.misc.autoleave",
-        "obj": "",
-        "line": 1,
-        "column": 0,
-        "endLine": null,
-        "endColumn": null,
-        "path": "YukkiMusic/plugins/misc/autoleave.py",
-        "symbol": "missing-module-docstring",
-        "message": "Missing module docstring",
-        "message-id": "C0114"
-    },
-    {
-        "type": "convention",
-        "module": "YukkiMusic.plugins.misc.autoleave",
-        "obj": "auto_leave",
-        "line": 31,
-        "column": 0,
-        "endLine": 31,
-        "endColumn": 20,
-        "path": "YukkiMusic/plugins/misc/autoleave.py",
-        "symbol": "missing-function-docstring",
-        "message": "Missing function or method docstring",
-        "message-id": "C0116"
-    },
-    {
-        "type": "convention",
-        "module": "YukkiMusic.plugins.misc.autoleave",
         "obj": "auto_leave",
         "line": 38,
         "column": 4,
@@ -37,45 +11,6 @@
         "symbol": "import-outside-toplevel",
         "message": "Import outside toplevel (YukkiMusic.core.userbot.assistants)",
         "message-id": "C0415"
-    },
-    {
-        "type": "convention",
-        "module": "YukkiMusic.plugins.misc.autoleave",
-        "obj": "auto_end",
-        "line": 71,
-        "column": 0,
-        "endLine": 71,
-        "endColumn": 18,
-        "path": "YukkiMusic/plugins/misc/autoleave.py",
-        "symbol": "missing-function-docstring",
-        "message": "Missing function or method docstring",
-        "message-id": "C0116"
-    },
-    {
-        "type": "convention",
-        "module": "YukkiMusic.plugins.misc.autoleave",
-        "obj": "run_all_tasks",
-        "line": 111,
-        "column": 0,
-        "endLine": 111,
-        "endColumn": 23,
-        "path": "YukkiMusic/plugins/misc/autoleave.py",
-        "symbol": "missing-function-docstring",
-        "message": "Missing function or method docstring",
-        "message-id": "C0116"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.misc.autoleave",
-        "obj": "",
-        "line": 13,
-        "column": 0,
-        "endLine": 13,
-        "endColumn": 35,
-        "path": "YukkiMusic/plugins/misc/autoleave.py",
-        "symbol": "import-error",
-        "message": "Unable to import 'pyrogram.enums'",
-        "message-id": "E0401"
     },
     {
         "type": "warning",

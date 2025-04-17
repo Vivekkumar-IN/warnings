@@ -13,32 +13,6 @@
         "message-id": "C0301"
     },
     {
-        "type": "convention",
-        "module": "YukkiMusic.plugins.sudo.autoend",
-        "obj": "",
-        "line": 1,
-        "column": 0,
-        "endLine": null,
-        "endColumn": null,
-        "path": "YukkiMusic/plugins/sudo/autoend.py",
-        "symbol": "missing-module-docstring",
-        "message": "Missing module docstring",
-        "message-id": "C0114"
-    },
-    {
-        "type": "convention",
-        "module": "YukkiMusic.plugins.sudo.autoend",
-        "obj": "auto_end_stream",
-        "line": 17,
-        "column": 0,
-        "endLine": 17,
-        "endColumn": 25,
-        "path": "YukkiMusic/plugins/sudo/autoend.py",
-        "symbol": "missing-function-docstring",
-        "message": "Missing function or method docstring",
-        "message-id": "C0116"
-    },
-    {
         "type": "error",
         "module": "YukkiMusic.plugins.sudo.autoend",
         "obj": "",

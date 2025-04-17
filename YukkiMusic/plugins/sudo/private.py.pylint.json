@@ -1,57 +1,5 @@
 [
     {
-        "type": "convention",
-        "module": "YukkiMusic.plugins.sudo.private",
-        "obj": "",
-        "line": 1,
-        "column": 0,
-        "endLine": null,
-        "endColumn": null,
-        "path": "YukkiMusic/plugins/sudo/private.py",
-        "symbol": "missing-module-docstring",
-        "message": "Missing module docstring",
-        "message-id": "C0114"
-    },
-    {
-        "type": "convention",
-        "module": "YukkiMusic.plugins.sudo.private",
-        "obj": "authorize",
-        "line": 26,
-        "column": 0,
-        "endLine": 26,
-        "endColumn": 19,
-        "path": "YukkiMusic/plugins/sudo/private.py",
-        "symbol": "missing-function-docstring",
-        "message": "Missing function or method docstring",
-        "message-id": "C0116"
-    },
-    {
-        "type": "convention",
-        "module": "YukkiMusic.plugins.sudo.private",
-        "obj": "unauthorize",
-        "line": 44,
-        "column": 0,
-        "endLine": 44,
-        "endColumn": 21,
-        "path": "YukkiMusic/plugins/sudo/private.py",
-        "symbol": "missing-function-docstring",
-        "message": "Missing function or method docstring",
-        "message-id": "C0116"
-    },
-    {
-        "type": "convention",
-        "module": "YukkiMusic.plugins.sudo.private",
-        "obj": "authorized",
-        "line": 62,
-        "column": 0,
-        "endLine": 62,
-        "endColumn": 20,
-        "path": "YukkiMusic/plugins/sudo/private.py",
-        "symbol": "missing-function-docstring",
-        "message": "Missing function or method docstring",
-        "message-id": "C0116"
-    },
-    {
         "type": "error",
         "module": "YukkiMusic.plugins.sudo.private",
         "obj": "",

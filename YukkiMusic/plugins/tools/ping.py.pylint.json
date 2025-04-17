@@ -2,32 +2,6 @@
     {
         "type": "convention",
         "module": "YukkiMusic.plugins.tools.ping",
-        "obj": "",
-        "line": 1,
-        "column": 0,
-        "endLine": null,
-        "endColumn": null,
-        "path": "YukkiMusic/plugins/tools/ping.py",
-        "symbol": "missing-module-docstring",
-        "message": "Missing module docstring",
-        "message-id": "C0114"
-    },
-    {
-        "type": "convention",
-        "module": "YukkiMusic.plugins.tools.ping",
-        "obj": "ping_com",
-        "line": 24,
-        "column": 0,
-        "endLine": 24,
-        "endColumn": 18,
-        "path": "YukkiMusic/plugins/tools/ping.py",
-        "symbol": "missing-function-docstring",
-        "message": "Missing function or method docstring",
-        "message-id": "C0116"
-    },
-    {
-        "type": "convention",
-        "module": "YukkiMusic.plugins.tools.ping",
         "obj": "ping_com",
         "line": 31,
         "column": 4,

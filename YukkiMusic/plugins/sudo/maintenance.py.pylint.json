@@ -1,31 +1,5 @@
 [
     {
-        "type": "convention",
-        "module": "YukkiMusic.plugins.sudo.maintenance",
-        "obj": "",
-        "line": 1,
-        "column": 0,
-        "endLine": null,
-        "endColumn": null,
-        "path": "YukkiMusic/plugins/sudo/maintenance.py",
-        "symbol": "missing-module-docstring",
-        "message": "Missing module docstring",
-        "message-id": "C0114"
-    },
-    {
-        "type": "convention",
-        "module": "YukkiMusic.plugins.sudo.maintenance",
-        "obj": "maintenance",
-        "line": 24,
-        "column": 0,
-        "endLine": 24,
-        "endColumn": 21,
-        "path": "YukkiMusic/plugins/sudo/maintenance.py",
-        "symbol": "missing-function-docstring",
-        "message": "Missing function or method docstring",
-        "message-id": "C0116"
-    },
-    {
         "type": "error",
         "module": "YukkiMusic.plugins.sudo.maintenance",
         "obj": "",

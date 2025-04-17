@@ -1,57 +1,5 @@
 [
     {
-        "type": "convention",
-        "module": "YukkiMusic.plugins.misc.seeker",
-        "obj": "",
-        "line": 1,
-        "column": 0,
-        "endLine": null,
-        "endColumn": null,
-        "path": "YukkiMusic/plugins/misc/seeker.py",
-        "symbol": "missing-module-docstring",
-        "message": "Missing module docstring",
-        "message-id": "C0114"
-    },
-    {
-        "type": "convention",
-        "module": "YukkiMusic.plugins.misc.seeker",
-        "obj": "timer",
-        "line": 33,
-        "column": 0,
-        "endLine": 33,
-        "endColumn": 15,
-        "path": "YukkiMusic/plugins/misc/seeker.py",
-        "symbol": "missing-function-docstring",
-        "message": "Missing function or method docstring",
-        "message-id": "C0116"
-    },
-    {
-        "type": "convention",
-        "module": "YukkiMusic.plugins.misc.seeker",
-        "obj": "leave_if_muted",
-        "line": 51,
-        "column": 0,
-        "endLine": 51,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/misc/seeker.py",
-        "symbol": "missing-function-docstring",
-        "message": "Missing function or method docstring",
-        "message-id": "C0116"
-    },
-    {
-        "type": "convention",
-        "module": "YukkiMusic.plugins.misc.seeker",
-        "obj": "markup_timer",
-        "line": 84,
-        "column": 0,
-        "endLine": 84,
-        "endColumn": 22,
-        "path": "YukkiMusic/plugins/misc/seeker.py",
-        "symbol": "missing-function-docstring",
-        "message": "Missing function or method docstring",
-        "message-id": "C0116"
-    },
-    {
         "type": "refactor",
         "module": "YukkiMusic.plugins.misc.seeker",
         "obj": "markup_timer",

@@ -28,19 +28,6 @@
     {
         "type": "convention",
         "module": "YukkiMusic.core.filters",
-        "obj": "",
-        "line": 1,
-        "column": 0,
-        "endLine": null,
-        "endColumn": null,
-        "path": "YukkiMusic/core/filters.py",
-        "symbol": "missing-module-docstring",
-        "message": "Missing module docstring",
-        "message-id": "C0114"
-    },
-    {
-        "type": "convention",
-        "module": "YukkiMusic.core.filters",
         "obj": "Filter",
         "line": 12,
         "column": 0,
@@ -50,32 +37,6 @@
         "symbol": "missing-class-docstring",
         "message": "Missing class docstring",
         "message-id": "C0115"
-    },
-    {
-        "type": "convention",
-        "module": "YukkiMusic.core.filters",
-        "obj": "User.func",
-        "line": 115,
-        "column": 4,
-        "endLine": 115,
-        "endColumn": 18,
-        "path": "YukkiMusic/core/filters.py",
-        "symbol": "missing-function-docstring",
-        "message": "Missing function or method docstring",
-        "message-id": "C0116"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.core.filters",
-        "obj": "",
-        "line": 6,
-        "column": 0,
-        "endLine": 6,
-        "endColumn": 29,
-        "path": "YukkiMusic/core/filters.py",
-        "symbol": "import-error",
-        "message": "Unable to import 'telethon.tl'",
-        "message-id": "E0401"
     },
     {
         "type": "error",

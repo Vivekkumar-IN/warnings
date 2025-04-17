@@ -1,57 +1,5 @@
 [
     {
-        "type": "convention",
-        "module": "YukkiMusic.plugins.tools.speedtest",
-        "obj": "",
-        "line": 1,
-        "column": 0,
-        "endLine": null,
-        "endColumn": null,
-        "path": "YukkiMusic/plugins/tools/speedtest.py",
-        "symbol": "missing-module-docstring",
-        "message": "Missing module docstring",
-        "message-id": "C0114"
-    },
-    {
-        "type": "convention",
-        "module": "YukkiMusic.plugins.tools.speedtest",
-        "obj": "run_speedtest",
-        "line": 18,
-        "column": 0,
-        "endLine": 18,
-        "endColumn": 23,
-        "path": "YukkiMusic/plugins/tools/speedtest.py",
-        "symbol": "missing-function-docstring",
-        "message": "Missing function or method docstring",
-        "message-id": "C0116"
-    },
-    {
-        "type": "convention",
-        "module": "YukkiMusic.plugins.tools.speedtest",
-        "obj": "speedtest_function",
-        "line": 38,
-        "column": 0,
-        "endLine": 38,
-        "endColumn": 28,
-        "path": "YukkiMusic/plugins/tools/speedtest.py",
-        "symbol": "missing-function-docstring",
-        "message": "Missing function or method docstring",
-        "message-id": "C0116"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.tools.speedtest",
-        "obj": "",
-        "line": 12,
-        "column": 0,
-        "endLine": 12,
-        "endColumn": 31,
-        "path": "YukkiMusic/plugins/tools/speedtest.py",
-        "symbol": "import-error",
-        "message": "Unable to import 'speedtest'",
-        "message-id": "E0401"
-    },
-    {
         "type": "error",
         "module": "YukkiMusic.plugins.tools.speedtest",
         "obj": "",

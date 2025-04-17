@@ -1,44 +1,5 @@
 [
     {
-        "type": "convention",
-        "module": "YukkiMusic.plugins.play.live",
-        "obj": "",
-        "line": 1,
-        "column": 0,
-        "endLine": null,
-        "endColumn": null,
-        "path": "YukkiMusic/plugins/play/live.py",
-        "symbol": "missing-module-docstring",
-        "message": "Missing module docstring",
-        "message-id": "C0114"
-    },
-    {
-        "type": "convention",
-        "module": "YukkiMusic.plugins.play.live",
-        "obj": "play_live_stream",
-        "line": 23,
-        "column": 0,
-        "endLine": 23,
-        "endColumn": 26,
-        "path": "YukkiMusic/plugins/play/live.py",
-        "symbol": "missing-function-docstring",
-        "message": "Missing function or method docstring",
-        "message-id": "C0116"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.play.live",
-        "obj": "",
-        "line": 11,
-        "column": 0,
-        "endLine": 11,
-        "endColumn": 27,
-        "path": "YukkiMusic/plugins/play/live.py",
-        "symbol": "import-error",
-        "message": "Unable to import 'telethon'",
-        "message-id": "E0401"
-    },
-    {
         "type": "error",
         "module": "YukkiMusic.plugins.play.live",
         "obj": "play_live_stream",

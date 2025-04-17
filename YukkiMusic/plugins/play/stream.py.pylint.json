@@ -1,44 +1,5 @@
 [
     {
-        "type": "convention",
-        "module": "YukkiMusic.plugins.play.stream",
-        "obj": "",
-        "line": 1,
-        "column": 0,
-        "endLine": null,
-        "endColumn": null,
-        "path": "YukkiMusic/plugins/play/stream.py",
-        "symbol": "missing-module-docstring",
-        "message": "Missing module docstring",
-        "message-id": "C0114"
-    },
-    {
-        "type": "convention",
-        "module": "YukkiMusic.plugins.play.stream",
-        "obj": "stream_command",
-        "line": 26,
-        "column": 0,
-        "endLine": 26,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/play/stream.py",
-        "symbol": "missing-function-docstring",
-        "message": "Missing function or method docstring",
-        "message-id": "C0116"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.play.stream",
-        "obj": "",
-        "line": 16,
-        "column": 0,
-        "endLine": 16,
-        "endColumn": 41,
-        "path": "YukkiMusic/plugins/play/stream.py",
-        "symbol": "import-error",
-        "message": "Unable to import 'YukkiMusic.core.youtube'",
-        "message-id": "E0401"
-    },
-    {
         "type": "error",
         "module": "YukkiMusic.plugins.play.stream",
         "obj": "",
@@ -152,7 +113,7 @@
         "endColumn": null,
         "path": "YukkiMusic/plugins/play/stream.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.admins.stop:[48:70]\n==YukkiMusic.utils.decorators.admins:[35:55]\n        if await is_commanddelete_on(event.chat_id):\n            try:\n                await event.delete()\n            except Exception:\n                pass\n        try:\n            language = await get_lang(event.chat_id)\n            _ = get_string(language)\n        except Exception:\n            _ = get_string(\"en\")\n        if not isinstance(event.message.from_id, PeerUser):\n            upl = [\n                [\n                    Button.inline(\n                        text=\"How to Fix this? \",\n                        data=\"AnonymousAdmin\",\n                    ),\n                ]\n            ]\n            return await event.reply(_[\"general_4\"], buttons=upl)",
+        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.admins.stop:[48:70]\n==YukkiMusic.utils.decorators.admins:[35:55]\n    if await is_commanddelete_on(event.chat_id):\n        try:\n            await event.delete()\n        except Exception:\n            pass\n    try:\n        language = await get_lang(event.chat_id)\n        _ = get_string(language)\n    except Exception:\n        _ = get_string(\"en\")\n\n    if not isinstance(event.message.from_id, PeerUser):\n        upl = [\n            [\n                Button.inline(\n                    text=\"How to Fix this? \",\n                    data=\"AnonymousAdmin\",\n                ),\n            ]\n        ]\n        return await event.reply(_[\"general_4\"], buttons=upl)\n",
         "message-id": "R0801"
     },
     {
@@ -165,7 +126,7 @@
         "endColumn": null,
         "path": "YukkiMusic/plugins/play/stream.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.admins.callback:[261:280]\n==YukkiMusic.plugins.admins.skip:[131:150]\n        elif \"vid_\" in queued:\n            mystic = await event.reply(_[\"call_8\"], link_preview=False)\n            try:\n                file_path, direct = await Platform.youtube.download(\n                    videoid,\n                    mystic,\n                    videoid=True,\n                    video=status,\n                )\n            except Exception:\n                return await mystic.edit(_[\"call_7\"])\n            try:\n                await Yukki.skip_stream(chat_id, file_path, video=status)\n            except Exception:\n                return await mystic.edit(_[\"call_7\"])\n            button = stream_markup(_, videoid, chat_id)\n            img = await gen_thumb(videoid)\n            run = await event.reply(\n                file=img,",
+        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.admins.callback:[261:280]\n==YukkiMusic.plugins.admins.skip:[131:150]\n    elif \"vid_\" in queued:\n        mystic = await event.reply(_[\"call_8\"], link_preview=False)\n        try:\n            file_path, direct = await Platform.youtube.download(\n                videoid,\n                mystic,\n                videoid=True,\n                video=status,\n            )\n        except Exception:\n            return await mystic.edit(_[\"call_7\"])\n        try:\n            await Yukki.skip_stream(chat_id, file_path, video=status)\n        except Exception:\n            return await mystic.edit(_[\"call_7\"])\n        button = stream_markup(_, videoid, chat_id)\n        img = await gen_thumb(videoid)\n        run = await event.reply(\n            file=img,",
         "message-id": "R0801"
     },
     {
@@ -178,7 +139,7 @@
         "endColumn": null,
         "path": "YukkiMusic/plugins/play/stream.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.admins.callback:[240:252]\n==YukkiMusic.plugins.admins.skip:[111:123]\n    if \"live_\" in queued:\n        n, link = await Platform.youtube.video(videoid, True)\n        if n == 0:\n            return await event.reply(_[\"admin_11\"].format(title))\n        try:\n            await Yukki.skip_stream(chat_id, link, video=status)\n        except Exception:\n            return await event.reply(_[\"call_7\"])\n        button = telegram_markup(_, chat_id)\n        img = await gen_thumb(videoid)\n        run = await event.reply(\n            file=img,",
+        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.admins.callback:[240:252]\n==YukkiMusic.plugins.admins.skip:[111:123]\n        if \"live_\" in queued:\n            n, link = await Platform.youtube.video(videoid, True)\n            if n == 0:\n                return await event.reply(_[\"admin_11\"].format(title))\n            try:\n                await Yukki.skip_stream(chat_id, link, video=status)\n            except Exception:\n                return await event.reply(_[\"call_7\"])\n            button = telegram_markup(_, chat_id)\n            img = await gen_thumb(videoid)\n            run = await event.reply(\n                file=img,",
         "message-id": "R0801"
     },
     {
@@ -191,7 +152,7 @@
         "endColumn": null,
         "path": "YukkiMusic/plugins/play/stream.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.bot.start:[95:107]\n==YukkiMusic.plugins.tools.stats:[70:82]\n                results = {}\n                for i in stats:\n                    top_list = stats[i][\"spot\"]\n                    results[str(i)] = top_list\n                    list_arranged = dict(\n                        sorted(\n                            results.items(),\n                            key=lambda item: item[1],\n                            reverse=True,\n                        )\n                    )\n                if not results:",
+        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.bot.start:[95:107]\n==YukkiMusic.plugins.tools.stats:[70:82]\n        results = {}\n        for i in stats:\n            top_list = stats[i][\"spot\"]\n            results[str(i)] = top_list\n            list_arranged = dict(\n                sorted(\n                    results.items(),\n                    key=lambda item: item[1],\n                    reverse=True,\n                )\n            )\n        if not results:",
         "message-id": "R0801"
     },
     {
@@ -230,7 +191,7 @@
         "endColumn": null,
         "path": "YukkiMusic/plugins/play/stream.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==YukkiMusic.utils.inline.playlist:[95:109]\n==YukkiMusic.utils.inline.stats:[105:118]\n            Button.inline(\n                text=_[\"CLOSE_BUTTON\"],\n                data=\"close\",\n            ),\n        ],\n    ]\n\n    return upl\n\n\ndef close_markup(_):\n    upl = [\n        [\n            Button.inline(",
+        "message": "Similar lines in 2 files\n==YukkiMusic.utils.inline.playlist:[95:109]\n==YukkiMusic.utils.inline.stats:[105:118]\n            Button.inline(\n                text=_[\"CLOSE_BUTTON\"],\n                data=\"close\",\n            ),\n        ],\n    ]\n    return upl\n\n\ndef back_stats_buttons(_):\n    upl = [\n        [\n            Button.inline(",
         "message-id": "R0801"
     },
     {
@@ -243,7 +204,7 @@
         "endColumn": null,
         "path": "YukkiMusic/plugins/play/stream.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.admins.stop:[48:59]\n==YukkiMusic.utils.decorators.admins:[87:99]\n        if await is_commanddelete_on(event.chat_id):\n            try:\n                await event.delete()\n            except Exception:\n                pass\n\n        try:\n            language = await get_lang(event.chat_id)\n            _ = get_string(language)\n        except Exception:\n            _ = get_string(\"en\")\n",
+        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.admins.stop:[48:59]\n==YukkiMusic.utils.decorators.admins:[87:99]\n    if await is_commanddelete_on(event.chat_id):\n        try:\n            await event.delete()\n        except Exception:\n            pass\n    try:\n        language = await get_lang(event.chat_id)\n        _ = get_string(language)\n    except Exception:\n        _ = get_string(\"en\")\n",
         "message-id": "R0801"
     },
     {
@@ -282,7 +243,7 @@
         "endColumn": null,
         "path": "YukkiMusic/plugins/play/stream.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.admins.callback:[348:357]\n==YukkiMusic.plugins.admins.skip:[216:225]\n                    buttons=button,\n                )\n                db[chat_id][0][\"mystic\"] = run\n                db[chat_id][0][\"markup\"] = \"tg\"\n            else:\n                button = stream_markup(_, videoid, chat_id)\n                img = await gen_thumb(videoid)\n                run = await event.reply(\n                    file=img,",
+        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.admins.callback:[348:357]\n==YukkiMusic.plugins.admins.skip:[216:225]\n                buttons=button,\n            )\n            db[chat_id][0][\"mystic\"] = run\n            db[chat_id][0][\"markup\"] = \"tg\"\n        else:\n            button = stream_markup(_, videoid, chat_id)\n            img = await gen_thumb(videoid)\n            run = await event.reply(\n                file=img,",
         "message-id": "R0801"
     },
     {
@@ -308,7 +269,7 @@
         "endColumn": null,
         "path": "YukkiMusic/plugins/play/stream.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.bot.start:[98:107]\n==YukkiMusic.plugins.tools.stats:[151:160]\n                    results[str(i)] = top_list\n                    list_arranged = dict(\n                        sorted(\n                            results.items(),\n                            key=lambda item: item[1],\n                            reverse=True,\n                        )\n                    )\n                if not results:",
+        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.bot.start:[98:107]\n==YukkiMusic.plugins.tools.stats:[151:160]\n            results[str(i)] = top_list\n            list_arranged = dict(\n                sorted(\n                    results.items(),\n                    key=lambda item: item[1],\n                    reverse=True,\n                )\n            )\n        if not results:",
         "message-id": "R0801"
     },
     {
@@ -321,7 +282,7 @@
         "endColumn": null,
         "path": "YukkiMusic/plugins/play/stream.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.play.playlist:[345:355]\n==YukkiMusic.utils.decorators.admins:[56:65]\n        chat_id = await get_cmode(event.chat_id)\n        if chat_id is None:\n            return await event.reply(_[\"setting_12\"])\n        try:\n            await tbot.get_entity(chat_id)\n        except Exception:\n            return await event.reply(_[\"cplay_4\"])\n    else:\n        chat_id = event.chat_id\n",
+        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.play.playlist:[345:355]\n==YukkiMusic.utils.decorators.admins:[56:65]\n            chat_id = await get_cmode(event.chat_id)\n            if chat_id is None:\n                return await event.reply(_[\"setting_12\"])\n            try:\n                await tbot.get_entity(chat_id)\n            except Exception:\n                return await event.reply(_[\"cplay_4\"])\n        else:\n            chat_id = event.chat_id",
         "message-id": "R0801"
     },
     {
@@ -386,7 +347,7 @@
         "endColumn": null,
         "path": "YukkiMusic/plugins/play/stream.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.admins.callback:[432:440]\n==YukkiMusic.plugins.play.live:[27:36]\n        try:\n            return await event.answer(_[\"playcb_1\"], alert=True)\n        except Exception:\n            return\n    try:\n        chat_id, channel = await get_channeplay_cb(_, cplay, event)\n    except Exception:\n        return\n",
+        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.admins.callback:[432:440]\n==YukkiMusic.plugins.play.live:[27:36]\n        try:\n            return await event.answer(_[\"playcb_1\"], alert=True)\n        except Exception:\n            return\n    try:\n        chat_id, channel = await get_channeplay_cb(_, cplay, event)\n    except Exception:\n        return",
         "message-id": "R0801"
     },
     {
@@ -399,7 +360,7 @@
         "endColumn": null,
         "path": "YukkiMusic/plugins/play/stream.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.admins.callback:[291:299]\n==YukkiMusic.plugins.admins.skip:[160:168]\n        await mystic.delete()\n    elif \"index_\" in queued:\n        try:\n            await Yukki.skip_stream(chat_id, videoid, video=status)\n        except Exception:\n            return await event.reply(_[\"call_7\"])\n        button = telegram_markup(_, chat_id)\n        run = await event.reply(",
+        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.admins.callback:[291:299]\n==YukkiMusic.plugins.admins.skip:[160:168]\n            await mystic.delete()\n        elif \"index_\" in queued:\n            try:\n                await Yukki.skip_stream(chat_id, videoid, video=status)\n            except Exception:\n                return await event.reply(_[\"call_7\"])\n            button = telegram_markup(_, chat_id)\n            run = await event.reply(",
         "message-id": "R0801"
     },
     {
@@ -425,7 +386,7 @@
         "endColumn": null,
         "path": "YukkiMusic/plugins/play/stream.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.admins.callback:[281:290]\n==YukkiMusic.plugins.admins.skip:[151:160]\n                    title[:27],\n                    f\"https://t.me/{tbot.username}?start=info_{videoid}\",\n                    duration_min,\n                    user,\n                ),\n                buttons=button,\n            )\n            db[chat_id][0][\"mystic\"] = run\n            db[chat_id][0][\"markup\"] = \"stream\"",
+        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.admins.callback:[281:290]\n==YukkiMusic.plugins.admins.skip:[151:160]\n                title[:27],\n                f\"https://t.me/{tbot.username}?start=info_{videoid}\",\n                duration_min,\n                user,\n            ),\n            buttons=button,\n        )\n        db[chat_id][0][\"mystic\"] = run\n        db[chat_id][0][\"markup\"] = \"stream\"",
         "message-id": "R0801"
     },
     {
@@ -438,7 +399,7 @@
         "endColumn": null,
         "path": "YukkiMusic/plugins/play/stream.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.play.play:[225:233]\n==YukkiMusic.plugins.play.stream:[53:60]\n                forceplay=fplay,\n            )\n        except Exception as e:\n            ex_type = type(e).__name__\n            if ex_type == \"AssistantErr\":\n                err = e\n            else:",
+        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.play.play:[225:233]\n==YukkiMusic.plugins.play.stream:[53:60]\n                forceplay=fplay,\n            )\n\n        except Exception as e:\n            ex_type = type(e).__name__\n            if ex_type == \"AssistantErr\":\n                err = e\n            else:",
         "message-id": "R0801"
     },
     {
@@ -464,7 +425,7 @@
         "endColumn": null,
         "path": "YukkiMusic/plugins/play/stream.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.play.playlist:[328:335]\n==YukkiMusic.plugins.play.stream:[54:61]\n        )\n    except Exception as e:\n        ex_type = type(e).__name__\n        if ex_type == \"AssistantErr\":\n            err = e\n        else:\n            err = _[\"general_3\"].format(ex_type)",
+        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.play.playlist:[328:335]\n==YukkiMusic.plugins.play.stream:[54:61]\n            )\n        except Exception as e:\n            ex_type = type(e).__name__\n            if ex_type == \"AssistantErr\":\n                err = e\n            else:\n                err = _[\"general_3\"].format(ex_type)",
         "message-id": "R0801"
     },
     {
@@ -516,7 +477,7 @@
         "endColumn": null,
         "path": "YukkiMusic/plugins/play/stream.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.admins.callback:[253:260]\n==YukkiMusic.plugins.admins.skip:[124:131]\n                user,\n                f\"https://t.me/{tbot.username}?start=info_{videoid}\",\n            ),\n            buttons=button,\n        )\n        db[chat_id][0][\"mystic\"] = run\n        db[chat_id][0][\"markup\"] = \"tg\"",
+        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.admins.callback:[253:260]\n==YukkiMusic.plugins.admins.skip:[124:131]\n                    user,\n                    f\"https://t.me/{tbot.username}?start=info_{videoid}\",\n                ),\n                buttons=button,\n            )\n            db[chat_id][0][\"mystic\"] = run\n            db[chat_id][0][\"markup\"] = \"tg\"",
         "message-id": "R0801"
     },
     {
@@ -529,7 +490,7 @@
         "endColumn": null,
         "path": "YukkiMusic/plugins/play/stream.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.admins.callback:[232:239]\n==YukkiMusic.plugins.admins.skip:[104:111]\n        queued = check[0][\"file\"]\n        title = (check[0][\"title\"]).title()\n        user = check[0][\"by\"]\n        streamtype = check[0][\"streamtype\"]\n        videoid = check[0][\"vidid\"]\n        duration_min = check[0][\"dur\"]\n        status = True if str(streamtype) == \"video\" else None",
+        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.admins.callback:[232:239]\n==YukkiMusic.plugins.admins.skip:[104:111]\n    queued = check[0][\"file\"]\n    title = (check[0][\"title\"]).title()\n    user = check[0][\"by\"]\n    streamtype = check[0][\"streamtype\"]\n    videoid = check[0][\"vidid\"]\n    duration_min = check[0][\"dur\"]\n    status = True if str(streamtype) == \"video\" else None",
         "message-id": "R0801"
     },
     {
@@ -555,7 +516,7 @@
         "endColumn": null,
         "path": "YukkiMusic/plugins/play/stream.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.tools.queue:[46:53]\n==YukkiMusic.utils.decorators.admins:[56:63]\n            chat_id = await get_cmode(event.chat_id)\n            if chat_id is None:\n                return await event.reply(_[\"setting_12\"])\n            try:\n                await tbot.get_entity(chat_id)\n            except Exception:\n                return await event.reply(_[\"cplay_4\"])",
+        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.tools.queue:[46:53]\n==YukkiMusic.utils.decorators.admins:[56:63]\n        chat_id = await get_cmode(event.chat_id)\n        if chat_id is None:\n            return await event.reply(_[\"setting_12\"])\n        try:\n            await tbot.get_entity(chat_id)\n        except Exception:\n            return await event.reply(_[\"cplay_4\"])",
         "message-id": "R0801"
     },
     {
@@ -568,7 +529,7 @@
         "endColumn": null,
         "path": "YukkiMusic/plugins/play/stream.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.play.play:[226:233]\n==YukkiMusic.plugins.play.playlist:[328:334]\n        )\n    except Exception as e:\n        ex_type = type(e).__name__\n        if ex_type == \"AssistantErr\":\n            err = e\n        else:",
+        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.play.play:[226:233]\n==YukkiMusic.plugins.play.playlist:[328:334]\n            )\n\n        except Exception as e:\n            ex_type = type(e).__name__\n            if ex_type == \"AssistantErr\":\n                err = e\n            else:",
         "message-id": "R0801"
     },
     {
@@ -581,7 +542,7 @@
         "endColumn": null,
         "path": "YukkiMusic/plugins/play/stream.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.play.live:[33:40]\n==YukkiMusic.plugins.sudo.dev:[131:137]\n        except Exception:\n            return\n    await event.delete()\n    try:\n        await event.answer()\n    except Exception:",
+        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.play.live:[33:40]\n==YukkiMusic.plugins.sudo.dev:[131:137]\n    except Exception:\n        return\n\n    await event.delete()\n    try:\n        await event.answer()\n    except Exception:",
         "message-id": "R0801"
     },
     {
@@ -607,7 +568,7 @@
         "endColumn": null,
         "path": "YukkiMusic/plugins/play/stream.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.admins.callback:[163:169]\n==YukkiMusic.plugins.admins.stop:[91:97]\n    try:\n        check = db.get(chat_id)\n        if check[0].get(\"mystic\"):\n            await check[0].get(\"mystic\").delete()\n    except Exception:\n        pass",
+        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.admins.callback:[163:169]\n==YukkiMusic.plugins.admins.stop:[91:97]\n        try:\n            check = db.get(chat_id)\n            if check[0].get(\"mystic\"):\n                await check[0].get(\"mystic\").delete()\n        except Exception:\n            pass",
         "message-id": "R0801"
     },
     {
@@ -620,7 +581,7 @@
         "endColumn": null,
         "path": "YukkiMusic/plugins/play/stream.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.tools.songs:[74:80]\n==YukkiMusic.plugins.tools.stats:[99:105]\n        (\n            title,\n            duration_min,\n            duration_sec,\n            thumbnail,\n            vidid,",
+        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.tools.songs:[74:80]\n==YukkiMusic.plugins.tools.stats:[99:105]\n    (\n        title,\n        duration_min,\n        duration_sec,\n        thumbnail,\n        vidid,",
         "message-id": "R0801"
     },
     {
@@ -633,7 +594,7 @@
         "endColumn": null,
         "path": "YukkiMusic/plugins/play/stream.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.play.playlist:[80:86]\n==YukkiMusic.utils.stream.stream:[120:126]\n    link = await paste(msg)\n    lines = msg.count(\"\\n\")\n    if lines >= 17:\n        car = os.linesep.join(msg.split(os.linesep)[:17])\n    else:\n        car = msg",
+        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.play.playlist:[80:86]\n==YukkiMusic.utils.stream.stream:[120:126]\n            link = await paste(msg)\n            lines = msg.count(\"\\n\")\n            if lines >= 17:\n                car = os.linesep.join(msg.split(os.linesep)[:17])\n            else:\n                car = msg",
         "message-id": "R0801"
     },
     {
@@ -659,7 +620,7 @@
         "endColumn": null,
         "path": "YukkiMusic/plugins/play/stream.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==YukkiMusic.platforms.apple:[34:43]\n==YukkiMusic.platforms.spotify:[45:54]\n            \"playlist\": self.playlist,\n        }\n        for key, handler in handlers.items():\n            if key in url:\n                return await handler(url)\n        return None\n\n    @alru_cache(maxsize=None)\n    async def __track(self, link: str) -> Track:",
+        "message": "Similar lines in 2 files\n==YukkiMusic.platforms.apple:[34:43]\n==YukkiMusic.platforms.spotify:[45:54]\n            \"playlist\": self.playlist,\n        }\n        for key, handler in handlers.items():\n            if key in url:\n                return await handler(url)\n        return None\n\n    @alru_cache(maxsize=None)\n    async def __track(self, url: str) -> Track | bool:",
         "message-id": "R0801"
     },
     {
@@ -737,7 +698,7 @@
         "endColumn": null,
         "path": "YukkiMusic/plugins/play/stream.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.admins.callback:[220:225]\n==YukkiMusic.plugins.admins.skip:[91:96]\n                try:\n                    return await Yukki.stop_stream(chat_id)\n                except Exception:\n                    return\n        except Exception:",
+        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.admins.callback:[220:225]\n==YukkiMusic.plugins.admins.skip:[91:96]\n                    try:\n                        return await Yukki.stop_stream(chat_id)\n                    except Exception:\n                        return\n            except Exception:",
         "message-id": "R0801"
     },
     {
@@ -763,7 +724,7 @@
         "endColumn": null,
         "path": "YukkiMusic/plugins/play/stream.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.play.toptracks:[55:60]\n==YukkiMusic.plugins.tools.queue:[125:135]\n    try:\n        await event.answer()\n    except Exception:\n        pass\n\n\n@tbot.on(events.CallbackQuery(\"GetQueued\", func=~BANNED_USERS))\n@language\nasync def queued_tracks(event, _):\n    callback_data = event.data.decode(\"utf-8\").strip()",
+        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.play.toptracks:[55:60]\n==YukkiMusic.plugins.tools.queue:[125:135]\n    try:\n        await event.answer()\n    except Exception:\n        pass\n    callback_data = event.data.decode(\"utf-8\").strip()",
         "message-id": "R0801"
     },
     {
@@ -802,7 +763,7 @@
         "endColumn": null,
         "path": "YukkiMusic/plugins/play/stream.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==YukkiMusic.core.bot:[80:86]\n==YukkiMusic.core.telethon:[219:230]\n        await self.send_message(config.LOG_GROUP_ID, error_message)\n\n        try:\n            await self.send_message(config.OWNER_ID[0], error_message)\n        except Exception:\n            pass\n\n    def on_message(self, func=None, *args, **kwargs):\n        def decorator(function):\n            @wraps(function)\n            async def wrapper(event):",
+        "message": "Similar lines in 2 files\n==YukkiMusic.core.bot:[80:86]\n==YukkiMusic.core.telethon:[219:230]\n                    await self.send_message(config.LOG_GROUP_ID, error_message)\n                    try:\n                        await self.send_message(config.OWNER_ID[0], error_message)\n                    except Exception:\n                        pass\n",
         "message-id": "R0801"
     },
     {
@@ -815,7 +776,7 @@
         "endColumn": null,
         "path": "YukkiMusic/plugins/play/stream.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.sudo.maintenance:[24:29]\n==YukkiMusic.utils.decorators.admins:[40:45]\n        try:\n            language = await get_lang(event.chat_id)\n            _ = get_string(language)\n        except Exception:\n            _ = get_string(\"en\")",
+        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.sudo.maintenance:[24:29]\n==YukkiMusic.utils.decorators.admins:[40:45]\n    try:\n        language = await get_lang(event.chat_id)\n        _ = get_string(language)\n    except Exception:\n        _ = get_string(\"en\")",
         "message-id": "R0801"
     },
     {
@@ -828,7 +789,7 @@
         "endColumn": null,
         "path": "YukkiMusic/plugins/play/stream.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.admins.stop:[53:59]\n==YukkiMusic.utils.decorators.admins:[135:141]\n        try:\n            language = await get_lang(event.chat_id)\n            _ = get_string(language)\n        except Exception:\n            _ = get_string(\"en\")\n",
+        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.admins.stop:[53:59]\n==YukkiMusic.utils.decorators.admins:[135:141]\n    try:\n        language = await get_lang(event.chat_id)\n        _ = get_string(language)\n    except Exception:\n        _ = get_string(\"en\")\n",
         "message-id": "R0801"
     },
     {
@@ -841,7 +802,7 @@
         "endColumn": null,
         "path": "YukkiMusic/plugins/play/stream.py",
         "symbol": "cyclic-import",
-        "message": "Cyclic import (YukkiMusic.core.filters -> YukkiMusic.utils.database -> YukkiMusic.utils.database.assistantdatabase -> YukkiMusic.core.mongo -> config -> config.config)",
+        "message": "Cyclic import (YukkiMusic.core.filters -> YukkiMusic.utils.database -> YukkiMusic.utils.database.memorydatabase -> YukkiMusic.core.mongo -> config -> config.config)",
         "message-id": "R0401"
     },
     {
@@ -867,7 +828,7 @@
         "endColumn": null,
         "path": "YukkiMusic/plugins/play/stream.py",
         "symbol": "cyclic-import",
-        "message": "Cyclic import (YukkiMusic -> YukkiMusic.core.bot -> YukkiMusic.core.filters -> YukkiMusic.utils.database -> YukkiMusic.utils.database.assistantdatabase -> YukkiMusic.core.mongo)",
+        "message": "Cyclic import (YukkiMusic -> YukkiMusic.core.bot -> YukkiMusic.core.filters -> YukkiMusic.utils.database -> YukkiMusic.utils.database.memorydatabase -> YukkiMusic.core.mongo)",
         "message-id": "R0401"
     },
     {
@@ -880,7 +841,7 @@
         "endColumn": null,
         "path": "YukkiMusic/plugins/play/stream.py",
         "symbol": "cyclic-import",
-        "message": "Cyclic import (YukkiMusic -> YukkiMusic.core.userbot -> YukkiMusic.logging -> config -> config.config -> YukkiMusic.core.filters -> YukkiMusic.utils.database -> YukkiMusic.utils.database.assistantdatabase -> YukkiMusic.core.mongo)",
+        "message": "Cyclic import (YukkiMusic -> YukkiMusic.core.userbot -> YukkiMusic.logging -> config -> config.config -> YukkiMusic.core.filters -> YukkiMusic.utils.database -> YukkiMusic.utils.database.memorydatabase -> YukkiMusic.core.mongo)",
         "message-id": "R0401"
     },
     {
@@ -893,46 +854,7 @@
         "endColumn": null,
         "path": "YukkiMusic/plugins/play/stream.py",
         "symbol": "cyclic-import",
-        "message": "Cyclic import (YukkiMusic.core.filters -> YukkiMusic.utils.database -> YukkiMusic.utils.database.assistantdatabase -> YukkiMusic.core.userbot -> YukkiMusic.logging -> config -> config.config)",
-        "message-id": "R0401"
-    },
-    {
-        "type": "refactor",
-        "module": "YukkiMusic.plugins.play.stream",
-        "obj": "",
-        "line": 1,
-        "column": 0,
-        "endLine": null,
-        "endColumn": null,
-        "path": "YukkiMusic/plugins/play/stream.py",
-        "symbol": "cyclic-import",
-        "message": "Cyclic import (YukkiMusic -> YukkiMusic.core.bot -> YukkiMusic.core.filters -> YukkiMusic.utils.database -> YukkiMusic.utils.database.assistantdatabase)",
-        "message-id": "R0401"
-    },
-    {
-        "type": "refactor",
-        "module": "YukkiMusic.plugins.play.stream",
-        "obj": "",
-        "line": 1,
-        "column": 0,
-        "endLine": null,
-        "endColumn": null,
-        "path": "YukkiMusic/plugins/play/stream.py",
-        "symbol": "cyclic-import",
-        "message": "Cyclic import (YukkiMusic.core.filters -> YukkiMusic.utils.database -> YukkiMusic.utils.database.memorydatabase -> YukkiMusic.core.mongo -> config -> config.config)",
-        "message-id": "R0401"
-    },
-    {
-        "type": "refactor",
-        "module": "YukkiMusic.plugins.play.stream",
-        "obj": "",
-        "line": 1,
-        "column": 0,
-        "endLine": null,
-        "endColumn": null,
-        "path": "YukkiMusic/plugins/play/stream.py",
-        "symbol": "cyclic-import",
-        "message": "Cyclic import (YukkiMusic.core.filters -> YukkiMusic.utils.database -> YukkiMusic.utils.database.mongodatabase -> YukkiMusic.core.mongo -> config -> config.config)",
+        "message": "Cyclic import (YukkiMusic -> config -> config.config -> YukkiMusic.core.filters -> YukkiMusic.utils.database -> YukkiMusic.utils.database.memorydatabase -> YukkiMusic.core.mongo)",
         "message-id": "R0401"
     },
     {
@@ -958,7 +880,7 @@
         "endColumn": null,
         "path": "YukkiMusic/plugins/play/stream.py",
         "symbol": "cyclic-import",
-        "message": "Cyclic import (YukkiMusic -> YukkiMusic.core.git -> YukkiMusic.logging -> config -> config.config -> YukkiMusic.core.filters -> YukkiMusic.utils.database -> YukkiMusic.utils.database.assistantdatabase -> YukkiMusic.core.mongo)",
+        "message": "Cyclic import (YukkiMusic -> YukkiMusic.core.bot -> YukkiMusic.core.filters -> YukkiMusic.utils.database -> YukkiMusic.utils.database.assistantdatabase)",
         "message-id": "R0401"
     },
     {
@@ -971,7 +893,7 @@
         "endColumn": null,
         "path": "YukkiMusic/plugins/play/stream.py",
         "symbol": "cyclic-import",
-        "message": "Cyclic import (YukkiMusic -> YukkiMusic.core.telethon -> config -> config.config -> YukkiMusic.core.filters -> YukkiMusic.utils.database -> YukkiMusic.utils.database.assistantdatabase -> YukkiMusic.core.mongo)",
+        "message": "Cyclic import (YukkiMusic -> config -> config.config -> YukkiMusic.core.filters -> YukkiMusic.utils.database -> YukkiMusic.utils.database.assistantdatabase)",
         "message-id": "R0401"
     },
     {
@@ -984,7 +906,72 @@
         "endColumn": null,
         "path": "YukkiMusic/plugins/play/stream.py",
         "symbol": "cyclic-import",
-        "message": "Cyclic import (YukkiMusic -> YukkiMusic.logging -> config -> config.config -> YukkiMusic.core.filters -> YukkiMusic.utils.database -> YukkiMusic.utils.database.assistantdatabase -> YukkiMusic.core.mongo)",
+        "message": "Cyclic import (YukkiMusic.core.filters -> YukkiMusic.utils.database -> YukkiMusic.utils.database.assistantdatabase -> YukkiMusic.core.mongo -> config -> config.config)",
+        "message-id": "R0401"
+    },
+    {
+        "type": "refactor",
+        "module": "YukkiMusic.plugins.play.stream",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "YukkiMusic/plugins/play/stream.py",
+        "symbol": "cyclic-import",
+        "message": "Cyclic import (YukkiMusic.core.filters -> YukkiMusic.utils.database -> YukkiMusic.utils.database.mongodatabase -> YukkiMusic.core.mongo -> config -> config.config)",
+        "message-id": "R0401"
+    },
+    {
+        "type": "refactor",
+        "module": "YukkiMusic.plugins.play.stream",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "YukkiMusic/plugins/play/stream.py",
+        "symbol": "cyclic-import",
+        "message": "Cyclic import (YukkiMusic -> YukkiMusic.core.bot -> config -> config.config -> YukkiMusic.core.filters -> YukkiMusic.utils.database -> YukkiMusic.utils.database.memorydatabase -> YukkiMusic.core.mongo)",
+        "message-id": "R0401"
+    },
+    {
+        "type": "refactor",
+        "module": "YukkiMusic.plugins.play.stream",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "YukkiMusic/plugins/play/stream.py",
+        "symbol": "cyclic-import",
+        "message": "Cyclic import (YukkiMusic -> YukkiMusic.core.git -> config -> config.config -> YukkiMusic.core.filters -> YukkiMusic.utils.database -> YukkiMusic.utils.database.memorydatabase -> YukkiMusic.core.mongo)",
+        "message-id": "R0401"
+    },
+    {
+        "type": "refactor",
+        "module": "YukkiMusic.plugins.play.stream",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "YukkiMusic/plugins/play/stream.py",
+        "symbol": "cyclic-import",
+        "message": "Cyclic import (YukkiMusic -> YukkiMusic.core.telethon -> config -> config.config -> YukkiMusic.core.filters -> YukkiMusic.utils.database -> YukkiMusic.utils.database.memorydatabase -> YukkiMusic.core.mongo)",
+        "message-id": "R0401"
+    },
+    {
+        "type": "refactor",
+        "module": "YukkiMusic.plugins.play.stream",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "YukkiMusic/plugins/play/stream.py",
+        "symbol": "cyclic-import",
+        "message": "Cyclic import (YukkiMusic -> YukkiMusic.core.userbot -> config -> config.config -> YukkiMusic.core.filters -> YukkiMusic.utils.database -> YukkiMusic.utils.database.memorydatabase -> YukkiMusic.core.mongo)",
         "message-id": "R0401"
     },
     {

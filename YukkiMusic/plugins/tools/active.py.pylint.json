@@ -1,57 +1,5 @@
 [
     {
-        "type": "convention",
-        "module": "YukkiMusic.plugins.tools.active",
-        "obj": "",
-        "line": 1,
-        "column": 0,
-        "endLine": null,
-        "endColumn": null,
-        "path": "YukkiMusic/plugins/tools/active.py",
-        "symbol": "missing-module-docstring",
-        "message": "Missing module docstring",
-        "message-id": "C0114"
-    },
-    {
-        "type": "convention",
-        "module": "YukkiMusic.plugins.tools.active",
-        "obj": "active_audio",
-        "line": 30,
-        "column": 0,
-        "endLine": 30,
-        "endColumn": 22,
-        "path": "YukkiMusic/plugins/tools/active.py",
-        "symbol": "missing-function-docstring",
-        "message": "Missing function or method docstring",
-        "message-id": "C0116"
-    },
-    {
-        "type": "convention",
-        "module": "YukkiMusic.plugins.tools.active",
-        "obj": "active_video",
-        "line": 62,
-        "column": 0,
-        "endLine": 62,
-        "endColumn": 22,
-        "path": "YukkiMusic/plugins/tools/active.py",
-        "symbol": "missing-function-docstring",
-        "message": "Missing function or method docstring",
-        "message-id": "C0116"
-    },
-    {
-        "type": "convention",
-        "module": "YukkiMusic.plugins.tools.active",
-        "obj": "ac_counts",
-        "line": 91,
-        "column": 0,
-        "endLine": 91,
-        "endColumn": 19,
-        "path": "YukkiMusic/plugins/tools/active.py",
-        "symbol": "missing-function-docstring",
-        "message": "Missing function or method docstring",
-        "message-id": "C0116"
-    },
-    {
         "type": "error",
         "module": "YukkiMusic.plugins.tools.active",
         "obj": "active_audio",

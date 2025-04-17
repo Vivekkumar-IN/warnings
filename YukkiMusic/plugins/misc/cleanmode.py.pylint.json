@@ -3,19 +3,6 @@
         "type": "convention",
         "module": "YukkiMusic.plugins.misc.cleanmode",
         "obj": "",
-        "line": 1,
-        "column": 0,
-        "endLine": null,
-        "endColumn": null,
-        "path": "YukkiMusic/plugins/misc/cleanmode.py",
-        "symbol": "missing-module-docstring",
-        "message": "Missing module docstring",
-        "message-id": "C0114"
-    },
-    {
-        "type": "convention",
-        "module": "YukkiMusic.plugins.misc.cleanmode",
-        "obj": "",
         "line": 40,
         "column": 0,
         "endLine": 40,
@@ -24,32 +11,6 @@
         "symbol": "invalid-name",
         "message": "Constant name \"cleanmode_group\" doesn't conform to UPPER_CASE naming style",
         "message-id": "C0103"
-    },
-    {
-        "type": "convention",
-        "module": "YukkiMusic.plugins.misc.cleanmode",
-        "obj": "clean_mode",
-        "line": 44,
-        "column": 0,
-        "endLine": 44,
-        "endColumn": 20,
-        "path": "YukkiMusic/plugins/misc/cleanmode.py",
-        "symbol": "missing-function-docstring",
-        "message": "Missing function or method docstring",
-        "message-id": "C0116"
-    },
-    {
-        "type": "convention",
-        "module": "YukkiMusic.plugins.misc.cleanmode",
-        "obj": "braodcast_message",
-        "line": 75,
-        "column": 0,
-        "endLine": 75,
-        "endColumn": 27,
-        "path": "YukkiMusic/plugins/misc/cleanmode.py",
-        "symbol": "missing-function-docstring",
-        "message": "Missing function or method docstring",
-        "message-id": "C0116"
     },
     {
         "type": "convention",
@@ -63,19 +24,6 @@
         "symbol": "import-outside-toplevel",
         "message": "Import outside toplevel (YukkiMusic.core.userbot.assistants)",
         "message-id": "C0415"
-    },
-    {
-        "type": "convention",
-        "module": "YukkiMusic.plugins.misc.cleanmode",
-        "obj": "auto_clean",
-        "line": 210,
-        "column": 0,
-        "endLine": 210,
-        "endColumn": 20,
-        "path": "YukkiMusic/plugins/misc/cleanmode.py",
-        "symbol": "missing-function-docstring",
-        "message": "Missing function or method docstring",
-        "message-id": "C0116"
     },
     {
         "type": "convention",
@@ -115,45 +63,6 @@
         "symbol": "consider-using-dict-items",
         "message": "Consider iterating with .items()",
         "message-id": "C0206"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.misc.cleanmode",
-        "obj": "",
-        "line": 14,
-        "column": 0,
-        "endLine": 14,
-        "endColumn": 37,
-        "path": "YukkiMusic/plugins/misc/cleanmode.py",
-        "symbol": "import-error",
-        "message": "Unable to import 'pyrogram.errors'",
-        "message-id": "E0401"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.misc.cleanmode",
-        "obj": "",
-        "line": 15,
-        "column": 0,
-        "endLine": 15,
-        "endColumn": 27,
-        "path": "YukkiMusic/plugins/misc/cleanmode.py",
-        "symbol": "import-error",
-        "message": "Unable to import 'telethon'",
-        "message-id": "E0401"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.misc.cleanmode",
-        "obj": "",
-        "line": 16,
-        "column": 0,
-        "endLine": 16,
-        "endColumn": 80,
-        "path": "YukkiMusic/plugins/misc/cleanmode.py",
-        "symbol": "import-error",
-        "message": "Unable to import 'telethon.tl.types'",
-        "message-id": "E0401"
     },
     {
         "type": "error",

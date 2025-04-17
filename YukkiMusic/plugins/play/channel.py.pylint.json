@@ -1,57 +1,5 @@
 [
     {
-        "type": "convention",
-        "module": "YukkiMusic.plugins.play.channel",
-        "obj": "",
-        "line": 1,
-        "column": 0,
-        "endLine": null,
-        "endColumn": null,
-        "path": "YukkiMusic/plugins/play/channel.py",
-        "symbol": "missing-module-docstring",
-        "message": "Missing module docstring",
-        "message-id": "C0114"
-    },
-    {
-        "type": "convention",
-        "module": "YukkiMusic.plugins.play.channel",
-        "obj": "playmode_",
-        "line": 25,
-        "column": 0,
-        "endLine": 25,
-        "endColumn": 19,
-        "path": "YukkiMusic/plugins/play/channel.py",
-        "symbol": "missing-function-docstring",
-        "message": "Missing function or method docstring",
-        "message-id": "C0116"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.play.channel",
-        "obj": "",
-        "line": 12,
-        "column": 0,
-        "endLine": 12,
-        "endColumn": 64,
-        "path": "YukkiMusic/plugins/play/channel.py",
-        "symbol": "import-error",
-        "message": "Unable to import 'telethon.tl.functions.channels'",
-        "message-id": "E0401"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.play.channel",
-        "obj": "",
-        "line": 13,
-        "column": 0,
-        "endLine": 13,
-        "endColumn": 37,
-        "path": "YukkiMusic/plugins/play/channel.py",
-        "symbol": "import-error",
-        "message": "Unable to import 'telethon.tl.types'",
-        "message-id": "E0401"
-    },
-    {
         "type": "error",
         "module": "YukkiMusic.plugins.play.channel",
         "obj": "playmode_",

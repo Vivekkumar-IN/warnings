@@ -2,19 +2,6 @@
     {
         "type": "convention",
         "module": "YukkiMusic.platforms.resso",
-        "obj": "",
-        "line": 1,
-        "column": 0,
-        "endLine": null,
-        "endColumn": null,
-        "path": "YukkiMusic/platforms/resso.py",
-        "symbol": "missing-module-docstring",
-        "message": "Missing module docstring",
-        "message-id": "C0114"
-    },
-    {
-        "type": "convention",
-        "module": "YukkiMusic.platforms.resso",
         "obj": "Resso",
         "line": 22,
         "column": 0,
@@ -37,32 +24,6 @@
         "symbol": "import-outside-toplevel",
         "message": "Import outside toplevel (youtube.YouTube)",
         "message-id": "C0415"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.platforms.resso",
-        "obj": "",
-        "line": 13,
-        "column": 0,
-        "endLine": 13,
-        "endColumn": 32,
-        "path": "YukkiMusic/platforms/resso.py",
-        "symbol": "import-error",
-        "message": "Unable to import 'async_lru'",
-        "message-id": "E0401"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.platforms.resso",
-        "obj": "",
-        "line": 14,
-        "column": 0,
-        "endLine": 14,
-        "endColumn": 29,
-        "path": "YukkiMusic/platforms/resso.py",
-        "symbol": "import-error",
-        "message": "Unable to import 'bs4'",
-        "message-id": "E0401"
     },
     {
         "type": "error",

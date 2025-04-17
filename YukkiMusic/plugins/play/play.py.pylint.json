@@ -13,32 +13,6 @@
         "message-id": "C0301"
     },
     {
-        "type": "convention",
-        "module": "YukkiMusic.plugins.play.play",
-        "obj": "",
-        "line": 1,
-        "column": 0,
-        "endLine": null,
-        "endColumn": null,
-        "path": "YukkiMusic/plugins/play/play.py",
-        "symbol": "missing-module-docstring",
-        "message": "Missing module docstring",
-        "message-id": "C0114"
-    },
-    {
-        "type": "convention",
-        "module": "YukkiMusic.plugins.play.play",
-        "obj": "play_commnd",
-        "line": 41,
-        "column": 0,
-        "endLine": 41,
-        "endColumn": 21,
-        "path": "YukkiMusic/plugins/play/play.py",
-        "symbol": "missing-function-docstring",
-        "message": "Missing function or method docstring",
-        "message-id": "C0116"
-    },
-    {
         "type": "error",
         "module": "YukkiMusic.plugins.play.play",
         "obj": "play_commnd",
