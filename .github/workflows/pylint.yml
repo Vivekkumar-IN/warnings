@@ -40,6 +40,8 @@ jobs:
          
           cd ../YukkiMusic
           pylint --exit-zero --output-format=json --indent-string="    " --reports=no . > ../current_dir/warnings.json
+          cd ../current_dir
+          python script.py
           
       - name: Commit Changes
         uses: stefanzweifel/git-auto-commit-action@v5
