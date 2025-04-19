@@ -6,6 +6,7 @@ from operator import itemgetter
 with open("warnings.json") as f:
     warnings = json.load(f)
 
+
 grouped = defaultdict(list)
 for w in warnings:
     grouped[w["path"]].append(w)
