@@ -15,19 +15,6 @@
     {
         "type": "error",
         "module": "YukkiMusic.utils.database.mongodatabase",
-        "obj": "get_authuser_names",
-        "line": 209,
-        "column": 46,
-        "endLine": 209,
-        "endColumn": 50,
-        "path": "YukkiMusic/utils/database/mongodatabase.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable 'List'",
-        "message-id": "E0602"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.utils.database.mongodatabase",
         "obj": "remove_sudo",
         "line": 323,
         "column": 51,

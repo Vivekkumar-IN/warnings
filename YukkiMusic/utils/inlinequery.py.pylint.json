@@ -1,15 +1,28 @@
 [
     {
+        "type": "convention",
+        "module": "YukkiMusic.utils.inlinequery",
+        "obj": "answer",
+        "line": 27,
+        "column": 4,
+        "endLine": 27,
+        "endColumn": 31,
+        "path": "YukkiMusic/utils/inlinequery.py",
+        "symbol": "import-outside-toplevel",
+        "message": "Import outside toplevel (YukkiMusic.tbot)",
+        "message-id": "C0415"
+    },
+    {
         "type": "warning",
         "module": "YukkiMusic.utils.inlinequery",
-        "obj": "_answer",
-        "line": 31,
+        "obj": "answer",
+        "line": 30,
         "column": 4,
-        "endLine": 31,
+        "endLine": 30,
         "endColumn": 10,
         "path": "YukkiMusic/utils/inlinequery.py",
         "symbol": "redefined-outer-name",
-        "message": "Redefining name 'answer' from outer scope (line 97)",
+        "message": "Redefining name 'answer' from outer scope (line 26)",
         "message-id": "W0621"
     }
 ]
