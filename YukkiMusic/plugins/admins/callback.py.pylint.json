@@ -15,45 +15,6 @@
     {
         "type": "error",
         "module": "YukkiMusic.plugins.admins.callback",
-        "obj": "markup_panel",
-        "line": 50,
-        "column": 51,
-        "endLine": 50,
-        "endColumn": 70,
-        "path": "YukkiMusic/plugins/admins/callback.py",
-        "symbol": "no-member",
-        "message": "Module 'config' has no 'BANNED_USERS' member",
-        "message-id": "E1101"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.admins.callback",
-        "obj": "main_markup_",
-        "line": 68,
-        "column": 50,
-        "endLine": 68,
-        "endColumn": 69,
-        "path": "YukkiMusic/plugins/admins/callback.py",
-        "symbol": "no-member",
-        "message": "Module 'config' has no 'BANNED_USERS' member",
-        "message-id": "E1101"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.admins.callback",
-        "obj": "pages_markup",
-        "line": 89,
-        "column": 45,
-        "endLine": 89,
-        "endColumn": 64,
-        "path": "YukkiMusic/plugins/admins/callback.py",
-        "symbol": "no-member",
-        "message": "Module 'config' has no 'BANNED_USERS' member",
-        "message-id": "E1101"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.admins.callback",
         "obj": "pages_markup",
         "line": 113,
         "column": 33,
@@ -63,19 +24,6 @@
         "symbol": "used-before-assignment",
         "message": "Using variable 'buttons' before assignment",
         "message-id": "E0601"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.admins.callback",
-        "obj": "admin_callback",
-        "line": 118,
-        "column": 45,
-        "endLine": 118,
-        "endColumn": 64,
-        "path": "YukkiMusic/plugins/admins/callback.py",
-        "symbol": "no-member",
-        "message": "Module 'config' has no 'BANNED_USERS' member",
-        "message-id": "E1101"
     },
     {
         "type": "refactor",
@@ -156,19 +104,6 @@
         "message-id": "R1714"
     },
     {
-        "type": "error",
-        "module": "YukkiMusic.plugins.admins.callback",
-        "obj": "play_music",
-        "line": 314,
-        "column": 51,
-        "endLine": 314,
-        "endColumn": 70,
-        "path": "YukkiMusic/plugins/admins/callback.py",
-        "symbol": "no-member",
-        "message": "Module 'config' has no 'BANNED_USERS' member",
-        "message-id": "E1101"
-    },
-    {
         "type": "refactor",
         "module": "YukkiMusic.plugins.admins.callback",
         "obj": "play_music",
@@ -245,32 +180,6 @@
         "symbol": "missing-kwoa",
         "message": "Missing mandatory keyword argument 'user_id' in function call",
         "message-id": "E1125"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.admins.callback",
-        "obj": "anonymous_check",
-        "line": 382,
-        "column": 54,
-        "endLine": 382,
-        "endColumn": 73,
-        "path": "YukkiMusic/plugins/admins/callback.py",
-        "symbol": "no-member",
-        "message": "Module 'config' has no 'BANNED_USERS' member",
-        "message-id": "E1101"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.admins.callback",
-        "obj": "play_playlists_cb",
-        "line": 394,
-        "column": 54,
-        "endLine": 394,
-        "endColumn": 73,
-        "path": "YukkiMusic/plugins/admins/callback.py",
-        "symbol": "no-member",
-        "message": "Module 'config' has no 'BANNED_USERS' member",
-        "message-id": "E1101"
     },
     {
         "type": "refactor",
@@ -416,19 +325,6 @@
         "message-id": "E0606"
     },
     {
-        "type": "error",
-        "module": "YukkiMusic.plugins.admins.callback",
-        "obj": "slider_queries",
-        "line": 479,
-        "column": 46,
-        "endLine": 479,
-        "endColumn": 65,
-        "path": "YukkiMusic/plugins/admins/callback.py",
-        "symbol": "no-member",
-        "message": "Module 'config' has no 'BANNED_USERS' member",
-        "message-id": "E1101"
-    },
-    {
         "type": "warning",
         "module": "YukkiMusic.plugins.admins.callback",
         "obj": "",
@@ -440,32 +336,6 @@
         "symbol": "fixme",
         "message": "todo use youtube.track",
         "message-id": "W0511"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.admins.callback",
-        "obj": "close_menu",
-        "line": 544,
-        "column": 45,
-        "endLine": 544,
-        "endColumn": 64,
-        "path": "YukkiMusic/plugins/admins/callback.py",
-        "symbol": "no-member",
-        "message": "Module 'config' has no 'BANNED_USERS' member",
-        "message-id": "E1101"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.admins.callback",
-        "obj": "stop_download",
-        "line": 550,
-        "column": 56,
-        "endLine": 550,
-        "endColumn": 75,
-        "path": "YukkiMusic/plugins/admins/callback.py",
-        "symbol": "no-member",
-        "message": "Module 'config' has no 'BANNED_USERS' member",
-        "message-id": "E1101"
     },
     {
         "type": "refactor",
