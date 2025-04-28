@@ -1,0 +1,15 @@
+[
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.admins.pause",
+        "obj": "",
+        "line": 15,
+        "column": 0,
+        "endLine": 15,
+        "endColumn": 58,
+        "path": "YukkiMusic/plugins/admins/pause.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'admin_rights_check' in module 'YukkiMusic.utils.decorators'",
+        "message-id": "E0611"
+    }
+]

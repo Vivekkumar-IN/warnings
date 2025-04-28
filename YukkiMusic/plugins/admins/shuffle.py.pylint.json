@@ -15,6 +15,19 @@
     {
         "type": "error",
         "module": "YukkiMusic.plugins.admins.shuffle",
+        "obj": "",
+        "line": 17,
+        "column": 0,
+        "endLine": 17,
+        "endColumn": 58,
+        "path": "YukkiMusic/plugins/admins/shuffle.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'admin_rights_check' in module 'YukkiMusic.utils.decorators'",
+        "message-id": "E0611"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.admins.shuffle",
         "obj": "admins",
         "line": 21,
         "column": 56,

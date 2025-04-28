@@ -2,6 +2,19 @@
     {
         "type": "error",
         "module": "YukkiMusic.plugins.sudo.sudoers",
+        "obj": "",
+        "line": 14,
+        "column": 0,
+        "endLine": 14,
+        "endColumn": 60,
+        "path": "YukkiMusic/plugins/sudo/sudoers.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'language' in module 'YukkiMusic.utils'",
+        "message-id": "E0611"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.sudo.sudoers",
         "obj": "useradd",
         "line": 17,
         "column": 60,
