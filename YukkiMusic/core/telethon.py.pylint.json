@@ -141,18 +141,5 @@
         "symbol": "redefined-outer-name",
         "message": "Redefining name 'commands' from outer scope (line 45)",
         "message-id": "W0621"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.core.telethon",
-        "obj": "TelethonClient.load_plugins_from",
-        "line": 353,
-        "column": 24,
-        "endLine": 353,
-        "endColumn": 30,
-        "path": "YukkiMusic/core/telethon.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable 'logger'",
-        "message-id": "E0602"
     }
 ]
