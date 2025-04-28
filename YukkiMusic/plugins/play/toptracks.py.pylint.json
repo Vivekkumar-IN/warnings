@@ -78,6 +78,19 @@
         "message-id": "W0612"
     },
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.play.toptracks",
+        "obj": "server_to_play",
+        "line": 111,
+        "column": 14,
+        "endLine": 116,
+        "endColumn": 9,
+        "path": "YukkiMusic/plugins/play/toptracks.py",
+        "symbol": "not-callable",
+        "message": "stream is not callable",
+        "message-id": "E1102"
+    },
+    {
         "type": "warning",
         "module": "YukkiMusic.plugins.play.toptracks",
         "obj": "",

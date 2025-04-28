@@ -1,0 +1,15 @@
+[
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.play.live",
+        "obj": "play_live_stream",
+        "line": 49,
+        "column": 18,
+        "endLine": 55,
+        "endColumn": 13,
+        "path": "YukkiMusic/plugins/play/live.py",
+        "symbol": "not-callable",
+        "message": "stream is not callable",
+        "message-id": "E1102"
+    }
+]
