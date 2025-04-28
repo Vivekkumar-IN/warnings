@@ -1,16 +1,16 @@
 [
     {
-        "type": "error",
+        "type": "convention",
         "module": "YukkiMusic.plugins.sudo.maintenance",
         "obj": "",
-        "line": 12,
+        "line": 14,
         "column": 0,
-        "endLine": 12,
-        "endColumn": 26,
+        "endLine": 14,
+        "endColumn": 27,
         "path": "YukkiMusic/plugins/sudo/maintenance.py",
-        "symbol": "no-name-in-module",
-        "message": "No name 'SUDOERS' in module 'config'",
-        "message-id": "E0611"
+        "symbol": "ungrouped-imports",
+        "message": "Imports from package YukkiMusic are not grouped",
+        "message-id": "C0412"
     },
     {
         "type": "error",
