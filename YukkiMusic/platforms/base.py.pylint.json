@@ -1,15 +1,15 @@
 [
     {
-        "type": "error",
+        "type": "convention",
         "module": "YukkiMusic.platforms.base",
         "obj": "",
-        "line": 3,
+        "line": 23,
         "column": 0,
-        "endLine": 3,
-        "endColumn": 32,
+        "endLine": null,
+        "endColumn": null,
         "path": "YukkiMusic/platforms/base.py",
-        "symbol": "no-name-in-module",
-        "message": "No name 'youtube' in module 'YukkiMusic.core'",
-        "message-id": "E0611"
+        "symbol": "line-too-long",
+        "message": "Line too long (163/100)",
+        "message-id": "C0301"
     }
 ]
