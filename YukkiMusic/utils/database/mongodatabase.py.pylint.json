@@ -1,31 +1,5 @@
 [
     {
-        "type": "error",
-        "module": "YukkiMusic.utils.database.mongodatabase",
-        "obj": "",
-        "line": 25,
-        "column": 13,
-        "endLine": 25,
-        "endColumn": 20,
-        "path": "YukkiMusic/utils/database/mongodatabase.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable 'mongodb'",
-        "message-id": "E0602"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.utils.database.mongodatabase",
-        "obj": "get_playlist_names",
-        "line": 53,
-        "column": 46,
-        "endLine": 53,
-        "endColumn": 50,
-        "path": "YukkiMusic/utils/database/mongodatabase.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable 'List'",
-        "message-id": "E0602"
-    },
-    {
         "type": "warning",
         "module": "YukkiMusic.utils.database.mongodatabase",
         "obj": "",
