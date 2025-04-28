@@ -1,5 +1,31 @@
 [
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.tools.languages",
+        "obj": "",
+        "line": 18,
+        "column": 0,
+        "endLine": 18,
+        "endColumn": 74,
+        "path": "YukkiMusic/plugins/tools/languages.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'actual_admin_cb' in module 'YukkiMusic.utils'",
+        "message-id": "E0611"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.tools.languages",
+        "obj": "",
+        "line": 18,
+        "column": 0,
+        "endLine": 18,
+        "endColumn": 74,
+        "path": "YukkiMusic/plugins/tools/languages.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'language' in module 'YukkiMusic.utils'",
+        "message-id": "E0611"
+    },
+    {
         "type": "warning",
         "module": "YukkiMusic.plugins.tools.languages",
         "obj": "lanuages_keyboard",

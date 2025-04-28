@@ -9,7 +9,7 @@
         "endColumn": 34,
         "path": "YukkiMusic/utils/__init__.py",
         "symbol": "redefined-outer-name",
-        "message": "Redefining name 'get_string' from outer scope (line 14)",
+        "message": "Redefining name 'get_string' from outer scope (line 21)",
         "message-id": "W0621"
     },
     {
@@ -24,32 +24,6 @@
         "symbol": "import-outside-toplevel",
         "message": "Import outside toplevel (strings.get_string)",
         "message-id": "C0415"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.utils",
-        "obj": "get_value",
-        "line": 31,
-        "column": 4,
-        "endLine": 31,
-        "endColumn": 12,
-        "path": "YukkiMusic/utils/__init__.py",
-        "symbol": "redefined-outer-name",
-        "message": "Redefining name 'language' from outer scope (line 14)",
-        "message-id": "W0621"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.utils",
-        "obj": "parse_flags",
-        "line": 60,
-        "column": 0,
-        "endLine": 60,
-        "endColumn": 21,
-        "path": "YukkiMusic/utils/__init__.py",
-        "symbol": "function-redefined",
-        "message": "function already defined line 14",
-        "message-id": "E0102"
     },
     {
         "type": "warning",

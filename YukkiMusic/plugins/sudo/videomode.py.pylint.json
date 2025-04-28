@@ -11,5 +11,18 @@
         "symbol": "no-name-in-module",
         "message": "No name 'SUDOERS' in module 'YukkiMusic.misc'",
         "message-id": "E0611"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.sudo.videomode",
+        "obj": "",
+        "line": 16,
+        "column": 0,
+        "endLine": 16,
+        "endColumn": 54,
+        "path": "YukkiMusic/plugins/sudo/videomode.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'language' in module 'YukkiMusic.utils'",
+        "message-id": "E0611"
     }
 ]

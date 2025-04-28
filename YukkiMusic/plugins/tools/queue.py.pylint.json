@@ -1,5 +1,18 @@
 [
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.tools.queue",
+        "obj": "",
+        "line": 20,
+        "column": 0,
+        "endLine": 31,
+        "endColumn": 1,
+        "path": "YukkiMusic/plugins/tools/queue.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'language' in module 'YukkiMusic.utils'",
+        "message-id": "E0611"
+    },
+    {
         "type": "refactor",
         "module": "YukkiMusic.plugins.tools.queue",
         "obj": "ping_com",
