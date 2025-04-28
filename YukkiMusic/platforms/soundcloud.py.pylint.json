@@ -1,5 +1,18 @@
 [
     {
+        "type": "error",
+        "module": "YukkiMusic.platforms.soundcloud",
+        "obj": "",
+        "line": 13,
+        "column": 0,
+        "endLine": 13,
+        "endColumn": 48,
+        "path": "YukkiMusic/platforms/soundcloud.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'asyncify' in module 'YukkiMusic.utils.decorators'",
+        "message-id": "E0611"
+    },
+    {
         "type": "warning",
         "module": "YukkiMusic.platforms.soundcloud",
         "obj": "SoundCloud.track",
