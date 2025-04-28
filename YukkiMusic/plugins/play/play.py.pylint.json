@@ -1,5 +1,31 @@
 [
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.play.play",
+        "obj": "",
+        "line": 28,
+        "column": 0,
+        "endLine": 38,
+        "endColumn": 1,
+        "path": "YukkiMusic/plugins/play/play.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'get_message_link' in module 'YukkiMusic.utils'",
+        "message-id": "E0611"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.play.play",
+        "obj": "",
+        "line": 28,
+        "column": 0,
+        "endLine": 38,
+        "endColumn": 1,
+        "path": "YukkiMusic/plugins/play/play.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'play_logs' in module 'YukkiMusic.utils'",
+        "message-id": "E0611"
+    },
+    {
         "type": "refactor",
         "module": "YukkiMusic.plugins.play.play",
         "obj": "play_commnd",
@@ -206,19 +232,6 @@
         "symbol": "used-before-assignment",
         "message": "Using variable 'track_id' before assignment",
         "message-id": "E0601"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.play.play",
-        "obj": "play_commnd",
-        "line": 237,
-        "column": 21,
-        "endLine": 237,
-        "endColumn": 62,
-        "path": "YukkiMusic/plugins/play/play.py",
-        "symbol": "no-value-for-parameter",
-        "message": "No value for argument 'event' in function call",
-        "message-id": "E1120"
     },
     {
         "type": "error",

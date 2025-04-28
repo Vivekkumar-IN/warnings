@@ -26,6 +26,19 @@
         "message-id": "E0611"
     },
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.play.stream",
+        "obj": "",
+        "line": 16,
+        "column": 0,
+        "endLine": 16,
+        "endColumn": 60,
+        "path": "YukkiMusic/plugins/play/stream.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'play_logs' in module 'YukkiMusic.utils'",
+        "message-id": "E0611"
+    },
+    {
         "type": "refactor",
         "module": "YukkiMusic.plugins.play.stream",
         "obj": "stream_command",
@@ -76,18 +89,5 @@
         "symbol": "no-else-return",
         "message": "Unnecessary \"else\" after \"return\", remove the \"else\" and de-indent the code inside it",
         "message-id": "R1705"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.play.stream",
-        "obj": "stream_command",
-        "line": 63,
-        "column": 21,
-        "endLine": 63,
-        "endColumn": 65,
-        "path": "YukkiMusic/plugins/play/stream.py",
-        "symbol": "no-value-for-parameter",
-        "message": "No value for argument 'event' in function call",
-        "message-id": "E1120"
     }
 ]
