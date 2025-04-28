@@ -1,18 +1,5 @@
 [
     {
-        "type": "error",
-        "module": "YukkiMusic.utils.stream.queue",
-        "obj": "",
-        "line": 13,
-        "column": 0,
-        "endLine": 13,
-        "endColumn": 41,
-        "path": "YukkiMusic/utils/stream/queue.py",
-        "symbol": "no-name-in-module",
-        "message": "No name 'youtube' in module 'YukkiMusic.core'",
-        "message-id": "E0611"
-    },
-    {
         "type": "convention",
         "module": "YukkiMusic.utils.stream.queue",
         "obj": "put_queue",

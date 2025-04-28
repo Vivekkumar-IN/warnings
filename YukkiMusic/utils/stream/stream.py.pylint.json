@@ -1,18 +1,5 @@
 [
     {
-        "type": "error",
-        "module": "YukkiMusic.utils.stream.stream",
-        "obj": "",
-        "line": 18,
-        "column": 0,
-        "endLine": 18,
-        "endColumn": 41,
-        "path": "YukkiMusic/utils/stream/stream.py",
-        "symbol": "no-name-in-module",
-        "message": "No name 'youtube' in module 'YukkiMusic.core'",
-        "message-id": "E0611"
-    },
-    {
         "type": "warning",
         "module": "YukkiMusic.utils.stream.stream",
         "obj": "",
