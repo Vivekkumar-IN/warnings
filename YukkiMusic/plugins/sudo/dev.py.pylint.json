@@ -17,19 +17,6 @@
         "module": "YukkiMusic.plugins.sudo.dev",
         "obj": "executor",
         "line": 44,
-        "column": 43,
-        "endLine": 44,
-        "endColumn": 51,
-        "path": "YukkiMusic/plugins/sudo/dev.py",
-        "symbol": "no-member",
-        "message": "Module 'YukkiMusic.core.filters' has no 'user' member; maybe 'User'?",
-        "message-id": "E1101"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.sudo.dev",
-        "obj": "executor",
-        "line": 44,
         "column": 63,
         "endLine": 44,
         "endColumn": 77,
@@ -37,19 +24,6 @@
         "symbol": "invalid-unary-operand-type",
         "message": "bad operand type for unary ~: forwarded",
         "message-id": "E1130"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.sudo.dev",
-        "obj": "executor",
-        "line": 47,
-        "column": 47,
-        "endLine": 47,
-        "endColumn": 55,
-        "path": "YukkiMusic/plugins/sudo/dev.py",
-        "symbol": "no-member",
-        "message": "Module 'YukkiMusic.core.filters' has no 'user' member; maybe 'User'?",
-        "message-id": "E1101"
     },
     {
         "type": "error",
@@ -95,19 +69,6 @@
         "module": "YukkiMusic.plugins.sudo.dev",
         "obj": "shellrunner",
         "line": 151,
-        "column": 50,
-        "endLine": 151,
-        "endColumn": 58,
-        "path": "YukkiMusic/plugins/sudo/dev.py",
-        "symbol": "no-member",
-        "message": "Module 'YukkiMusic.core.filters' has no 'user' member; maybe 'User'?",
-        "message-id": "E1101"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.sudo.dev",
-        "obj": "shellrunner",
-        "line": 151,
         "column": 70,
         "endLine": 151,
         "endColumn": 84,
@@ -115,19 +76,6 @@
         "symbol": "invalid-unary-operand-type",
         "message": "bad operand type for unary ~: forwarded",
         "message-id": "E1130"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.sudo.dev",
-        "obj": "shellrunner",
-        "line": 153,
-        "column": 37,
-        "endLine": 153,
-        "endColumn": 45,
-        "path": "YukkiMusic/plugins/sudo/dev.py",
-        "symbol": "no-member",
-        "message": "Module 'YukkiMusic.core.filters' has no 'user' member; maybe 'User'?",
-        "message-id": "E1101"
     },
     {
         "type": "error",

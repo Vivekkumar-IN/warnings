@@ -26,19 +26,6 @@
         "message-id": "E0611"
     },
     {
-        "type": "error",
-        "module": "YukkiMusic.plugins.sudo.heroku",
-        "obj": "log_",
-        "line": 43,
-        "column": 59,
-        "endLine": 43,
-        "endColumn": 71,
-        "path": "YukkiMusic/plugins/sudo/heroku.py",
-        "symbol": "no-member",
-        "message": "Module 'YukkiMusic.core.filters' has no 'user' member; maybe 'User'?",
-        "message-id": "E1101"
-    },
-    {
         "type": "warning",
         "module": "YukkiMusic.plugins.sudo.heroku",
         "obj": "log_._get_log",
@@ -50,19 +37,6 @@
         "symbol": "unspecified-encoding",
         "message": "Using open without explicitly specifying an encoding",
         "message-id": "W1514"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.sudo.heroku",
-        "obj": "varget_",
-        "line": 77,
-        "column": 59,
-        "endLine": 77,
-        "endColumn": 71,
-        "path": "YukkiMusic/plugins/sudo/heroku.py",
-        "symbol": "no-member",
-        "message": "Module 'YukkiMusic.core.filters' has no 'user' member; maybe 'User'?",
-        "message-id": "E1101"
     },
     {
         "type": "refactor",
@@ -78,19 +52,6 @@
         "message-id": "R1705"
     },
     {
-        "type": "error",
-        "module": "YukkiMusic.plugins.sudo.heroku",
-        "obj": "vardel_",
-        "line": 103,
-        "column": 59,
-        "endLine": 103,
-        "endColumn": 71,
-        "path": "YukkiMusic/plugins/sudo/heroku.py",
-        "symbol": "no-member",
-        "message": "Module 'YukkiMusic.core.filters' has no 'user' member; maybe 'User'?",
-        "message-id": "E1101"
-    },
-    {
         "type": "refactor",
         "module": "YukkiMusic.plugins.sudo.heroku",
         "obj": "vardel_",
@@ -104,32 +65,6 @@
         "message-id": "R1705"
     },
     {
-        "type": "error",
-        "module": "YukkiMusic.plugins.sudo.heroku",
-        "obj": "set_var",
-        "line": 131,
-        "column": 59,
-        "endLine": 131,
-        "endColumn": 71,
-        "path": "YukkiMusic/plugins/sudo/heroku.py",
-        "symbol": "no-member",
-        "message": "Module 'YukkiMusic.core.filters' has no 'user' member; maybe 'User'?",
-        "message-id": "E1101"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.sudo.heroku",
-        "obj": "usage_dynos",
-        "line": 160,
-        "column": 58,
-        "endLine": 160,
-        "endColumn": 70,
-        "path": "YukkiMusic/plugins/sudo/heroku.py",
-        "symbol": "no-member",
-        "message": "Module 'YukkiMusic.core.filters' has no 'user' member; maybe 'User'?",
-        "message-id": "E1101"
-    },
-    {
         "type": "refactor",
         "module": "YukkiMusic.plugins.sudo.heroku",
         "obj": "usage_dynos",
@@ -141,19 +76,6 @@
         "symbol": "too-many-locals",
         "message": "Too many local variables (21/15)",
         "message-id": "R0914"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.sudo.heroku",
-        "obj": "update_",
-        "line": 219,
-        "column": 59,
-        "endLine": 219,
-        "endColumn": 71,
-        "path": "YukkiMusic/plugins/sudo/heroku.py",
-        "symbol": "no-member",
-        "message": "Module 'YukkiMusic.core.filters' has no 'user' member; maybe 'User'?",
-        "message-id": "E1101"
     },
     {
         "type": "refactor",
@@ -245,32 +167,6 @@
         "symbol": "consider-using-f-string",
         "message": "Formatting a regular string which could be an f-string",
         "message-id": "C0209"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.sudo.heroku",
-        "obj": "reboot",
-        "line": 319,
-        "column": 7,
-        "endLine": 319,
-        "endColumn": 19,
-        "path": "YukkiMusic/plugins/sudo/heroku.py",
-        "symbol": "no-member",
-        "message": "Module 'YukkiMusic.core.filters' has no 'user' member; maybe 'User'?",
-        "message-id": "E1101"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.sudo.heroku",
-        "obj": "restart_",
-        "line": 342,
-        "column": 61,
-        "endLine": 342,
-        "endColumn": 73,
-        "path": "YukkiMusic/plugins/sudo/heroku.py",
-        "symbol": "no-member",
-        "message": "Module 'YukkiMusic.core.filters' has no 'user' member; maybe 'User'?",
-        "message-id": "E1101"
     },
     {
         "type": "error",

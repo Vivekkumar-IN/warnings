@@ -24,18 +24,5 @@
         "symbol": "undefined-variable",
         "message": "Undefined variable 'tbot'",
         "message-id": "E0602"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.sudo.logger",
-        "obj": "logger",
-        "line": 16,
-        "column": 59,
-        "endLine": 16,
-        "endColumn": 71,
-        "path": "YukkiMusic/plugins/sudo/logger.py",
-        "symbol": "no-member",
-        "message": "Module 'YukkiMusic.core.filters' has no 'user' member; maybe 'User'?",
-        "message-id": "E1101"
     }
 ]

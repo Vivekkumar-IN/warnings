@@ -24,18 +24,5 @@
         "symbol": "invalid-name",
         "message": "Constant name \"api_key\" doesn't conform to UPPER_CASE naming style",
         "message-id": "C0103"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.tools.lyrics",
-        "obj": "lrsearch",
-        "line": 33,
-        "column": 56,
-        "endLine": 33,
-        "endColumn": 64,
-        "path": "YukkiMusic/plugins/tools/lyrics.py",
-        "symbol": "no-member",
-        "message": "Module 'YukkiMusic.core.filters' has no 'user' member; maybe 'User'?",
-        "message-id": "E1101"
     }
 ]

@@ -1,44 +1,5 @@
 [
     {
-        "type": "error",
-        "module": "YukkiMusic.plugins.bot.settings",
-        "obj": "settings_mar",
-        "line": 52,
-        "column": 57,
-        "endLine": 52,
-        "endColumn": 65,
-        "path": "YukkiMusic/plugins/bot/settings.py",
-        "symbol": "no-member",
-        "message": "Module 'YukkiMusic.core.filters' has no 'user' member; maybe 'User'?",
-        "message-id": "E1101"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.bot.settings",
-        "obj": "settings_cb",
-        "line": 64,
-        "column": 63,
-        "endLine": 64,
-        "endColumn": 71,
-        "path": "YukkiMusic/plugins/bot/settings.py",
-        "symbol": "no-member",
-        "message": "Module 'YukkiMusic.core.filters' has no 'user' member; maybe 'User'?",
-        "message-id": "E1101"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.bot.settings",
-        "obj": "settings_back_markup",
-        "line": 83,
-        "column": 62,
-        "endLine": 83,
-        "endColumn": 70,
-        "path": "YukkiMusic/plugins/bot/settings.py",
-        "symbol": "no-member",
-        "message": "Module 'YukkiMusic.core.filters' has no 'user' member; maybe 'User'?",
-        "message-id": "E1101"
-    },
-    {
         "type": "convention",
         "module": "YukkiMusic.plugins.bot.settings",
         "obj": "settings_back_markup",
@@ -234,19 +195,6 @@
         "message-id": "C0301"
     },
     {
-        "type": "error",
-        "module": "YukkiMusic.plugins.bot.settings",
-        "obj": "without_Admin_rights",
-        "line": 143,
-        "column": 14,
-        "endLine": 143,
-        "endColumn": 22,
-        "path": "YukkiMusic/plugins/bot/settings.py",
-        "symbol": "no-member",
-        "message": "Module 'YukkiMusic.core.filters' has no 'user' member; maybe 'User'?",
-        "message-id": "E1101"
-    },
-    {
         "type": "convention",
         "module": "YukkiMusic.plugins.bot.settings",
         "obj": "without_Admin_rights",
@@ -375,19 +323,6 @@
         "symbol": "invalid-name",
         "message": "Variable name \"Playtype\" doesn't conform to snake_case naming style",
         "message-id": "C0103"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.bot.settings",
-        "obj": "aud_vid_cb",
-        "line": 249,
-        "column": 14,
-        "endLine": 249,
-        "endColumn": 22,
-        "path": "YukkiMusic/plugins/bot/settings.py",
-        "symbol": "no-member",
-        "message": "Module 'YukkiMusic.core.filters' has no 'user' member; maybe 'User'?",
-        "message-id": "E1101"
     },
     {
         "type": "error",
@@ -531,32 +466,6 @@
         "symbol": "possibly-used-before-assignment",
         "message": "Possibly using variable 'buttons' before assignment",
         "message-id": "E0606"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.bot.settings",
-        "obj": "cleanmode_mark",
-        "line": 294,
-        "column": 54,
-        "endLine": 294,
-        "endColumn": 62,
-        "path": "YukkiMusic/plugins/bot/settings.py",
-        "symbol": "no-member",
-        "message": "Module 'YukkiMusic.core.filters' has no 'user' member; maybe 'User'?",
-        "message-id": "E1101"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.bot.settings",
-        "obj": "playmode_ans",
-        "line": 334,
-        "column": 14,
-        "endLine": 334,
-        "endColumn": 22,
-        "path": "YukkiMusic/plugins/bot/settings.py",
-        "symbol": "no-member",
-        "message": "Module 'YukkiMusic.core.filters' has no 'user' member; maybe 'User'?",
-        "message-id": "E1101"
     },
     {
         "type": "refactor",
@@ -830,19 +739,6 @@
         "symbol": "possibly-used-before-assignment",
         "message": "Possibly using variable 'buttons' before assignment",
         "message-id": "E0606"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.bot.settings",
-        "obj": "authusers_mar",
-        "line": 410,
-        "column": 61,
-        "endLine": 410,
-        "endColumn": 69,
-        "path": "YukkiMusic/plugins/bot/settings.py",
-        "symbol": "no-member",
-        "message": "Module 'YukkiMusic.core.filters' has no 'user' member; maybe 'User'?",
-        "message-id": "E1101"
     },
     {
         "type": "error",

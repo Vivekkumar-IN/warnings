@@ -1,18 +1,5 @@
 [
     {
-        "type": "error",
-        "module": "YukkiMusic.plugins.sudo.globalban",
-        "obj": "gbanuser",
-        "line": 30,
-        "column": 53,
-        "endLine": 30,
-        "endColumn": 61,
-        "path": "YukkiMusic/plugins/sudo/globalban.py",
-        "symbol": "no-member",
-        "message": "Module 'YukkiMusic.core.filters' has no 'user' member; maybe 'User'?",
-        "message-id": "E1101"
-    },
-    {
         "type": "refactor",
         "module": "YukkiMusic.plugins.sudo.globalban",
         "obj": "gbanuser",
@@ -24,32 +11,6 @@
         "symbol": "no-else-return",
         "message": "Unnecessary \"elif\" after \"return\", remove the leading \"el\" from \"elif\"",
         "message-id": "R1705"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.sudo.globalban",
-        "obj": "gungabn",
-        "line": 76,
-        "column": 55,
-        "endLine": 76,
-        "endColumn": 63,
-        "path": "YukkiMusic/plugins/sudo/globalban.py",
-        "symbol": "no-member",
-        "message": "Module 'YukkiMusic.core.filters' has no 'user' member; maybe 'User'?",
-        "message-id": "E1101"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.sudo.globalban",
-        "obj": "gbanned_list",
-        "line": 116,
-        "column": 56,
-        "endLine": 116,
-        "endColumn": 64,
-        "path": "YukkiMusic/plugins/sudo/globalban.py",
-        "symbol": "no-member",
-        "message": "Module 'YukkiMusic.core.filters' has no 'user' member; maybe 'User'?",
-        "message-id": "E1101"
     },
     {
         "type": "refactor",

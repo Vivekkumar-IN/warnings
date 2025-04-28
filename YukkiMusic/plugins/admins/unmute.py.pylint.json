@@ -11,18 +11,5 @@
         "symbol": "no-name-in-module",
         "message": "No name 'admin_rights_check' in module 'YukkiMusic.utils.decorators'",
         "message-id": "E0611"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.admins.unmute",
-        "obj": "unmute_admin",
-        "line": 20,
-        "column": 62,
-        "endLine": 20,
-        "endColumn": 70,
-        "path": "YukkiMusic/plugins/admins/unmute.py",
-        "symbol": "no-member",
-        "message": "Module 'YukkiMusic.core.filters' has no 'user' member; maybe 'User'?",
-        "message-id": "E1101"
     }
 ]

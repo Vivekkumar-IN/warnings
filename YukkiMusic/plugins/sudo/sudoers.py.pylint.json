@@ -13,19 +13,6 @@
         "message-id": "E0611"
     },
     {
-        "type": "error",
-        "module": "YukkiMusic.plugins.sudo.sudoers",
-        "obj": "useradd",
-        "line": 17,
-        "column": 60,
-        "endLine": 17,
-        "endColumn": 72,
-        "path": "YukkiMusic/plugins/sudo/sudoers.py",
-        "symbol": "no-member",
-        "message": "Module 'YukkiMusic.core.filters' has no 'user' member; maybe 'User'?",
-        "message-id": "E1101"
-    },
-    {
         "type": "convention",
         "module": "YukkiMusic.plugins.sudo.sudoers",
         "obj": "",
@@ -37,19 +24,6 @@
         "symbol": "line-too-long",
         "message": "Line too long (165/100)",
         "message-id": "C0301"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.sudo.sudoers",
-        "obj": "userdel",
-        "line": 55,
-        "column": 60,
-        "endLine": 55,
-        "endColumn": 72,
-        "path": "YukkiMusic/plugins/sudo/sudoers.py",
-        "symbol": "no-member",
-        "message": "Module 'YukkiMusic.core.filters' has no 'user' member; maybe 'User'?",
-        "message-id": "E1101"
     },
     {
         "type": "refactor",
@@ -102,18 +76,5 @@
         "symbol": "f-string-without-interpolation",
         "message": "Using an f-string that does not have any interpolated variables",
         "message-id": "W1309"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.sudo.sudoers",
-        "obj": "sudoers_list",
-        "line": 91,
-        "column": 50,
-        "endLine": 91,
-        "endColumn": 62,
-        "path": "YukkiMusic/plugins/sudo/sudoers.py",
-        "symbol": "no-member",
-        "message": "Module 'YukkiMusic.core.filters' has no 'user' member; maybe 'User'?",
-        "message-id": "E1101"
     }
 ]

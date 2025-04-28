@@ -1,18 +1,5 @@
 [
     {
-        "type": "error",
-        "module": "YukkiMusic.plugins.sudo.autoend",
-        "obj": "auto_end_stream",
-        "line": 17,
-        "column": 56,
-        "endLine": 17,
-        "endColumn": 64,
-        "path": "YukkiMusic/plugins/sudo/autoend.py",
-        "symbol": "no-member",
-        "message": "Module 'YukkiMusic.core.filters' has no 'user' member; maybe 'User'?",
-        "message-id": "E1101"
-    },
-    {
         "type": "convention",
         "module": "YukkiMusic.plugins.sudo.autoend",
         "obj": "",

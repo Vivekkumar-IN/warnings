@@ -11,18 +11,5 @@
         "symbol": "no-name-in-module",
         "message": "No name 'admin_rights_check' in module 'YukkiMusic.utils.decorators'",
         "message-id": "E0611"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.admins.stop",
-        "obj": "stop_music",
-        "line": 20,
-        "column": 53,
-        "endLine": 20,
-        "endColumn": 61,
-        "path": "YukkiMusic/plugins/admins/stop.py",
-        "symbol": "no-member",
-        "message": "Module 'YukkiMusic.core.filters' has no 'user' member; maybe 'User'?",
-        "message-id": "E1101"
     }
 ]

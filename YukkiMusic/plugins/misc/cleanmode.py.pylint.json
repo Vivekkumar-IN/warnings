@@ -52,19 +52,6 @@
         "message-id": "E0602"
     },
     {
-        "type": "error",
-        "module": "YukkiMusic.plugins.misc.cleanmode",
-        "obj": "braodcast_message",
-        "line": 68,
-        "column": 58,
-        "endLine": 68,
-        "endColumn": 66,
-        "path": "YukkiMusic/plugins/misc/cleanmode.py",
-        "symbol": "no-member",
-        "message": "Module 'YukkiMusic.core.filters' has no 'user' member; maybe 'User'?",
-        "message-id": "E1101"
-    },
-    {
         "type": "refactor",
         "module": "YukkiMusic.plugins.misc.cleanmode",
         "obj": "braodcast_message",

@@ -13,32 +13,6 @@
         "message-id": "E0611"
     },
     {
-        "type": "error",
-        "module": "YukkiMusic.plugins.sudo.private",
-        "obj": "authorize",
-        "line": 25,
-        "column": 58,
-        "endLine": 25,
-        "endColumn": 66,
-        "path": "YukkiMusic/plugins/sudo/private.py",
-        "symbol": "no-member",
-        "message": "Module 'YukkiMusic.core.filters' has no 'user' member; maybe 'User'?",
-        "message-id": "E1101"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.sudo.private",
-        "obj": "unauthorize",
-        "line": 43,
-        "column": 60,
-        "endLine": 43,
-        "endColumn": 68,
-        "path": "YukkiMusic/plugins/sudo/private.py",
-        "symbol": "no-member",
-        "message": "Module 'YukkiMusic.core.filters' has no 'user' member; maybe 'User'?",
-        "message-id": "E1101"
-    },
-    {
         "type": "refactor",
         "module": "YukkiMusic.plugins.sudo.private",
         "obj": "unauthorize",
@@ -50,19 +24,6 @@
         "symbol": "no-else-return",
         "message": "Unnecessary \"else\" after \"return\", remove the \"else\" and de-indent the code inside it",
         "message-id": "R1705"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.sudo.private",
-        "obj": "authorized",
-        "line": 61,
-        "column": 59,
-        "endLine": 61,
-        "endColumn": 67,
-        "path": "YukkiMusic/plugins/sudo/private.py",
-        "symbol": "no-member",
-        "message": "Module 'YukkiMusic.core.filters' has no 'user' member; maybe 'User'?",
-        "message-id": "E1101"
     },
     {
         "type": "refactor",
