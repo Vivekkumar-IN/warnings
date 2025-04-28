@@ -1,18 +1,5 @@
 [
     {
-        "type": "error",
-        "module": "YukkiMusic.core.track",
-        "obj": "",
-        "line": 19,
-        "column": 0,
-        "endLine": 19,
-        "endColumn": 51,
-        "path": "YukkiMusic/core/track.py",
-        "symbol": "no-name-in-module",
-        "message": "No name 'decorators' in module 'YukkiMusic'",
-        "message-id": "E0611"
-    },
-    {
         "type": "refactor",
         "module": "YukkiMusic.core.track",
         "obj": "Track",
