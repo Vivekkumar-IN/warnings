@@ -22,6 +22,19 @@
         "endColumn": 1,
         "path": "YukkiMusic/plugins/play/play.py",
         "symbol": "no-name-in-module",
+        "message": "No name 'livestream_markup' in module 'YukkiMusic.utils'",
+        "message-id": "E0611"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.play.play",
+        "obj": "",
+        "line": 28,
+        "column": 0,
+        "endLine": 38,
+        "endColumn": 1,
+        "path": "YukkiMusic/plugins/play/play.py",
+        "symbol": "no-name-in-module",
         "message": "No name 'play_logs' in module 'YukkiMusic.utils'",
         "message-id": "E0611"
     },
