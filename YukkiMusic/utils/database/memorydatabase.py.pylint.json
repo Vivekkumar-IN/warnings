@@ -1,0 +1,15 @@
+[
+    {
+        "type": "warning",
+        "module": "YukkiMusic.utils.database.memorydatabase",
+        "obj": "",
+        "line": 18,
+        "column": 33,
+        "endLine": null,
+        "endColumn": null,
+        "path": "YukkiMusic/utils/database/memorydatabase.py",
+        "symbol": "fixme",
+        "message": "TODO NOT IN JSED FIND IT",
+        "message-id": "W0511"
+    }
+]

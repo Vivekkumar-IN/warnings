@@ -28,6 +28,19 @@
     {
         "type": "error",
         "module": "YukkiMusic.plugins.bot.start",
+        "obj": "",
+        "line": 41,
+        "column": 0,
+        "endLine": 41,
+        "endColumn": 60,
+        "path": "YukkiMusic/plugins/bot/start.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'functions' in module 'YukkiMusic.utils'",
+        "message-id": "E0611"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.bot.start",
         "obj": "start_comm",
         "line": 48,
         "column": 56,
@@ -159,6 +172,19 @@
         "type": "error",
         "module": "YukkiMusic.plugins.bot.start",
         "obj": "start_comm",
+        "line": 131,
+        "column": 30,
+        "endLine": 131,
+        "endColumn": 47,
+        "path": "YukkiMusic/plugins/bot/start.py",
+        "symbol": "no-member",
+        "message": "Instance of 'YouTube' has no 'thumbnail' member",
+        "message-id": "E1101"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.bot.start",
+        "obj": "start_comm",
         "line": 136,
         "column": 18,
         "endLine": 136,
@@ -275,7 +301,7 @@
     {
         "type": "error",
         "module": "YukkiMusic.plugins.bot.start",
-        "obj": "testbot",
+        "obj": "start_group",
         "line": 244,
         "column": 54,
         "endLine": 244,
@@ -288,7 +314,7 @@
     {
         "type": "error",
         "module": "YukkiMusic.plugins.bot.start",
-        "obj": "testbot",
+        "obj": "start_group",
         "line": 246,
         "column": 1,
         "endLine": 246,
@@ -301,7 +327,7 @@
     {
         "type": "error",
         "module": "YukkiMusic.plugins.bot.start",
-        "obj": "testbot",
+        "obj": "start_group",
         "line": 246,
         "column": 1,
         "endLine": 246,

@@ -3,9 +3,9 @@
         "type": "error",
         "module": "YukkiMusic.plugins.sudo.logger",
         "obj": "",
-        "line": 11,
+        "line": 12,
         "column": 0,
-        "endLine": 11,
+        "endLine": 12,
         "endColumn": 35,
         "path": "YukkiMusic/plugins/sudo/logger.py",
         "symbol": "no-name-in-module",
@@ -30,25 +30,12 @@
         "module": "YukkiMusic.plugins.sudo.logger",
         "obj": "logger",
         "line": 16,
-        "column": 17,
+        "column": 59,
         "endLine": 16,
-        "endColumn": 20,
+        "endColumn": 71,
         "path": "YukkiMusic/plugins/sudo/logger.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable 'flt'",
-        "message-id": "E0602"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.sudo.logger",
-        "obj": "logger",
-        "line": 16,
-        "column": 55,
-        "endLine": 16,
-        "endColumn": 58,
-        "path": "YukkiMusic/plugins/sudo/logger.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable 'flt'",
-        "message-id": "E0602"
+        "symbol": "no-member",
+        "message": "Module 'YukkiMusic.core.filters' has no 'user' member; maybe 'User'?",
+        "message-id": "E1101"
     }
 ]

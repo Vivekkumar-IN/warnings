@@ -1,44 +1,5 @@
 [
     {
-        "type": "error",
-        "module": "YukkiMusic.plugins.play.channel",
-        "obj": "playmode_",
-        "line": 22,
-        "column": 4,
-        "endLine": 22,
-        "endColumn": 7,
-        "path": "YukkiMusic/plugins/play/channel.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable 'flt'",
-        "message-id": "E0602"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.play.channel",
-        "obj": "playmode_",
-        "line": 22,
-        "column": 47,
-        "endLine": 22,
-        "endColumn": 50,
-        "path": "YukkiMusic/plugins/play/channel.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable 'flt'",
-        "message-id": "E0602"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.play.channel",
-        "obj": "playmode_",
-        "line": 22,
-        "column": 60,
-        "endLine": 22,
-        "endColumn": 63,
-        "path": "YukkiMusic/plugins/play/channel.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable 'flt'",
-        "message-id": "E0602"
-    },
-    {
         "type": "refactor",
         "module": "YukkiMusic.plugins.play.channel",
         "obj": "playmode_",
@@ -297,5 +258,18 @@
         "symbol": "undefined-variable",
         "message": "Undefined variable 'event'",
         "message-id": "E0602"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.plugins.play.channel",
+        "obj": "",
+        "line": 65,
+        "column": 1,
+        "endLine": null,
+        "endColumn": null,
+        "path": "YukkiMusic/plugins/play/channel.py",
+        "symbol": "fixme",
+        "message": "TODO: REMOVE THE DISABLE AND LINKED MODE AND KEEP LINKED DEFAULT",
+        "message-id": "W0511"
     }
 ]

@@ -2,40 +2,14 @@
     {
         "type": "error",
         "module": "YukkiMusic.plugins.sudo.maintenance",
-        "obj": "",
-        "line": 14,
-        "column": 0,
-        "endLine": 14,
-        "endColumn": 35,
-        "path": "YukkiMusic/plugins/sudo/maintenance.py",
-        "symbol": "no-name-in-module",
-        "message": "No name 'SUDOERS' in module 'YukkiMusic.misc'",
-        "message-id": "E0611"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.sudo.maintenance",
         "obj": "maintenance",
-        "line": 23,
-        "column": 17,
-        "endLine": 23,
-        "endColumn": 20,
+        "line": 24,
+        "column": 64,
+        "endLine": 24,
+        "endColumn": 76,
         "path": "YukkiMusic/plugins/sudo/maintenance.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable 'flt'",
-        "message-id": "E0602"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.sudo.maintenance",
-        "obj": "maintenance",
-        "line": 23,
-        "column": 60,
-        "endLine": 23,
-        "endColumn": 63,
-        "path": "YukkiMusic/plugins/sudo/maintenance.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable 'flt'",
-        "message-id": "E0602"
+        "symbol": "no-member",
+        "message": "Module 'YukkiMusic.core.filters' has no 'user' member; maybe 'User'?",
+        "message-id": "E1101"
     }
 ]

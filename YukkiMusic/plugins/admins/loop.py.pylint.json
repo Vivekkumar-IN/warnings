@@ -16,13 +16,39 @@
         "type": "refactor",
         "module": "YukkiMusic.plugins.admins.loop",
         "obj": "admins",
-        "line": 31,
+        "line": 30,
         "column": 8,
-        "endLine": 42,
+        "endLine": 39,
         "endColumn": 51,
         "path": "YukkiMusic/plugins/admins/loop.py",
         "symbol": "no-else-return",
         "message": "Unnecessary \"else\" after \"return\", remove the \"else\" and de-indent the code inside it",
         "message-id": "R1705"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.admins.loop",
+        "obj": "admins",
+        "line": 41,
+        "column": 51,
+        "endLine": 41,
+        "endColumn": 60,
+        "path": "YukkiMusic/plugins/admins/loop.py",
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'get_value'",
+        "message-id": "E0602"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.admins.loop",
+        "obj": "admins",
+        "line": 45,
+        "column": 51,
+        "endLine": 45,
+        "endColumn": 60,
+        "path": "YukkiMusic/plugins/admins/loop.py",
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'get_value'",
+        "message-id": "E0602"
     }
 ]

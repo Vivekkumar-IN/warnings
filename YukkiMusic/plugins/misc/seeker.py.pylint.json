@@ -1,5 +1,44 @@
 [
     {
+        "type": "warning",
+        "module": "YukkiMusic.plugins.misc.seeker",
+        "obj": "timer",
+        "line": 42,
+        "column": 12,
+        "endLine": 42,
+        "endColumn": 31,
+        "path": "YukkiMusic/plugins/misc/seeker.py",
+        "symbol": "pointless-statement",
+        "message": "Statement seems to have no effect",
+        "message-id": "W0104"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.misc.seeker",
+        "obj": "timer",
+        "line": 43,
+        "column": 15,
+        "endLine": 43,
+        "endColumn": 20,
+        "path": "YukkiMusic/plugins/misc/seeker.py",
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'track'",
+        "message-id": "E0602"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.misc.seeker",
+        "obj": "timer",
+        "line": 43,
+        "column": 32,
+        "endLine": 43,
+        "endColumn": 37,
+        "path": "YukkiMusic/plugins/misc/seeker.py",
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'track'",
+        "message-id": "E0602"
+    },
+    {
         "type": "refactor",
         "module": "YukkiMusic.plugins.misc.seeker",
         "obj": "markup_timer",
@@ -9,7 +48,7 @@
         "endColumn": 22,
         "path": "YukkiMusic/plugins/misc/seeker.py",
         "symbol": "too-many-branches",
-        "message": "Too many branches (19/12)",
+        "message": "Too many branches (18/12)",
         "message-id": "R0912"
     },
     {
@@ -22,7 +61,7 @@
         "endColumn": 22,
         "path": "YukkiMusic/plugins/misc/seeker.py",
         "symbol": "too-many-statements",
-        "message": "Too many statements (62/50)",
+        "message": "Too many statements (58/50)",
         "message-id": "R0915"
     }
 ]

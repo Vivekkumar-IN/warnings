@@ -1,0 +1,15 @@
+[
+    {
+        "type": "error",
+        "module": "YukkiMusic.core.userbot",
+        "obj": "",
+        "line": 34,
+        "column": 9,
+        "endLine": 34,
+        "endColumn": 26,
+        "path": "YukkiMusic/core/userbot.py",
+        "symbol": "no-member",
+        "message": "Module 'logging' has no 'getlogger' member; maybe 'getLogger'?",
+        "message-id": "E1101"
+    }
+]

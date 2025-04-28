@@ -1,0 +1,15 @@
+[
+    {
+        "type": "warning",
+        "module": "YukkiMusic.utils.inlinequery",
+        "obj": "_answer",
+        "line": 31,
+        "column": 4,
+        "endLine": 31,
+        "endColumn": 10,
+        "path": "YukkiMusic/utils/inlinequery.py",
+        "symbol": "redefined-outer-name",
+        "message": "Redefining name 'answer' from outer scope (line 97)",
+        "message-id": "W0621"
+    }
+]

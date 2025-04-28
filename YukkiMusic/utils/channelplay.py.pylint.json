@@ -1,0 +1,15 @@
+[
+    {
+        "type": "warning",
+        "module": "YukkiMusic.utils.channelplay",
+        "obj": "",
+        "line": 19,
+        "column": 13,
+        "endLine": null,
+        "endColumn": null,
+        "path": "YukkiMusic/utils/channelplay.py",
+        "symbol": "fixme",
+        "message": "TODO: REMOVE IT AND USE PARSE FLAGS",
+        "message-id": "W0511"
+    }
+]

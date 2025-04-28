@@ -3,9 +3,9 @@
         "type": "error",
         "module": "YukkiMusic.plugins.sudo.videolimit",
         "obj": "",
-        "line": 12,
+        "line": 13,
         "column": 0,
-        "endLine": 12,
+        "endLine": 13,
         "endColumn": 35,
         "path": "YukkiMusic/plugins/sudo/videolimit.py",
         "symbol": "no-name-in-module",
@@ -23,32 +23,6 @@
         "path": "YukkiMusic/plugins/sudo/videolimit.py",
         "symbol": "undefined-variable",
         "message": "Undefined variable 'tbot'",
-        "message-id": "E0602"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.sudo.videolimit",
-        "obj": "set_video_limit_kid",
-        "line": 17,
-        "column": 17,
-        "endLine": 17,
-        "endColumn": 20,
-        "path": "YukkiMusic/plugins/sudo/videolimit.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable 'flt'",
-        "message-id": "E0602"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.sudo.videolimit",
-        "obj": "set_video_limit_kid",
-        "line": 17,
-        "column": 59,
-        "endLine": 17,
-        "endColumn": 62,
-        "path": "YukkiMusic/plugins/sudo/videolimit.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable 'flt'",
         "message-id": "E0602"
     }
 ]

@@ -1,0 +1,15 @@
+[
+    {
+        "type": "refactor",
+        "module": "YukkiMusic.misc",
+        "obj": "",
+        "line": 19,
+        "column": 5,
+        "endLine": 19,
+        "endColumn": 11,
+        "path": "YukkiMusic/misc.py",
+        "symbol": "use-dict-literal",
+        "message": "Consider using '{}' instead of a call to 'dict'.",
+        "message-id": "R1735"
+    }
+]

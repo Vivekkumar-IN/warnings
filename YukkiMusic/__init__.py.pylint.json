@@ -1,0 +1,15 @@
+[
+    {
+        "type": "convention",
+        "module": "YukkiMusic",
+        "obj": "",
+        "line": 25,
+        "column": 0,
+        "endLine": 25,
+        "endColumn": 43,
+        "path": "YukkiMusic/__init__.py",
+        "symbol": "wrong-import-position",
+        "message": "Import \"from YukkiMusic.core.userbot import Userbot\" should be placed at the top of the module",
+        "message-id": "C0413"
+    }
+]

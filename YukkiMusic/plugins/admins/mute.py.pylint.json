@@ -1,0 +1,15 @@
+[
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.admins.mute",
+        "obj": "mute_admin",
+        "line": 20,
+        "column": 60,
+        "endLine": 20,
+        "endColumn": 68,
+        "path": "YukkiMusic/plugins/admins/mute.py",
+        "symbol": "no-member",
+        "message": "Module 'YukkiMusic.core.filters' has no 'user' member; maybe 'User'?",
+        "message-id": "E1101"
+    }
+]
