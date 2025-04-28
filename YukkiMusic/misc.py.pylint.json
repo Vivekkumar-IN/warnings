@@ -1,5 +1,18 @@
 [
     {
+        "type": "error",
+        "module": "YukkiMusic.misc",
+        "obj": "",
+        "line": 18,
+        "column": 0,
+        "endLine": 18,
+        "endColumn": 27,
+        "path": "YukkiMusic/misc.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'logger' in module 'YukkiMusic.logging'",
+        "message-id": "E0611"
+    },
+    {
         "type": "convention",
         "module": "YukkiMusic.misc",
         "obj": "",
