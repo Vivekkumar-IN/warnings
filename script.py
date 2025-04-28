@@ -25,6 +25,5 @@ for path, warns in grouped.items():
     with open(output_path, "w") as f:
         json.dump(warns, f, indent=4)
 
-if cyclic:
-    with open("cyclic-imports.json", "w") as f:
-        json.dump(cyclic, f, indent=4)
+with open("cyclic-imports.json", "w") as f:
+    json.dump(cyclic, f, indent=4)
