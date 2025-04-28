@@ -1,18 +1,5 @@
 [
     {
-        "type": "error",
-        "module": "YukkiMusic.plugins.play.playlist",
-        "obj": "",
-        "line": 21,
-        "column": 0,
-        "endLine": 21,
-        "endColumn": 41,
-        "path": "YukkiMusic/plugins/play/playlist.py",
-        "symbol": "no-name-in-module",
-        "message": "No name 'youtube' in module 'YukkiMusic.core'",
-        "message-id": "E0611"
-    },
-    {
         "type": "warning",
         "module": "YukkiMusic.plugins.play.playlist",
         "obj": "",
