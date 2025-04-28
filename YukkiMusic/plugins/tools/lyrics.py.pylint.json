@@ -1,18 +1,5 @@
 [
     {
-        "type": "error",
-        "module": "YukkiMusic.plugins.tools.lyrics",
-        "obj": "",
-        "line": 20,
-        "column": 0,
-        "endLine": 20,
-        "endColumn": 37,
-        "path": "YukkiMusic/plugins/tools/lyrics.py",
-        "symbol": "no-name-in-module",
-        "message": "No name 'language' in module 'YukkiMusic.utils'",
-        "message-id": "E0611"
-    },
-    {
         "type": "convention",
         "module": "YukkiMusic.plugins.tools.lyrics",
         "obj": "",
