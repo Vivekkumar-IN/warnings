@@ -1,5 +1,31 @@
 [
     {
+        "type": "error",
+        "module": "YukkiMusic.misc",
+        "obj": "",
+        "line": 16,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "YukkiMusic/misc.py",
+        "symbol": "syntax-error",
+        "message": "Cannot import 'YukkiMusic.core.mongo' due to 'unmatched ')' (YukkiMusic.core.mongo, line 36)'",
+        "message-id": "E0001"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.misc",
+        "obj": "",
+        "line": 16,
+        "column": 0,
+        "endLine": 16,
+        "endColumn": 41,
+        "path": "YukkiMusic/misc.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'mongo' in module 'YukkiMusic.core'",
+        "message-id": "E0611"
+    },
+    {
         "type": "convention",
         "module": "YukkiMusic.misc",
         "obj": "",

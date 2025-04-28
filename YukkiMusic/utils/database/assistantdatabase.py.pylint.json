@@ -1,5 +1,31 @@
 [
     {
+        "type": "error",
+        "module": "YukkiMusic.utils.database.assistantdatabase",
+        "obj": "",
+        "line": 13,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "YukkiMusic/utils/database/assistantdatabase.py",
+        "symbol": "syntax-error",
+        "message": "Cannot import 'YukkiMusic.core.mongo' due to 'unmatched ')' (YukkiMusic.core.mongo, line 36)'",
+        "message-id": "E0001"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.utils.database.assistantdatabase",
+        "obj": "",
+        "line": 13,
+        "column": 0,
+        "endLine": 13,
+        "endColumn": 53,
+        "path": "YukkiMusic/utils/database/assistantdatabase.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'mongo' in module 'YukkiMusic.core'",
+        "message-id": "E0611"
+    },
+    {
         "type": "convention",
         "module": "YukkiMusic.utils.database.assistantdatabase",
         "obj": "get_client",
