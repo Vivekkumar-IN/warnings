@@ -31,7 +31,7 @@ jobs:
 
       - name: Install Dependencies
         run: |
-          pip install pylint
+          pip install git+https://github.com/pylint-dev/pylint@main
 
       - name: Run Pylint Check
         run: |
