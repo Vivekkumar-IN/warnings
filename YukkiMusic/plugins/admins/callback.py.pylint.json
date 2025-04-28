@@ -1,18 +1,5 @@
 [
     {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.admins.callback",
-        "obj": "",
-        "line": 17,
-        "column": 0,
-        "endLine": 17,
-        "endColumn": 56,
-        "path": "YukkiMusic/plugins/admins/callback.py",
-        "symbol": "unused-import",
-        "message": "Unused spotify imported from YukkiMusic.platforms",
-        "message-id": "W0611"
-    },
-    {
         "type": "error",
         "module": "YukkiMusic.plugins.admins.callback",
         "obj": "",
@@ -247,19 +234,6 @@
         "message-id": "R0912"
     },
     {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.admins.callback",
-        "obj": "play_playlists_cb",
-        "line": 428,
-        "column": 4,
-        "endLine": 428,
-        "endColumn": 11,
-        "path": "YukkiMusic/plugins/admins/callback.py",
-        "symbol": "redefined-outer-name",
-        "message": "Redefining name 'spotify' from outer scope (line 17)",
-        "message-id": "W0621"
-    },
-    {
         "type": "error",
         "module": "YukkiMusic.plugins.admins.callback",
         "obj": "play_playlists_cb",
@@ -432,9 +406,9 @@
         "type": "refactor",
         "module": "YukkiMusic.plugins.admins.callback",
         "obj": "stop_download",
-        "line": 556,
+        "line": 554,
         "column": 4,
-        "endLine": 563,
+        "endLine": 561,
         "endColumn": 9,
         "path": "YukkiMusic/plugins/admins/callback.py",
         "symbol": "no-else-return",

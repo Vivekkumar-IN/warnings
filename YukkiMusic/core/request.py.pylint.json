@@ -1,31 +1,5 @@
 [
     {
-        "type": "warning",
-        "module": "YukkiMusic.core.request",
-        "obj": "",
-        "line": 15,
-        "column": 0,
-        "endLine": 15,
-        "endColumn": 18,
-        "path": "YukkiMusic/core/request.py",
-        "symbol": "pointless-statement",
-        "message": "Statement seems to have no effect",
-        "message-id": "W0104"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.core.request",
-        "obj": "",
-        "line": 15,
-        "column": 0,
-        "endLine": 15,
-        "endColumn": 7,
-        "path": "YukkiMusic/core/request.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable '__all__'",
-        "message-id": "E0602"
-    },
-    {
         "type": "convention",
         "module": "YukkiMusic.core.request",
         "obj": "",
