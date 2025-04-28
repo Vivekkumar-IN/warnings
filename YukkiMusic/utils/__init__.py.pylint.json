@@ -1,41 +1,15 @@
 [
     {
-        "type": "warning",
-        "module": "YukkiMusic.utils",
-        "obj": "get_value",
-        "line": 28,
-        "column": 4,
-        "endLine": 28,
-        "endColumn": 34,
-        "path": "YukkiMusic/utils/__init__.py",
-        "symbol": "redefined-outer-name",
-        "message": "Redefining name 'get_string' from outer scope (line 22)",
-        "message-id": "W0621"
-    },
-    {
         "type": "convention",
-        "module": "YukkiMusic.utils",
-        "obj": "get_value",
-        "line": 28,
-        "column": 4,
-        "endLine": 28,
-        "endColumn": 34,
+        "module": "YukkiMusic.utils.__init__",
+        "obj": "",
+        "line": 25,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
         "path": "YukkiMusic/utils/__init__.py",
-        "symbol": "import-outside-toplevel",
-        "message": "Import outside toplevel (strings.get_string)",
-        "message-id": "C0415"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.utils",
-        "obj": "parse_flags",
-        "line": 66,
-        "column": 30,
-        "endLine": 66,
-        "endColumn": 38,
-        "path": "YukkiMusic/utils/__init__.py",
-        "symbol": "redefined-outer-name",
-        "message": "Redefining name 'is_cplay' from outer scope (line 12)",
-        "message-id": "W0621"
+        "symbol": "missing-final-newline",
+        "message": "Final newline missing",
+        "message-id": "C0304"
     }
 ]
