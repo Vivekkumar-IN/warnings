@@ -8,8 +8,13 @@ with open("warnings.json") as f:
 
 
 grouped = defaultdict(list)
+
+cyclic = []
+
 for w in warnings:
     grouped[w["path"]].append(w)
+    if w.get("symbol") == "cyclic-import":
+        cyclic.append(w)
 
 for path, warns in grouped.items():
     warns.sort(key=itemgetter("line"))
@@ -19,3 +24,7 @@ for path, warns in grouped.items():
     output_path = f"{path}.pylint.json"
     with open(output_path, "w") as f:
         json.dump(warns, f, indent=4)
+
+if cyclic:
+    with open("cyclic-imports.json", "w") as f:
+        json.dump(cyclic, f, indent=4)
