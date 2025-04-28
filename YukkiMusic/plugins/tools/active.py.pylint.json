@@ -1,24 +1,24 @@
 [
     {
-        "type": "error",
-        "module": "YukkiMusic.plugins.tools.active",
-        "obj": "",
-        "line": 11,
-        "column": 0,
-        "endLine": 11,
-        "endColumn": 36,
-        "path": "YukkiMusic/plugins/tools/active.py",
-        "symbol": "no-name-in-module",
-        "message": "No name 'SUDOERS' in module 'YukkiMusic'",
-        "message-id": "E0611"
-    },
-    {
-        "type": "error",
+        "type": "warning",
         "module": "YukkiMusic.plugins.tools.active",
         "obj": "",
         "line": 12,
         "column": 0,
         "endLine": 12,
+        "endColumn": 49,
+        "path": "YukkiMusic/plugins/tools/active.py",
+        "symbol": "unused-import",
+        "message": "Unused BANNED_USERS imported from YukkiMusic.misc",
+        "message-id": "W0611"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.tools.active",
+        "obj": "",
+        "line": 13,
+        "column": 0,
+        "endLine": 13,
         "endColumn": 45,
         "path": "YukkiMusic/plugins/tools/active.py",
         "symbol": "no-name-in-module",
