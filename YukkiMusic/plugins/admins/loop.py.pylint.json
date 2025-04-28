@@ -1,31 +1,5 @@
 [
     {
-        "type": "error",
-        "module": "YukkiMusic.plugins.admins.loop",
-        "obj": "",
-        "line": 12,
-        "column": 0,
-        "endLine": 12,
-        "endColumn": 31,
-        "path": "YukkiMusic/plugins/admins/loop.py",
-        "symbol": "no-name-in-module",
-        "message": "No name 'BANNED_USERS' in module 'config'",
-        "message-id": "E0611"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.admins.loop",
-        "obj": "admins",
-        "line": 20,
-        "column": 53,
-        "endLine": 20,
-        "endColumn": 61,
-        "path": "YukkiMusic/plugins/admins/loop.py",
-        "symbol": "no-member",
-        "message": "Module 'YukkiMusic.core.filters' has no 'user' member; maybe 'User'?",
-        "message-id": "E1101"
-    },
-    {
         "type": "refactor",
         "module": "YukkiMusic.plugins.admins.loop",
         "obj": "admins",
