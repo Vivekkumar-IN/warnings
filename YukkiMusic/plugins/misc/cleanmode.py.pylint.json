@@ -3,6 +3,19 @@
         "type": "convention",
         "module": "YukkiMusic.plugins.misc.cleanmode",
         "obj": "",
+        "line": 43,
+        "column": 0,
+        "endLine": 43,
+        "endColumn": 15,
+        "path": "YukkiMusic/plugins/misc/cleanmode.py",
+        "symbol": "invalid-name",
+        "message": "Variable name \"IS_BROADCASTING\" doesn't conform to snake_case naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "convention",
+        "module": "YukkiMusic.plugins.misc.cleanmode",
+        "obj": "",
         "line": 44,
         "column": 0,
         "endLine": 44,
@@ -102,19 +115,6 @@
         "symbol": "global-statement",
         "message": "Using the global statement",
         "message-id": "W0603"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.misc.cleanmode",
-        "obj": "braodcast_message",
-        "line": 108,
-        "column": 26,
-        "endLine": 108,
-        "endColumn": 31,
-        "path": "YukkiMusic/plugins/misc/cleanmode.py",
-        "symbol": "possibly-used-before-assignment",
-        "message": "Possibly using variable 'r_msg' before assignment",
-        "message-id": "E0606"
     },
     {
         "type": "convention",

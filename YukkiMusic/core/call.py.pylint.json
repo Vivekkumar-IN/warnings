@@ -154,5 +154,18 @@
         "symbol": "cell-var-from-loop",
         "message": "Cell variable client defined in loop",
         "message-id": "W0640"
+    },
+    {
+        "type": "convention",
+        "module": "YukkiMusic.core.call",
+        "obj": "",
+        "line": 447,
+        "column": 0,
+        "endLine": 447,
+        "endColumn": 5,
+        "path": "YukkiMusic/core/call.py",
+        "symbol": "invalid-name",
+        "message": "Constant name \"Yukki\" doesn't conform to UPPER_CASE naming style",
+        "message-id": "C0103"
     }
 ]

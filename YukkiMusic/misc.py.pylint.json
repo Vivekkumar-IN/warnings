@@ -11,5 +11,18 @@
         "symbol": "use-dict-literal",
         "message": "Consider using '{}' instead of a call to 'dict'.",
         "message-id": "R1735"
+    },
+    {
+        "type": "convention",
+        "module": "YukkiMusic.misc",
+        "obj": "",
+        "line": 20,
+        "column": 0,
+        "endLine": 20,
+        "endColumn": 4,
+        "path": "YukkiMusic/misc.py",
+        "symbol": "invalid-name",
+        "message": "Variable name \"HAPP\" doesn't conform to snake_case naming style",
+        "message-id": "C0103"
     }
 ]
