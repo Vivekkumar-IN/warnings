@@ -11,6 +11,11 @@ grouped = defaultdict(list)
 
 cyclic = []
 
+try:
+    os.remove("cyclic-imports.json")
+except Exception:
+    pass
+
 for w in warnings:
     grouped[w["path"]].append(w)
     if w.get("symbol") == "cyclic-import":
