@@ -1,0 +1,15 @@
+[
+    {
+        "type": "convention",
+        "module": "YukkiMusic.utils.misc",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "YukkiMusic/utils/misc.py",
+        "symbol": "missing-final-newline",
+        "message": "Final newline missing",
+        "message-id": "C0304"
+    }
+]
