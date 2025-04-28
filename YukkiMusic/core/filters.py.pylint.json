@@ -45,10 +45,10 @@
         "line": 161,
         "column": 12,
         "endLine": 161,
-        "endColumn": 58,
+        "endColumn": 73,
         "path": "YukkiMusic/core/filters.py",
         "symbol": "import-outside-toplevel",
-        "message": "Import outside toplevel (YukkiMusic.utils.database.get_lang)",
+        "message": "Import outside toplevel (YukkiMusic.utils.database.memorydatabase.get_lang)",
         "message-id": "C0415"
     },
     {
