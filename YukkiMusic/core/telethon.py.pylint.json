@@ -1,31 +1,5 @@
 [
     {
-        "type": "warning",
-        "module": "YukkiMusic.core.telethon",
-        "obj": "TelethonClient.__init__",
-        "line": 91,
-        "column": 0,
-        "endLine": null,
-        "endColumn": null,
-        "path": "YukkiMusic/core/telethon.py",
-        "symbol": "unused-argument",
-        "message": "Unused argument 'args'",
-        "message-id": "W0613"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.core.telethon",
-        "obj": "TelethonClient.__init__",
-        "line": 91,
-        "column": 0,
-        "endLine": null,
-        "endColumn": null,
-        "path": "YukkiMusic/core/telethon.py",
-        "symbol": "unused-argument",
-        "message": "Unused argument 'kwargs'",
-        "message-id": "W0613"
-    },
-    {
         "type": "error",
         "module": "YukkiMusic.core.telethon",
         "obj": "TelethonClient.__init__",
