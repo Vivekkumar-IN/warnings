@@ -1,5 +1,18 @@
 [
     {
+        "type": "warning",
+        "module": "YukkiMusic.platforms.savan",
+        "obj": "",
+        "line": 15,
+        "column": 0,
+        "endLine": 15,
+        "endColumn": 48,
+        "path": "YukkiMusic/platforms/savan.py",
+        "symbol": "unused-import",
+        "message": "Unused asyncify imported from YukkiMusic.utils.decorators",
+        "message-id": "W0611"
+    },
+    {
         "type": "convention",
         "module": "YukkiMusic.platforms.savan",
         "obj": "Saavn.track.<lambda>",
