@@ -1,28 +1,15 @@
 [
     {
-        "type": "warning",
+        "type": "convention",
         "module": "YukkiMusic.utils.decorators.asyncify",
-        "obj": "asyncify",
-        "line": 12,
+        "obj": "",
+        "line": 15,
         "column": 0,
-        "endLine": 12,
-        "endColumn": 12,
+        "endLine": null,
+        "endColumn": null,
         "path": "YukkiMusic/utils/decorators/asyncify.py",
-        "symbol": "keyword-arg-before-vararg",
-        "message": "Keyword argument before variable positional arguments list in the definition of asyncify function",
-        "message-id": "W1113"
-    },
-    {
-        "type": "refactor",
-        "module": "YukkiMusic.utils.decorators.asyncify",
-        "obj": "asyncify.run",
-        "line": 22,
-        "column": 8,
-        "endLine": 27,
-        "endColumn": 61,
-        "path": "YukkiMusic/utils/decorators/asyncify.py",
-        "symbol": "no-else-return",
-        "message": "Unnecessary \"else\" after \"return\", remove the \"else\" and de-indent the code inside it",
-        "message-id": "R1705"
+        "symbol": "missing-final-newline",
+        "message": "Final newline missing",
+        "message-id": "C0304"
     }
 ]
