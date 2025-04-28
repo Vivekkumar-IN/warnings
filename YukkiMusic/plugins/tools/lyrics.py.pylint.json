@@ -1,44 +1,5 @@
 [
     {
-        "type": "error",
-        "module": "YukkiMusic.plugins.tools.lyrics",
-        "obj": "",
-        "line": 18,
-        "column": 0,
-        "endLine": 18,
-        "endColumn": 44,
-        "path": "YukkiMusic/plugins/tools/lyrics.py",
-        "symbol": "no-name-in-module",
-        "message": "No name 'BANNED_USERS' in module 'YukkiMusic'",
-        "message-id": "E0611"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.tools.lyrics",
-        "obj": "",
-        "line": 18,
-        "column": 0,
-        "endLine": 18,
-        "endColumn": 44,
-        "path": "YukkiMusic/plugins/tools/lyrics.py",
-        "symbol": "no-name-in-module",
-        "message": "No name 'SUDOERS' in module 'YukkiMusic'",
-        "message-id": "E0611"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.tools.lyrics",
-        "obj": "",
-        "line": 18,
-        "column": 0,
-        "endLine": 18,
-        "endColumn": 44,
-        "path": "YukkiMusic/plugins/tools/lyrics.py",
-        "symbol": "unused-import",
-        "message": "Unused SUDOERS imported from YukkiMusic",
-        "message-id": "W0611"
-    },
-    {
         "type": "convention",
         "module": "YukkiMusic.plugins.tools.lyrics",
         "obj": "",
