@@ -3,7 +3,7 @@
         "type": "convention",
         "module": "YukkiMusic.core.mongo",
         "obj": "",
-        "line": 17,
+        "line": 18,
         "column": 0,
         "endLine": null,
         "endColumn": null,
@@ -11,31 +11,5 @@
         "symbol": "line-too-long",
         "message": "Line too long (138/100)",
         "message-id": "C0301"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.core.mongo",
-        "obj": "",
-        "line": 38,
-        "column": 20,
-        "endLine": 38,
-        "endColumn": 34,
-        "path": "YukkiMusic/core/mongo.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable '_mongo_client_'",
-        "message-id": "E0602"
-    },
-    {
-        "type": "convention",
-        "module": "YukkiMusic.core.mongo",
-        "obj": "",
-        "line": 39,
-        "column": 0,
-        "endLine": null,
-        "endColumn": null,
-        "path": "YukkiMusic/core/mongo.py",
-        "symbol": "missing-final-newline",
-        "message": "Final newline missing",
-        "message-id": "C0304"
     }
 ]
