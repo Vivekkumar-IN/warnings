@@ -9,32 +9,6 @@
         "endColumn": null,
         "path": "docs/conf.py",
         "symbol": "cyclic-import",
-        "message": "Cyclic import (YukkiMusic.core.filters -> YukkiMusic.utils.database -> YukkiMusic.utils.database.mongodatabase -> YukkiMusic.core.mongo -> config -> config.config)",
-        "message-id": "R0401"
-    },
-    {
-        "type": "refactor",
-        "module": "docs.conf",
-        "obj": "",
-        "line": 1,
-        "column": 0,
-        "endLine": null,
-        "endColumn": null,
-        "path": "docs/conf.py",
-        "symbol": "cyclic-import",
-        "message": "Cyclic import (YukkiMusic -> YukkiMusic.core.userbot -> config -> config.config -> YukkiMusic.core.filters -> YukkiMusic.utils.database -> YukkiMusic.utils.database.mongodatabase -> YukkiMusic.core.mongo)",
-        "message-id": "R0401"
-    },
-    {
-        "type": "refactor",
-        "module": "docs.conf",
-        "obj": "",
-        "line": 1,
-        "column": 0,
-        "endLine": null,
-        "endColumn": null,
-        "path": "docs/conf.py",
-        "symbol": "cyclic-import",
         "message": "Cyclic import (YukkiMusic.core.filters -> YukkiMusic.utils.database -> YukkiMusic.utils.database.assistantdatabase -> YukkiMusic.core.userbot -> config -> config.config)",
         "message-id": "R0401"
     },
@@ -48,7 +22,7 @@
         "endColumn": null,
         "path": "docs/conf.py",
         "symbol": "cyclic-import",
-        "message": "Cyclic import (YukkiMusic.core.filters -> YukkiMusic.utils.database -> YukkiMusic.utils.database.memorydatabase -> config -> config.config)",
+        "message": "Cyclic import (YukkiMusic -> YukkiMusic.core.userbot -> config -> config.config -> YukkiMusic.core.filters -> YukkiMusic.utils.database -> YukkiMusic.utils.database.assistantdatabase -> YukkiMusic.core.mongo)",
         "message-id": "R0401"
     },
     {
@@ -74,7 +48,7 @@
         "endColumn": null,
         "path": "docs/conf.py",
         "symbol": "cyclic-import",
-        "message": "Cyclic import (YukkiMusic.core.filters -> YukkiMusic.utils.database -> YukkiMusic.utils.database.memorydatabase -> YukkiMusic.core.mongo -> config -> config.config)",
+        "message": "Cyclic import (YukkiMusic -> YukkiMusic.core.userbot -> config -> config.config -> YukkiMusic.core.filters -> YukkiMusic.utils.database -> YukkiMusic.utils.database.mongodatabase -> YukkiMusic.core.mongo)",
         "message-id": "R0401"
     },
     {
@@ -100,7 +74,59 @@
         "endColumn": null,
         "path": "docs/conf.py",
         "symbol": "cyclic-import",
-        "message": "Cyclic import (YukkiMusic -> YukkiMusic.core.git -> config -> config.config -> YukkiMusic.core.filters -> YukkiMusic.utils.database -> YukkiMusic.utils.database.mongodatabase -> YukkiMusic.core.mongo)",
+        "message": "Cyclic import (YukkiMusic -> YukkiMusic.core.userbot -> config -> config.config -> YukkiMusic.core.filters -> YukkiMusic.utils.database -> YukkiMusic.utils.database.assistantdatabase)",
+        "message-id": "R0401"
+    },
+    {
+        "type": "refactor",
+        "module": "docs.conf",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "docs/conf.py",
+        "symbol": "cyclic-import",
+        "message": "Cyclic import (YukkiMusic.core.filters -> YukkiMusic.utils.database -> YukkiMusic.utils.database.memorydatabase -> config -> config.config)",
+        "message-id": "R0401"
+    },
+    {
+        "type": "refactor",
+        "module": "docs.conf",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "docs/conf.py",
+        "symbol": "cyclic-import",
+        "message": "Cyclic import (YukkiMusic -> YukkiMusic.core.userbot -> config -> config.config -> YukkiMusic.core.filters -> YukkiMusic.utils.database -> YukkiMusic.utils.database.memorydatabase -> YukkiMusic.core.mongo)",
+        "message-id": "R0401"
+    },
+    {
+        "type": "refactor",
+        "module": "docs.conf",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "docs/conf.py",
+        "symbol": "cyclic-import",
+        "message": "Cyclic import (YukkiMusic -> YukkiMusic.core.telethon -> config -> config.config -> YukkiMusic.core.filters -> YukkiMusic.utils.database -> YukkiMusic.utils.database.assistantdatabase -> YukkiMusic.core.mongo)",
+        "message-id": "R0401"
+    },
+    {
+        "type": "refactor",
+        "module": "docs.conf",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "docs/conf.py",
+        "symbol": "cyclic-import",
+        "message": "Cyclic import (YukkiMusic -> YukkiMusic.core.git -> config -> config.config -> YukkiMusic.core.filters -> YukkiMusic.utils.database -> YukkiMusic.utils.database.assistantdatabase -> YukkiMusic.core.mongo)",
         "message-id": "R0401"
     }
 ]
