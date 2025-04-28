@@ -9,7 +9,7 @@
         "endColumn": null,
         "path": "docs/conf.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.admins.callback:[221:253]\n==YukkiMusic.plugins.admins.skip:[101:133]\n        track = check[0][\"track\"]\n        user = check[0][\"by\"]\n        url = (\n            f\"https://t.me/{tbot.username}?start=info_{track.vidid}\"\n            if track.is_youtube\n            else track.link\n        )\n        db[chat_id][0][\"played\"] = 0\n        mystic = await event.reply(_[\"call_8\"], link_preview=False)\n\n        try:\n            file_path = await track.download()\n            await Yukki.skip_stream(chat_id, file_path, video=track.video)\n\n        except Exception as e:\n            await tbot.handle_error(e, event)\n            return await mystic.edit(_[\"call_7\"])\n\n        what, button = play_markup(_, chat_id, track)\n\n        run = await event.respond(\n            file=track.thumb,\n            message=_[\"stream_1\"].format(\n                track.title[:27],\n                url,\n                seconds_to_min(track.duration),\n                user,\n            ),\n            buttons=button,\n        )\n        db[chat_id][0][\"mystic\"] = run\n        db[chat_id][0][\"markup\"] = what",
+        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.admins.callback:[221:253]\n==YukkiMusic.plugins.admins.skip:[101:133]\n    track = check[0][\"track\"]\n    user = check[0][\"by\"]\n    url = (\n        f\"https://t.me/{tbot.username}?start=info_{track.vidid}\"\n        if track.is_youtube\n        else track.link\n    )\n    db[chat_id][0][\"played\"] = 0\n    mystic = await event.reply(_[\"call_8\"], link_preview=False)\n\n    try:\n        file_path = await track.download()\n        await Yukki.skip_stream(chat_id, file_path, video=track.video)\n\n    except Exception as e:\n        await tbot.handle_error(e, event)\n        return await mystic.edit(_[\"call_7\"])\n\n    what, button = play_markup(_, chat_id, track)\n\n    run = await event.respond(\n        file=track.thumb,\n        message=_[\"stream_1\"].format(\n            track.title[:27],\n            url,\n            seconds_to_min(track.duration),\n            user,\n        ),\n        buttons=button,\n    )\n    db[chat_id][0][\"mystic\"] = run\n    db[chat_id][0][\"markup\"] = what",
         "message-id": "R0801"
     },
     {
@@ -113,7 +113,7 @@
         "endColumn": null,
         "path": "docs/conf.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.admins.callback:[321:329]\n==YukkiMusic.plugins.play.live:[25:34]\n        try:\n            return await event.answer(_[\"playcb_1\"], alert=True)\n        except Exception:\n            return\n    try:\n        chat_id, channel = await get_channeplay_cb(_, cplay, event)\n    except Exception:\n        return\n",
+        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.admins.callback:[321:329]\n==YukkiMusic.plugins.play.live:[25:34]\n        try:\n            return await event.answer(_[\"playcb_1\"], alert=True)\n        except Exception:\n            return\n    try:\n        chat_id, channel = await get_channeplay_cb(_, cplay, event)\n    except Exception:\n        return",
         "message-id": "R0801"
     },
     {
@@ -152,7 +152,7 @@
         "endColumn": null,
         "path": "docs/conf.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.play.play:[171:178]\n==YukkiMusic.plugins.play.stream:[39:46]\n                title=\"M3U8 or index Urls\",\n                link=url,\n                thumb=config.STREAM_IMG_URL,\n                duration=0,\n                streamtype=SourceType.M3U8,\n                video=video,\n            )",
+        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.play.play:[171:178]\n==YukkiMusic.plugins.play.stream:[39:46]\n            title=\"M3U8 or index Urls\",\n            link=url,\n            thumb=config.STREAM_IMG_URL,\n            duration=0,\n            streamtype=SourceType.M3U8,\n            video=video,\n        )",
         "message-id": "R0801"
     },
     {
@@ -204,7 +204,7 @@
         "endColumn": null,
         "path": "docs/conf.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.misc.autoleave:[89:97]\n==YukkiMusic.plugins.misc.seeker:[61:69]\n                            members.append(member)\n                except ValueError:\n                    try:\n                        await Yukki.stop_stream(chat_id)\n                    except Exception:\n                        pass\n                    continue\n",
+        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.misc.autoleave:[89:97]\n==YukkiMusic.plugins.misc.seeker:[61:69]\n                        members.append(member)\n            except ValueError:\n                try:\n                    await Yukki.stop_stream(chat_id)\n                except Exception:\n                    pass\n                continue\n",
         "message-id": "R0801"
     },
     {
@@ -217,7 +217,7 @@
         "endColumn": null,
         "path": "docs/conf.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.tools.queue:[47:54]\n==YukkiMusic.utils.decorators.admins:[60:67]\n        chat_id = await get_cmode(event.chat_id)\n        if chat_id is None:\n            return await event.reply(_[\"setting_12\"])\n        try:\n            await tbot.get_entity(chat_id)\n        except Exception:\n            return await event.reply(_[\"cplay_4\"])",
+        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.tools.queue:[47:54]\n==YukkiMusic.utils.decorators.admins:[60:67]\n            chat_id = await get_cmode(event.chat_id)\n            if chat_id is None:\n                return await event.reply(_[\"setting_12\"])\n            try:\n                await tbot.get_entity(chat_id)\n            except Exception:\n                return await event.reply(_[\"cplay_4\"])",
         "message-id": "R0801"
     },
     {
@@ -256,7 +256,7 @@
         "endColumn": null,
         "path": "docs/conf.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.admins.callback:[153:159]\n==YukkiMusic.plugins.admins.stop:[23:30]\n    try:\n        check = db.get(chat_id)\n        if check[0].get(\"mystic\"):\n            await check[0].get(\"mystic\").delete()\n    except Exception:\n        pass\n",
+        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.admins.callback:[153:159]\n==YukkiMusic.plugins.admins.stop:[23:30]\n        try:\n            check = db.get(chat_id)\n            if check[0].get(\"mystic\"):\n                await check[0].get(\"mystic\").delete()\n        except Exception:\n            pass",
         "message-id": "R0801"
     },
     {
@@ -295,7 +295,7 @@
         "endColumn": null,
         "path": "docs/conf.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==YukkiMusic.platforms.apple:[34:43]\n==YukkiMusic.platforms.spotify:[45:54]\n            \"playlist\": self.playlist,\n        }\n        for key, handler in handlers.items():\n            if key in url:\n                return await handler(url)\n        return None\n\n    @alru_cache(maxsize=None)\n    async def __track(self, link: str) -> Track:",
+        "message": "Similar lines in 2 files\n==YukkiMusic.platforms.apple:[34:43]\n==YukkiMusic.platforms.spotify:[45:54]\n            \"playlist\": self.playlist,\n        }\n        for key, handler in handlers.items():\n            if key in url:\n                return await handler(url)\n        return None\n\n    @alru_cache(maxsize=None)\n    async def __track(self, url: str) -> Track | bool:",
         "message-id": "R0801"
     },
     {
@@ -347,7 +347,7 @@
         "endColumn": null,
         "path": "docs/conf.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.play.toptracks:[54:59]\n==YukkiMusic.plugins.tools.queue:[126:136]\n    try:\n        await event.answer()\n    except Exception:\n        pass\n\n\n@tbot.on(events.CallbackQuery(\"GetQueued\", func=~BANNED_USERS))\n@language\nasync def queued_tracks(event, _):\n    callback_data = event.data.decode(\"utf-8\").strip()",
+        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.play.toptracks:[54:59]\n==YukkiMusic.plugins.tools.queue:[126:136]\n    try:\n        await event.answer()\n    except Exception:\n        pass\n    callback_data = event.data.decode(\"utf-8\").strip()",
         "message-id": "R0801"
     },
     {
@@ -386,7 +386,7 @@
         "endColumn": null,
         "path": "docs/conf.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.admins.callback:[295:300]\n==YukkiMusic.plugins.admins.seek:[78:83]\n        await Yukki.seek_stream(\n            chat_id,\n            file_path,\n            seconds_to_min(to_seek),\n            duration,",
+        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.admins.callback:[295:300]\n==YukkiMusic.plugins.admins.seek:[78:83]\n            await Yukki.seek_stream(\n                chat_id,\n                file_path,\n                seconds_to_min(to_seek),\n                duration,",
         "message-id": "R0801"
     },
     {
@@ -425,7 +425,7 @@
         "endColumn": null,
         "path": "docs/conf.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.sudo.maintenance:[25:30]\n==YukkiMusic.utils.decorators.admins:[42:47]\n    try:\n        language = await get_lang(event.chat_id)\n        _ = get_string(language)\n    except Exception:\n        _ = get_string(\"en\")",
+        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.sudo.maintenance:[25:30]\n==YukkiMusic.utils.decorators.admins:[42:47]\n        try:\n            language = await get_lang(event.chat_id)\n            _ = get_string(language)\n        except Exception:\n            _ = get_string(\"en\")",
         "message-id": "R0801"
     },
     {
