@@ -1,18 +1,5 @@
 [
     {
-        "type": "error",
-        "module": "YukkiMusic.utils.inline.play",
-        "obj": "",
-        "line": 15,
-        "column": 0,
-        "endLine": 15,
-        "endColumn": 41,
-        "path": "YukkiMusic/utils/inline/play.py",
-        "symbol": "no-name-in-module",
-        "message": "No name 'youtube' in module 'YukkiMusic.core'",
-        "message-id": "E0611"
-    },
-    {
         "type": "refactor",
         "module": "YukkiMusic.utils.inline.play",
         "obj": "get_progress_bar",
