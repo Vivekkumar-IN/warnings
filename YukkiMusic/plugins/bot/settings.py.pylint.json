@@ -1,18 +1,5 @@
 [
     {
-        "type": "convention",
-        "module": "YukkiMusic.plugins.bot.settings",
-        "obj": "",
-        "line": 15,
-        "column": 0,
-        "endLine": 15,
-        "endColumn": 27,
-        "path": "YukkiMusic/plugins/bot/settings.py",
-        "symbol": "ungrouped-imports",
-        "message": "Imports from package YukkiMusic are not grouped",
-        "message-id": "C0412"
-    },
-    {
         "type": "error",
         "module": "YukkiMusic.plugins.bot.settings",
         "obj": "settings_mar",

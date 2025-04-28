@@ -1,24 +1,11 @@
 [
     {
-        "type": "convention",
+        "type": "error",
         "module": "YukkiMusic.plugins.bot.help",
         "obj": "",
         "line": 19,
         "column": 0,
         "endLine": 19,
-        "endColumn": 27,
-        "path": "YukkiMusic/plugins/bot/help.py",
-        "symbol": "ungrouped-imports",
-        "message": "Imports from package YukkiMusic are not grouped",
-        "message-id": "C0412"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.bot.help",
-        "obj": "",
-        "line": 20,
-        "column": 0,
-        "endLine": 20,
         "endColumn": 42,
         "path": "YukkiMusic/plugins/bot/help.py",
         "symbol": "no-name-in-module",
