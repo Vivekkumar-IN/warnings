@@ -3,13 +3,52 @@
         "type": "error",
         "module": "YukkiMusic.core.mongo",
         "obj": "",
-        "line": 36,
-        "column": 51,
+        "line": 16,
+        "column": 0,
+        "endLine": 16,
+        "endColumn": 28,
+        "path": "YukkiMusic/core/mongo.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'LOGGER' in module 'YukkiMusic.logging'",
+        "message-id": "E0611"
+    },
+    {
+        "type": "convention",
+        "module": "YukkiMusic.core.mongo",
+        "obj": "",
+        "line": 18,
+        "column": 0,
         "endLine": null,
         "endColumn": null,
         "path": "YukkiMusic/core/mongo.py",
-        "symbol": "syntax-error",
-        "message": "Parsing failed: 'unmatched ')' (YukkiMusic.core.mongo, line 36)'",
-        "message-id": "E0001"
+        "symbol": "line-too-long",
+        "message": "Line too long (138/100)",
+        "message-id": "C0301"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.core.mongo",
+        "obj": "",
+        "line": 39,
+        "column": 20,
+        "endLine": 39,
+        "endColumn": 34,
+        "path": "YukkiMusic/core/mongo.py",
+        "symbol": "undefined-variable",
+        "message": "Undefined variable '_mongo_client_'",
+        "message-id": "E0602"
+    },
+    {
+        "type": "convention",
+        "module": "YukkiMusic.core.mongo",
+        "obj": "",
+        "line": 40,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "YukkiMusic/core/mongo.py",
+        "symbol": "missing-final-newline",
+        "message": "Final newline missing",
+        "message-id": "C0304"
     }
 ]
