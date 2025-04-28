@@ -1,18 +1,5 @@
 [
     {
-        "type": "convention",
-        "module": "YukkiMusic.plugins.sudo.maintenance",
-        "obj": "",
-        "line": 14,
-        "column": 0,
-        "endLine": 14,
-        "endColumn": 27,
-        "path": "YukkiMusic/plugins/sudo/maintenance.py",
-        "symbol": "ungrouped-imports",
-        "message": "Imports from package YukkiMusic are not grouped",
-        "message-id": "C0412"
-    },
-    {
         "type": "error",
         "module": "YukkiMusic.plugins.sudo.maintenance",
         "obj": "maintenance",
