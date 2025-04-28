@@ -1,5 +1,18 @@
 [
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.tools.lyrics",
+        "obj": "",
+        "line": 17,
+        "column": 0,
+        "endLine": 17,
+        "endColumn": 40,
+        "path": "YukkiMusic/plugins/tools/lyrics.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'BANNED_USERS' in module 'config'",
+        "message-id": "E0611"
+    },
+    {
         "type": "convention",
         "module": "YukkiMusic.plugins.tools.lyrics",
         "obj": "",

@@ -2,6 +2,19 @@
     {
         "type": "error",
         "module": "YukkiMusic.plugins.sudo.maintenance",
+        "obj": "",
+        "line": 12,
+        "column": 0,
+        "endLine": 12,
+        "endColumn": 26,
+        "path": "YukkiMusic/plugins/sudo/maintenance.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'SUDOERS' in module 'config'",
+        "message-id": "E0611"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.sudo.maintenance",
         "obj": "maintenance",
         "line": 24,
         "column": 64,

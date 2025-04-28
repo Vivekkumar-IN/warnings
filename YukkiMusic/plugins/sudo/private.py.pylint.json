@@ -15,19 +15,6 @@
     {
         "type": "error",
         "module": "YukkiMusic.plugins.sudo.private",
-        "obj": "",
-        "line": 15,
-        "column": 0,
-        "endLine": 15,
-        "endColumn": 35,
-        "path": "YukkiMusic/plugins/sudo/private.py",
-        "symbol": "no-name-in-module",
-        "message": "No name 'SUDOERS' in module 'YukkiMusic.misc'",
-        "message-id": "E0611"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.sudo.private",
         "obj": "authorize",
         "line": 25,
         "column": 58,

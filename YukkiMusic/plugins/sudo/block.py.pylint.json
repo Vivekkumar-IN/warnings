@@ -3,13 +3,13 @@
         "type": "error",
         "module": "YukkiMusic.plugins.sudo.block",
         "obj": "",
-        "line": 14,
+        "line": 11,
         "column": 0,
-        "endLine": 14,
-        "endColumn": 35,
+        "endLine": 11,
+        "endColumn": 31,
         "path": "YukkiMusic/plugins/sudo/block.py",
         "symbol": "no-name-in-module",
-        "message": "No name 'SUDOERS' in module 'YukkiMusic.misc'",
+        "message": "No name 'BANNED_USERS' in module 'config'",
         "message-id": "E0611"
     },
     {

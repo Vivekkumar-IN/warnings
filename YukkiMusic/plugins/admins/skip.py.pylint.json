@@ -1,5 +1,18 @@
 [
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.admins.skip",
+        "obj": "skip",
+        "line": 24,
+        "column": 66,
+        "endLine": 24,
+        "endColumn": 85,
+        "path": "YukkiMusic/plugins/admins/skip.py",
+        "symbol": "no-member",
+        "message": "Module 'config' has no 'BANNED_USERS' member",
+        "message-id": "E1101"
+    },
+    {
         "type": "refactor",
         "module": "YukkiMusic.plugins.admins.skip",
         "obj": "skip",

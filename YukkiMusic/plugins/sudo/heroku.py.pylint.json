@@ -13,6 +13,19 @@
         "message-id": "E1101"
     },
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.sudo.heroku",
+        "obj": "log_",
+        "line": 43,
+        "column": 72,
+        "endLine": 43,
+        "endColumn": 86,
+        "path": "YukkiMusic/plugins/sudo/heroku.py",
+        "symbol": "no-member",
+        "message": "Module 'config' has no 'SUDOERS' member",
+        "message-id": "E1101"
+    },
+    {
         "type": "warning",
         "module": "YukkiMusic.plugins.sudo.heroku",
         "obj": "log_._get_log",
@@ -39,6 +52,19 @@
         "message-id": "E1101"
     },
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.sudo.heroku",
+        "obj": "varget_",
+        "line": 77,
+        "column": 72,
+        "endLine": 77,
+        "endColumn": 86,
+        "path": "YukkiMusic/plugins/sudo/heroku.py",
+        "symbol": "no-member",
+        "message": "Module 'config' has no 'SUDOERS' member",
+        "message-id": "E1101"
+    },
+    {
         "type": "refactor",
         "module": "YukkiMusic.plugins.sudo.heroku",
         "obj": "varget_",
@@ -62,6 +88,19 @@
         "path": "YukkiMusic/plugins/sudo/heroku.py",
         "symbol": "no-member",
         "message": "Module 'YukkiMusic.core.filters' has no 'user' member; maybe 'User'?",
+        "message-id": "E1101"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.sudo.heroku",
+        "obj": "vardel_",
+        "line": 103,
+        "column": 72,
+        "endLine": 103,
+        "endColumn": 86,
+        "path": "YukkiMusic/plugins/sudo/heroku.py",
+        "symbol": "no-member",
+        "message": "Module 'config' has no 'SUDOERS' member",
         "message-id": "E1101"
     },
     {
@@ -93,6 +132,19 @@
     {
         "type": "error",
         "module": "YukkiMusic.plugins.sudo.heroku",
+        "obj": "set_var",
+        "line": 131,
+        "column": 72,
+        "endLine": 131,
+        "endColumn": 86,
+        "path": "YukkiMusic/plugins/sudo/heroku.py",
+        "symbol": "no-member",
+        "message": "Module 'config' has no 'SUDOERS' member",
+        "message-id": "E1101"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.sudo.heroku",
         "obj": "usage_dynos",
         "line": 160,
         "column": 58,
@@ -101,6 +153,19 @@
         "path": "YukkiMusic/plugins/sudo/heroku.py",
         "symbol": "no-member",
         "message": "Module 'YukkiMusic.core.filters' has no 'user' member; maybe 'User'?",
+        "message-id": "E1101"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.sudo.heroku",
+        "obj": "usage_dynos",
+        "line": 160,
+        "column": 71,
+        "endLine": 160,
+        "endColumn": 85,
+        "path": "YukkiMusic/plugins/sudo/heroku.py",
+        "symbol": "no-member",
+        "message": "Module 'config' has no 'SUDOERS' member",
         "message-id": "E1101"
     },
     {
@@ -127,6 +192,19 @@
         "path": "YukkiMusic/plugins/sudo/heroku.py",
         "symbol": "no-member",
         "message": "Module 'YukkiMusic.core.filters' has no 'user' member; maybe 'User'?",
+        "message-id": "E1101"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.sudo.heroku",
+        "obj": "update_",
+        "line": 219,
+        "column": 72,
+        "endLine": 219,
+        "endColumn": 86,
+        "path": "YukkiMusic/plugins/sudo/heroku.py",
+        "symbol": "no-member",
+        "message": "Module 'config' has no 'SUDOERS' member",
         "message-id": "E1101"
     },
     {
@@ -236,6 +314,19 @@
     {
         "type": "error",
         "module": "YukkiMusic.plugins.sudo.heroku",
+        "obj": "reboot",
+        "line": 319,
+        "column": 20,
+        "endLine": 319,
+        "endColumn": 39,
+        "path": "YukkiMusic/plugins/sudo/heroku.py",
+        "symbol": "no-member",
+        "message": "Module 'config' has no 'BANNED_USERS' member",
+        "message-id": "E1101"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.sudo.heroku",
         "obj": "restart_",
         "line": 343,
         "column": 48,
@@ -244,6 +335,32 @@
         "path": "YukkiMusic/plugins/sudo/heroku.py",
         "symbol": "no-member",
         "message": "Module 'YukkiMusic.core.filters' has no 'user' member; maybe 'User'?",
+        "message-id": "E1101"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.sudo.heroku",
+        "obj": "restart_",
+        "line": 343,
+        "column": 61,
+        "endLine": 343,
+        "endColumn": 80,
+        "path": "YukkiMusic/plugins/sudo/heroku.py",
+        "symbol": "no-member",
+        "message": "Module 'config' has no 'BANNED_USERS' member",
+        "message-id": "E1101"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.sudo.heroku",
+        "obj": "restart_",
+        "line": 346,
+        "column": 30,
+        "endLine": 346,
+        "endColumn": 44,
+        "path": "YukkiMusic/plugins/sudo/heroku.py",
+        "symbol": "no-member",
+        "message": "Module 'config' has no 'SUDOERS' member",
         "message-id": "E1101"
     },
     {

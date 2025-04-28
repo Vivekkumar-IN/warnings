@@ -11,5 +11,44 @@
         "symbol": "no-name-in-module",
         "message": "No name 'language' in module 'YukkiMusic.core'",
         "message-id": "E0611"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.tools.active",
+        "obj": "active_audio",
+        "line": 17,
+        "column": 61,
+        "endLine": 17,
+        "endColumn": 75,
+        "path": "YukkiMusic/plugins/tools/active.py",
+        "symbol": "no-member",
+        "message": "Module 'config' has no 'SUDOERS' member",
+        "message-id": "E1101"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.tools.active",
+        "obj": "active_video",
+        "line": 48,
+        "column": 64,
+        "endLine": 48,
+        "endColumn": 78,
+        "path": "YukkiMusic/plugins/tools/active.py",
+        "symbol": "no-member",
+        "message": "Module 'config' has no 'SUDOERS' member",
+        "message-id": "E1101"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.tools.active",
+        "obj": "ac_counts",
+        "line": 76,
+        "column": 55,
+        "endLine": 76,
+        "endColumn": 69,
+        "path": "YukkiMusic/plugins/tools/active.py",
+        "symbol": "no-member",
+        "message": "Module 'config' has no 'SUDOERS' member",
+        "message-id": "E1101"
     }
 ]

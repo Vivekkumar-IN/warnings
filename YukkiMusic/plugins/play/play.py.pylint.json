@@ -1,5 +1,18 @@
 [
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.play.play",
+        "obj": "",
+        "line": 15,
+        "column": 0,
+        "endLine": 15,
+        "endColumn": 31,
+        "path": "YukkiMusic/plugins/play/play.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'BANNED_USERS' in module 'config'",
+        "message-id": "E0611"
+    },
+    {
         "type": "refactor",
         "module": "YukkiMusic.plugins.play.play",
         "obj": "play_commnd",

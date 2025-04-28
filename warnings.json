@@ -16,9 +16,9 @@
         "type": "refactor",
         "module": "YukkiMusic.misc",
         "obj": "",
-        "line": 19,
+        "line": 23,
         "column": 5,
-        "endLine": 19,
+        "endLine": 23,
         "endColumn": 11,
         "path": "YukkiMusic/misc.py",
         "symbol": "use-dict-literal",
@@ -29,14 +29,79 @@
         "type": "convention",
         "module": "YukkiMusic.misc",
         "obj": "",
-        "line": 20,
+        "line": 24,
         "column": 0,
-        "endLine": 20,
+        "endLine": 24,
         "endColumn": 4,
         "path": "YukkiMusic/misc.py",
         "symbol": "invalid-name",
         "message": "Variable name \"HAPP\" doesn't conform to snake_case naming style",
         "message-id": "C0103"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.misc",
+        "obj": "sudo",
+        "line": 35,
+        "column": 12,
+        "endLine": 35,
+        "endColumn": 26,
+        "path": "YukkiMusic/misc.py",
+        "symbol": "no-member",
+        "message": "Module 'config' has no 'SUDOERS' member",
+        "message-id": "E1101"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.misc",
+        "obj": "sudo",
+        "line": 41,
+        "column": 12,
+        "endLine": 41,
+        "endColumn": 26,
+        "path": "YukkiMusic/misc.py",
+        "symbol": "no-member",
+        "message": "Module 'config' has no 'SUDOERS' member",
+        "message-id": "E1101"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.misc",
+        "obj": "sudo",
+        "line": 51,
+        "column": 16,
+        "endLine": 51,
+        "endColumn": 30,
+        "path": "YukkiMusic/misc.py",
+        "symbol": "no-member",
+        "message": "Module 'config' has no 'SUDOERS' member",
+        "message-id": "E1101"
+    },
+    {
+        "type": "convention",
+        "module": "YukkiMusic.misc",
+        "obj": "",
+        "line": 18,
+        "column": 0,
+        "endLine": 18,
+        "endColumn": 40,
+        "path": "YukkiMusic/misc.py",
+        "symbol": "wrong-import-order",
+        "message": "first party import \"YukkiMusic.core.filters.User\" should be placed before local import \"logging.logger\"",
+        "message-id": "C0411"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.__main__",
+        "obj": "",
+        "line": 16,
+        "column": 0,
+        "endLine": 16,
+        "endColumn": 46,
+        "path": "YukkiMusic/__main__.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'BANNED_USERS' in module 'config'",
+        "message-id": "E0611"
     },
     {
         "type": "error",
@@ -132,19 +197,6 @@
     {
         "type": "error",
         "module": "YukkiMusic.utils.decorators.admins",
-        "obj": "",
-        "line": 17,
-        "column": 0,
-        "endLine": 17,
-        "endColumn": 35,
-        "path": "YukkiMusic/utils/decorators/admins.py",
-        "symbol": "no-name-in-module",
-        "message": "No name 'SUDOERS' in module 'YukkiMusic.misc'",
-        "message-id": "E0611"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.utils.decorators.admins",
         "obj": "admin_rights_check.wrapper",
         "line": 58,
         "column": 28,
@@ -221,19 +273,6 @@
         "message-id": "E0602"
     },
     {
-        "type": "error",
-        "module": "YukkiMusic.utils.decorators.language",
-        "obj": "",
-        "line": 14,
-        "column": 0,
-        "endLine": 14,
-        "endColumn": 35,
-        "path": "YukkiMusic/utils/decorators/language.py",
-        "symbol": "no-name-in-module",
-        "message": "No name 'SUDOERS' in module 'YukkiMusic.misc'",
-        "message-id": "E0611"
-    },
-    {
         "type": "warning",
         "module": "YukkiMusic.utils.decorators.language",
         "obj": "language",
@@ -283,19 +322,6 @@
         "path": "YukkiMusic/utils/decorators/play.py",
         "symbol": "no-name-in-module",
         "message": "No name 'app' in module 'YukkiMusic'",
-        "message-id": "E0611"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.utils.decorators.play",
-        "obj": "",
-        "line": 18,
-        "column": 0,
-        "endLine": 18,
-        "endColumn": 35,
-        "path": "YukkiMusic/utils/decorators/play.py",
-        "symbol": "no-name-in-module",
-        "message": "No name 'SUDOERS' in module 'YukkiMusic.misc'",
         "message-id": "E0611"
     },
     {
@@ -2693,19 +2719,6 @@
     {
         "type": "error",
         "module": "YukkiMusic.plugins.sudo.videolimit",
-        "obj": "",
-        "line": 13,
-        "column": 0,
-        "endLine": 13,
-        "endColumn": 35,
-        "path": "YukkiMusic/plugins/sudo/videolimit.py",
-        "symbol": "no-name-in-module",
-        "message": "No name 'SUDOERS' in module 'YukkiMusic.misc'",
-        "message-id": "E0611"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.sudo.videolimit",
         "obj": "set_video_limit_kid",
         "line": 17,
         "column": 1,
@@ -2741,6 +2754,32 @@
         "symbol": "line-too-long",
         "message": "Line too long (165/100)",
         "message-id": "C0301"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.sudo.sudoers",
+        "obj": "",
+        "line": 10,
+        "column": 0,
+        "endLine": 10,
+        "endColumn": 64,
+        "path": "YukkiMusic/plugins/sudo/sudoers.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'BANNED_USERS' in module 'config'",
+        "message-id": "E0611"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.sudo.sudoers",
+        "obj": "",
+        "line": 10,
+        "column": 0,
+        "endLine": 10,
+        "endColumn": 64,
+        "path": "YukkiMusic/plugins/sudo/sudoers.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'SUDOERS' in module 'config'",
+        "message-id": "E0611"
     },
     {
         "type": "error",
@@ -2824,13 +2863,13 @@
         "type": "error",
         "module": "YukkiMusic.plugins.sudo.block",
         "obj": "",
-        "line": 14,
+        "line": 11,
         "column": 0,
-        "endLine": 14,
-        "endColumn": 35,
+        "endLine": 11,
+        "endColumn": 31,
         "path": "YukkiMusic/plugins/sudo/block.py",
         "symbol": "no-name-in-module",
-        "message": "No name 'SUDOERS' in module 'YukkiMusic.misc'",
+        "message": "No name 'BANNED_USERS' in module 'config'",
         "message-id": "E0611"
     },
     {
@@ -2901,6 +2940,19 @@
     {
         "type": "error",
         "module": "YukkiMusic.plugins.sudo.maintenance",
+        "obj": "",
+        "line": 12,
+        "column": 0,
+        "endLine": 12,
+        "endColumn": 26,
+        "path": "YukkiMusic/plugins/sudo/maintenance.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'SUDOERS' in module 'config'",
+        "message-id": "E0611"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.sudo.maintenance",
         "obj": "maintenance",
         "line": 24,
         "column": 64,
@@ -2927,19 +2979,6 @@
     {
         "type": "error",
         "module": "YukkiMusic.plugins.sudo.autoend",
-        "obj": "",
-        "line": 13,
-        "column": 0,
-        "endLine": 13,
-        "endColumn": 35,
-        "path": "YukkiMusic/plugins/sudo/autoend.py",
-        "symbol": "no-name-in-module",
-        "message": "No name 'SUDOERS' in module 'YukkiMusic.misc'",
-        "message-id": "E0611"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.sudo.autoend",
         "obj": "auto_end_stream",
         "line": 17,
         "column": 56,
@@ -2949,19 +2988,6 @@
         "symbol": "no-member",
         "message": "Module 'YukkiMusic.core.filters' has no 'user' member; maybe 'User'?",
         "message-id": "E1101"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.sudo.logger",
-        "obj": "",
-        "line": 12,
-        "column": 0,
-        "endLine": 12,
-        "endColumn": 35,
-        "path": "YukkiMusic/plugins/sudo/logger.py",
-        "symbol": "no-name-in-module",
-        "message": "No name 'SUDOERS' in module 'YukkiMusic.misc'",
-        "message-id": "E0611"
     },
     {
         "type": "error",
@@ -3042,6 +3068,19 @@
         "message-id": "E1101"
     },
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.sudo.heroku",
+        "obj": "log_",
+        "line": 43,
+        "column": 72,
+        "endLine": 43,
+        "endColumn": 86,
+        "path": "YukkiMusic/plugins/sudo/heroku.py",
+        "symbol": "no-member",
+        "message": "Module 'config' has no 'SUDOERS' member",
+        "message-id": "E1101"
+    },
+    {
         "type": "warning",
         "module": "YukkiMusic.plugins.sudo.heroku",
         "obj": "log_._get_log",
@@ -3065,6 +3104,19 @@
         "path": "YukkiMusic/plugins/sudo/heroku.py",
         "symbol": "no-member",
         "message": "Module 'YukkiMusic.core.filters' has no 'user' member; maybe 'User'?",
+        "message-id": "E1101"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.sudo.heroku",
+        "obj": "varget_",
+        "line": 77,
+        "column": 72,
+        "endLine": 77,
+        "endColumn": 86,
+        "path": "YukkiMusic/plugins/sudo/heroku.py",
+        "symbol": "no-member",
+        "message": "Module 'config' has no 'SUDOERS' member",
         "message-id": "E1101"
     },
     {
@@ -3094,6 +3146,19 @@
         "message-id": "E1101"
     },
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.sudo.heroku",
+        "obj": "vardel_",
+        "line": 103,
+        "column": 72,
+        "endLine": 103,
+        "endColumn": 86,
+        "path": "YukkiMusic/plugins/sudo/heroku.py",
+        "symbol": "no-member",
+        "message": "Module 'config' has no 'SUDOERS' member",
+        "message-id": "E1101"
+    },
+    {
         "type": "refactor",
         "module": "YukkiMusic.plugins.sudo.heroku",
         "obj": "vardel_",
@@ -3117,6 +3182,19 @@
         "path": "YukkiMusic/plugins/sudo/heroku.py",
         "symbol": "no-member",
         "message": "Module 'YukkiMusic.core.filters' has no 'user' member; maybe 'User'?",
+        "message-id": "E1101"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.sudo.heroku",
+        "obj": "set_var",
+        "line": 131,
+        "column": 72,
+        "endLine": 131,
+        "endColumn": 86,
+        "path": "YukkiMusic/plugins/sudo/heroku.py",
+        "symbol": "no-member",
+        "message": "Module 'config' has no 'SUDOERS' member",
         "message-id": "E1101"
     },
     {
@@ -3148,6 +3226,19 @@
     {
         "type": "error",
         "module": "YukkiMusic.plugins.sudo.heroku",
+        "obj": "usage_dynos",
+        "line": 160,
+        "column": 71,
+        "endLine": 160,
+        "endColumn": 85,
+        "path": "YukkiMusic/plugins/sudo/heroku.py",
+        "symbol": "no-member",
+        "message": "Module 'config' has no 'SUDOERS' member",
+        "message-id": "E1101"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.sudo.heroku",
         "obj": "update_",
         "line": 219,
         "column": 59,
@@ -3156,6 +3247,19 @@
         "path": "YukkiMusic/plugins/sudo/heroku.py",
         "symbol": "no-member",
         "message": "Module 'YukkiMusic.core.filters' has no 'user' member; maybe 'User'?",
+        "message-id": "E1101"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.sudo.heroku",
+        "obj": "update_",
+        "line": 219,
+        "column": 72,
+        "endLine": 219,
+        "endColumn": 86,
+        "path": "YukkiMusic/plugins/sudo/heroku.py",
+        "symbol": "no-member",
+        "message": "Module 'config' has no 'SUDOERS' member",
         "message-id": "E1101"
     },
     {
@@ -3239,6 +3343,19 @@
     {
         "type": "error",
         "module": "YukkiMusic.plugins.sudo.heroku",
+        "obj": "reboot",
+        "line": 319,
+        "column": 20,
+        "endLine": 319,
+        "endColumn": 39,
+        "path": "YukkiMusic/plugins/sudo/heroku.py",
+        "symbol": "no-member",
+        "message": "Module 'config' has no 'BANNED_USERS' member",
+        "message-id": "E1101"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.sudo.heroku",
         "obj": "restart_",
         "line": 343,
         "column": 48,
@@ -3247,6 +3364,32 @@
         "path": "YukkiMusic/plugins/sudo/heroku.py",
         "symbol": "no-member",
         "message": "Module 'YukkiMusic.core.filters' has no 'user' member; maybe 'User'?",
+        "message-id": "E1101"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.sudo.heroku",
+        "obj": "restart_",
+        "line": 343,
+        "column": 61,
+        "endLine": 343,
+        "endColumn": 80,
+        "path": "YukkiMusic/plugins/sudo/heroku.py",
+        "symbol": "no-member",
+        "message": "Module 'config' has no 'BANNED_USERS' member",
+        "message-id": "E1101"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.sudo.heroku",
+        "obj": "restart_",
+        "line": 346,
+        "column": 30,
+        "endLine": 346,
+        "endColumn": 44,
+        "path": "YukkiMusic/plugins/sudo/heroku.py",
+        "symbol": "no-member",
+        "message": "Module 'config' has no 'SUDOERS' member",
         "message-id": "E1101"
     },
     {
@@ -3274,19 +3417,6 @@
         "symbol": "line-too-long",
         "message": "Line too long (102/100)",
         "message-id": "C0301"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.sudo.dev",
-        "obj": "",
-        "line": 25,
-        "column": 0,
-        "endLine": 25,
-        "endColumn": 35,
-        "path": "YukkiMusic/plugins/sudo/dev.py",
-        "symbol": "no-name-in-module",
-        "message": "No name 'SUDOERS' in module 'YukkiMusic.misc'",
-        "message-id": "E0611"
     },
     {
         "type": "warning",
@@ -3435,13 +3565,13 @@
         "type": "error",
         "module": "YukkiMusic.plugins.sudo.blacklistchat",
         "obj": "",
-        "line": 14,
+        "line": 11,
         "column": 0,
-        "endLine": 14,
-        "endColumn": 35,
+        "endLine": 11,
+        "endColumn": 31,
         "path": "YukkiMusic/plugins/sudo/blacklistchat.py",
         "symbol": "no-name-in-module",
-        "message": "No name 'SUDOERS' in module 'YukkiMusic.misc'",
+        "message": "No name 'BANNED_USERS' in module 'config'",
         "message-id": "E0611"
     },
     {
@@ -3500,13 +3630,13 @@
         "type": "error",
         "module": "YukkiMusic.plugins.sudo.globalban",
         "obj": "",
-        "line": 18,
+        "line": 15,
         "column": 0,
-        "endLine": 18,
-        "endColumn": 35,
+        "endLine": 15,
+        "endColumn": 31,
         "path": "YukkiMusic/plugins/sudo/globalban.py",
         "symbol": "no-name-in-module",
-        "message": "No name 'SUDOERS' in module 'YukkiMusic.misc'",
+        "message": "No name 'BANNED_USERS' in module 'config'",
         "message-id": "E0611"
     },
     {
@@ -3576,19 +3706,6 @@
     },
     {
         "type": "error",
-        "module": "YukkiMusic.plugins.sudo.videomode",
-        "obj": "",
-        "line": 15,
-        "column": 0,
-        "endLine": 15,
-        "endColumn": 35,
-        "path": "YukkiMusic/plugins/sudo/videomode.py",
-        "symbol": "no-name-in-module",
-        "message": "No name 'SUDOERS' in module 'YukkiMusic.misc'",
-        "message-id": "E0611"
-    },
-    {
-        "type": "error",
         "module": "YukkiMusic.plugins.sudo.private",
         "obj": "",
         "line": 13,
@@ -3598,19 +3715,6 @@
         "path": "YukkiMusic/plugins/sudo/private.py",
         "symbol": "no-name-in-module",
         "message": "No name 'app' in module 'YukkiMusic'",
-        "message-id": "E0611"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.sudo.private",
-        "obj": "",
-        "line": 15,
-        "column": 0,
-        "endLine": 15,
-        "endColumn": 35,
-        "path": "YukkiMusic/plugins/sudo/private.py",
-        "symbol": "no-name-in-module",
-        "message": "No name 'SUDOERS' in module 'YukkiMusic.misc'",
         "message-id": "E0611"
     },
     {
@@ -3707,15 +3811,41 @@
     {
         "type": "error",
         "module": "YukkiMusic.plugins.admins.callback",
-        "obj": "",
-        "line": 17,
-        "column": 0,
-        "endLine": 17,
-        "endColumn": 39,
+        "obj": "markup_panel",
+        "line": 50,
+        "column": 51,
+        "endLine": 50,
+        "endColumn": 70,
         "path": "YukkiMusic/plugins/admins/callback.py",
-        "symbol": "no-name-in-module",
-        "message": "No name 'SUDOERS' in module 'YukkiMusic.misc'",
-        "message-id": "E0611"
+        "symbol": "no-member",
+        "message": "Module 'config' has no 'BANNED_USERS' member",
+        "message-id": "E1101"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.admins.callback",
+        "obj": "main_markup_",
+        "line": 68,
+        "column": 50,
+        "endLine": 68,
+        "endColumn": 69,
+        "path": "YukkiMusic/plugins/admins/callback.py",
+        "symbol": "no-member",
+        "message": "Module 'config' has no 'BANNED_USERS' member",
+        "message-id": "E1101"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.admins.callback",
+        "obj": "pages_markup",
+        "line": 89,
+        "column": 45,
+        "endLine": 89,
+        "endColumn": 64,
+        "path": "YukkiMusic/plugins/admins/callback.py",
+        "symbol": "no-member",
+        "message": "Module 'config' has no 'BANNED_USERS' member",
+        "message-id": "E1101"
     },
     {
         "type": "error",
@@ -3742,6 +3872,19 @@
         "symbol": "too-many-locals",
         "message": "Too many local variables (29/15)",
         "message-id": "R0914"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.admins.callback",
+        "obj": "admin_callback",
+        "line": 118,
+        "column": 45,
+        "endLine": 118,
+        "endColumn": 64,
+        "path": "YukkiMusic/plugins/admins/callback.py",
+        "symbol": "no-member",
+        "message": "Module 'config' has no 'BANNED_USERS' member",
+        "message-id": "E1101"
     },
     {
         "type": "refactor",
@@ -3825,6 +3968,19 @@
         "type": "error",
         "module": "YukkiMusic.plugins.admins.callback",
         "obj": "play_music",
+        "line": 314,
+        "column": 51,
+        "endLine": 314,
+        "endColumn": 70,
+        "path": "YukkiMusic/plugins/admins/callback.py",
+        "symbol": "no-member",
+        "message": "Module 'config' has no 'BANNED_USERS' member",
+        "message-id": "E1101"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.admins.callback",
+        "obj": "play_music",
         "line": 363,
         "column": 14,
         "endLine": 374,
@@ -3887,6 +4043,19 @@
         "message-id": "R0911"
     },
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.admins.callback",
+        "obj": "anonymous_check",
+        "line": 382,
+        "column": 54,
+        "endLine": 382,
+        "endColumn": 73,
+        "path": "YukkiMusic/plugins/admins/callback.py",
+        "symbol": "no-member",
+        "message": "Module 'config' has no 'BANNED_USERS' member",
+        "message-id": "E1101"
+    },
+    {
         "type": "refactor",
         "module": "YukkiMusic.plugins.admins.callback",
         "obj": "play_playlists_cb",
@@ -3898,6 +4067,19 @@
         "symbol": "too-many-locals",
         "message": "Too many local variables (22/15)",
         "message-id": "R0914"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.admins.callback",
+        "obj": "play_playlists_cb",
+        "line": 394,
+        "column": 54,
+        "endLine": 394,
+        "endColumn": 73,
+        "path": "YukkiMusic/plugins/admins/callback.py",
+        "symbol": "no-member",
+        "message": "Module 'config' has no 'BANNED_USERS' member",
+        "message-id": "E1101"
     },
     {
         "type": "error",
@@ -4030,6 +4212,45 @@
         "message-id": "W0612"
     },
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.admins.callback",
+        "obj": "slider_queries",
+        "line": 479,
+        "column": 46,
+        "endLine": 479,
+        "endColumn": 65,
+        "path": "YukkiMusic/plugins/admins/callback.py",
+        "symbol": "no-member",
+        "message": "Module 'config' has no 'BANNED_USERS' member",
+        "message-id": "E1101"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.admins.callback",
+        "obj": "close_menu",
+        "line": 544,
+        "column": 45,
+        "endLine": 544,
+        "endColumn": 64,
+        "path": "YukkiMusic/plugins/admins/callback.py",
+        "symbol": "no-member",
+        "message": "Module 'config' has no 'BANNED_USERS' member",
+        "message-id": "E1101"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.admins.callback",
+        "obj": "stop_download",
+        "line": 550,
+        "column": 56,
+        "endLine": 550,
+        "endColumn": 75,
+        "path": "YukkiMusic/plugins/admins/callback.py",
+        "symbol": "no-member",
+        "message": "Module 'config' has no 'BANNED_USERS' member",
+        "message-id": "E1101"
+    },
+    {
         "type": "refactor",
         "module": "YukkiMusic.plugins.admins.callback",
         "obj": "stop_download",
@@ -4045,6 +4266,19 @@
     {
         "type": "error",
         "module": "YukkiMusic.plugins.admins.pause",
+        "obj": "",
+        "line": 10,
+        "column": 0,
+        "endLine": 10,
+        "endColumn": 31,
+        "path": "YukkiMusic/plugins/admins/pause.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'BANNED_USERS' in module 'config'",
+        "message-id": "E0611"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.admins.pause",
         "obj": "pause_admin",
         "line": 19,
         "column": 54,
@@ -4054,6 +4288,19 @@
         "symbol": "no-member",
         "message": "Module 'YukkiMusic.core.filters' has no 'user' member; maybe 'User'?",
         "message-id": "E1101"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.admins.seek",
+        "obj": "",
+        "line": 10,
+        "column": 0,
+        "endLine": 10,
+        "endColumn": 31,
+        "path": "YukkiMusic/plugins/admins/seek.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'BANNED_USERS' in module 'config'",
+        "message-id": "E0611"
     },
     {
         "type": "error",
@@ -4110,6 +4357,19 @@
     {
         "type": "error",
         "module": "YukkiMusic.plugins.admins.loop",
+        "obj": "",
+        "line": 12,
+        "column": 0,
+        "endLine": 12,
+        "endColumn": 31,
+        "path": "YukkiMusic/plugins/admins/loop.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'BANNED_USERS' in module 'config'",
+        "message-id": "E0611"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.admins.loop",
         "obj": "admins",
         "line": 20,
         "column": 53,
@@ -4162,6 +4422,19 @@
     {
         "type": "error",
         "module": "YukkiMusic.plugins.admins.mute",
+        "obj": "",
+        "line": 12,
+        "column": 0,
+        "endLine": 12,
+        "endColumn": 31,
+        "path": "YukkiMusic/plugins/admins/mute.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'BANNED_USERS' in module 'config'",
+        "message-id": "E0611"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.admins.mute",
         "obj": "mute_admin",
         "line": 20,
         "column": 60,
@@ -4175,6 +4448,19 @@
     {
         "type": "error",
         "module": "YukkiMusic.plugins.admins.shuffle",
+        "obj": "",
+        "line": 13,
+        "column": 0,
+        "endLine": 13,
+        "endColumn": 31,
+        "path": "YukkiMusic/plugins/admins/shuffle.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'BANNED_USERS' in module 'config'",
+        "message-id": "E0611"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.admins.shuffle",
         "obj": "admins",
         "line": 21,
         "column": 56,
@@ -4184,6 +4470,19 @@
         "symbol": "no-member",
         "message": "Module 'YukkiMusic.core.filters' has no 'user' member; maybe 'User'?",
         "message-id": "E1101"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.admins.auth",
+        "obj": "",
+        "line": 12,
+        "column": 0,
+        "endLine": 12,
+        "endColumn": 42,
+        "path": "YukkiMusic/plugins/admins/auth.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'BANNED_USERS' in module 'config'",
+        "message-id": "E0611"
     },
     {
         "type": "error",
@@ -4292,6 +4591,19 @@
     {
         "type": "error",
         "module": "YukkiMusic.plugins.admins.resume",
+        "obj": "",
+        "line": 11,
+        "column": 0,
+        "endLine": 11,
+        "endColumn": 31,
+        "path": "YukkiMusic/plugins/admins/resume.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'BANNED_USERS' in module 'config'",
+        "message-id": "E0611"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.admins.resume",
         "obj": "resume_com",
         "line": 20,
         "column": 55,
@@ -4314,6 +4626,19 @@
         "symbol": "too-many-locals",
         "message": "Too many local variables (17/15)",
         "message-id": "R0914"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.admins.skip",
+        "obj": "skip",
+        "line": 24,
+        "column": 66,
+        "endLine": 24,
+        "endColumn": 85,
+        "path": "YukkiMusic/plugins/admins/skip.py",
+        "symbol": "no-member",
+        "message": "Module 'config' has no 'BANNED_USERS' member",
+        "message-id": "E1101"
     },
     {
         "type": "refactor",
@@ -4396,6 +4721,19 @@
     {
         "type": "error",
         "module": "YukkiMusic.plugins.admins.unmute",
+        "obj": "",
+        "line": 12,
+        "column": 0,
+        "endLine": 12,
+        "endColumn": 31,
+        "path": "YukkiMusic/plugins/admins/unmute.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'BANNED_USERS' in module 'config'",
+        "message-id": "E0611"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.admins.unmute",
         "obj": "unmute_admin",
         "line": 20,
         "column": 62,
@@ -4409,6 +4747,19 @@
     {
         "type": "error",
         "module": "YukkiMusic.plugins.admins.stop",
+        "obj": "",
+        "line": 11,
+        "column": 0,
+        "endLine": 11,
+        "endColumn": 31,
+        "path": "YukkiMusic/plugins/admins/stop.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'BANNED_USERS' in module 'config'",
+        "message-id": "E0611"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.admins.stop",
         "obj": "stop_music",
         "line": 21,
         "column": 53,
@@ -4418,6 +4769,19 @@
         "symbol": "no-member",
         "message": "Module 'YukkiMusic.core.filters' has no 'user' member; maybe 'User'?",
         "message-id": "E1101"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.bot.inline",
+        "obj": "",
+        "line": 23,
+        "column": 0,
+        "endLine": 23,
+        "endColumn": 31,
+        "path": "YukkiMusic/plugins/bot/inline.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'BANNED_USERS' in module 'config'",
+        "message-id": "E0611"
     },
     {
         "type": "error",
@@ -4527,13 +4891,13 @@
         "type": "error",
         "module": "YukkiMusic.plugins.bot.start",
         "obj": "",
-        "line": 24,
+        "line": 19,
         "column": 0,
-        "endLine": 24,
-        "endColumn": 43,
+        "endLine": 19,
+        "endColumn": 46,
         "path": "YukkiMusic/plugins/bot/start.py",
         "symbol": "no-name-in-module",
-        "message": "No name 'SUDOERS' in module 'YukkiMusic.misc'",
+        "message": "No name 'BANNED_USERS' in module 'config'",
         "message-id": "E0611"
     },
     {
@@ -4826,6 +5190,19 @@
         "type": "error",
         "module": "YukkiMusic.plugins.bot.help",
         "obj": "",
+        "line": 16,
+        "column": 0,
+        "endLine": 16,
+        "endColumn": 46,
+        "path": "YukkiMusic/plugins/bot/help.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'BANNED_USERS' in module 'config'",
+        "message-id": "E0611"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.bot.help",
+        "obj": "",
         "line": 19,
         "column": 0,
         "endLine": 19,
@@ -4886,6 +5263,19 @@
         "symbol": "line-too-long",
         "message": "Line too long (115/100)",
         "message-id": "C0301"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.bot.settings",
+        "obj": "",
+        "line": 13,
+        "column": 0,
+        "endLine": 13,
+        "endColumn": 64,
+        "path": "YukkiMusic/plugins/bot/settings.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'BANNED_USERS' in module 'config'",
+        "message-id": "E0611"
     },
     {
         "type": "error",
@@ -5733,6 +6123,19 @@
         "message-id": "E0606"
     },
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.tools.languages",
+        "obj": "",
+        "line": 14,
+        "column": 0,
+        "endLine": 14,
+        "endColumn": 31,
+        "path": "YukkiMusic/plugins/tools/languages.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'BANNED_USERS' in module 'config'",
+        "message-id": "E0611"
+    },
+    {
         "type": "warning",
         "module": "YukkiMusic.plugins.tools.languages",
         "obj": "lanuages_keyboard",
@@ -5757,6 +6160,19 @@
         "symbol": "f-string-without-interpolation",
         "message": "Using an f-string that does not have any interpolated variables",
         "message-id": "W1309"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.tools.reload",
+        "obj": "",
+        "line": 14,
+        "column": 0,
+        "endLine": 14,
+        "endColumn": 42,
+        "path": "YukkiMusic/plugins/tools/reload.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'BANNED_USERS' in module 'config'",
+        "message-id": "E0611"
     },
     {
         "type": "error",
@@ -5809,19 +6225,6 @@
         "symbol": "line-too-long",
         "message": "Line too long (112/100)",
         "message-id": "C0301"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.tools.speedtest",
-        "obj": "",
-        "line": 16,
-        "column": 0,
-        "endLine": 16,
-        "endColumn": 35,
-        "path": "YukkiMusic/plugins/tools/speedtest.py",
-        "symbol": "no-name-in-module",
-        "message": "No name 'SUDOERS' in module 'YukkiMusic.misc'",
-        "message-id": "E0611"
     },
     {
         "type": "error",
@@ -5887,6 +6290,19 @@
         "symbol": "line-too-long",
         "message": "Line too long (165/100)",
         "message-id": "C0301"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.tools.ping",
+        "obj": "",
+        "line": 12,
+        "column": 0,
+        "endLine": 12,
+        "endColumn": 45,
+        "path": "YukkiMusic/plugins/tools/ping.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'BANNED_USERS' in module 'config'",
+        "message-id": "E0611"
     },
     {
         "type": "error",
@@ -5967,6 +6383,19 @@
         "message-id": "E0602"
     },
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.tools.lyrics",
+        "obj": "",
+        "line": 17,
+        "column": 0,
+        "endLine": 17,
+        "endColumn": 40,
+        "path": "YukkiMusic/plugins/tools/lyrics.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'BANNED_USERS' in module 'config'",
+        "message-id": "E0611"
+    },
+    {
         "type": "convention",
         "module": "YukkiMusic.plugins.tools.lyrics",
         "obj": "",
@@ -6004,6 +6433,19 @@
         "symbol": "line-too-long",
         "message": "Line too long (103/100)",
         "message-id": "C0301"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.tools.queue",
+        "obj": "",
+        "line": 16,
+        "column": 0,
+        "endLine": 16,
+        "endColumn": 31,
+        "path": "YukkiMusic/plugins/tools/queue.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'BANNED_USERS' in module 'config'",
+        "message-id": "E0611"
     },
     {
         "type": "refactor",
@@ -6149,6 +6591,58 @@
         "message-id": "E0611"
     },
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.tools.active",
+        "obj": "active_audio",
+        "line": 17,
+        "column": 61,
+        "endLine": 17,
+        "endColumn": 75,
+        "path": "YukkiMusic/plugins/tools/active.py",
+        "symbol": "no-member",
+        "message": "Module 'config' has no 'SUDOERS' member",
+        "message-id": "E1101"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.tools.active",
+        "obj": "active_video",
+        "line": 48,
+        "column": 64,
+        "endLine": 48,
+        "endColumn": 78,
+        "path": "YukkiMusic/plugins/tools/active.py",
+        "symbol": "no-member",
+        "message": "Module 'config' has no 'SUDOERS' member",
+        "message-id": "E1101"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.tools.active",
+        "obj": "ac_counts",
+        "line": 76,
+        "column": 55,
+        "endLine": 76,
+        "endColumn": 69,
+        "path": "YukkiMusic/plugins/tools/active.py",
+        "symbol": "no-member",
+        "message": "Module 'config' has no 'SUDOERS' member",
+        "message-id": "E1101"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.play.live",
+        "obj": "",
+        "line": 13,
+        "column": 0,
+        "endLine": 13,
+        "endColumn": 31,
+        "path": "YukkiMusic/plugins/play/live.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'BANNED_USERS' in module 'config'",
+        "message-id": "E0611"
+    },
+    {
         "type": "warning",
         "module": "YukkiMusic.plugins.play.toptracks",
         "obj": "",
@@ -6160,6 +6654,19 @@
         "symbol": "fixme",
         "message": "TODO: fix it",
         "message-id": "W0511"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.play.toptracks",
+        "obj": "",
+        "line": 15,
+        "column": 0,
+        "endLine": 15,
+        "endColumn": 31,
+        "path": "YukkiMusic/plugins/play/toptracks.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'BANNED_USERS' in module 'config'",
+        "message-id": "E0611"
     },
     {
         "type": "error",
@@ -6238,6 +6745,19 @@
         "symbol": "unused-variable",
         "message": "Unused variable 'count'",
         "message-id": "W0612"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.play.stream",
+        "obj": "",
+        "line": 13,
+        "column": 0,
+        "endLine": 13,
+        "endColumn": 31,
+        "path": "YukkiMusic/plugins/play/stream.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'BANNED_USERS' in module 'config'",
+        "message-id": "E0611"
     },
     {
         "type": "refactor",
@@ -6329,6 +6849,19 @@
         "symbol": "fixme",
         "message": "TODO: ADD SUPPORT FOR SPOTIFY, RESSO, APPLE",
         "message-id": "W0511"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.play.playlist",
+        "obj": "",
+        "line": 18,
+        "column": 0,
+        "endLine": 18,
+        "endColumn": 54,
+        "path": "YukkiMusic/plugins/play/playlist.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'BANNED_USERS' in module 'config'",
+        "message-id": "E0611"
     },
     {
         "type": "error",
@@ -6591,6 +7124,19 @@
         "message-id": "W0611"
     },
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.play.play",
+        "obj": "",
+        "line": 15,
+        "column": 0,
+        "endLine": 15,
+        "endColumn": 31,
+        "path": "YukkiMusic/plugins/play/play.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'BANNED_USERS' in module 'config'",
+        "message-id": "E0611"
+    },
+    {
         "type": "refactor",
         "module": "YukkiMusic.plugins.play.play",
         "obj": "play_commnd",
@@ -6851,6 +7397,19 @@
         "message-id": "W0612"
     },
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.play.playmode",
+        "obj": "",
+        "line": 11,
+        "column": 0,
+        "endLine": 11,
+        "endColumn": 31,
+        "path": "YukkiMusic/plugins/play/playmode.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'BANNED_USERS' in module 'config'",
+        "message-id": "E0611"
+    },
+    {
         "type": "warning",
         "module": "YukkiMusic.plugins.play.channel",
         "obj": "",
@@ -6862,6 +7421,19 @@
         "symbol": "fixme",
         "message": "TODO: REMOVE THE DISABLE AND LINKED MODE AND KEEP LINKED DEFAULT",
         "message-id": "W0511"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.play.channel",
+        "obj": "",
+        "line": 15,
+        "column": 0,
+        "endLine": 15,
+        "endColumn": 31,
+        "path": "YukkiMusic/plugins/play/channel.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'BANNED_USERS' in module 'config'",
+        "message-id": "E0611"
     },
     {
         "type": "error",
@@ -7289,7 +7861,7 @@
         "endColumn": null,
         "path": "docs/conf.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.bot.start:[95:107]\n==YukkiMusic.plugins.play.toptracks:[78:90]\n                results = {}\n                for i in stats:\n                    top_list = stats[i][\"spot\"]\n                    results[str(i)] = top_list\n                    list_arranged = dict(\n                        sorted(\n                            results.items(),\n                            key=lambda item: item[1],\n                            reverse=True,\n                        )\n                    )\n                if not results:",
+        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.bot.start:[95:107]\n==YukkiMusic.plugins.play.toptracks:[78:90]\n        results = {}\n        for i in stats:\n            top_list = stats[i][\"spot\"]\n            results[str(i)] = top_list\n            list_arranged = dict(\n                sorted(\n                    results.items(),\n                    key=lambda item: item[1],\n                    reverse=True,\n                )\n            )\n        if not results:",
         "message-id": "R0801"
     },
     {
@@ -7315,7 +7887,7 @@
         "endColumn": null,
         "path": "docs/conf.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.play.stream:[53:62]\n==YukkiMusic.plugins.play.toptracks:[115:125]\n            )\n        except Exception as e:\n            ex_type = type(e).__name__\n            if ex_type == \"AssistantErr\":\n                err = e\n            else:\n                err = _[\"general_3\"].format(ex_type)\n                logger.error(\"\\n\", exc_info=True)\n            return await mystic.edit(err)",
+        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.play.stream:[53:62]\n==YukkiMusic.plugins.play.toptracks:[115:125]\n        )\n    except Exception as e:\n        ex_type = type(e).__name__\n        if ex_type == \"AssistantErr\":\n            err = e\n        else:\n            err = _[\"general_3\"].format(ex_type)\n        logger.error(\"\\n\", exc_info=True)\n\n        return await mystic.edit(err)",
         "message-id": "R0801"
     },
     {
@@ -7406,7 +7978,7 @@
         "endColumn": null,
         "path": "docs/conf.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.play.play:[224:232]\n==YukkiMusic.plugins.play.stream:[52:59]\n                forceplay=fplay,\n            )\n        except Exception as e:\n            ex_type = type(e).__name__\n            if ex_type == \"AssistantErr\":\n                err = e\n            else:",
+        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.play.play:[224:232]\n==YukkiMusic.plugins.play.stream:[52:59]\n                forceplay=fplay,\n            )\n\n        except Exception as e:\n            ex_type = type(e).__name__\n            if ex_type == \"AssistantErr\":\n                err = e\n            else:",
         "message-id": "R0801"
     },
     {
@@ -7432,7 +8004,7 @@
         "endColumn": null,
         "path": "docs/conf.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.play.playlist:[328:335]\n==YukkiMusic.plugins.play.stream:[53:60]\n        )\n    except Exception as e:\n        ex_type = type(e).__name__\n        if ex_type == \"AssistantErr\":\n            err = e\n        else:\n            err = _[\"general_3\"].format(ex_type)",
+        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.play.playlist:[328:335]\n==YukkiMusic.plugins.play.stream:[53:60]\n            )\n        except Exception as e:\n            ex_type = type(e).__name__\n            if ex_type == \"AssistantErr\":\n                err = e\n            else:\n                err = _[\"general_3\"].format(ex_type)",
         "message-id": "R0801"
     },
     {
@@ -7471,7 +8043,7 @@
         "endColumn": null,
         "path": "docs/conf.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.misc.autoleave:[89:97]\n==YukkiMusic.plugins.misc.seeker:[61:69]\n                            members.append(member)\n                except ValueError:\n                    try:\n                        await Yukki.stop_stream(chat_id)\n                    except Exception:\n                        pass\n                    continue\n",
+        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.misc.autoleave:[89:97]\n==YukkiMusic.plugins.misc.seeker:[61:69]\n                        members.append(member)\n            except ValueError:\n                try:\n                    await Yukki.stop_stream(chat_id)\n                except Exception:\n                    pass\n                continue\n",
         "message-id": "R0801"
     },
     {
@@ -7484,7 +8056,7 @@
         "endColumn": null,
         "path": "docs/conf.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.tools.queue:[47:54]\n==YukkiMusic.utils.decorators.admins:[60:67]\n            chat_id = await get_cmode(event.chat_id)\n            if chat_id is None:\n                return await event.reply(_[\"setting_12\"])\n            try:\n                await tbot.get_entity(chat_id)\n            except Exception:\n                return await event.reply(_[\"cplay_4\"])",
+        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.tools.queue:[47:54]\n==YukkiMusic.utils.decorators.admins:[60:67]\n        chat_id = await get_cmode(event.chat_id)\n        if chat_id is None:\n            return await event.reply(_[\"setting_12\"])\n        try:\n            await tbot.get_entity(chat_id)\n        except Exception:\n            return await event.reply(_[\"cplay_4\"])",
         "message-id": "R0801"
     },
     {
@@ -7497,7 +8069,7 @@
         "endColumn": null,
         "path": "docs/conf.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.play.play:[225:232]\n==YukkiMusic.plugins.play.toptracks:[115:121]\n            )\n\n        except Exception as e:\n            ex_type = type(e).__name__\n            if ex_type == \"AssistantErr\":\n                err = e\n            else:",
+        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.play.play:[225:232]\n==YukkiMusic.plugins.play.toptracks:[115:121]\n        )\n    except Exception as e:\n        ex_type = type(e).__name__\n        if ex_type == \"AssistantErr\":\n            err = e\n        else:",
         "message-id": "R0801"
     },
     {
@@ -7523,7 +8095,7 @@
         "endColumn": null,
         "path": "docs/conf.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.admins.callback:[153:159]\n==YukkiMusic.plugins.admins.stop:[24:31]\n        try:\n            check = db.get(chat_id)\n            if check[0].get(\"mystic\"):\n                await check[0].get(\"mystic\").delete()\n        except Exception:\n            pass",
+        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.admins.callback:[153:159]\n==YukkiMusic.plugins.admins.stop:[24:31]\n    try:\n        check = db.get(chat_id)\n        if check[0].get(\"mystic\"):\n            await check[0].get(\"mystic\").delete()\n    except Exception:\n        pass\n",
         "message-id": "R0801"
     },
     {
@@ -7536,7 +8108,7 @@
         "endColumn": null,
         "path": "docs/conf.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.play.live:[31:38]\n==YukkiMusic.plugins.sudo.dev:[140:146]\n        except Exception:\n            return\n    await event.delete()\n    try:\n        await event.answer()\n    except Exception:",
+        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.play.live:[31:38]\n==YukkiMusic.plugins.sudo.dev:[140:146]\n    except Exception:\n        return\n\n    await event.delete()\n    try:\n        await event.answer()\n    except Exception:",
         "message-id": "R0801"
     },
     {
@@ -7549,7 +8121,7 @@
         "endColumn": null,
         "path": "docs/conf.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==YukkiMusic.core.telethon:[281:289]\n==YukkiMusic.core.track:[144:151]\n            process = await asyncio.create_subprocess_shell(\n                command,\n                stdout=asyncio.subprocess.PIPE,\n                stderr=asyncio.subprocess.PIPE,\n            )\n            stdout, stderr = await process.communicate()\n",
+        "message": "Similar lines in 2 files\n==YukkiMusic.core.telethon:[281:289]\n==YukkiMusic.core.track:[144:151]\n        process = await asyncio.create_subprocess_shell(\n            command,\n            stdout=asyncio.subprocess.PIPE,\n            stderr=asyncio.subprocess.PIPE,\n        )\n\n        stdout, stderr = await process.communicate()\n",
         "message-id": "R0801"
     },
     {
@@ -7575,7 +8147,7 @@
         "endColumn": null,
         "path": "docs/conf.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.play.playlist:[81:87]\n==YukkiMusic.utils.stream.stream:[126:132]\n    link = await paste(msg)\n    lines = msg.count(\"\\n\")\n    if lines >= 17:\n        car = os.linesep.join(msg.split(os.linesep)[:17])\n    else:\n        car = msg",
+        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.play.playlist:[81:87]\n==YukkiMusic.utils.stream.stream:[126:132]\n            link = await paste(msg)\n            lines = msg.count(\"\\n\")\n            if lines >= 17:\n                car = os.linesep.join(msg.split(os.linesep)[:17])\n            else:\n                car = msg",
         "message-id": "R0801"
     },
     {
@@ -7627,7 +8199,7 @@
         "endColumn": null,
         "path": "docs/conf.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.admins.auth:[130:135]\n==YukkiMusic.plugins.bot.settings:[429:434]\n                _note = await get_authuser(event.chat_id, note)\n                user_id = _note[\"auth_user_id\"]\n                admin_id = _note[\"admin_id\"]\n                admin_name = _note[\"admin_name\"]\n                try:",
+        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.admins.auth:[130:135]\n==YukkiMusic.plugins.bot.settings:[429:434]\n            _note = await get_authuser(event.chat_id, note)\n            user_id = _note[\"auth_user_id\"]\n            admin_id = _note[\"admin_id\"]\n            admin_name = _note[\"admin_name\"]\n            try:",
         "message-id": "R0801"
     },
     {
@@ -7653,7 +8225,7 @@
         "endColumn": null,
         "path": "docs/conf.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.admins.callback:[295:300]\n==YukkiMusic.plugins.admins.seek:[79:84]\n        await Yukki.seek_stream(\n            chat_id,\n            file_path,\n            seconds_to_min(to_seek),\n            duration,",
+        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.admins.callback:[295:300]\n==YukkiMusic.plugins.admins.seek:[79:84]\n            await Yukki.seek_stream(\n                chat_id,\n                file_path,\n                seconds_to_min(to_seek),\n                duration,",
         "message-id": "R0801"
     },
     {
@@ -7692,72 +8264,7 @@
         "endColumn": null,
         "path": "docs/conf.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.sudo.maintenance:[25:30]\n==YukkiMusic.utils.decorators.admins:[42:47]\n        try:\n            language = await get_lang(event.chat_id)\n            _ = get_string(language)\n        except Exception:\n            _ = get_string(\"en\")",
+        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.sudo.maintenance:[25:30]\n==YukkiMusic.utils.decorators.admins:[42:47]\n    try:\n        language = await get_lang(event.chat_id)\n        _ = get_string(language)\n    except Exception:\n        _ = get_string(\"en\")",
         "message-id": "R0801"
-    },
-    {
-        "type": "refactor",
-        "module": "docs.conf",
-        "obj": "",
-        "line": 1,
-        "column": 0,
-        "endLine": null,
-        "endColumn": null,
-        "path": "docs/conf.py",
-        "symbol": "cyclic-import",
-        "message": "Cyclic import (YukkiMusic.core.filters -> YukkiMusic.utils.database.memorydatabase -> config -> config.config)",
-        "message-id": "R0401"
-    },
-    {
-        "type": "refactor",
-        "module": "docs.conf",
-        "obj": "",
-        "line": 1,
-        "column": 0,
-        "endLine": null,
-        "endColumn": null,
-        "path": "docs/conf.py",
-        "symbol": "cyclic-import",
-        "message": "Cyclic import (YukkiMusic -> YukkiMusic.core.userbot -> config -> config.config -> YukkiMusic.core.filters -> YukkiMusic.utils.database.memorydatabase -> YukkiMusic.core.mongo)",
-        "message-id": "R0401"
-    },
-    {
-        "type": "refactor",
-        "module": "docs.conf",
-        "obj": "",
-        "line": 1,
-        "column": 0,
-        "endLine": null,
-        "endColumn": null,
-        "path": "docs/conf.py",
-        "symbol": "cyclic-import",
-        "message": "Cyclic import (YukkiMusic.core.filters -> YukkiMusic.utils.database.memorydatabase -> YukkiMusic.core.mongo -> config -> config.config)",
-        "message-id": "R0401"
-    },
-    {
-        "type": "refactor",
-        "module": "docs.conf",
-        "obj": "",
-        "line": 1,
-        "column": 0,
-        "endLine": null,
-        "endColumn": null,
-        "path": "docs/conf.py",
-        "symbol": "cyclic-import",
-        "message": "Cyclic import (YukkiMusic -> YukkiMusic.core.telethon -> config -> config.config -> YukkiMusic.core.filters -> YukkiMusic.utils.database.memorydatabase -> YukkiMusic.core.mongo)",
-        "message-id": "R0401"
-    },
-    {
-        "type": "refactor",
-        "module": "docs.conf",
-        "obj": "",
-        "line": 1,
-        "column": 0,
-        "endLine": null,
-        "endColumn": null,
-        "path": "docs/conf.py",
-        "symbol": "cyclic-import",
-        "message": "Cyclic import (YukkiMusic -> YukkiMusic.core.git -> config -> config.config -> YukkiMusic.core.filters -> YukkiMusic.utils.database.memorydatabase -> YukkiMusic.core.mongo)",
-        "message-id": "R0401"
     }
 ]

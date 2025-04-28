@@ -2,6 +2,32 @@
     {
         "type": "error",
         "module": "YukkiMusic.plugins.sudo.sudoers",
+        "obj": "",
+        "line": 10,
+        "column": 0,
+        "endLine": 10,
+        "endColumn": 64,
+        "path": "YukkiMusic/plugins/sudo/sudoers.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'BANNED_USERS' in module 'config'",
+        "message-id": "E0611"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.sudo.sudoers",
+        "obj": "",
+        "line": 10,
+        "column": 0,
+        "endLine": 10,
+        "endColumn": 64,
+        "path": "YukkiMusic/plugins/sudo/sudoers.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'SUDOERS' in module 'config'",
+        "message-id": "E0611"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.sudo.sudoers",
         "obj": "useradd",
         "line": 16,
         "column": 60,

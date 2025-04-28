@@ -3,13 +3,13 @@
         "type": "error",
         "module": "YukkiMusic.plugins.bot.start",
         "obj": "",
-        "line": 24,
+        "line": 19,
         "column": 0,
-        "endLine": 24,
-        "endColumn": 43,
+        "endLine": 19,
+        "endColumn": 46,
         "path": "YukkiMusic/plugins/bot/start.py",
         "symbol": "no-name-in-module",
-        "message": "No name 'SUDOERS' in module 'YukkiMusic.misc'",
+        "message": "No name 'BANNED_USERS' in module 'config'",
         "message-id": "E0611"
     },
     {

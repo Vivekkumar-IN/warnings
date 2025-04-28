@@ -2,19 +2,6 @@
     {
         "type": "error",
         "module": "YukkiMusic.plugins.sudo.videolimit",
-        "obj": "",
-        "line": 13,
-        "column": 0,
-        "endLine": 13,
-        "endColumn": 35,
-        "path": "YukkiMusic/plugins/sudo/videolimit.py",
-        "symbol": "no-name-in-module",
-        "message": "No name 'SUDOERS' in module 'YukkiMusic.misc'",
-        "message-id": "E0611"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.sudo.videolimit",
         "obj": "set_video_limit_kid",
         "line": 17,
         "column": 1,

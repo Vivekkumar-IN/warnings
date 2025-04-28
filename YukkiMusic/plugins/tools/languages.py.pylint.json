@@ -1,5 +1,18 @@
 [
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.tools.languages",
+        "obj": "",
+        "line": 14,
+        "column": 0,
+        "endLine": 14,
+        "endColumn": 31,
+        "path": "YukkiMusic/plugins/tools/languages.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'BANNED_USERS' in module 'config'",
+        "message-id": "E0611"
+    },
+    {
         "type": "warning",
         "module": "YukkiMusic.plugins.tools.languages",
         "obj": "lanuages_keyboard",

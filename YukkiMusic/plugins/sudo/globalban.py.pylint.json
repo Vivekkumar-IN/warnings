@@ -3,13 +3,13 @@
         "type": "error",
         "module": "YukkiMusic.plugins.sudo.globalban",
         "obj": "",
-        "line": 18,
+        "line": 15,
         "column": 0,
-        "endLine": 18,
-        "endColumn": 35,
+        "endLine": 15,
+        "endColumn": 31,
         "path": "YukkiMusic/plugins/sudo/globalban.py",
         "symbol": "no-name-in-module",
-        "message": "No name 'SUDOERS' in module 'YukkiMusic.misc'",
+        "message": "No name 'BANNED_USERS' in module 'config'",
         "message-id": "E0611"
     },
     {
