@@ -2,6 +2,19 @@
     {
         "type": "warning",
         "module": "YukkiMusic.core.telethon",
+        "obj": "",
+        "line": 29,
+        "column": 0,
+        "endLine": 29,
+        "endColumn": 57,
+        "path": "YukkiMusic/core/telethon.py",
+        "symbol": "unused-import",
+        "message": "Unused asyncify imported from YukkiMusic.utils.decorators.asyncify",
+        "message-id": "W0611"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.core.telethon",
         "obj": "TelethonClient.run_coro",
         "line": 139,
         "column": 4,
@@ -145,14 +158,27 @@
     {
         "type": "error",
         "module": "YukkiMusic.core.telethon",
-        "obj": "TelethonClient.__load_plugin",
-        "line": 345,
-        "column": 12,
-        "endLine": 345,
-        "endColumn": 18,
+        "obj": "TelethonClient.load_plugins_from",
+        "line": 350,
+        "column": 24,
+        "endLine": 350,
+        "endColumn": 30,
         "path": "YukkiMusic/core/telethon.py",
         "symbol": "undefined-variable",
         "message": "Undefined variable 'logger'",
         "message-id": "E0602"
+    },
+    {
+        "type": "convention",
+        "module": "YukkiMusic.core.telethon",
+        "obj": "",
+        "line": 351,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "YukkiMusic/core/telethon.py",
+        "symbol": "missing-final-newline",
+        "message": "Final newline missing",
+        "message-id": "C0304"
     }
 ]
