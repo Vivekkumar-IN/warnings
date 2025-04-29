@@ -1,5 +1,18 @@
 [
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.play.stream",
+        "obj": "",
+        "line": 19,
+        "column": 0,
+        "endLine": 19,
+        "endColumn": 52,
+        "path": "YukkiMusic/plugins/play/stream.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'play_wrapper' in module 'YukkiMusic.utils.decorators'",
+        "message-id": "E0611"
+    },
+    {
         "type": "refactor",
         "module": "YukkiMusic.plugins.play.stream",
         "obj": "stream_command",
