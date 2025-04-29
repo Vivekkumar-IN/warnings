@@ -1,5 +1,18 @@
 [
     {
+        "type": "convention",
+        "module": "YukkiMusic.core.telethon",
+        "obj": "",
+        "line": 114,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "YukkiMusic/core/telethon.py",
+        "symbol": "line-too-long",
+        "message": "Line too long (103/100)",
+        "message-id": "C0301"
+    },
+    {
         "type": "warning",
         "module": "YukkiMusic.core.telethon",
         "obj": "TelethonClient.run_coro",
