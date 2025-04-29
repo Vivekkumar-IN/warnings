@@ -26,19 +26,6 @@
         "message-id": "R0917"
     },
     {
-        "type": "convention",
-        "module": "YukkiMusic.core.call",
-        "obj": "",
-        "line": 192,
-        "column": 30,
-        "endLine": null,
-        "endColumn": null,
-        "path": "YukkiMusic/core/call.py",
-        "symbol": "trailing-whitespace",
-        "message": "Trailing whitespace",
-        "message-id": "C0303"
-    },
-    {
         "type": "refactor",
         "module": "YukkiMusic.core.call",
         "obj": "Call.join_chat",
@@ -128,19 +115,6 @@
         "symbol": "too-many-function-args",
         "message": "Too many positional arguments for function call",
         "message-id": "E1121"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.core.call",
-        "obj": "Call.stop",
-        "line": 432,
-        "column": 72,
-        "endLine": 432,
-        "endColumn": 82,
-        "path": "YukkiMusic/core/call.py",
-        "symbol": "no-member",
-        "message": "Instance of 'Call' has no 'calls' member",
-        "message-id": "E1101"
     },
     {
         "type": "warning",
