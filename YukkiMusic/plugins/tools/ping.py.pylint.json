@@ -2,19 +2,6 @@
     {
         "type": "error",
         "module": "YukkiMusic.plugins.tools.ping",
-        "obj": "",
-        "line": 14,
-        "column": 0,
-        "endLine": 14,
-        "endColumn": 35,
-        "path": "YukkiMusic/plugins/tools/ping.py",
-        "symbol": "no-name-in-module",
-        "message": "No name 'filters' in module 'YukkiMusic.core'",
-        "message-id": "E0611"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.tools.ping",
         "obj": "ping_com",
         "line": 26,
         "column": 35,

@@ -1,18 +1,5 @@
 [
     {
-        "type": "error",
-        "module": "YukkiMusic.plugins.sudo.private",
-        "obj": "",
-        "line": 14,
-        "column": 0,
-        "endLine": 14,
-        "endColumn": 42,
-        "path": "YukkiMusic/plugins/sudo/private.py",
-        "symbol": "no-name-in-module",
-        "message": "No name 'filters' in module 'YukkiMusic.core'",
-        "message-id": "E0611"
-    },
-    {
         "type": "refactor",
         "module": "YukkiMusic.plugins.sudo.private",
         "obj": "unauthorize",
