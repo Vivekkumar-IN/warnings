@@ -1,5 +1,18 @@
 [
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.admins.seek",
+        "obj": "",
+        "line": 14,
+        "column": 0,
+        "endLine": 14,
+        "endColumn": 63,
+        "path": "YukkiMusic/plugins/admins/seek.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'admin_rights_check' in module 'YukkiMusic.utils'",
+        "message-id": "E0611"
+    },
+    {
         "type": "refactor",
         "module": "YukkiMusic.plugins.admins.seek",
         "obj": "seek_comm",

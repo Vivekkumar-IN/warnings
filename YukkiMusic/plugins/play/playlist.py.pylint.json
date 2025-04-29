@@ -22,7 +22,33 @@
         "endColumn": 1,
         "path": "YukkiMusic/plugins/play/playlist.py",
         "symbol": "no-name-in-module",
+        "message": "No name 'botplaylist_markup' in module 'YukkiMusic.utils'",
+        "message-id": "E0611"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.play.playlist",
+        "obj": "",
+        "line": 24,
+        "column": 0,
+        "endLine": 36,
+        "endColumn": 1,
+        "path": "YukkiMusic/plugins/play/playlist.py",
+        "symbol": "no-name-in-module",
         "message": "No name 'get_playlist_markup' in module 'YukkiMusic.utils'",
+        "message-id": "E0611"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.play.playlist",
+        "obj": "",
+        "line": 24,
+        "column": 0,
+        "endLine": 36,
+        "endColumn": 1,
+        "path": "YukkiMusic/plugins/play/playlist.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'language' in module 'YukkiMusic.utils'",
         "message-id": "E0611"
     },
     {
