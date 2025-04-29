@@ -1,18 +1,5 @@
 [
     {
-        "type": "error",
-        "module": "YukkiMusic.plugins.admins.loop",
-        "obj": "",
-        "line": 16,
-        "column": 0,
-        "endLine": 16,
-        "endColumn": 58,
-        "path": "YukkiMusic/plugins/admins/loop.py",
-        "symbol": "no-name-in-module",
-        "message": "No name 'admin_rights_check' in module 'YukkiMusic.utils.decorators'",
-        "message-id": "E0611"
-    },
-    {
         "type": "refactor",
         "module": "YukkiMusic.plugins.admins.loop",
         "obj": "admins",
