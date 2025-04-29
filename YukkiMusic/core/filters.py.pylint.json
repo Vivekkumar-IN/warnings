@@ -52,19 +52,6 @@
         "message-id": "C0103"
     },
     {
-        "type": "error",
-        "module": "YukkiMusic.core.filters",
-        "obj": "command.func",
-        "line": 165,
-        "column": 12,
-        "endLine": 165,
-        "endColumn": 14,
-        "path": "YukkiMusic/core/filters.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable 're'",
-        "message-id": "E0602"
-    },
-    {
         "type": "convention",
         "module": "YukkiMusic.core.filters",
         "obj": "command.func",
