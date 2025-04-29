@@ -210,19 +210,6 @@
     {
         "type": "error",
         "module": "YukkiMusic.plugins.play.playlist",
-        "obj": "del_whole_playlist",
-        "line": 249,
-        "column": 1,
-        "endLine": 249,
-        "endColumn": 11,
-        "path": "YukkiMusic/plugins/play/playlist.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable 'languageCB'",
-        "message-id": "E0602"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.play.playlist",
         "obj": "playlist_multi_func",
         "line": 297,
         "column": 36,
