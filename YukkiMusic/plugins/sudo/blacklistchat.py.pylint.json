@@ -2,6 +2,19 @@
     {
         "type": "error",
         "module": "YukkiMusic.plugins.sudo.blacklistchat",
+        "obj": "",
+        "line": 12,
+        "column": 0,
+        "endLine": 12,
+        "endColumn": 42,
+        "path": "YukkiMusic/plugins/sudo/blacklistchat.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'filters' in module 'YukkiMusic.core'",
+        "message-id": "E0611"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.sudo.blacklistchat",
         "obj": "blacklist_chat_func",
         "line": 27,
         "column": 18,

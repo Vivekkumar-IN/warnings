@@ -1,5 +1,18 @@
 [
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.misc.cleanmode",
+        "obj": "",
+        "line": 25,
+        "column": 0,
+        "endLine": 25,
+        "endColumn": 42,
+        "path": "YukkiMusic/plugins/misc/cleanmode.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'filters' in module 'YukkiMusic.core'",
+        "message-id": "E0611"
+    },
+    {
         "type": "convention",
         "module": "YukkiMusic.plugins.misc.cleanmode",
         "obj": "",

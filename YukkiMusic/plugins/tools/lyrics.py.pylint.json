@@ -1,5 +1,18 @@
 [
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.tools.lyrics",
+        "obj": "",
+        "line": 19,
+        "column": 0,
+        "endLine": 19,
+        "endColumn": 42,
+        "path": "YukkiMusic/plugins/tools/lyrics.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'filters' in module 'YukkiMusic.core'",
+        "message-id": "E0611"
+    },
+    {
         "type": "convention",
         "module": "YukkiMusic.plugins.tools.lyrics",
         "obj": "",

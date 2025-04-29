@@ -1,5 +1,18 @@
 [
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.sudo.dev",
+        "obj": "",
+        "line": 24,
+        "column": 0,
+        "endLine": 24,
+        "endColumn": 42,
+        "path": "YukkiMusic/plugins/sudo/dev.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'filters' in module 'YukkiMusic.core'",
+        "message-id": "E0611"
+    },
+    {
         "type": "warning",
         "module": "YukkiMusic.plugins.sudo.dev",
         "obj": "aexec",
@@ -11,32 +24,6 @@
         "symbol": "exec-used",
         "message": "Use of exec",
         "message-id": "W0122"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.sudo.dev",
-        "obj": "executor",
-        "line": 43,
-        "column": 70,
-        "endLine": 43,
-        "endColumn": 84,
-        "path": "YukkiMusic/plugins/sudo/dev.py",
-        "symbol": "invalid-unary-operand-type",
-        "message": "bad operand type for unary ~: forwarded",
-        "message-id": "E1130"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.sudo.dev",
-        "obj": "executor",
-        "line": 45,
-        "column": 57,
-        "endLine": 45,
-        "endColumn": 71,
-        "path": "YukkiMusic/plugins/sudo/dev.py",
-        "symbol": "invalid-unary-operand-type",
-        "message": "bad operand type for unary ~: forwarded",
-        "message-id": "E1130"
     },
     {
         "type": "convention",
@@ -63,32 +50,6 @@
         "symbol": "unused-variable",
         "message": "Unused variable 'query'",
         "message-id": "W0612"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.sudo.dev",
-        "obj": "shellrunner",
-        "line": 148,
-        "column": 65,
-        "endLine": 148,
-        "endColumn": 79,
-        "path": "YukkiMusic/plugins/sudo/dev.py",
-        "symbol": "invalid-unary-operand-type",
-        "message": "bad operand type for unary ~: forwarded",
-        "message-id": "E1130"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.sudo.dev",
-        "obj": "shellrunner",
-        "line": 149,
-        "column": 47,
-        "endLine": 149,
-        "endColumn": 61,
-        "path": "YukkiMusic/plugins/sudo/dev.py",
-        "symbol": "invalid-unary-operand-type",
-        "message": "bad operand type for unary ~: forwarded",
-        "message-id": "E1130"
     },
     {
         "type": "warning",

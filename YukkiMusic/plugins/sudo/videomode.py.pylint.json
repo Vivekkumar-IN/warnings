@@ -1,0 +1,15 @@
+[
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.sudo.videomode",
+        "obj": "",
+        "line": 14,
+        "column": 0,
+        "endLine": 14,
+        "endColumn": 35,
+        "path": "YukkiMusic/plugins/sudo/videomode.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'filters' in module 'YukkiMusic.core'",
+        "message-id": "E0611"
+    }
+]

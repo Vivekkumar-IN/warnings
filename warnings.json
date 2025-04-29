@@ -13,6 +13,45 @@
         "message-id": "E0015"
     },
     {
+        "type": "error",
+        "module": "YukkiMusic.core.filters",
+        "obj": "",
+        "line": 195,
+        "column": 71,
+        "endLine": null,
+        "endColumn": null,
+        "path": "YukkiMusic/core/filters.py",
+        "symbol": "syntax-error",
+        "message": "Parsing failed: 'f-string: unmatched ')' (YukkiMusic.core.filters, line 195)'",
+        "message-id": "E0001"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.misc",
+        "obj": "",
+        "line": 16,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "YukkiMusic/misc.py",
+        "symbol": "syntax-error",
+        "message": "Cannot import 'YukkiMusic.core.filters' due to 'f-string: unmatched ')' (YukkiMusic.core.filters, line 195)'",
+        "message-id": "E0001"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.misc",
+        "obj": "",
+        "line": 16,
+        "column": 0,
+        "endLine": 16,
+        "endColumn": 40,
+        "path": "YukkiMusic/misc.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'filters' in module 'YukkiMusic.core'",
+        "message-id": "E0611"
+    },
+    {
         "type": "convention",
         "module": "YukkiMusic.misc",
         "obj": "",
@@ -1275,97 +1314,6 @@
     },
     {
         "type": "convention",
-        "module": "YukkiMusic.core.filters",
-        "obj": "",
-        "line": 72,
-        "column": 0,
-        "endLine": null,
-        "endColumn": null,
-        "path": "YukkiMusic/core/filters.py",
-        "symbol": "superfluous-parens",
-        "message": "Unnecessary parens after 'not' keyword",
-        "message-id": "C0325"
-    },
-    {
-        "type": "refactor",
-        "module": "YukkiMusic.core.filters",
-        "obj": "Filter.__call__",
-        "line": 38,
-        "column": 12,
-        "endLine": 41,
-        "endColumn": 65,
-        "path": "YukkiMusic/core/filters.py",
-        "symbol": "no-else-return",
-        "message": "Unnecessary \"else\" after \"return\", remove the \"else\" and de-indent the code inside it",
-        "message-id": "R1705"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.core.filters",
-        "obj": "wrap",
-        "line": 82,
-        "column": 0,
-        "endLine": 82,
-        "endColumn": 8,
-        "path": "YukkiMusic/core/filters.py",
-        "symbol": "function-redefined",
-        "message": "function already defined line 77",
-        "message-id": "E0102"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.core.filters",
-        "obj": "User.func",
-        "line": 141,
-        "column": 4,
-        "endLine": 141,
-        "endColumn": 18,
-        "path": "YukkiMusic/core/filters.py",
-        "symbol": "method-hidden",
-        "message": "An attribute defined in YukkiMusic.core.filters line 34 hides this method",
-        "message-id": "E0202"
-    },
-    {
-        "type": "convention",
-        "module": "YukkiMusic.core.filters",
-        "obj": "",
-        "line": 150,
-        "column": 0,
-        "endLine": 150,
-        "endColumn": 4,
-        "path": "YukkiMusic/core/filters.py",
-        "symbol": "invalid-name",
-        "message": "Class name \"user\" doesn't conform to PascalCase naming style",
-        "message-id": "C0103"
-    },
-    {
-        "type": "refactor",
-        "module": "YukkiMusic.core.filters",
-        "obj": "_normalize_command",
-        "line": 155,
-        "column": 4,
-        "endLine": 158,
-        "endColumn": 30,
-        "path": "YukkiMusic/core/filters.py",
-        "symbol": "no-else-return",
-        "message": "Unnecessary \"elif\" after \"return\", remove the leading \"el\" from \"elif\"",
-        "message-id": "R1705"
-    },
-    {
-        "type": "convention",
-        "module": "YukkiMusic.core.filters",
-        "obj": "command.filter_func",
-        "line": 177,
-        "column": 12,
-        "endLine": 177,
-        "endColumn": 73,
-        "path": "YukkiMusic/core/filters.py",
-        "symbol": "import-outside-toplevel",
-        "message": "Import outside toplevel (YukkiMusic.utils.database.memorydatabase.get_lang)",
-        "message-id": "C0415"
-    },
-    {
-        "type": "convention",
         "module": "YukkiMusic.core.telethon",
         "obj": "",
         "line": 114,
@@ -1794,6 +1742,19 @@
         "message-id": "R0915"
     },
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.misc.cleanmode",
+        "obj": "",
+        "line": 25,
+        "column": 0,
+        "endLine": 25,
+        "endColumn": 42,
+        "path": "YukkiMusic/plugins/misc/cleanmode.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'filters' in module 'YukkiMusic.core'",
+        "message-id": "E0611"
+    },
+    {
         "type": "convention",
         "module": "YukkiMusic.plugins.misc.cleanmode",
         "obj": "",
@@ -1989,6 +1950,19 @@
         "message-id": "R0915"
     },
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.sudo.videolimit",
+        "obj": "",
+        "line": 12,
+        "column": 0,
+        "endLine": 12,
+        "endColumn": 35,
+        "path": "YukkiMusic/plugins/sudo/videolimit.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'filters' in module 'YukkiMusic.core'",
+        "message-id": "E0611"
+    },
+    {
         "type": "convention",
         "module": "YukkiMusic.plugins.sudo.sudoers",
         "obj": "",
@@ -2013,6 +1987,19 @@
         "symbol": "line-too-long",
         "message": "Line too long (165/100)",
         "message-id": "C0301"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.sudo.sudoers",
+        "obj": "",
+        "line": 12,
+        "column": 0,
+        "endLine": 12,
+        "endColumn": 35,
+        "path": "YukkiMusic/plugins/sudo/sudoers.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'filters' in module 'YukkiMusic.core'",
+        "message-id": "E0611"
     },
     {
         "type": "warning",
@@ -2056,6 +2043,19 @@
     {
         "type": "error",
         "module": "YukkiMusic.plugins.sudo.block",
+        "obj": "",
+        "line": 12,
+        "column": 0,
+        "endLine": 12,
+        "endColumn": 42,
+        "path": "YukkiMusic/plugins/sudo/block.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'filters' in module 'YukkiMusic.core'",
+        "message-id": "E0611"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.sudo.block",
         "obj": "userdel",
         "line": 50,
         "column": 15,
@@ -2080,6 +2080,19 @@
         "message-id": "W0631"
     },
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.sudo.maintenance",
+        "obj": "",
+        "line": 14,
+        "column": 0,
+        "endLine": 14,
+        "endColumn": 35,
+        "path": "YukkiMusic/plugins/sudo/maintenance.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'filters' in module 'YukkiMusic.core'",
+        "message-id": "E0611"
+    },
+    {
         "type": "convention",
         "module": "YukkiMusic.plugins.sudo.autoend",
         "obj": "",
@@ -2091,6 +2104,32 @@
         "symbol": "line-too-long",
         "message": "Line too long (140/100)",
         "message-id": "C0301"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.sudo.autoend",
+        "obj": "",
+        "line": 12,
+        "column": 0,
+        "endLine": 12,
+        "endColumn": 42,
+        "path": "YukkiMusic/plugins/sudo/autoend.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'filters' in module 'YukkiMusic.core'",
+        "message-id": "E0611"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.sudo.logger",
+        "obj": "",
+        "line": 12,
+        "column": 0,
+        "endLine": 12,
+        "endColumn": 35,
+        "path": "YukkiMusic/plugins/sudo/logger.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'filters' in module 'YukkiMusic.core'",
+        "message-id": "E0611"
     },
     {
         "type": "convention",
@@ -2130,6 +2169,19 @@
         "symbol": "line-too-long",
         "message": "Line too long (104/100)",
         "message-id": "C0301"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.sudo.heroku",
+        "obj": "",
+        "line": 27,
+        "column": 0,
+        "endLine": 27,
+        "endColumn": 35,
+        "path": "YukkiMusic/plugins/sudo/heroku.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'filters' in module 'YukkiMusic.core'",
+        "message-id": "E0611"
     },
     {
         "type": "warning",
@@ -2275,6 +2327,19 @@
         "message-id": "C0301"
     },
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.sudo.dev",
+        "obj": "",
+        "line": 24,
+        "column": 0,
+        "endLine": 24,
+        "endColumn": 42,
+        "path": "YukkiMusic/plugins/sudo/dev.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'filters' in module 'YukkiMusic.core'",
+        "message-id": "E0611"
+    },
+    {
         "type": "warning",
         "module": "YukkiMusic.plugins.sudo.dev",
         "obj": "aexec",
@@ -2288,32 +2353,6 @@
         "message-id": "W0122"
     },
     {
-        "type": "error",
-        "module": "YukkiMusic.plugins.sudo.dev",
-        "obj": "executor",
-        "line": 43,
-        "column": 70,
-        "endLine": 43,
-        "endColumn": 84,
-        "path": "YukkiMusic/plugins/sudo/dev.py",
-        "symbol": "invalid-unary-operand-type",
-        "message": "bad operand type for unary ~: forwarded",
-        "message-id": "E1130"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.sudo.dev",
-        "obj": "executor",
-        "line": 45,
-        "column": 57,
-        "endLine": 45,
-        "endColumn": 71,
-        "path": "YukkiMusic/plugins/sudo/dev.py",
-        "symbol": "invalid-unary-operand-type",
-        "message": "bad operand type for unary ~: forwarded",
-        "message-id": "E1130"
-    },
-    {
         "type": "warning",
         "module": "YukkiMusic.plugins.sudo.dev",
         "obj": "forceclose_command",
@@ -2325,32 +2364,6 @@
         "symbol": "unused-variable",
         "message": "Unused variable 'query'",
         "message-id": "W0612"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.sudo.dev",
-        "obj": "shellrunner",
-        "line": 148,
-        "column": 65,
-        "endLine": 148,
-        "endColumn": 79,
-        "path": "YukkiMusic/plugins/sudo/dev.py",
-        "symbol": "invalid-unary-operand-type",
-        "message": "bad operand type for unary ~: forwarded",
-        "message-id": "E1130"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.sudo.dev",
-        "obj": "shellrunner",
-        "line": 149,
-        "column": 47,
-        "endLine": 149,
-        "endColumn": 61,
-        "path": "YukkiMusic/plugins/sudo/dev.py",
-        "symbol": "invalid-unary-operand-type",
-        "message": "bad operand type for unary ~: forwarded",
-        "message-id": "E1130"
     },
     {
         "type": "warning",
@@ -2368,6 +2381,19 @@
     {
         "type": "error",
         "module": "YukkiMusic.plugins.sudo.blacklistchat",
+        "obj": "",
+        "line": 12,
+        "column": 0,
+        "endLine": 12,
+        "endColumn": 42,
+        "path": "YukkiMusic/plugins/sudo/blacklistchat.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'filters' in module 'YukkiMusic.core'",
+        "message-id": "E0611"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.sudo.blacklistchat",
         "obj": "blacklist_chat_func",
         "line": 27,
         "column": 18,
@@ -2377,6 +2403,19 @@
         "symbol": "undefined-variable",
         "message": "Undefined variable 'message'",
         "message-id": "E0602"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.sudo.globalban",
+        "obj": "",
+        "line": 16,
+        "column": 0,
+        "endLine": 16,
+        "endColumn": 42,
+        "path": "YukkiMusic/plugins/sudo/globalban.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'filters' in module 'YukkiMusic.core'",
+        "message-id": "E0611"
     },
     {
         "type": "refactor",
@@ -2403,6 +2442,32 @@
         "symbol": "no-else-return",
         "message": "Unnecessary \"else\" after \"return\", remove the \"else\" and de-indent the code inside it",
         "message-id": "R1705"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.sudo.videomode",
+        "obj": "",
+        "line": 14,
+        "column": 0,
+        "endLine": 14,
+        "endColumn": 35,
+        "path": "YukkiMusic/plugins/sudo/videomode.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'filters' in module 'YukkiMusic.core'",
+        "message-id": "E0611"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.sudo.private",
+        "obj": "",
+        "line": 14,
+        "column": 0,
+        "endLine": 14,
+        "endColumn": 42,
+        "path": "YukkiMusic/plugins/sudo/private.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'filters' in module 'YukkiMusic.core'",
+        "message-id": "E0611"
     },
     {
         "type": "refactor",
@@ -2835,6 +2900,32 @@
     },
     {
         "type": "error",
+        "module": "YukkiMusic.plugins.admins.pause",
+        "obj": "",
+        "line": 11,
+        "column": 0,
+        "endLine": 11,
+        "endColumn": 42,
+        "path": "YukkiMusic/plugins/admins/pause.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'filters' in module 'YukkiMusic.core'",
+        "message-id": "E0611"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.admins.seek",
+        "obj": "",
+        "line": 11,
+        "column": 0,
+        "endLine": 11,
+        "endColumn": 42,
+        "path": "YukkiMusic/plugins/admins/seek.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'filters' in module 'YukkiMusic.core'",
+        "message-id": "E0611"
+    },
+    {
+        "type": "error",
         "module": "YukkiMusic.plugins.admins.seek",
         "obj": "seek_comm",
         "line": 25,
@@ -2871,6 +2962,19 @@
         "symbol": "too-many-branches",
         "message": "Too many branches (13/12)",
         "message-id": "R0912"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.admins.loop",
+        "obj": "",
+        "line": 13,
+        "column": 0,
+        "endLine": 13,
+        "endColumn": 42,
+        "path": "YukkiMusic/plugins/admins/loop.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'filters' in module 'YukkiMusic.core'",
+        "message-id": "E0611"
     },
     {
         "type": "refactor",
@@ -2910,6 +3014,45 @@
         "symbol": "undefined-variable",
         "message": "Undefined variable 'get_value'",
         "message-id": "E0602"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.admins.mute",
+        "obj": "",
+        "line": 13,
+        "column": 0,
+        "endLine": 13,
+        "endColumn": 42,
+        "path": "YukkiMusic/plugins/admins/mute.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'filters' in module 'YukkiMusic.core'",
+        "message-id": "E0611"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.admins.shuffle",
+        "obj": "",
+        "line": 14,
+        "column": 0,
+        "endLine": 14,
+        "endColumn": 42,
+        "path": "YukkiMusic/plugins/admins/shuffle.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'filters' in module 'YukkiMusic.core'",
+        "message-id": "E0611"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.admins.auth",
+        "obj": "",
+        "line": 14,
+        "column": 0,
+        "endLine": 14,
+        "endColumn": 42,
+        "path": "YukkiMusic/plugins/admins/auth.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'filters' in module 'YukkiMusic.core'",
+        "message-id": "E0611"
     },
     {
         "type": "refactor",
@@ -3003,6 +3146,32 @@
         "message-id": "R1705"
     },
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.admins.resume",
+        "obj": "",
+        "line": 12,
+        "column": 0,
+        "endLine": 12,
+        "endColumn": 42,
+        "path": "YukkiMusic/plugins/admins/resume.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'filters' in module 'YukkiMusic.core'",
+        "message-id": "E0611"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.admins.skip",
+        "obj": "",
+        "line": 13,
+        "column": 0,
+        "endLine": 13,
+        "endColumn": 42,
+        "path": "YukkiMusic/plugins/admins/skip.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'filters' in module 'YukkiMusic.core'",
+        "message-id": "E0611"
+    },
+    {
         "type": "refactor",
         "module": "YukkiMusic.plugins.admins.skip",
         "obj": "skip",
@@ -3094,6 +3263,32 @@
         "message-id": "W0612"
     },
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.admins.unmute",
+        "obj": "",
+        "line": 13,
+        "column": 0,
+        "endLine": 13,
+        "endColumn": 42,
+        "path": "YukkiMusic/plugins/admins/unmute.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'filters' in module 'YukkiMusic.core'",
+        "message-id": "E0611"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.admins.stop",
+        "obj": "",
+        "line": 12,
+        "column": 0,
+        "endLine": 12,
+        "endColumn": 42,
+        "path": "YukkiMusic/plugins/admins/stop.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'filters' in module 'YukkiMusic.core'",
+        "message-id": "E0611"
+    },
+    {
         "type": "refactor",
         "module": "YukkiMusic.plugins.bot.inline",
         "obj": "inline_query_handler",
@@ -3183,6 +3378,19 @@
         "symbol": "line-too-long",
         "message": "Line too long (132/100)",
         "message-id": "C0301"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.bot.start",
+        "obj": "",
+        "line": 22,
+        "column": 0,
+        "endLine": 22,
+        "endColumn": 42,
+        "path": "YukkiMusic/plugins/bot/start.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'filters' in module 'YukkiMusic.core'",
+        "message-id": "E0611"
     },
     {
         "type": "refactor",
@@ -3458,6 +3666,19 @@
         "message-id": "C0301"
     },
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.bot.help",
+        "obj": "",
+        "line": 19,
+        "column": 0,
+        "endLine": 19,
+        "endColumn": 42,
+        "path": "YukkiMusic/plugins/bot/help.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'filters' in module 'YukkiMusic.core'",
+        "message-id": "E0611"
+    },
+    {
         "type": "warning",
         "module": "YukkiMusic.plugins.bot.help",
         "obj": "helper_private",
@@ -3508,6 +3729,19 @@
         "symbol": "line-too-long",
         "message": "Line too long (115/100)",
         "message-id": "C0301"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.bot.settings",
+        "obj": "",
+        "line": 15,
+        "column": 0,
+        "endLine": 15,
+        "endColumn": 42,
+        "path": "YukkiMusic/plugins/bot/settings.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'filters' in module 'YukkiMusic.core'",
+        "message-id": "E0611"
     },
     {
         "type": "convention",
@@ -4251,6 +4485,19 @@
         "message-id": "E0606"
     },
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.tools.languages",
+        "obj": "",
+        "line": 16,
+        "column": 0,
+        "endLine": 16,
+        "endColumn": 35,
+        "path": "YukkiMusic/plugins/tools/languages.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'filters' in module 'YukkiMusic.core'",
+        "message-id": "E0611"
+    },
+    {
         "type": "warning",
         "module": "YukkiMusic.plugins.tools.languages",
         "obj": "lanuages_keyboard",
@@ -4275,6 +4522,19 @@
         "symbol": "f-string-without-interpolation",
         "message": "Using an f-string that does not have any interpolated variables",
         "message-id": "W1309"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.tools.reload",
+        "obj": "",
+        "line": 16,
+        "column": 0,
+        "endLine": 16,
+        "endColumn": 42,
+        "path": "YukkiMusic/plugins/tools/reload.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'filters' in module 'YukkiMusic.core'",
+        "message-id": "E0611"
     },
     {
         "type": "error",
@@ -4314,6 +4574,19 @@
         "symbol": "line-too-long",
         "message": "Line too long (112/100)",
         "message-id": "C0301"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.tools.speedtest",
+        "obj": "",
+        "line": 15,
+        "column": 0,
+        "endLine": 15,
+        "endColumn": 35,
+        "path": "YukkiMusic/plugins/tools/speedtest.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'filters' in module 'YukkiMusic.core'",
+        "message-id": "E0611"
     },
     {
         "type": "convention",
@@ -4366,6 +4639,19 @@
         "symbol": "line-too-long",
         "message": "Line too long (165/100)",
         "message-id": "C0301"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.tools.ping",
+        "obj": "",
+        "line": 14,
+        "column": 0,
+        "endLine": 14,
+        "endColumn": 35,
+        "path": "YukkiMusic/plugins/tools/ping.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'filters' in module 'YukkiMusic.core'",
+        "message-id": "E0611"
     },
     {
         "type": "error",
@@ -4446,6 +4732,19 @@
         "message-id": "E0602"
     },
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.tools.lyrics",
+        "obj": "",
+        "line": 19,
+        "column": 0,
+        "endLine": 19,
+        "endColumn": 42,
+        "path": "YukkiMusic/plugins/tools/lyrics.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'filters' in module 'YukkiMusic.core'",
+        "message-id": "E0611"
+    },
+    {
         "type": "convention",
         "module": "YukkiMusic.plugins.tools.lyrics",
         "obj": "",
@@ -4470,6 +4769,19 @@
         "symbol": "line-too-long",
         "message": "Line too long (103/100)",
         "message-id": "C0301"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.tools.queue",
+        "obj": "",
+        "line": 18,
+        "column": 0,
+        "endLine": 18,
+        "endColumn": 35,
+        "path": "YukkiMusic/plugins/tools/queue.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'filters' in module 'YukkiMusic.core'",
+        "message-id": "E0611"
     },
     {
         "type": "refactor",
@@ -4561,6 +4873,19 @@
         "symbol": "unused-variable",
         "message": "Unused variable 'channel'",
         "message-id": "W0612"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.tools.active",
+        "obj": "",
+        "line": 12,
+        "column": 0,
+        "endLine": 12,
+        "endColumn": 35,
+        "path": "YukkiMusic/plugins/tools/active.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'filters' in module 'YukkiMusic.core'",
+        "message-id": "E0611"
     },
     {
         "type": "error",
@@ -4719,6 +5044,19 @@
         "message-id": "E1102"
     },
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.play.stream",
+        "obj": "",
+        "line": 14,
+        "column": 0,
+        "endLine": 14,
+        "endColumn": 35,
+        "path": "YukkiMusic/plugins/play/stream.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'filters' in module 'YukkiMusic.core'",
+        "message-id": "E0611"
+    },
+    {
         "type": "refactor",
         "module": "YukkiMusic.plugins.play.stream",
         "obj": "stream_command",
@@ -4821,6 +5159,19 @@
         "symbol": "fixme",
         "message": "TODO: ADD SUPPORT FOR SPOTIFY, RESSO, APPLE",
         "message-id": "W0511"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.play.playlist",
+        "obj": "",
+        "line": 20,
+        "column": 0,
+        "endLine": 20,
+        "endColumn": 42,
+        "path": "YukkiMusic/plugins/play/playlist.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'filters' in module 'YukkiMusic.core'",
+        "message-id": "E0611"
     },
     {
         "type": "error",
@@ -5096,6 +5447,19 @@
         "message-id": "W0611"
     },
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.play.play",
+        "obj": "",
+        "line": 16,
+        "column": 0,
+        "endLine": 16,
+        "endColumn": 35,
+        "path": "YukkiMusic/plugins/play/play.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'filters' in module 'YukkiMusic.core'",
+        "message-id": "E0611"
+    },
+    {
         "type": "refactor",
         "module": "YukkiMusic.plugins.play.play",
         "obj": "play_commnd",
@@ -5356,6 +5720,19 @@
         "message-id": "W0612"
     },
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.play.playmode",
+        "obj": "",
+        "line": 12,
+        "column": 0,
+        "endLine": 12,
+        "endColumn": 35,
+        "path": "YukkiMusic/plugins/play/playmode.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'filters' in module 'YukkiMusic.core'",
+        "message-id": "E0611"
+    },
+    {
         "type": "warning",
         "module": "YukkiMusic.plugins.play.channel",
         "obj": "",
@@ -5367,6 +5744,19 @@
         "symbol": "fixme",
         "message": "TODO: REMOVE THE DISABLE AND LINKED MODE AND KEEP LINKED DEFAULT",
         "message-id": "W0511"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.play.channel",
+        "obj": "",
+        "line": 16,
+        "column": 0,
+        "endLine": 16,
+        "endColumn": 35,
+        "path": "YukkiMusic/plugins/play/channel.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'filters' in module 'YukkiMusic.core'",
+        "message-id": "E0611"
     },
     {
         "type": "error",
@@ -5794,7 +6184,7 @@
         "endColumn": null,
         "path": "docs/conf.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.bot.start:[79:91]\n==YukkiMusic.plugins.play.toptracks:[81:93]\n                results = {}\n                for i in stats:\n                    top_list = stats[i][\"spot\"]\n                    results[str(i)] = top_list\n                    list_arranged = dict(\n                        sorted(\n                            results.items(),\n                            key=lambda item: item[1],\n                            reverse=True,\n                        )\n                    )\n                if not results:",
+        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.bot.start:[79:91]\n==YukkiMusic.plugins.play.toptracks:[81:93]\n        results = {}\n        for i in stats:\n            top_list = stats[i][\"spot\"]\n            results[str(i)] = top_list\n            list_arranged = dict(\n                sorted(\n                    results.items(),\n                    key=lambda item: item[1],\n                    reverse=True,\n                )\n            )\n        if not results:",
         "message-id": "R0801"
     },
     {
@@ -5820,7 +6210,7 @@
         "endColumn": null,
         "path": "docs/conf.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.play.stream:[57:66]\n==YukkiMusic.plugins.play.toptracks:[118:128]\n        )\n    except Exception as e:\n        ex_type = type(e).__name__\n        if ex_type == \"AssistantErr\":\n            err = e\n        else:\n            err = _[\"general_3\"].format(ex_type)\n        logger.error(\"\\n\", exc_info=True)\n\n        return await mystic.edit(err)",
+        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.play.stream:[57:66]\n==YukkiMusic.plugins.play.toptracks:[118:128]\n            )\n        except Exception as e:\n            ex_type = type(e).__name__\n            if ex_type == \"AssistantErr\":\n                err = e\n            else:\n                err = _[\"general_3\"].format(ex_type)\n                logger.error(\"\\n\", exc_info=True)\n            return await mystic.edit(err)",
         "message-id": "R0801"
     },
     {
@@ -5846,7 +6236,7 @@
         "endColumn": null,
         "path": "docs/conf.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.play.play:[222:231]\n==YukkiMusic.plugins.play.playlist:[386:394]\n            user_id=user_id,\n            forceplay=fplay,\n        )\n    except Exception as e:\n        ex_type = type(e).__name__\n        if ex_type == \"AssistantErr\":\n            err = e\n        else:",
+        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.play.play:[222:231]\n==YukkiMusic.plugins.play.playlist:[386:394]\n                user_id=user_id,\n                forceplay=fplay,\n            )\n\n        except Exception as e:\n            ex_type = type(e).__name__\n            if ex_type == \"AssistantErr\":\n                err = e\n            else:",
         "message-id": "R0801"
     },
     {
@@ -5859,7 +6249,7 @@
         "endColumn": null,
         "path": "docs/conf.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.play.playlist:[387:395]\n==YukkiMusic.plugins.play.stream:[56:64]\n                forceplay=fplay,\n            )\n        except Exception as e:\n            ex_type = type(e).__name__\n            if ex_type == \"AssistantErr\":\n                err = e\n            else:\n                err = _[\"general_3\"].format(ex_type)",
+        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.play.playlist:[387:395]\n==YukkiMusic.plugins.play.stream:[56:64]\n            forceplay=fplay,\n        )\n    except Exception as e:\n        ex_type = type(e).__name__\n        if ex_type == \"AssistantErr\":\n            err = e\n        else:\n            err = _[\"general_3\"].format(ex_type)",
         "message-id": "R0801"
     },
     {
@@ -5924,7 +6314,7 @@
         "endColumn": null,
         "path": "docs/conf.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.play.play:[170:177]\n==YukkiMusic.plugins.play.stream:[43:50]\n                title=\"M3U8 or index Urls\",\n                link=url,\n                thumb=config.STREAM_IMG_URL,\n                duration=0,\n                streamtype=SourceType.M3U8,\n                video=video,\n            )",
+        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.play.play:[170:177]\n==YukkiMusic.plugins.play.stream:[43:50]\n            title=\"M3U8 or index Urls\",\n            link=url,\n            thumb=config.STREAM_IMG_URL,\n            duration=0,\n            streamtype=SourceType.M3U8,\n            video=video,\n        )",
         "message-id": "R0801"
     },
     {
@@ -6041,7 +6431,7 @@
         "endColumn": null,
         "path": "docs/conf.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.play.live:[31:38]\n==YukkiMusic.plugins.sudo.dev:[138:144]\n        except Exception:\n            return\n    await event.delete()\n    try:\n        await event.answer()\n    except Exception:",
+        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.play.live:[31:38]\n==YukkiMusic.plugins.sudo.dev:[138:144]\n    except Exception:\n        return\n\n    await event.delete()\n    try:\n        await event.answer()\n    except Exception:",
         "message-id": "R0801"
     },
     {
@@ -6054,7 +6444,7 @@
         "endColumn": null,
         "path": "docs/conf.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==YukkiMusic.core.telethon:[280:288]\n==YukkiMusic.core.track:[144:151]\n        process = await asyncio.create_subprocess_shell(\n            command,\n            stdout=asyncio.subprocess.PIPE,\n            stderr=asyncio.subprocess.PIPE,\n        )\n\n        stdout, stderr = await process.communicate()\n",
+        "message": "Similar lines in 2 files\n==YukkiMusic.core.telethon:[280:288]\n==YukkiMusic.core.track:[144:151]\n            process = await asyncio.create_subprocess_shell(\n                command,\n                stdout=asyncio.subprocess.PIPE,\n                stderr=asyncio.subprocess.PIPE,\n            )\n            stdout, stderr = await process.communicate()\n",
         "message-id": "R0801"
     },
     {
@@ -6067,7 +6457,7 @@
         "endColumn": null,
         "path": "docs/conf.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==YukkiMusic.platforms.apple:[34:43]\n==YukkiMusic.platforms.spotify:[45:54]\n            \"playlist\": self.playlist,\n        }\n        for key, handler in handlers.items():\n            if key in url:\n                return await handler(url)\n        return None\n\n    @alru_cache(maxsize=None)\n    async def __track(self, url: str) -> Track | bool:",
+        "message": "Similar lines in 2 files\n==YukkiMusic.platforms.apple:[34:43]\n==YukkiMusic.platforms.spotify:[45:54]\n            \"playlist\": self.playlist,\n        }\n        for key, handler in handlers.items():\n            if key in url:\n                return await handler(url)\n        return None\n\n    @alru_cache(maxsize=None)\n    async def __track(self, link: str) -> Track:",
         "message-id": "R0801"
     },
     {
@@ -6145,7 +6535,7 @@
         "endColumn": null,
         "path": "docs/conf.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.admins.callback:[296:301]\n==YukkiMusic.plugins.admins.seek:[76:81]\n        await Yukki.seek_stream(\n            chat_id,\n            file_path,\n            seconds_to_min(to_seek),\n            duration,",
+        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.admins.callback:[296:301]\n==YukkiMusic.plugins.admins.seek:[76:81]\n            await Yukki.seek_stream(\n                chat_id,\n                file_path,\n                seconds_to_min(to_seek),\n                duration,",
         "message-id": "R0801"
     },
     {
@@ -6184,7 +6574,7 @@
         "endColumn": null,
         "path": "docs/conf.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.play.playlist:[347:352]\n==YukkiMusic.utils.decorators.admins:[58:63]\n    if cplay:\n        chat_id = await get_cmode(event.chat_id)\n        if chat_id is None:\n            return await event.reply(_[\"setting_12\"])\n        try:",
+        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.play.playlist:[347:352]\n==YukkiMusic.utils.decorators.admins:[58:63]\n        if cplay:\n            chat_id = await get_cmode(event.chat_id)\n            if chat_id is None:\n                return await event.reply(_[\"setting_12\"])\n            try:",
         "message-id": "R0801"
     },
     {

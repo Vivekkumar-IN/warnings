@@ -1,5 +1,18 @@
 [
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.sudo.heroku",
+        "obj": "",
+        "line": 27,
+        "column": 0,
+        "endLine": 27,
+        "endColumn": 35,
+        "path": "YukkiMusic/plugins/sudo/heroku.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'filters' in module 'YukkiMusic.core'",
+        "message-id": "E0611"
+    },
+    {
         "type": "warning",
         "module": "YukkiMusic.plugins.sudo.heroku",
         "obj": "log_._get_log",
