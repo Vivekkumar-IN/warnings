@@ -102,31 +102,5 @@
         "symbol": "import-outside-toplevel",
         "message": "Import outside toplevel (YukkiMusic.core.userbot.assistants)",
         "message-id": "C0415"
-    },
-    {
-        "type": "convention",
-        "module": "YukkiMusic.utils.database.assistantdatabase",
-        "obj": "",
-        "line": 127,
-        "column": 0,
-        "endLine": null,
-        "endColumn": null,
-        "path": "YukkiMusic/utils/database/assistantdatabase.py",
-        "symbol": "missing-final-newline",
-        "message": "Final newline missing",
-        "message-id": "C0304"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.utils.database.assistantdatabase",
-        "obj": "group_assistant",
-        "line": 127,
-        "column": 40,
-        "endLine": 127,
-        "endColumn": 55,
-        "path": "YukkiMusic/utils/database/assistantdatabase.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable 'assistant_index'",
-        "message-id": "E0602"
     }
 ]
