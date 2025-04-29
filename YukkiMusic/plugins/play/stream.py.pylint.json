@@ -9,19 +9,6 @@
         "endColumn": 60,
         "path": "YukkiMusic/plugins/play/stream.py",
         "symbol": "no-name-in-module",
-        "message": "No name 'play_logs' in module 'YukkiMusic.utils'",
-        "message-id": "E0611"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.play.stream",
-        "obj": "",
-        "line": 18,
-        "column": 0,
-        "endLine": 18,
-        "endColumn": 60,
-        "path": "YukkiMusic/plugins/play/stream.py",
-        "symbol": "no-name-in-module",
         "message": "No name 'play_wrapper' in module 'YukkiMusic.utils'",
         "message-id": "E0611"
     },
@@ -89,5 +76,18 @@
         "symbol": "not-callable",
         "message": "stream is not callable",
         "message-id": "E1102"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.play.stream",
+        "obj": "stream_command",
+        "line": 65,
+        "column": 21,
+        "endLine": 65,
+        "endColumn": 65,
+        "path": "YukkiMusic/plugins/play/stream.py",
+        "symbol": "no-value-for-parameter",
+        "message": "No value for argument 'event' in function call",
+        "message-id": "E1120"
     }
 ]
