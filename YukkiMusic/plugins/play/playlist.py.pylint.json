@@ -289,6 +289,19 @@
         "type": "error",
         "module": "YukkiMusic.plugins.play.playlist",
         "obj": "play_playlist",
+        "line": 323,
+        "column": 27,
+        "endLine": 323,
+        "endColumn": 83,
+        "path": "YukkiMusic/plugins/play/playlist.py",
+        "symbol": "too-many-function-args",
+        "message": "Too many positional arguments for staticmethod call",
+        "message-id": "E1121"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.play.playlist",
+        "obj": "play_playlist",
         "line": 325,
         "column": 14,
         "endLine": 330,
@@ -310,6 +323,19 @@
         "symbol": "undefined-variable",
         "message": "Undefined variable 'get_cmode'",
         "message-id": "E0602"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.play.playlist",
+        "obj": "play_playlist_command",
+        "line": 378,
+        "column": 27,
+        "endLine": 378,
+        "endColumn": 77,
+        "path": "YukkiMusic/plugins/play/playlist.py",
+        "symbol": "too-many-function-args",
+        "message": "Too many positional arguments for staticmethod call",
+        "message-id": "E1121"
     },
     {
         "type": "error",

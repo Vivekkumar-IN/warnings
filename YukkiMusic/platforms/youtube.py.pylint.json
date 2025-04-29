@@ -1,15 +1,80 @@
 [
     {
+        "type": "warning",
+        "module": "YukkiMusic.platforms.youtube",
+        "obj": "YouTube.formats",
+        "line": 57,
+        "column": 16,
+        "endLine": 57,
+        "endColumn": 22,
+        "path": "YukkiMusic/platforms/youtube.py",
+        "symbol": "redefined-builtin",
+        "message": "Redefining built-in 'format'",
+        "message-id": "W0622"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.platforms.youtube",
+        "obj": "YouTube.playlist",
+        "line": 100,
+        "column": 16,
+        "endLine": 100,
+        "endColumn": 55,
+        "path": "YukkiMusic/platforms/youtube.py",
+        "symbol": "broad-exception-raised",
+        "message": "Raising too general exception: Exception",
+        "message-id": "W0719"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.platforms.youtube",
+        "obj": "YouTube.track",
+        "line": 119,
+        "column": 4,
+        "endLine": 119,
+        "endColumn": 19,
+        "path": "YukkiMusic/platforms/youtube.py",
+        "symbol": "arguments-differ",
+        "message": "Number of parameters was 2 in 'PlatformBase.track' and is now 1 in overriding 'YouTube.track' method",
+        "message-id": "W0221"
+    },
+    {
         "type": "error",
         "module": "YukkiMusic.platforms.youtube",
+        "obj": "YouTube.track",
+        "line": 121,
+        "column": 25,
+        "endLine": 121,
+        "endColumn": 29,
+        "path": "YukkiMusic/platforms/youtube.py",
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'self'",
+        "message-id": "E0602"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.platforms.youtube",
+        "obj": "YouTube._track_from_ytdlp",
+        "line": 158,
+        "column": 8,
+        "endLine": 158,
+        "endColumn": 62,
+        "path": "YukkiMusic/platforms/youtube.py",
+        "symbol": "logging-fstring-interpolation",
+        "message": "Use lazy % formatting in logging functions",
+        "message-id": "W1203"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.platforms.youtube",
         "obj": "",
-        "line": 23,
-        "column": 13,
+        "line": 162,
+        "column": 16,
         "endLine": null,
         "endColumn": null,
         "path": "YukkiMusic/platforms/youtube.py",
-        "symbol": "syntax-error",
-        "message": "Parsing failed: 'invalid syntax (YukkiMusic.platforms.youtube, line 23)'",
-        "message-id": "E0001"
+        "symbol": "fixme",
+        "message": "TODO: THIS CAN RETURN SEARCH RESULT OF A CHANNEL FIX IT",
+        "message-id": "W0511"
     }
 ]

@@ -133,6 +133,19 @@
         "type": "error",
         "module": "YukkiMusic.plugins.admins.callback",
         "obj": "play_music",
+        "line": 339,
+        "column": 34,
+        "endLine": 339,
+        "endColumn": 60,
+        "path": "YukkiMusic/plugins/admins/callback.py",
+        "symbol": "too-many-function-args",
+        "message": "Too many positional arguments for staticmethod call",
+        "message-id": "E1121"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.admins.callback",
+        "obj": "play_music",
         "line": 364,
         "column": 14,
         "endLine": 375,
@@ -219,6 +232,19 @@
         "symbol": "too-many-branches",
         "message": "Too many branches (15/12)",
         "message-id": "R0912"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.admins.callback",
+        "obj": "play_playlists_cb",
+        "line": 432,
+        "column": 27,
+        "endLine": 436,
+        "endColumn": 13,
+        "path": "YukkiMusic/plugins/admins/callback.py",
+        "symbol": "too-many-function-args",
+        "message": "Too many positional arguments for method call",
+        "message-id": "E1121"
     },
     {
         "type": "error",
