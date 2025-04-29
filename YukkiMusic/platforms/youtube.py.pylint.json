@@ -1,18 +1,5 @@
 [
     {
-        "type": "error",
-        "module": "YukkiMusic.platforms.youtube",
-        "obj": "",
-        "line": 20,
-        "column": 0,
-        "endLine": 20,
-        "endColumn": 48,
-        "path": "YukkiMusic/platforms/youtube.py",
-        "symbol": "no-name-in-module",
-        "message": "No name 'asyncify' in module 'YukkiMusic.utils.decorators'",
-        "message-id": "E0611"
-    },
-    {
         "type": "warning",
         "module": "YukkiMusic.platforms.youtube",
         "obj": "YouTube.formats",
