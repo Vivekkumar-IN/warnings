@@ -1,18 +1,5 @@
 [
     {
-        "type": "error",
-        "module": "YukkiMusic.utils.misc",
-        "obj": "",
-        "line": 13,
-        "column": 0,
-        "endLine": 13,
-        "endColumn": 53,
-        "path": "YukkiMusic/utils/misc.py",
-        "symbol": "no-name-in-module",
-        "message": "No name 'database' in module 'YukkiMusic'",
-        "message-id": "E0611"
-    },
-    {
         "type": "convention",
         "module": "YukkiMusic.utils.misc",
         "obj": "get_value",
