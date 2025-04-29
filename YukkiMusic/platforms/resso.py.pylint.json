@@ -1,5 +1,18 @@
 [
     {
+        "type": "error",
+        "module": "YukkiMusic.platforms.resso",
+        "obj": "",
+        "line": 45,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "YukkiMusic/platforms/resso.py",
+        "symbol": "syntax-error",
+        "message": "Cannot import 'youtube' due to 'invalid syntax (YukkiMusic.platforms.youtube, line 23)'",
+        "message-id": "E0001"
+    },
+    {
         "type": "convention",
         "module": "YukkiMusic.platforms.resso",
         "obj": "Resso.track",
