@@ -2,14 +2,14 @@
     {
         "type": "warning",
         "module": "YukkiMusic.platforms.soundcloud",
-        "obj": "SoundCloud.track",
-        "line": 25,
-        "column": 4,
-        "endLine": 25,
-        "endColumn": 13,
+        "obj": "",
+        "line": 13,
+        "column": 0,
+        "endLine": 13,
+        "endColumn": 48,
         "path": "YukkiMusic/platforms/soundcloud.py",
-        "symbol": "invalid-overridden-method",
-        "message": "Method 'track' was expected to be 'async', found it instead as 'non-async'",
-        "message-id": "W0236"
+        "symbol": "unused-import",
+        "message": "Unused asyncify imported from YukkiMusic.utils.decorators",
+        "message-id": "W0611"
     }
 ]
