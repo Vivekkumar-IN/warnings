@@ -1,5 +1,18 @@
 [
     {
+        "type": "warning",
+        "module": "YukkiMusic.core.filters",
+        "obj": "",
+        "line": 13,
+        "column": 0,
+        "endLine": 13,
+        "endColumn": 10,
+        "path": "YukkiMusic/core/filters.py",
+        "symbol": "unused-import",
+        "message": "Unused import sys",
+        "message-id": "W0611"
+    },
+    {
         "type": "refactor",
         "module": "YukkiMusic.core.filters",
         "obj": "Filter.__call__",
