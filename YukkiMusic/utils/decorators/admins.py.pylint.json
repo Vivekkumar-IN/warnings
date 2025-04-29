@@ -1,5 +1,18 @@
 [
     {
+        "type": "warning",
+        "module": "YukkiMusic.utils.decorators.admins",
+        "obj": "",
+        "line": 16,
+        "column": 0,
+        "endLine": 16,
+        "endColumn": 27,
+        "path": "YukkiMusic/utils/decorators/admins.py",
+        "symbol": "unused-import",
+        "message": "Unused tbot imported from YukkiMusic",
+        "message-id": "W0611"
+    },
+    {
         "type": "refactor",
         "module": "YukkiMusic.utils.decorators.admins",
         "obj": "admin_rights_check.wrapper",
