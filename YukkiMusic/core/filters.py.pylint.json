@@ -55,9 +55,9 @@
         "type": "refactor",
         "module": "YukkiMusic.core.filters",
         "obj": "_normalize_command",
-        "line": 157,
+        "line": 156,
         "column": 4,
-        "endLine": 160,
+        "endLine": 159,
         "endColumn": 30,
         "path": "YukkiMusic/core/filters.py",
         "symbol": "no-else-return",
@@ -76,31 +76,5 @@
         "symbol": "import-outside-toplevel",
         "message": "Import outside toplevel (YukkiMusic.utils.database.memorydatabase.get_lang)",
         "message-id": "C0415"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.core.filters",
-        "obj": "command.filter_func",
-        "line": 194,
-        "column": 59,
-        "endLine": 194,
-        "endColumn": 61,
-        "path": "YukkiMusic/core/filters.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable 're'",
-        "message-id": "E0602"
-    },
-    {
-        "type": "convention",
-        "module": "YukkiMusic.core.filters",
-        "obj": "",
-        "line": 196,
-        "column": 0,
-        "endLine": null,
-        "endColumn": null,
-        "path": "YukkiMusic/core/filters.py",
-        "symbol": "missing-final-newline",
-        "message": "Final newline missing",
-        "message-id": "C0304"
     }
 ]
