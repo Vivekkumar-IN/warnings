@@ -1,18 +1,5 @@
 [
     {
-        "type": "error",
-        "module": "YukkiMusic.plugins.play.channel",
-        "obj": "",
-        "line": 18,
-        "column": 0,
-        "endLine": 18,
-        "endColumn": 63,
-        "path": "YukkiMusic/plugins/play/channel.py",
-        "symbol": "no-name-in-module",
-        "message": "No name 'get_value' in module 'YukkiMusic.utils'",
-        "message-id": "E0611"
-    },
-    {
         "type": "refactor",
         "module": "YukkiMusic.plugins.play.channel",
         "obj": "playmode_",

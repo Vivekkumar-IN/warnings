@@ -9,19 +9,6 @@
         "endColumn": 1,
         "path": "YukkiMusic/plugins/tools/queue.py",
         "symbol": "no-name-in-module",
-        "message": "No name 'parse_flags' in module 'YukkiMusic.utils'",
-        "message-id": "E0611"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.tools.queue",
-        "obj": "",
-        "line": 19,
-        "column": 0,
-        "endLine": 30,
-        "endColumn": 1,
-        "path": "YukkiMusic/plugins/tools/queue.py",
-        "symbol": "no-name-in-module",
         "message": "No name 'queue_back_markup' in module 'YukkiMusic.utils'",
         "message-id": "E0611"
     },
