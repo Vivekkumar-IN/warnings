@@ -2,6 +2,19 @@
     {
         "type": "warning",
         "module": "YukkiMusic.platforms.youtube",
+        "obj": "",
+        "line": 20,
+        "column": 0,
+        "endLine": 20,
+        "endColumn": 48,
+        "path": "YukkiMusic/platforms/youtube.py",
+        "symbol": "unused-import",
+        "message": "Unused asyncify imported from YukkiMusic.utils.decorators",
+        "message-id": "W0611"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.platforms.youtube",
         "obj": "YouTube.formats",
         "line": 57,
         "column": 16,
