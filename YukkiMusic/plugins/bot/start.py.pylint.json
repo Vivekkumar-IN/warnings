@@ -1,31 +1,5 @@
 [
     {
-        "type": "error",
-        "module": "YukkiMusic.plugins.bot.start",
-        "obj": "start_comm",
-        "line": 46,
-        "column": 1,
-        "endLine": 46,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/bot/start.py",
-        "symbol": "no-value-for-parameter",
-        "message": "No value for argument 'func' in function call",
-        "message-id": "E1120"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.bot.start",
-        "obj": "start_comm",
-        "line": 46,
-        "column": 1,
-        "endLine": 46,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/bot/start.py",
-        "symbol": "no-value-for-parameter",
-        "message": "No value for argument 'event' in function call",
-        "message-id": "E1120"
-    },
-    {
         "type": "refactor",
         "module": "YukkiMusic.plugins.bot.start",
         "obj": "start_comm",
@@ -284,32 +258,6 @@
         "symbol": "line-too-long",
         "message": "Line too long (132/100)",
         "message-id": "C0301"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.bot.start",
-        "obj": "start_group",
-        "line": 228,
-        "column": 1,
-        "endLine": 228,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/bot/start.py",
-        "symbol": "no-value-for-parameter",
-        "message": "No value for argument 'func' in function call",
-        "message-id": "E1120"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.bot.start",
-        "obj": "start_group",
-        "line": 228,
-        "column": 1,
-        "endLine": 228,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/bot/start.py",
-        "symbol": "no-value-for-parameter",
-        "message": "No value for argument 'event' in function call",
-        "message-id": "E1120"
     },
     {
         "type": "warning",

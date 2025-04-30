@@ -24,31 +24,5 @@
         "symbol": "redefined-outer-name",
         "message": "Redefining name 'language' from outer scope (line 22)",
         "message-id": "W0621"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.bot.help",
-        "obj": "help_com_group",
-        "line": 103,
-        "column": 1,
-        "endLine": 103,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/bot/help.py",
-        "symbol": "no-value-for-parameter",
-        "message": "No value for argument 'func' in function call",
-        "message-id": "E1120"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.bot.help",
-        "obj": "help_com_group",
-        "line": 103,
-        "column": 1,
-        "endLine": 103,
-        "endColumn": 24,
-        "path": "YukkiMusic/plugins/bot/help.py",
-        "symbol": "no-value-for-parameter",
-        "message": "No value for argument 'event' in function call",
-        "message-id": "E1120"
     }
 ]
