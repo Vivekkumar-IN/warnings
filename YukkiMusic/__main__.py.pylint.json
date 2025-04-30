@@ -1,0 +1,15 @@
+[
+    {
+        "type": "warning",
+        "module": "YukkiMusic.__main__",
+        "obj": "",
+        "line": 11,
+        "column": 0,
+        "endLine": 11,
+        "endColumn": 14,
+        "path": "YukkiMusic/__main__.py",
+        "symbol": "unused-import",
+        "message": "Unused import sqlite3",
+        "message-id": "W0611"
+    }
+]

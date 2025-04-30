@@ -26,6 +26,19 @@
         "message-id": "C0103"
     },
     {
+        "type": "warning",
+        "module": "YukkiMusic.__main__",
+        "obj": "",
+        "line": 11,
+        "column": 0,
+        "endLine": 11,
+        "endColumn": 14,
+        "path": "YukkiMusic/__main__.py",
+        "symbol": "unused-import",
+        "message": "Unused import sqlite3",
+        "message-id": "W0611"
+    },
+    {
         "type": "convention",
         "module": "YukkiMusic.utils.misc",
         "obj": "get_value",
@@ -1391,19 +1404,6 @@
         "message-id": "C0301"
     },
     {
-        "type": "convention",
-        "module": "YukkiMusic.core.telethon",
-        "obj": "",
-        "line": 258,
-        "column": 0,
-        "endLine": null,
-        "endColumn": null,
-        "path": "YukkiMusic/core/telethon.py",
-        "symbol": "line-too-long",
-        "message": "Line too long (108/100)",
-        "message-id": "C0301"
-    },
-    {
         "type": "warning",
         "module": "YukkiMusic.core.telethon",
         "obj": "TelethonClient.run_coro",
@@ -1433,9 +1433,9 @@
         "type": "warning",
         "module": "YukkiMusic.core.telethon",
         "obj": "TelethonClient.on_message",
-        "line": 270,
+        "line": 272,
         "column": 4,
-        "endLine": 270,
+        "endLine": 272,
         "endColumn": 18,
         "path": "YukkiMusic/core/telethon.py",
         "symbol": "keyword-arg-before-vararg",
@@ -1446,9 +1446,9 @@
         "type": "warning",
         "module": "YukkiMusic.core.telethon",
         "obj": "TelethonClient.__set_default_commands",
-        "line": 342,
+        "line": 344,
         "column": 16,
-        "endLine": 342,
+        "endLine": 344,
         "endColumn": 18,
         "path": "YukkiMusic/core/telethon.py",
         "symbol": "redefined-builtin",
@@ -1459,9 +1459,9 @@
         "type": "error",
         "module": "YukkiMusic.core.telethon",
         "obj": "TelethonClient.__set_default_commands",
-        "line": 329,
+        "line": 331,
         "column": 25,
-        "endLine": 329,
+        "endLine": 331,
         "endColumn": 32,
         "path": "YukkiMusic/core/telethon.py",
         "symbol": "undefined-variable",
@@ -1472,9 +1472,9 @@
         "type": "error",
         "module": "YukkiMusic.core.telethon",
         "obj": "TelethonClient.__set_default_commands",
-        "line": 333,
+        "line": 335,
         "column": 25,
-        "endLine": 333,
+        "endLine": 335,
         "endColumn": 32,
         "path": "YukkiMusic/core/telethon.py",
         "symbol": "undefined-variable",
@@ -1485,9 +1485,9 @@
         "type": "error",
         "module": "YukkiMusic.core.telethon",
         "obj": "TelethonClient.__set_default_commands",
-        "line": 337,
+        "line": 339,
         "column": 25,
-        "endLine": 337,
+        "endLine": 339,
         "endColumn": 32,
         "path": "YukkiMusic/core/telethon.py",
         "symbol": "undefined-variable",
@@ -1498,9 +1498,9 @@
         "type": "error",
         "module": "YukkiMusic.core.telethon",
         "obj": "TelethonClient.__set_default_commands",
-        "line": 344,
+        "line": 346,
         "column": 29,
-        "endLine": 344,
+        "endLine": 346,
         "endColumn": 36,
         "path": "YukkiMusic/core/telethon.py",
         "symbol": "undefined-variable",
@@ -1511,9 +1511,9 @@
         "type": "error",
         "module": "YukkiMusic.core.telethon",
         "obj": "TelethonClient.__set_default_commands",
-        "line": 348,
+        "line": 350,
         "column": 29,
-        "endLine": 348,
+        "endLine": 350,
         "endColumn": 36,
         "path": "YukkiMusic/core/telethon.py",
         "symbol": "undefined-variable",
@@ -1524,9 +1524,9 @@
         "type": "error",
         "module": "YukkiMusic.core.telethon",
         "obj": "TelethonClient.__set_default_commands",
-        "line": 348,
+        "line": 350,
         "column": 50,
-        "endLine": 348,
+        "endLine": 350,
         "endColumn": 57,
         "path": "YukkiMusic/core/telethon.py",
         "symbol": "undefined-variable",
@@ -1537,9 +1537,9 @@
         "type": "warning",
         "module": "YukkiMusic.core.telethon",
         "obj": "TelethonClient.set_bot_commands",
-        "line": 354,
+        "line": 356,
         "column": 44,
-        "endLine": 354,
+        "endLine": 356,
         "endColumn": 76,
         "path": "YukkiMusic/core/telethon.py",
         "symbol": "redefined-outer-name",
@@ -5586,7 +5586,7 @@
         "endColumn": null,
         "path": "docs/conf.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.bot.start:[79:91]\n==YukkiMusic.plugins.play.toptracks:[81:93]\n                results = {}\n                for i in stats:\n                    top_list = stats[i][\"spot\"]\n                    results[str(i)] = top_list\n                    list_arranged = dict(\n                        sorted(\n                            results.items(),\n                            key=lambda item: item[1],\n                            reverse=True,\n                        )\n                    )\n                if not results:",
+        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.bot.start:[79:91]\n==YukkiMusic.plugins.play.toptracks:[81:93]\n        results = {}\n        for i in stats:\n            top_list = stats[i][\"spot\"]\n            results[str(i)] = top_list\n            list_arranged = dict(\n                sorted(\n                    results.items(),\n                    key=lambda item: item[1],\n                    reverse=True,\n                )\n            )\n        if not results:",
         "message-id": "R0801"
     },
     {
@@ -5638,7 +5638,7 @@
         "endColumn": null,
         "path": "docs/conf.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.play.play:[222:231]\n==YukkiMusic.plugins.play.playlist:[386:394]\n            user_id=user_id,\n            forceplay=fplay,\n        )\n    except Exception as e:\n        ex_type = type(e).__name__\n        if ex_type == \"AssistantErr\":\n            err = e\n        else:",
+        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.play.play:[222:231]\n==YukkiMusic.plugins.play.playlist:[386:394]\n                user_id=user_id,\n                forceplay=fplay,\n            )\n\n        except Exception as e:\n            ex_type = type(e).__name__\n            if ex_type == \"AssistantErr\":\n                err = e\n            else:",
         "message-id": "R0801"
     },
     {
@@ -5677,7 +5677,7 @@
         "endColumn": null,
         "path": "docs/conf.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.admins.callback:[322:330]\n==YukkiMusic.plugins.play.live:[25:34]\n        try:\n            return await event.answer(_[\"playcb_1\"], alert=True)\n        except Exception:\n            return\n    try:\n        chat_id, channel = await get_channeplay_cb(_, cplay, event)\n    except Exception:\n        return\n",
+        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.admins.callback:[322:330]\n==YukkiMusic.plugins.play.live:[25:34]\n        try:\n            return await event.answer(_[\"playcb_1\"], alert=True)\n        except Exception:\n            return\n    try:\n        chat_id, channel = await get_channeplay_cb(_, cplay, event)\n    except Exception:\n        return",
         "message-id": "R0801"
     },
     {
@@ -5716,7 +5716,7 @@
         "endColumn": null,
         "path": "docs/conf.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.play.play:[170:177]\n==YukkiMusic.plugins.play.stream:[43:50]\n                title=\"M3U8 or index Urls\",\n                link=url,\n                thumb=config.STREAM_IMG_URL,\n                duration=0,\n                streamtype=SourceType.M3U8,\n                video=video,\n            )",
+        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.play.play:[170:177]\n==YukkiMusic.plugins.play.stream:[43:50]\n            title=\"M3U8 or index Urls\",\n            link=url,\n            thumb=config.STREAM_IMG_URL,\n            duration=0,\n            streamtype=SourceType.M3U8,\n            video=video,\n        )",
         "message-id": "R0801"
     },
     {
@@ -5729,7 +5729,7 @@
         "endColumn": null,
         "path": "docs/conf.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.play.playlist:[331:338]\n==YukkiMusic.plugins.play.stream:[57:64]\n            )\n        except Exception as e:\n            ex_type = type(e).__name__\n            if ex_type == \"AssistantErr\":\n                err = e\n            else:\n                err = _[\"general_3\"].format(ex_type)",
+        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.play.playlist:[331:338]\n==YukkiMusic.plugins.play.stream:[57:64]\n        )\n    except Exception as e:\n        ex_type = type(e).__name__\n        if ex_type == \"AssistantErr\":\n            err = e\n        else:\n            err = _[\"general_3\"].format(ex_type)",
         "message-id": "R0801"
     },
     {
@@ -5820,7 +5820,7 @@
         "endColumn": null,
         "path": "docs/conf.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.admins.callback:[154:160]\n==YukkiMusic.plugins.admins.stop:[21:28]\n    try:\n        check = db.get(chat_id)\n        if check[0].get(\"mystic\"):\n            await check[0].get(\"mystic\").delete()\n    except Exception:\n        pass\n",
+        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.admins.callback:[154:160]\n==YukkiMusic.plugins.admins.stop:[21:28]\n        try:\n            check = db.get(chat_id)\n            if check[0].get(\"mystic\"):\n                await check[0].get(\"mystic\").delete()\n        except Exception:\n            pass",
         "message-id": "R0801"
     },
     {
@@ -5833,7 +5833,7 @@
         "endColumn": null,
         "path": "docs/conf.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.play.live:[31:38]\n==YukkiMusic.plugins.sudo.dev:[140:146]\n    except Exception:\n        return\n\n    await event.delete()\n    try:\n        await event.answer()\n    except Exception:",
+        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.play.live:[31:38]\n==YukkiMusic.plugins.sudo.dev:[140:146]\n        except Exception:\n            return\n    await event.delete()\n    try:\n        await event.answer()\n    except Exception:",
         "message-id": "R0801"
     },
     {
@@ -5846,7 +5846,7 @@
         "endColumn": null,
         "path": "docs/conf.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==YukkiMusic.core.telethon:[311:319]\n==YukkiMusic.core.track:[144:151]\n            process = await asyncio.create_subprocess_shell(\n                command,\n                stdout=asyncio.subprocess.PIPE,\n                stderr=asyncio.subprocess.PIPE,\n            )\n            stdout, stderr = await process.communicate()\n",
+        "message": "Similar lines in 2 files\n==YukkiMusic.core.telethon:[313:321]\n==YukkiMusic.core.track:[144:151]\n            process = await asyncio.create_subprocess_shell(\n                command,\n                stdout=asyncio.subprocess.PIPE,\n                stderr=asyncio.subprocess.PIPE,\n            )\n            stdout, stderr = await process.communicate()\n",
         "message-id": "R0801"
     },
     {
@@ -5989,7 +5989,7 @@
         "endColumn": null,
         "path": "docs/conf.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.sudo.maintenance:[25:30]\n==YukkiMusic.utils.decorators.admins:[41:46]\n    try:\n        language = await get_lang(event.chat_id)\n        _ = get_string(language)\n    except Exception:\n        _ = get_string(\"en\")",
+        "message": "Similar lines in 2 files\n==YukkiMusic.plugins.sudo.maintenance:[25:30]\n==YukkiMusic.utils.decorators.admins:[41:46]\n        try:\n            language = await get_lang(event.chat_id)\n            _ = get_string(language)\n        except Exception:\n            _ = get_string(\"en\")",
         "message-id": "R0801"
     },
     {
@@ -6002,7 +6002,7 @@
         "endColumn": null,
         "path": "docs/conf.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==YukkiMusic.utils.decorators.admins:[36:41]\n==YukkiMusic.utils.decorators.play:[66:72]\n        if await is_commanddelete_on(event.chat_id):\n            try:\n                await event.delete()\n            except Exception:\n                pass",
+        "message": "Similar lines in 2 files\n==YukkiMusic.utils.decorators.admins:[36:41]\n==YukkiMusic.utils.decorators.play:[66:72]\n        if await is_commanddelete_on(event.chat_id):\n            try:\n                await event.delete()\n            except Exception:\n                pass\n",
         "message-id": "R0801"
     }
 ]
