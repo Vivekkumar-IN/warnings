@@ -1,5 +1,18 @@
 [
     {
+        "type": "warning",
+        "module": "YukkiMusic.utils.decorators.admins",
+        "obj": "",
+        "line": 12,
+        "column": 0,
+        "endLine": 12,
+        "endColumn": 44,
+        "path": "YukkiMusic/utils/decorators/admins.py",
+        "symbol": "unused-import",
+        "message": "Unused PeerUser imported from telethon.tl.types",
+        "message-id": "W0611"
+    },
+    {
         "type": "refactor",
         "module": "YukkiMusic.utils.decorators.admins",
         "obj": "admin_rights_check.wrapper",
