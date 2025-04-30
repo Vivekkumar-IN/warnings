@@ -1,0 +1,28 @@
+[
+    {
+        "type": "convention",
+        "module": "YukkiMusic.utils.inline.start",
+        "obj": "",
+        "line": 17,
+        "column": 0,
+        "endLine": 17,
+        "endColumn": 46,
+        "path": "YukkiMusic/utils/inline/start.py",
+        "symbol": "wrong-import-order",
+        "message": "third party import \"pykeyboard.telethon.InlineKeyboard\" should be placed before first party imports \"config\", \"YukkiMusic.tbot\" ",
+        "message-id": "C0411"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.utils.inline.start",
+        "obj": "",
+        "line": 45,
+        "column": 0,
+        "endLine": 91,
+        "endColumn": 21,
+        "path": "YukkiMusic/utils/inline/start.py",
+        "symbol": "pointless-string-statement",
+        "message": "String statement has no effect",
+        "message-id": "W0105"
+    }
+]
