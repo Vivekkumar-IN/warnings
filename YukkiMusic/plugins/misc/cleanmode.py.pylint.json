@@ -39,19 +39,6 @@
         "message-id": "W0602"
     },
     {
-        "type": "convention",
-        "module": "YukkiMusic.plugins.misc.cleanmode",
-        "obj": "",
-        "line": 54,
-        "column": 0,
-        "endLine": null,
-        "endColumn": null,
-        "path": "YukkiMusic/plugins/misc/cleanmode.py",
-        "symbol": "trailing-whitespace",
-        "message": "Trailing whitespace",
-        "message-id": "C0303"
-    },
-    {
         "type": "refactor",
         "module": "YukkiMusic.plugins.misc.cleanmode",
         "obj": "braodcast_message",
