@@ -1,0 +1,15 @@
+[
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.tools.songs",
+        "obj": "",
+        "line": 27,
+        "column": 72,
+        "endLine": null,
+        "endColumn": null,
+        "path": "YukkiMusic/plugins/tools/songs.py",
+        "symbol": "syntax-error",
+        "message": "Parsing failed: 'unmatched ')' (YukkiMusic.plugins.tools.songs, line 27)'",
+        "message-id": "E0001"
+    }
+]
