@@ -169,19 +169,6 @@
         "message-id": "W0612"
     },
     {
-        "type": "error",
-        "module": "YukkiMusic.plugins.play.play",
-        "obj": "play_commnd",
-        "line": 179,
-        "column": 15,
-        "endLine": 179,
-        "endColumn": 22,
-        "path": "YukkiMusic/plugins/play/play.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable 'message'",
-        "message-id": "E0602"
-    },
-    {
         "type": "warning",
         "module": "YukkiMusic.plugins.play.play",
         "obj": "play_commnd",
