@@ -112,6 +112,32 @@
         "endLine": 120,
         "endColumn": 71,
         "path": "YukkiMusic/plugins/bot/start.py",
+        "symbol": "unexpected-keyword-arg",
+        "message": "Unexpected keyword argument 'client' in function call",
+        "message-id": "E1123"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.bot.start",
+        "obj": "start_comm",
+        "line": 120,
+        "column": 18,
+        "endLine": 120,
+        "endColumn": 71,
+        "path": "YukkiMusic/plugins/bot/start.py",
+        "symbol": "unexpected-keyword-arg",
+        "message": "Unexpected keyword argument 'message' in function call",
+        "message-id": "E1123"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.bot.start",
+        "obj": "start_comm",
+        "line": 120,
+        "column": 18,
+        "endLine": 120,
+        "endColumn": 71,
+        "path": "YukkiMusic/plugins/bot/start.py",
         "symbol": "no-value-for-parameter",
         "message": "No value for argument 'event' in function call",
         "message-id": "E1120"
@@ -141,6 +167,32 @@
         "symbol": "no-else-return",
         "message": "Unnecessary \"else\" after \"return\", remove the \"else\" and de-indent the code inside it",
         "message-id": "R1705"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.bot.start",
+        "obj": "start_comm",
+        "line": 144,
+        "column": 18,
+        "endLine": 144,
+        "endColumn": 72,
+        "path": "YukkiMusic/plugins/bot/start.py",
+        "symbol": "unexpected-keyword-arg",
+        "message": "Unexpected keyword argument 'client' in function call",
+        "message-id": "E1123"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.bot.start",
+        "obj": "start_comm",
+        "line": 144,
+        "column": 18,
+        "endLine": 144,
+        "endColumn": 72,
+        "path": "YukkiMusic/plugins/bot/start.py",
+        "symbol": "unexpected-keyword-arg",
+        "message": "Unexpected keyword argument 'message' in function call",
+        "message-id": "E1123"
     },
     {
         "type": "error",
