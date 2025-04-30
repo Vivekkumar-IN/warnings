@@ -1,0 +1,15 @@
+[
+    {
+        "type": "convention",
+        "module": "YukkiMusic.__main__",
+        "obj": "",
+        "line": 9,
+        "column": 0,
+        "endLine": 9,
+        "endColumn": 23,
+        "path": "YukkiMusic/__main__.py",
+        "symbol": "multiple-imports",
+        "message": "Multiple imports on one line (asyncio, os, sys)",
+        "message-id": "C0410"
+    }
+]
