@@ -24,18 +24,5 @@
         "symbol": "line-too-long",
         "message": "Line too long (112/100)",
         "message-id": "C0301"
-    },
-    {
-        "type": "convention",
-        "module": "YukkiMusic.plugins.tools.stats",
-        "obj": "",
-        "line": 426,
-        "column": 0,
-        "endLine": null,
-        "endColumn": null,
-        "path": "YukkiMusic/plugins/tools/stats.py",
-        "symbol": "missing-final-newline",
-        "message": "Final newline missing",
-        "message-id": "C0304"
     }
 ]
