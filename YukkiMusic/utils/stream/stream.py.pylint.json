@@ -65,19 +65,6 @@
         "message-id": "W0707"
     },
     {
-        "type": "error",
-        "module": "YukkiMusic.utils.stream.stream",
-        "obj": "stream",
-        "line": 107,
-        "column": 28,
-        "endLine": 107,
-        "endColumn": 63,
-        "path": "YukkiMusic/utils/stream/stream.py",
-        "symbol": "too-many-function-args",
-        "message": "Too many positional arguments for function call",
-        "message-id": "E1121"
-    },
-    {
         "type": "refactor",
         "module": "YukkiMusic.utils.stream.stream",
         "obj": "stream",
@@ -128,31 +115,5 @@
         "symbol": "raise-missing-from",
         "message": "Consider explicitly re-raising using 'raise AssistantErr(_['play_16']) from e'",
         "message-id": "W0707"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.utils.stream.stream",
-        "obj": "stream",
-        "line": 208,
-        "column": 22,
-        "endLine": 208,
-        "endColumn": 58,
-        "path": "YukkiMusic/utils/stream/stream.py",
-        "symbol": "too-many-function-args",
-        "message": "Too many positional arguments for function call",
-        "message-id": "E1121"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.utils.stream.stream",
-        "obj": "stream",
-        "line": 217,
-        "column": 22,
-        "endLine": 217,
-        "endColumn": 57,
-        "path": "YukkiMusic/utils/stream/stream.py",
-        "symbol": "too-many-function-args",
-        "message": "Too many positional arguments for function call",
-        "message-id": "E1121"
     }
 ]
