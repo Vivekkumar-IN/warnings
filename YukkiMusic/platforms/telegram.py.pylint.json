@@ -28,19 +28,6 @@
     {
         "type": "error",
         "module": "YukkiMusic.platforms.telegram",
-        "obj": "Telegram.download",
-        "line": 88,
-        "column": 42,
-        "endLine": 88,
-        "endColumn": 46,
-        "path": "YukkiMusic/platforms/telegram.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable 'file'",
-        "message-id": "E0602"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.platforms.telegram",
         "obj": "Telegram.download.down_load.progress",
         "line": 115,
         "column": 24,
