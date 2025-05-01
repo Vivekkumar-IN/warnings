@@ -1,70 +1,5 @@
 [
     {
-        "type": "convention",
-        "module": "YukkiMusic.plugins.tools.stats",
-        "obj": "",
-        "line": 17,
-        "column": 0,
-        "endLine": 17,
-        "endColumn": 56,
-        "path": "YukkiMusic/plugins/tools/stats.py",
-        "symbol": "wrong-import-order",
-        "message": "third party import \"pytgcalls.__version__.__version__\" should be placed before first party import \"YukkiMusic.utils.decorators.language.language\" ",
-        "message-id": "C0411"
-    },
-    {
-        "type": "convention",
-        "module": "YukkiMusic.plugins.tools.stats",
-        "obj": "",
-        "line": 18,
-        "column": 0,
-        "endLine": 18,
-        "endColumn": 35,
-        "path": "YukkiMusic/plugins/tools/stats.py",
-        "symbol": "wrong-import-order",
-        "message": "third party import \"telethon.Button\" should be placed before first party import \"YukkiMusic.utils.decorators.language.language\" ",
-        "message-id": "C0411"
-    },
-    {
-        "type": "convention",
-        "module": "YukkiMusic.plugins.tools.stats",
-        "obj": "",
-        "line": 22,
-        "column": 0,
-        "endLine": 22,
-        "endColumn": 27,
-        "path": "YukkiMusic/plugins/tools/stats.py",
-        "symbol": "ungrouped-imports",
-        "message": "Imports from package YukkiMusic are not grouped",
-        "message-id": "C0412"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.tools.stats",
-        "obj": "gstats_command",
-        "line": 122,
-        "column": 31,
-        "endLine": 122,
-        "endColumn": 32,
-        "path": "YukkiMusic/plugins/tools/stats.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable '_'",
-        "message-id": "E0602"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.tools.stats",
-        "obj": "gstats_command",
-        "line": 145,
-        "column": 30,
-        "endLine": 145,
-        "endColumn": 31,
-        "path": "YukkiMusic/plugins/tools/stats.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable '_'",
-        "message-id": "E0602"
-    },
-    {
         "type": "error",
         "module": "YukkiMusic.plugins.tools.stats",
         "obj": "gstats_command",
@@ -91,19 +26,6 @@
         "message-id": "C0301"
     },
     {
-        "type": "error",
-        "module": "YukkiMusic.plugins.tools.stats",
-        "obj": "gstats_command",
-        "line": 152,
-        "column": 31,
-        "endLine": 152,
-        "endColumn": 32,
-        "path": "YukkiMusic/plugins/tools/stats.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable '_'",
-        "message-id": "E0602"
-    },
-    {
         "type": "refactor",
         "module": "YukkiMusic.plugins.tools.stats",
         "obj": "handle_get_stats",
@@ -113,7 +35,7 @@
         "endColumn": 26,
         "path": "YukkiMusic/plugins/tools/stats.py",
         "symbol": "too-many-locals",
-        "message": "Too many local variables (22/15)",
+        "message": "Too many local variables (21/15)",
         "message-id": "R0914"
     },
     {
@@ -143,19 +65,6 @@
         "message-id": "R0915"
     },
     {
-        "type": "error",
-        "module": "YukkiMusic.plugins.tools.stats",
-        "obj": "handle_get_stats",
-        "line": 166,
-        "column": 28,
-        "endLine": 166,
-        "endColumn": 29,
-        "path": "YukkiMusic/plugins/tools/stats.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable '_'",
-        "message-id": "E0602"
-    },
-    {
         "type": "warning",
         "module": "YukkiMusic.plugins.tools.stats",
         "obj": "handle_get_stats",
@@ -172,19 +81,6 @@
         "type": "error",
         "module": "YukkiMusic.plugins.tools.stats",
         "obj": "handle_get_stats",
-        "line": 175,
-        "column": 8,
-        "endLine": 175,
-        "endColumn": 9,
-        "path": "YukkiMusic/plugins/tools/stats.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable '_'",
-        "message-id": "E0602"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.tools.stats",
-        "obj": "handle_get_stats",
         "line": 187,
         "column": 11,
         "endLine": 187,
@@ -193,19 +89,6 @@
         "symbol": "possibly-used-before-assignment",
         "message": "Possibly using variable 'stats' before assignment",
         "message-id": "E0606"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.tools.stats",
-        "obj": "handle_get_stats",
-        "line": 188,
-        "column": 26,
-        "endLine": 188,
-        "endColumn": 27,
-        "path": "YukkiMusic/plugins/tools/stats.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable '_'",
-        "message-id": "E0602"
     },
     {
         "type": "convention",
@@ -234,32 +117,6 @@
         "message-id": "C0301"
     },
     {
-        "type": "error",
-        "module": "YukkiMusic.plugins.tools.stats",
-        "obj": "handle_get_stats",
-        "line": 222,
-        "column": 12,
-        "endLine": 222,
-        "endColumn": 13,
-        "path": "YukkiMusic/plugins/tools/stats.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable '_'",
-        "message-id": "E0602"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.tools.stats",
-        "obj": "handle_get_stats",
-        "line": 226,
-        "column": 17,
-        "endLine": 226,
-        "endColumn": 18,
-        "path": "YukkiMusic/plugins/tools/stats.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable '_'",
-        "message-id": "E0602"
-    },
-    {
         "type": "warning",
         "module": "YukkiMusic.plugins.tools.stats",
         "obj": "handle_get_stats",
@@ -273,32 +130,6 @@
         "message-id": "W0702"
     },
     {
-        "type": "error",
-        "module": "YukkiMusic.plugins.tools.stats",
-        "obj": "handle_get_stats",
-        "line": 246,
-        "column": 12,
-        "endLine": 246,
-        "endColumn": 13,
-        "path": "YukkiMusic/plugins/tools/stats.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable '_'",
-        "message-id": "E0602"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.tools.stats",
-        "obj": "handle_get_stats",
-        "line": 248,
-        "column": 17,
-        "endLine": 248,
-        "endColumn": 18,
-        "path": "YukkiMusic/plugins/tools/stats.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable '_'",
-        "message-id": "E0602"
-    },
-    {
         "type": "refactor",
         "module": "YukkiMusic.plugins.tools.stats",
         "obj": "handle_top_overall",
@@ -308,7 +139,7 @@
         "endColumn": 28,
         "path": "YukkiMusic/plugins/tools/stats.py",
         "symbol": "too-many-locals",
-        "message": "Too many local variables (23/15)",
+        "message": "Too many local variables (22/15)",
         "message-id": "R0914"
     },
     {
@@ -323,109 +154,5 @@
         "symbol": "bare-except",
         "message": "No exception type(s) specified",
         "message-id": "W0702"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.tools.stats",
-        "obj": "handle_top_overall",
-        "line": 313,
-        "column": 78,
-        "endLine": 313,
-        "endColumn": 79,
-        "path": "YukkiMusic/plugins/tools/stats.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable '_'",
-        "message-id": "E0602"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.tools.stats",
-        "obj": "handle_top_overall",
-        "line": 348,
-        "column": 78,
-        "endLine": 348,
-        "endColumn": 79,
-        "path": "YukkiMusic/plugins/tools/stats.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable '_'",
-        "message-id": "E0602"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.tools.stats",
-        "obj": "handle_stats_buttons",
-        "line": 363,
-        "column": 12,
-        "endLine": 363,
-        "endColumn": 13,
-        "path": "YukkiMusic/plugins/tools/stats.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable '_'",
-        "message-id": "E0602"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.tools.stats",
-        "obj": "handle_stats_buttons",
-        "line": 363,
-        "column": 84,
-        "endLine": 363,
-        "endColumn": 85,
-        "path": "YukkiMusic/plugins/tools/stats.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable '_'",
-        "message-id": "E0602"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.tools.stats",
-        "obj": "handle_stats_buttons",
-        "line": 367,
-        "column": 12,
-        "endLine": 367,
-        "endColumn": 13,
-        "path": "YukkiMusic/plugins/tools/stats.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable '_'",
-        "message-id": "E0602"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.tools.stats",
-        "obj": "handle_stats_buttons",
-        "line": 369,
-        "column": 37,
-        "endLine": 369,
-        "endColumn": 38,
-        "path": "YukkiMusic/plugins/tools/stats.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable '_'",
-        "message-id": "E0602"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.tools.stats",
-        "obj": "handle_stats_buttons",
-        "line": 373,
-        "column": 12,
-        "endLine": 373,
-        "endColumn": 13,
-        "path": "YukkiMusic/plugins/tools/stats.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable '_'",
-        "message-id": "E0602"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.tools.stats",
-        "obj": "handle_stats_buttons",
-        "line": 375,
-        "column": 34,
-        "endLine": 375,
-        "endColumn": 35,
-        "path": "YukkiMusic/plugins/tools/stats.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable '_'",
-        "message-id": "E0602"
     }
 ]
