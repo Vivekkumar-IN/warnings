@@ -4,7 +4,7 @@
         "module": "YukkiMusic.plugins.play.play",
         "obj": "",
         "line": 75,
-        "column": 57,
+        "column": 65,
         "endLine": null,
         "endColumn": null,
         "path": "YukkiMusic/plugins/play/play.py",
