@@ -1,15 +1,41 @@
 [
     {
-        "type": "error",
+        "type": "convention",
         "module": "strings.__init__",
         "obj": "",
-        "line": 49,
-        "column": 1,
+        "line": 46,
+        "column": 0,
         "endLine": null,
         "endColumn": null,
         "path": "strings/__init__.py",
-        "symbol": "syntax-error",
-        "message": "Parsing failed: 'invalid non-printable character U+00A0 (strings.__init__, line 49)'",
-        "message-id": "E0001"
+        "symbol": "line-too-long",
+        "message": "Line too long (104/100)",
+        "message-id": "C0301"
+    },
+    {
+        "type": "warning",
+        "module": "strings",
+        "obj": "replace_placeholders",
+        "line": 46,
+        "column": 53,
+        "endLine": 46,
+        "endColumn": 67,
+        "path": "strings/__init__.py",
+        "symbol": "unused-argument",
+        "message": "Unused argument 'outer_key'",
+        "message-id": "W0613"
+    },
+    {
+        "type": "warning",
+        "module": "strings",
+        "obj": "replace_placeholders.replacer",
+        "line": 53,
+        "column": 8,
+        "endLine": 53,
+        "endColumn": 11,
+        "path": "strings/__init__.py",
+        "symbol": "redefined-outer-name",
+        "message": "Redefining name 'key' from outer scope (line 85)",
+        "message-id": "W0621"
     }
 ]

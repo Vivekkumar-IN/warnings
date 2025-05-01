@@ -1,18 +1,5 @@
 [
     {
-        "type": "error",
-        "module": "YukkiMusic.plugins.misc.seeker",
-        "obj": "",
-        "line": 14,
-        "column": 0,
-        "endLine": null,
-        "endColumn": null,
-        "path": "YukkiMusic/plugins/misc/seeker.py",
-        "symbol": "syntax-error",
-        "message": "Cannot import 'strings' due to 'invalid non-printable character U+00A0 (strings, line 49)'",
-        "message-id": "E0001"
-    },
-    {
         "type": "warning",
         "module": "YukkiMusic.plugins.misc.seeker",
         "obj": "timer",

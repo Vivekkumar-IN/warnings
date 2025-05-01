@@ -1,18 +1,5 @@
 [
     {
-        "type": "error",
-        "module": "YukkiMusic.plugins.misc.autoleave",
-        "obj": "",
-        "line": 16,
-        "column": 0,
-        "endLine": null,
-        "endColumn": null,
-        "path": "YukkiMusic/plugins/misc/autoleave.py",
-        "symbol": "syntax-error",
-        "message": "Cannot import 'strings' due to 'invalid non-printable character U+00A0 (strings, line 49)'",
-        "message-id": "E0001"
-    },
-    {
         "type": "convention",
         "module": "YukkiMusic.plugins.misc.autoleave",
         "obj": "auto_leave",

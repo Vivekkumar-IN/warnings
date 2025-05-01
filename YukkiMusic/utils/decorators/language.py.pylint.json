@@ -1,18 +1,5 @@
 [
     {
-        "type": "error",
-        "module": "YukkiMusic.utils.decorators.language",
-        "obj": "",
-        "line": 14,
-        "column": 0,
-        "endLine": null,
-        "endColumn": null,
-        "path": "YukkiMusic/utils/decorators/language.py",
-        "symbol": "syntax-error",
-        "message": "Cannot import 'strings' due to 'invalid non-printable character U+00A0 (strings, line 49)'",
-        "message-id": "E0001"
-    },
-    {
         "type": "warning",
         "module": "YukkiMusic.utils.decorators.language",
         "obj": "language.decorator.wrapper",

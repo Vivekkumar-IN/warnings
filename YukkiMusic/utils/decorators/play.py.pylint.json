@@ -1,18 +1,5 @@
 [
     {
-        "type": "error",
-        "module": "YukkiMusic.utils.decorators.play",
-        "obj": "",
-        "line": 16,
-        "column": 0,
-        "endLine": null,
-        "endColumn": null,
-        "path": "YukkiMusic/utils/decorators/play.py",
-        "symbol": "syntax-error",
-        "message": "Cannot import 'strings' due to 'invalid non-printable character U+00A0 (strings, line 49)'",
-        "message-id": "E0001"
-    },
-    {
         "type": "refactor",
         "module": "YukkiMusic.utils.decorators.play",
         "obj": "play_wrapper",
