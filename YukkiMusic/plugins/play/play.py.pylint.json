@@ -1,5 +1,18 @@
 [
     {
+        "type": "warning",
+        "module": "YukkiMusic.plugins.play.play",
+        "obj": "",
+        "line": 29,
+        "column": 0,
+        "endLine": 35,
+        "endColumn": 1,
+        "path": "YukkiMusic/plugins/play/play.py",
+        "symbol": "unused-import",
+        "message": "Unused play_logs imported from YukkiMusic.utils",
+        "message-id": "W0611"
+    },
+    {
         "type": "refactor",
         "module": "YukkiMusic.plugins.play.play",
         "obj": "play_commnd",
@@ -154,45 +167,6 @@
         "symbol": "used-before-assignment",
         "message": "Using variable 'track_id' before assignment",
         "message-id": "E0601"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.play.play",
-        "obj": "play_commnd",
-        "line": 240,
-        "column": 21,
-        "endLine": 240,
-        "endColumn": 62,
-        "path": "YukkiMusic/plugins/play/play.py",
-        "symbol": "no-value-for-parameter",
-        "message": "No value for argument 'event' in function call",
-        "message-id": "E1120"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.play.play",
-        "obj": "play_commnd",
-        "line": 240,
-        "column": 31,
-        "endLine": 240,
-        "endColumn": 38,
-        "path": "YukkiMusic/plugins/play/play.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable 'message'",
-        "message-id": "E0602"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.play.play",
-        "obj": "play_commnd",
-        "line": 240,
-        "column": 51,
-        "endLine": 240,
-        "endColumn": 61,
-        "path": "YukkiMusic/plugins/play/play.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable 'streamtype'",
-        "message-id": "E0602"
     },
     {
         "type": "warning",
