@@ -1,25 +1,12 @@
 [
     {
-        "type": "refactor",
-        "module": "YukkiMusic.plugins.sudo.dev",
-        "obj": "aexec",
-        "line": 38,
-        "column": 8,
-        "endLine": 38,
-        "endColumn": 36,
-        "path": "YukkiMusic/plugins/sudo/dev.py",
-        "symbol": "consider-using-join",
-        "message": "Consider using str.join(sequence) for concatenating strings from an iterable",
-        "message-id": "R1713"
-    },
-    {
         "type": "warning",
         "module": "YukkiMusic.plugins.sudo.dev",
         "obj": "aexec",
-        "line": 40,
+        "line": 34,
         "column": 4,
-        "endLine": 40,
-        "endColumn": 31,
+        "endLine": 38,
+        "endColumn": 5,
         "path": "YukkiMusic/plugins/sudo/dev.py",
         "symbol": "exec-used",
         "message": "Use of exec",
