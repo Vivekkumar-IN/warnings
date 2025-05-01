@@ -130,19 +130,6 @@
         "message-id": "W0707"
     },
     {
-        "type": "convention",
-        "module": "YukkiMusic.utils.stream.stream",
-        "obj": "",
-        "line": 187,
-        "column": 18,
-        "endLine": null,
-        "endColumn": null,
-        "path": "YukkiMusic/utils/stream/stream.py",
-        "symbol": "trailing-whitespace",
-        "message": "Trailing whitespace",
-        "message-id": "C0303"
-    },
-    {
         "type": "error",
         "module": "YukkiMusic.utils.stream.stream",
         "obj": "stream",
