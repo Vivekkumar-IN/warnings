@@ -50,18 +50,5 @@
         "symbol": "undefined-variable",
         "message": "Undefined variable 'tbot'",
         "message-id": "E0602"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.platforms.telegram",
-        "obj": "Telegram.download",
-        "line": 154,
-        "column": 65,
-        "endLine": 154,
-        "endColumn": 70,
-        "path": "YukkiMusic/platforms/telegram.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable 'event'",
-        "message-id": "E0602"
     }
 ]
