@@ -117,19 +117,6 @@
         "message-id": "R1719"
     },
     {
-        "type": "error",
-        "module": "YukkiMusic.plugins.play.play",
-        "obj": "play_commnd",
-        "line": 163,
-        "column": 32,
-        "endLine": 163,
-        "endColumn": 50,
-        "path": "YukkiMusic/plugins/play/play.py",
-        "symbol": "no-member",
-        "message": "Instance of 'SoundCloud' has no 'details' member",
-        "message-id": "E1101"
-    },
-    {
         "type": "warning",
         "module": "YukkiMusic.plugins.play.play",
         "obj": "play_commnd",
