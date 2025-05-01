@@ -1,5 +1,44 @@
 [
     {
+        "type": "warning",
+        "module": "YukkiMusic.utils.stream.queue",
+        "obj": "",
+        "line": 12,
+        "column": 0,
+        "endLine": 12,
+        "endColumn": 50,
+        "path": "YukkiMusic/utils/stream/queue.py",
+        "symbol": "unused-import",
+        "message": "Unused autoclean imported from config",
+        "message-id": "W0611"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.utils.stream.queue",
+        "obj": "",
+        "line": 12,
+        "column": 0,
+        "endLine": 12,
+        "endColumn": 50,
+        "path": "YukkiMusic/utils/stream/queue.py",
+        "symbol": "unused-import",
+        "message": "Unused chatstats imported from config",
+        "message-id": "W0611"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.utils.stream.queue",
+        "obj": "",
+        "line": 12,
+        "column": 0,
+        "endLine": 12,
+        "endColumn": 50,
+        "path": "YukkiMusic/utils/stream/queue.py",
+        "symbol": "unused-import",
+        "message": "Unused userstats imported from config",
+        "message-id": "W0611"
+    },
+    {
         "type": "convention",
         "module": "YukkiMusic.utils.stream.queue",
         "obj": "put_queue",
@@ -11,5 +50,18 @@
         "symbol": "import-outside-toplevel",
         "message": "Import outside toplevel (YukkiMusic.tbot)",
         "message-id": "C0415"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.utils.stream.queue",
+        "obj": "put_queue",
+        "line": 44,
+        "column": 4,
+        "endLine": 57,
+        "endColumn": 17,
+        "path": "YukkiMusic/utils/stream/queue.py",
+        "symbol": "pointless-string-statement",
+        "message": "String statement has no effect",
+        "message-id": "W0105"
     }
 ]
