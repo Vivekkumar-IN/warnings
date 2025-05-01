@@ -1,67 +1,15 @@
 [
     {
-        "type": "refactor",
-        "module": "YukkiMusic.platforms.telegram",
-        "obj": "Telegram.get_url_from_message",
-        "line": 44,
-        "column": 20,
-        "endLine": 49,
-        "endColumn": 41,
-        "path": "YukkiMusic/platforms/telegram.py",
-        "symbol": "no-else-break",
-        "message": "Unnecessary \"elif\" after \"break\", remove the leading \"el\" from \"elif\"",
-        "message-id": "R1723"
-    },
-    {
-        "type": "refactor",
-        "module": "YukkiMusic.platforms.telegram",
-        "obj": "Telegram.download",
-        "line": 88,
-        "column": 4,
-        "endLine": 88,
-        "endColumn": 22,
-        "path": "YukkiMusic/platforms/telegram.py",
-        "symbol": "too-many-statements",
-        "message": "Too many statements (55/50)",
-        "message-id": "R0915"
-    },
-    {
         "type": "error",
         "module": "YukkiMusic.platforms.telegram",
-        "obj": "Telegram.download.down_load.progress",
-        "line": 116,
-        "column": 24,
-        "endLine": 116,
-        "endColumn": 28,
+        "obj": "",
+        "line": 147,
+        "column": 32,
+        "endLine": null,
+        "endColumn": null,
         "path": "YukkiMusic/platforms/telegram.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable 'tbot'",
-        "message-id": "E0602"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.platforms.telegram",
-        "obj": "Telegram.download.down_load",
-        "line": 137,
-        "column": 24,
-        "endLine": 137,
-        "endColumn": 28,
-        "path": "YukkiMusic/platforms/telegram.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable 'tbot'",
-        "message-id": "E0602"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.platforms.telegram",
-        "obj": "Telegram.download.down_load",
-        "line": 140,
-        "column": 16,
-        "endLine": 144,
-        "endColumn": 20,
-        "path": "YukkiMusic/platforms/telegram.py",
-        "symbol": "pointless-string-statement",
-        "message": "String statement has no effect",
-        "message-id": "W0105"
+        "symbol": "syntax-error",
+        "message": "Parsing failed: 'invalid syntax (YukkiMusic.platforms.telegram, line 147)'",
+        "message-id": "E0001"
     }
 ]
