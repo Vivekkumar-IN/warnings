@@ -24,18 +24,5 @@
         "symbol": "too-many-branches",
         "message": "Too many branches (13/12)",
         "message-id": "R0912"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.admins.seek",
-        "obj": "seek_comm",
-        "line": 30,
-        "column": 40,
-        "endLine": 30,
-        "endColumn": 49,
-        "path": "YukkiMusic/plugins/admins/seek.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable 'get_value'",
-        "message-id": "E0602"
     }
 ]
