@@ -13,32 +13,6 @@
         "message-id": "W0621"
     },
     {
-        "type": "convention",
-        "module": "YukkiMusic.utils.decorators.language",
-        "obj": "",
-        "line": 38,
-        "column": 0,
-        "endLine": null,
-        "endColumn": null,
-        "path": "YukkiMusic/utils/decorators/language.py",
-        "symbol": "trailing-whitespace",
-        "message": "Trailing whitespace",
-        "message-id": "C0303"
-    },
-    {
-        "type": "convention",
-        "module": "YukkiMusic.utils.decorators.language",
-        "obj": "",
-        "line": 40,
-        "column": 0,
-        "endLine": null,
-        "endColumn": null,
-        "path": "YukkiMusic/utils/decorators/language.py",
-        "symbol": "trailing-whitespace",
-        "message": "Trailing whitespace",
-        "message-id": "C0303"
-    },
-    {
         "type": "refactor",
         "module": "YukkiMusic.utils.decorators.language",
         "obj": "language",
