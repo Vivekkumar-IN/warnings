@@ -67,14 +67,14 @@
     {
         "type": "convention",
         "module": "YukkiMusic.core.filters",
-        "obj": "command.filter_func",
-        "line": 176,
-        "column": 12,
-        "endLine": 176,
-        "endColumn": 73,
+        "obj": "",
+        "line": 185,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
         "path": "YukkiMusic/core/filters.py",
-        "symbol": "import-outside-toplevel",
-        "message": "Import outside toplevel (YukkiMusic.utils.database.memorydatabase.get_lang)",
-        "message-id": "C0415"
+        "symbol": "missing-final-newline",
+        "message": "Final newline missing",
+        "message-id": "C0304"
     }
 ]
