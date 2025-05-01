@@ -1,0 +1,15 @@
+[
+    {
+        "type": "error",
+        "module": "strings.__init__",
+        "obj": "",
+        "line": 49,
+        "column": 1,
+        "endLine": null,
+        "endColumn": null,
+        "path": "strings/__init__.py",
+        "symbol": "syntax-error",
+        "message": "Parsing failed: 'invalid non-printable character U+00A0 (strings.__init__, line 49)'",
+        "message-id": "E0001"
+    }
+]

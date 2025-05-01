@@ -1,5 +1,18 @@
 [
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.bot.start",
+        "obj": "",
+        "line": 20,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "YukkiMusic/plugins/bot/start.py",
+        "symbol": "syntax-error",
+        "message": "Cannot import 'strings' due to 'invalid non-printable character U+00A0 (strings, line 49)'",
+        "message-id": "E0001"
+    },
+    {
         "type": "refactor",
         "module": "YukkiMusic.plugins.bot.start",
         "obj": "start_comm",

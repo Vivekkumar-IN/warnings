@@ -1,0 +1,15 @@
+[
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.sudo.maintenance",
+        "obj": "",
+        "line": 12,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "YukkiMusic/plugins/sudo/maintenance.py",
+        "symbol": "syntax-error",
+        "message": "Cannot import 'strings' due to 'invalid non-printable character U+00A0 (strings, line 49)'",
+        "message-id": "E0001"
+    }
+]

@@ -1,5 +1,18 @@
 [
     {
+        "type": "error",
+        "module": "YukkiMusic.utils.decorators.admins",
+        "obj": "",
+        "line": 15,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "YukkiMusic/utils/decorators/admins.py",
+        "symbol": "syntax-error",
+        "message": "Cannot import 'strings' due to 'invalid non-printable character U+00A0 (strings, line 49)'",
+        "message-id": "E0001"
+    },
+    {
         "type": "refactor",
         "module": "YukkiMusic.utils.decorators.admins",
         "obj": "admin_rights_check.wrapper",
