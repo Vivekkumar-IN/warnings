@@ -39,6 +39,19 @@
         "message-id": "W1113"
     },
     {
+        "type": "warning",
+        "module": "YukkiMusic.core.telethon",
+        "obj": "TelethonClient.create_mention",
+        "line": 148,
+        "column": 59,
+        "endLine": 148,
+        "endColumn": 69,
+        "path": "YukkiMusic/core/telethon.py",
+        "symbol": "unused-argument",
+        "message": "Unused argument 'html'",
+        "message-id": "W0613"
+    },
+    {
         "type": "refactor",
         "module": "YukkiMusic.core.telethon",
         "obj": "TelethonClient.get_chat_member",
