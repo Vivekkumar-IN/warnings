@@ -26,32 +26,6 @@
         "message-id": "R0915"
     },
     {
-        "type": "error",
-        "module": "YukkiMusic.platforms.telegram",
-        "obj": "Telegram.download.down_load.progress",
-        "line": 116,
-        "column": 24,
-        "endLine": 116,
-        "endColumn": 28,
-        "path": "YukkiMusic/platforms/telegram.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable 'tbot'",
-        "message-id": "E0602"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.platforms.telegram",
-        "obj": "Telegram.download.down_load",
-        "line": 137,
-        "column": 24,
-        "endLine": 137,
-        "endColumn": 28,
-        "path": "YukkiMusic/platforms/telegram.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable 'tbot'",
-        "message-id": "E0602"
-    },
-    {
         "type": "warning",
         "module": "YukkiMusic.platforms.telegram",
         "obj": "Telegram.download.down_load",
@@ -63,18 +37,5 @@
         "symbol": "pointless-string-statement",
         "message": "String statement has no effect",
         "message-id": "W0105"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.platforms.telegram",
-        "obj": "Telegram.download.down_load",
-        "line": 149,
-        "column": 22,
-        "endLine": 149,
-        "endColumn": 26,
-        "path": "YukkiMusic/platforms/telegram.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable 'tbot'",
-        "message-id": "E0602"
     }
 ]
