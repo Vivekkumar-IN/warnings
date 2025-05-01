@@ -1,0 +1,15 @@
+[
+    {
+        "type": "convention",
+        "module": "YukkiMusic.utils.formatters",
+        "obj": "",
+        "line": 106,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "YukkiMusic/utils/formatters.py",
+        "symbol": "line-too-long",
+        "message": "Line too long (307/100)",
+        "message-id": "C0301"
+    }
+]
