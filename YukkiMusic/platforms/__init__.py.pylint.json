@@ -1,18 +1,5 @@
 [
     {
-        "type": "error",
-        "module": "YukkiMusic.platforms.__init__",
-        "obj": "",
-        "line": 16,
-        "column": 0,
-        "endLine": null,
-        "endColumn": null,
-        "path": "YukkiMusic/platforms/__init__.py",
-        "symbol": "syntax-error",
-        "message": "Cannot import 'telegram' due to 'invalid syntax (YukkiMusic.platforms.telegram, line 147)'",
-        "message-id": "E0001"
-    },
-    {
         "type": "warning",
         "module": "YukkiMusic.platforms",
         "obj": "info",
