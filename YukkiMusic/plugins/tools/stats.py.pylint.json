@@ -4,7 +4,7 @@
         "module": "YukkiMusic.plugins.tools.stats",
         "obj": "",
         "line": 359,
-        "column": 100,
+        "column": 101,
         "endLine": null,
         "endColumn": null,
         "path": "YukkiMusic/plugins/tools/stats.py",
