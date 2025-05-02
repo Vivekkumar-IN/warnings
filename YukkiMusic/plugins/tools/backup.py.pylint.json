@@ -26,32 +26,6 @@
         "message-id": "C0301"
     },
     {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.tools.backup",
-        "obj": "export_database",
-        "line": 92,
-        "column": 13,
-        "endLine": 92,
-        "endColumn": 33,
-        "path": "YukkiMusic/plugins/tools/backup.py",
-        "symbol": "unspecified-encoding",
-        "message": "Using open without explicitly specifying an encoding",
-        "message-id": "W1514"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.tools.backup",
-        "obj": "export_database",
-        "line": 127,
-        "column": 9,
-        "endLine": 127,
-        "endColumn": 29,
-        "path": "YukkiMusic/plugins/tools/backup.py",
-        "symbol": "unspecified-encoding",
-        "message": "Using open without explicitly specifying an encoding",
-        "message-id": "W1514"
-    },
-    {
         "type": "convention",
         "module": "YukkiMusic.plugins.tools.backup",
         "obj": "",
@@ -63,19 +37,6 @@
         "symbol": "line-too-long",
         "message": "Line too long (147/100)",
         "message-id": "C0301"
-    },
-    {
-        "type": "warning",
-        "module": "YukkiMusic.plugins.tools.backup",
-        "obj": "import_database",
-        "line": 168,
-        "column": 9,
-        "endLine": 168,
-        "endColumn": 29,
-        "path": "YukkiMusic/plugins/tools/backup.py",
-        "symbol": "unspecified-encoding",
-        "message": "Using open without explicitly specifying an encoding",
-        "message-id": "W1514"
     },
     {
         "type": "warning",
