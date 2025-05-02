@@ -141,31 +141,5 @@
         "symbol": "too-many-locals",
         "message": "Too many local variables (24/15)",
         "message-id": "R0914"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.tools.stats",
-        "obj": "back_buttons",
-        "line": 358,
-        "column": 1,
-        "endLine": 361,
-        "endColumn": 1,
-        "path": "YukkiMusic/plugins/tools/stats.py",
-        "symbol": "unexpected-keyword-arg",
-        "message": "Unexpected keyword argument 'func' in method call",
-        "message-id": "E1123"
-    },
-    {
-        "type": "convention",
-        "module": "YukkiMusic.plugins.tools.stats",
-        "obj": "",
-        "line": 420,
-        "column": 0,
-        "endLine": null,
-        "endColumn": null,
-        "path": "YukkiMusic/plugins/tools/stats.py",
-        "symbol": "missing-final-newline",
-        "message": "Final newline missing",
-        "message-id": "C0304"
     }
 ]
