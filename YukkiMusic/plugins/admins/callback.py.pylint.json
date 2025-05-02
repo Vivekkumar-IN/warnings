@@ -78,32 +78,6 @@
         "message-id": "R1705"
     },
     {
-        "type": "convention",
-        "module": "YukkiMusic.plugins.admins.callback",
-        "obj": "",
-        "line": 143,
-        "column": 0,
-        "endLine": null,
-        "endColumn": null,
-        "path": "YukkiMusic/plugins/admins/callback.py",
-        "symbol": "trailing-whitespace",
-        "message": "Trailing whitespace",
-        "message-id": "C0303"
-    },
-    {
-        "type": "convention",
-        "module": "YukkiMusic.plugins.admins.callback",
-        "obj": "",
-        "line": 155,
-        "column": 0,
-        "endLine": null,
-        "endColumn": null,
-        "path": "YukkiMusic/plugins/admins/callback.py",
-        "symbol": "trailing-whitespace",
-        "message": "Trailing whitespace",
-        "message-id": "C0303"
-    },
-    {
         "type": "refactor",
         "module": "YukkiMusic.plugins.admins.callback",
         "obj": "admin_callback",

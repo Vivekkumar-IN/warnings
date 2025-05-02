@@ -188,11 +188,11 @@
         "line": 213,
         "column": 13,
         "endLine": 213,
-        "endColumn": 18,
+        "endColumn": 23,
         "path": "YukkiMusic/plugins/play/playlist.py",
-        "symbol": "used-before-assignment",
-        "message": "Using variable 'title' before assignment",
-        "message-id": "E0601"
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'tracktitle'",
+        "message-id": "E0602"
     },
     {
         "type": "warning",
