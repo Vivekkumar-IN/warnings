@@ -63,5 +63,31 @@
         "symbol": "no-else-return",
         "message": "Unnecessary \"elif\" after \"return\", remove the leading \"el\" from \"elif\"",
         "message-id": "R1705"
+    },
+    {
+        "type": "convention",
+        "module": "YukkiMusic.core.filters",
+        "obj": "",
+        "line": 166,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "YukkiMusic/core/filters.py",
+        "symbol": "trailing-whitespace",
+        "message": "Trailing whitespace",
+        "message-id": "C0303"
+    },
+    {
+        "type": "convention",
+        "module": "YukkiMusic.core.filters",
+        "obj": "",
+        "line": 192,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "YukkiMusic/core/filters.py",
+        "symbol": "missing-final-newline",
+        "message": "Final newline missing",
+        "message-id": "C0304"
     }
 ]
