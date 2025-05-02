@@ -1,5 +1,18 @@
 [
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.tools.stats",
+        "obj": "stats_global",
+        "line": 54,
+        "column": 33,
+        "endLine": 54,
+        "endColumn": 46,
+        "path": "YukkiMusic/plugins/tools/stats.py",
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'STATS_COMMAND'",
+        "message-id": "E0602"
+    },
+    {
         "type": "refactor",
         "module": "YukkiMusic.plugins.tools.stats",
         "obj": "gstats_global.get_stats",
