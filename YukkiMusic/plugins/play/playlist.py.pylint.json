@@ -182,19 +182,6 @@
         "message-id": "E0102"
     },
     {
-        "type": "error",
-        "module": "YukkiMusic.plugins.play.playlist",
-        "obj": "add_playlist",
-        "line": 213,
-        "column": 13,
-        "endLine": 213,
-        "endColumn": 23,
-        "path": "YukkiMusic/plugins/play/playlist.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable 'tracktitle'",
-        "message-id": "E0602"
-    },
-    {
         "type": "warning",
         "module": "YukkiMusic.plugins.play.playlist",
         "obj": "del_plist",
