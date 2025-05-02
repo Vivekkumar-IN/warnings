@@ -1,15 +1,15 @@
 [
     {
-        "type": "error",
+        "type": "warning",
         "module": "YukkiMusic.plugins.tools.reload",
-        "obj": "reload_admin_cache",
-        "line": 28,
-        "column": 17,
-        "endLine": 28,
-        "endColumn": 20,
+        "obj": "",
+        "line": 12,
+        "column": 0,
+        "endLine": 12,
+        "endColumn": 44,
         "path": "YukkiMusic/plugins/tools/reload.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable 'app'",
-        "message-id": "E0602"
+        "symbol": "unused-import",
+        "message": "Unused ChatMembersFilter imported from pyrogram.enums",
+        "message-id": "W0611"
     }
 ]
