@@ -63,44 +63,5 @@
         "symbol": "too-many-positional-arguments",
         "message": "Too many positional arguments (6/5)",
         "message-id": "R0917"
-    },
-    {
-        "type": "convention",
-        "module": "YukkiMusic.utils.inline.play",
-        "obj": "",
-        "line": 289,
-        "column": 0,
-        "endLine": null,
-        "endColumn": null,
-        "path": "YukkiMusic/utils/inline/play.py",
-        "symbol": "trailing-whitespace",
-        "message": "Trailing whitespace",
-        "message-id": "C0303"
-    },
-    {
-        "type": "convention",
-        "module": "YukkiMusic.utils.inline.play",
-        "obj": "",
-        "line": 291,
-        "column": 0,
-        "endLine": null,
-        "endColumn": null,
-        "path": "YukkiMusic/utils/inline/play.py",
-        "symbol": "trailing-whitespace",
-        "message": "Trailing whitespace",
-        "message-id": "C0303"
-    },
-    {
-        "type": "convention",
-        "module": "YukkiMusic.utils.inline.play",
-        "obj": "",
-        "line": 295,
-        "column": 0,
-        "endLine": null,
-        "endColumn": null,
-        "path": "YukkiMusic/utils/inline/play.py",
-        "symbol": "trailing-whitespace",
-        "message": "Trailing whitespace",
-        "message-id": "C0303"
     }
 ]
