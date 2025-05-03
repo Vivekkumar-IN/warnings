@@ -1,15 +1,15 @@
 [
     {
-        "type": "warning",
-        "module": "YukkiMusic.platforms",
-        "obj": "info",
-        "line": 38,
-        "column": 17,
-        "endLine": 38,
-        "endColumn": 28,
+        "type": "error",
+        "module": "YukkiMusic.platforms.__init__",
+        "obj": "",
+        "line": 32,
+        "column": 9,
+        "endLine": null,
+        "endColumn": null,
         "path": "YukkiMusic/platforms/__init__.py",
-        "symbol": "unused-variable",
-        "message": "Unused variable 'source_type'",
-        "message-id": "W0612"
+        "symbol": "syntax-error",
+        "message": "Parsing failed: 'invalid syntax. Perhaps you forgot a comma? (YukkiMusic.platforms.__init__, line 32)'",
+        "message-id": "E0001"
     }
 ]

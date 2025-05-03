@@ -2,6 +2,32 @@
     {
         "type": "error",
         "module": "YukkiMusic.plugins.admins.callback",
+        "obj": "",
+        "line": 18,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "YukkiMusic/plugins/admins/callback.py",
+        "symbol": "syntax-error",
+        "message": "Cannot import 'YukkiMusic.platforms' due to 'invalid syntax. Perhaps you forgot a comma? (YukkiMusic.platforms, line 32)'",
+        "message-id": "E0001"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.admins.callback",
+        "obj": "",
+        "line": 18,
+        "column": 0,
+        "endLine": 18,
+        "endColumn": 47,
+        "path": "YukkiMusic/plugins/admins/callback.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'platforms' in module 'YukkiMusic'",
+        "message-id": "E0611"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.admins.callback",
         "obj": "pages_markup",
         "line": 114,
         "column": 33,
@@ -78,45 +104,6 @@
         "message-id": "R1705"
     },
     {
-        "type": "convention",
-        "module": "YukkiMusic.plugins.admins.callback",
-        "obj": "",
-        "line": 150,
-        "column": 18,
-        "endLine": null,
-        "endColumn": null,
-        "path": "YukkiMusic/plugins/admins/callback.py",
-        "symbol": "trailing-whitespace",
-        "message": "Trailing whitespace",
-        "message-id": "C0303"
-    },
-    {
-        "type": "convention",
-        "module": "YukkiMusic.plugins.admins.callback",
-        "obj": "",
-        "line": 151,
-        "column": 0,
-        "endLine": null,
-        "endColumn": null,
-        "path": "YukkiMusic/plugins/admins/callback.py",
-        "symbol": "trailing-whitespace",
-        "message": "Trailing whitespace",
-        "message-id": "C0303"
-    },
-    {
-        "type": "convention",
-        "module": "YukkiMusic.plugins.admins.callback",
-        "obj": "",
-        "line": 156,
-        "column": 0,
-        "endLine": null,
-        "endColumn": null,
-        "path": "YukkiMusic/plugins/admins/callback.py",
-        "symbol": "trailing-whitespace",
-        "message": "Trailing whitespace",
-        "message-id": "C0303"
-    },
-    {
         "type": "refactor",
         "module": "YukkiMusic.plugins.admins.callback",
         "obj": "admin_callback",
@@ -154,19 +141,6 @@
         "symbol": "too-many-return-statements",
         "message": "Too many return statements (8/6)",
         "message-id": "R0911"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.admins.callback",
-        "obj": "play_music",
-        "line": 342,
-        "column": 34,
-        "endLine": 342,
-        "endColumn": 60,
-        "path": "YukkiMusic/plugins/admins/callback.py",
-        "symbol": "too-many-function-args",
-        "message": "Too many positional arguments for staticmethod call",
-        "message-id": "E1121"
     },
     {
         "type": "error",
@@ -258,19 +232,6 @@
         "symbol": "too-many-branches",
         "message": "Too many branches (15/12)",
         "message-id": "R0912"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.admins.callback",
-        "obj": "play_playlists_cb",
-        "line": 435,
-        "column": 27,
-        "endLine": 439,
-        "endColumn": 13,
-        "path": "YukkiMusic/plugins/admins/callback.py",
-        "symbol": "too-many-function-args",
-        "message": "Too many positional arguments for method call",
-        "message-id": "E1121"
     },
     {
         "type": "error",

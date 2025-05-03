@@ -1,5 +1,31 @@
 [
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.bot.start",
+        "obj": "",
+        "line": 24,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "YukkiMusic/plugins/bot/start.py",
+        "symbol": "syntax-error",
+        "message": "Cannot import 'YukkiMusic.platforms' due to 'invalid syntax. Perhaps you forgot a comma? (YukkiMusic.platforms, line 32)'",
+        "message-id": "E0001"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.bot.start",
+        "obj": "",
+        "line": 24,
+        "column": 0,
+        "endLine": 24,
+        "endColumn": 40,
+        "path": "YukkiMusic/plugins/bot/start.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'platforms' in module 'YukkiMusic'",
+        "message-id": "E0611"
+    },
+    {
         "type": "refactor",
         "module": "YukkiMusic.plugins.bot.start",
         "obj": "start_comm",
@@ -89,19 +115,6 @@
         "symbol": "line-too-long",
         "message": "Line too long (116/100)",
         "message-id": "C0301"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.bot.start",
-        "obj": "start_comm",
-        "line": 115,
-        "column": 30,
-        "endLine": 115,
-        "endColumn": 47,
-        "path": "YukkiMusic/plugins/bot/start.py",
-        "symbol": "no-member",
-        "message": "Instance of 'YouTube' has no 'thumbnail' member",
-        "message-id": "E1101"
     },
     {
         "type": "error",

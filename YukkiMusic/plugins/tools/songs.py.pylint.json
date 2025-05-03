@@ -1,5 +1,31 @@
 [
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.tools.songs",
+        "obj": "",
+        "line": 25,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "YukkiMusic/plugins/tools/songs.py",
+        "symbol": "syntax-error",
+        "message": "Cannot import 'YukkiMusic.platforms' due to 'invalid syntax. Perhaps you forgot a comma? (YukkiMusic.platforms, line 32)'",
+        "message-id": "E0001"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.tools.songs",
+        "obj": "",
+        "line": 25,
+        "column": 0,
+        "endLine": 25,
+        "endColumn": 50,
+        "path": "YukkiMusic/plugins/tools/songs.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'platforms' in module 'YukkiMusic'",
+        "message-id": "E0611"
+    },
+    {
         "type": "refactor",
         "module": "YukkiMusic.plugins.tools.songs",
         "obj": "song_command_private",
@@ -133,19 +159,6 @@
         "type": "error",
         "module": "YukkiMusic.plugins.tools.songs",
         "obj": "song_download_cb",
-        "line": 241,
-        "column": 30,
-        "endLine": 241,
-        "endColumn": 46,
-        "path": "YukkiMusic/plugins/tools/songs.py",
-        "symbol": "no-member",
-        "message": "Instance of 'YouTube' has no 'download' member",
-        "message-id": "E1101"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.tools.songs",
-        "obj": "song_download_cb",
         "line": 259,
         "column": 20,
         "endLine": 259,
@@ -154,19 +167,6 @@
         "symbol": "undefined-variable",
         "message": "Undefined variable 'types'",
         "message-id": "E0602"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.tools.songs",
-        "obj": "song_download_cb",
-        "line": 278,
-        "column": 29,
-        "endLine": 278,
-        "endColumn": 45,
-        "path": "YukkiMusic/plugins/tools/songs.py",
-        "symbol": "no-member",
-        "message": "Instance of 'YouTube' has no 'download' member",
-        "message-id": "E1101"
     },
     {
         "type": "error",

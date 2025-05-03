@@ -1,5 +1,31 @@
 [
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.tools.stats",
+        "obj": "",
+        "line": 27,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "YukkiMusic/plugins/tools/stats.py",
+        "symbol": "syntax-error",
+        "message": "Cannot import 'YukkiMusic.platforms' due to 'invalid syntax. Perhaps you forgot a comma? (YukkiMusic.platforms, line 32)'",
+        "message-id": "E0001"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.tools.stats",
+        "obj": "",
+        "line": 27,
+        "column": 0,
+        "endLine": 27,
+        "endColumn": 40,
+        "path": "YukkiMusic/plugins/tools/stats.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'platforms' in module 'YukkiMusic'",
+        "message-id": "E0611"
+    },
+    {
         "type": "refactor",
         "module": "YukkiMusic.plugins.tools.stats",
         "obj": "gstats_global.get_stats",

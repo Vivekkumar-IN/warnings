@@ -1,5 +1,31 @@
 [
     {
+        "type": "error",
+        "module": "YukkiMusic.utils.decorators.play",
+        "obj": "",
+        "line": 19,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "YukkiMusic/utils/decorators/play.py",
+        "symbol": "syntax-error",
+        "message": "Cannot import 'YukkiMusic.platforms' due to 'invalid syntax. Perhaps you forgot a comma? (YukkiMusic.platforms, line 32)'",
+        "message-id": "E0001"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.utils.decorators.play",
+        "obj": "",
+        "line": 19,
+        "column": 0,
+        "endLine": 19,
+        "endColumn": 41,
+        "path": "YukkiMusic/utils/decorators/play.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'platforms' in module 'YukkiMusic'",
+        "message-id": "E0611"
+    },
+    {
         "type": "refactor",
         "module": "YukkiMusic.utils.decorators.play",
         "obj": "play_wrapper",

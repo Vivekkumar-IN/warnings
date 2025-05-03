@@ -1,5 +1,31 @@
 [
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.play.playlist",
+        "obj": "",
+        "line": 23,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "YukkiMusic/plugins/play/playlist.py",
+        "symbol": "syntax-error",
+        "message": "Cannot import 'YukkiMusic.platforms' due to 'invalid syntax. Perhaps you forgot a comma? (YukkiMusic.platforms, line 32)'",
+        "message-id": "E0001"
+    },
+    {
+        "type": "error",
+        "module": "YukkiMusic.plugins.play.playlist",
+        "obj": "",
+        "line": 23,
+        "column": 0,
+        "endLine": 23,
+        "endColumn": 48,
+        "path": "YukkiMusic/plugins/play/playlist.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'platforms' in module 'YukkiMusic'",
+        "message-id": "E0611"
+    },
+    {
         "type": "warning",
         "module": "YukkiMusic.plugins.play.playlist",
         "obj": "",
@@ -63,19 +89,6 @@
         "symbol": "redefined-outer-name",
         "message": "Redefining name 'carbon' from outer scope (line 23)",
         "message-id": "W0621"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.play.playlist",
-        "obj": "check_playlist",
-        "line": 91,
-        "column": 19,
-        "endLine": 91,
-        "endColumn": 66,
-        "path": "YukkiMusic/plugins/play/playlist.py",
-        "symbol": "too-many-function-args",
-        "message": "Too many positional arguments for function call",
-        "message-id": "E1121"
     },
     {
         "type": "error",
@@ -211,19 +224,6 @@
         "type": "error",
         "module": "YukkiMusic.plugins.play.playlist",
         "obj": "play_playlist",
-        "line": 325,
-        "column": 27,
-        "endLine": 325,
-        "endColumn": 83,
-        "path": "YukkiMusic/plugins/play/playlist.py",
-        "symbol": "too-many-function-args",
-        "message": "Too many positional arguments for staticmethod call",
-        "message-id": "E1121"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.play.playlist",
-        "obj": "play_playlist",
         "line": 327,
         "column": 14,
         "endLine": 332,
@@ -245,19 +245,6 @@
         "symbol": "undefined-variable",
         "message": "Undefined variable 'get_cmode'",
         "message-id": "E0602"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.play.playlist",
-        "obj": "play_playlist_command",
-        "line": 380,
-        "column": 27,
-        "endLine": 380,
-        "endColumn": 77,
-        "path": "YukkiMusic/plugins/play/playlist.py",
-        "symbol": "too-many-function-args",
-        "message": "Too many positional arguments for staticmethod call",
-        "message-id": "E1121"
     },
     {
         "type": "error",
