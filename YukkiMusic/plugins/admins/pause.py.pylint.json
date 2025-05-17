@@ -1,0 +1,15 @@
+[
+    {
+        "type": "warning",
+        "module": "YukkiMusic.plugins.admins.pause",
+        "obj": "pause_admin",
+        "line": 24,
+        "column": 22,
+        "endLine": 24,
+        "endColumn": 25,
+        "path": "YukkiMusic/plugins/admins/pause.py",
+        "symbol": "unused-argument",
+        "message": "Unused argument 'cli'",
+        "message-id": "W0613"
+    }
+]

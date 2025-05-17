@@ -1,0 +1,15 @@
+[
+    {
+        "type": "warning",
+        "module": "YukkiMusic.plugins.sudo.logger",
+        "obj": "logger",
+        "line": 22,
+        "column": 17,
+        "endLine": 22,
+        "endColumn": 23,
+        "path": "YukkiMusic/plugins/sudo/logger.py",
+        "symbol": "unused-argument",
+        "message": "Unused argument 'client'",
+        "message-id": "W0613"
+    }
+]

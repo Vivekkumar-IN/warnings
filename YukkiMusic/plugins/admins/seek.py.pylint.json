@@ -22,7 +22,20 @@
         "endColumn": 19,
         "path": "YukkiMusic/plugins/admins/seek.py",
         "symbol": "too-many-branches",
-        "message": "Too many branches (13/12)",
+        "message": "Too many branches (14/12)",
         "message-id": "R0912"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.plugins.admins.seek",
+        "obj": "seek_comm",
+        "line": 26,
+        "column": 20,
+        "endLine": 26,
+        "endColumn": 23,
+        "path": "YukkiMusic/plugins/admins/seek.py",
+        "symbol": "unused-argument",
+        "message": "Unused argument 'cli'",
+        "message-id": "W0613"
     }
 ]

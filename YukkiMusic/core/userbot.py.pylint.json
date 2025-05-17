@@ -1,0 +1,54 @@
+[
+    {
+        "type": "warning",
+        "module": "YukkiMusic.core.userbot",
+        "obj": "Userbot._start",
+        "line": 49,
+        "column": 8,
+        "endLine": 49,
+        "endColumn": 67,
+        "path": "YukkiMusic/core/userbot.py",
+        "symbol": "logging-fstring-interpolation",
+        "message": "Use lazy % formatting in logging functions",
+        "message-id": "W1203"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.core.userbot",
+        "obj": "Userbot._start",
+        "line": 60,
+        "column": 20,
+        "endLine": 63,
+        "endColumn": 21,
+        "path": "YukkiMusic/core/userbot.py",
+        "symbol": "logging-fstring-interpolation",
+        "message": "Use lazy % formatting in logging functions",
+        "message-id": "W1203"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.core.userbot",
+        "obj": "Userbot._start",
+        "line": 78,
+        "column": 12,
+        "endLine": 80,
+        "endColumn": 13,
+        "path": "YukkiMusic/core/userbot.py",
+        "symbol": "logging-fstring-interpolation",
+        "message": "Use lazy % formatting in logging functions",
+        "message-id": "W1203"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.core.userbot",
+        "obj": "Userbot.on_message.decorator.wrapper",
+        "line": 104,
+        "column": 20,
+        "endLine": 106,
+        "endColumn": 21,
+        "path": "YukkiMusic/core/userbot.py",
+        "symbol": "logging-fstring-interpolation",
+        "message": "Use lazy % formatting in logging functions",
+        "message-id": "W1203"
+    }
+]

@@ -1,0 +1,15 @@
+[
+    {
+        "type": "warning",
+        "module": "YukkiMusic.plugins.tools.active",
+        "obj": "vc",
+        "line": 86,
+        "column": 13,
+        "endLine": 86,
+        "endColumn": 19,
+        "path": "YukkiMusic/plugins/tools/active.py",
+        "symbol": "unused-argument",
+        "message": "Unused argument 'client'",
+        "message-id": "W0613"
+    }
+]

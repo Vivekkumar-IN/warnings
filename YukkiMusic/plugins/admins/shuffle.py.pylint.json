@@ -1,0 +1,28 @@
+[
+    {
+        "type": "convention",
+        "module": "YukkiMusic.plugins.admins.shuffle",
+        "obj": "admins",
+        "line": 25,
+        "column": 17,
+        "endLine": 25,
+        "endColumn": 23,
+        "path": "YukkiMusic/plugins/admins/shuffle.py",
+        "symbol": "invalid-name",
+        "message": "Argument name \"Client\" doesn't conform to snake_case naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.plugins.admins.shuffle",
+        "obj": "admins",
+        "line": 25,
+        "column": 17,
+        "endLine": 25,
+        "endColumn": 23,
+        "path": "YukkiMusic/plugins/admins/shuffle.py",
+        "symbol": "unused-argument",
+        "message": "Unused argument 'Client'",
+        "message-id": "W0613"
+    }
+]

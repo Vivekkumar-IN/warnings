@@ -1,28 +1,54 @@
 [
     {
-        "type": "convention",
+        "type": "refactor",
         "module": "YukkiMusic.utils.stream.queue",
         "obj": "put_queue",
-        "line": 25,
-        "column": 4,
-        "endLine": 25,
-        "endColumn": 31,
+        "line": 17,
+        "column": 0,
+        "endLine": 17,
+        "endColumn": 19,
         "path": "YukkiMusic/utils/stream/queue.py",
-        "symbol": "import-outside-toplevel",
-        "message": "Import outside toplevel (YukkiMusic.tbot)",
-        "message-id": "C0415"
+        "symbol": "too-many-arguments",
+        "message": "Too many arguments (11/5)",
+        "message-id": "R0913"
     },
     {
-        "type": "warning",
+        "type": "refactor",
         "module": "YukkiMusic.utils.stream.queue",
         "obj": "put_queue",
-        "line": 43,
-        "column": 4,
-        "endLine": 56,
-        "endColumn": 17,
+        "line": 17,
+        "column": 0,
+        "endLine": 17,
+        "endColumn": 19,
         "path": "YukkiMusic/utils/stream/queue.py",
-        "symbol": "pointless-string-statement",
-        "message": "String statement has no effect",
-        "message-id": "W0105"
+        "symbol": "too-many-positional-arguments",
+        "message": "Too many positional arguments (11/5)",
+        "message-id": "R0917"
+    },
+    {
+        "type": "refactor",
+        "module": "YukkiMusic.utils.stream.queue",
+        "obj": "put_queue_index",
+        "line": 68,
+        "column": 0,
+        "endLine": 68,
+        "endColumn": 25,
+        "path": "YukkiMusic/utils/stream/queue.py",
+        "symbol": "too-many-arguments",
+        "message": "Too many arguments (9/5)",
+        "message-id": "R0913"
+    },
+    {
+        "type": "refactor",
+        "module": "YukkiMusic.utils.stream.queue",
+        "obj": "put_queue_index",
+        "line": 68,
+        "column": 0,
+        "endLine": 68,
+        "endColumn": 25,
+        "path": "YukkiMusic/utils/stream/queue.py",
+        "symbol": "too-many-positional-arguments",
+        "message": "Too many positional arguments (9/5)",
+        "message-id": "R0917"
     }
 ]

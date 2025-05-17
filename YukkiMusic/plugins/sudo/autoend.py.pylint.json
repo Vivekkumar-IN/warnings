@@ -1,5 +1,18 @@
 [
     {
+        "type": "warning",
+        "module": "YukkiMusic.plugins.sudo.autoend",
+        "obj": "auto_end_stream",
+        "line": 18,
+        "column": 26,
+        "endLine": 18,
+        "endColumn": 32,
+        "path": "YukkiMusic/plugins/sudo/autoend.py",
+        "symbol": "unused-argument",
+        "message": "Unused argument 'client'",
+        "message-id": "W0613"
+    },
+    {
         "type": "convention",
         "module": "YukkiMusic.plugins.sudo.autoend",
         "obj": "",

@@ -1,15 +1,41 @@
 [
     {
-        "type": "error",
+        "type": "warning",
         "module": "YukkiMusic.plugins.sudo.blacklistchat",
         "obj": "blacklist_chat_func",
-        "line": 27,
-        "column": 18,
-        "endLine": 27,
-        "endColumn": 25,
+        "line": 26,
+        "column": 30,
+        "endLine": 26,
+        "endColumn": 36,
         "path": "YukkiMusic/plugins/sudo/blacklistchat.py",
-        "symbol": "undefined-variable",
-        "message": "Undefined variable 'message'",
-        "message-id": "E0602"
+        "symbol": "unused-argument",
+        "message": "Unused argument 'client'",
+        "message-id": "W0613"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.plugins.sudo.blacklistchat",
+        "obj": "white_funciton",
+        "line": 45,
+        "column": 25,
+        "endLine": 45,
+        "endColumn": 31,
+        "path": "YukkiMusic/plugins/sudo/blacklistchat.py",
+        "symbol": "unused-argument",
+        "message": "Unused argument 'client'",
+        "message-id": "W0613"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.plugins.sudo.blacklistchat",
+        "obj": "all_chats",
+        "line": 59,
+        "column": 20,
+        "endLine": 59,
+        "endColumn": 26,
+        "path": "YukkiMusic/plugins/sudo/blacklistchat.py",
+        "symbol": "unused-argument",
+        "message": "Unused argument 'client'",
+        "message-id": "W0613"
     }
 ]

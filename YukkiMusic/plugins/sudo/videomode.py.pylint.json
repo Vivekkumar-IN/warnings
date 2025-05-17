@@ -1,0 +1,15 @@
+[
+    {
+        "type": "warning",
+        "module": "YukkiMusic.plugins.sudo.videomode",
+        "obj": "videoloaymode",
+        "line": 23,
+        "column": 24,
+        "endLine": 23,
+        "endColumn": 30,
+        "path": "YukkiMusic/plugins/sudo/videomode.py",
+        "symbol": "unused-argument",
+        "message": "Unused argument 'client'",
+        "message-id": "W0613"
+    }
+]

@@ -1,0 +1,15 @@
+[
+    {
+        "type": "convention",
+        "module": "YukkiMusic.logging",
+        "obj": "LOGGER",
+        "line": 37,
+        "column": 0,
+        "endLine": 37,
+        "endColumn": 10,
+        "path": "YukkiMusic/logging.py",
+        "symbol": "invalid-name",
+        "message": "Function name \"LOGGER\" doesn't conform to snake_case naming style",
+        "message-id": "C0103"
+    }
+]

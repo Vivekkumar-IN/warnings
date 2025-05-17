@@ -1,28 +1,54 @@
 [
     {
-        "type": "convention",
+        "type": "refactor",
+        "module": "YukkiMusic.platforms.resso",
+        "obj": "Resso.valid",
+        "line": 24,
+        "column": 8,
+        "endLine": 27,
+        "endColumn": 24,
+        "path": "YukkiMusic/platforms/resso.py",
+        "symbol": "simplifiable-if-statement",
+        "message": "The if statement can be replaced with 'return bool(test)'",
+        "message-id": "R1703"
+    },
+    {
+        "type": "refactor",
+        "module": "YukkiMusic.platforms.resso",
+        "obj": "Resso.valid",
+        "line": 24,
+        "column": 8,
+        "endLine": 27,
+        "endColumn": 24,
+        "path": "YukkiMusic/platforms/resso.py",
+        "symbol": "no-else-return",
+        "message": "Unnecessary \"else\" after \"return\", remove the \"else\" and de-indent the code inside it",
+        "message-id": "R1705"
+    },
+    {
+        "type": "refactor",
         "module": "YukkiMusic.platforms.resso",
         "obj": "Resso.track",
-        "line": 45,
-        "column": 8,
-        "endLine": 45,
-        "endColumn": 36,
+        "line": 29,
+        "column": 4,
+        "endLine": 29,
+        "endColumn": 19,
         "path": "YukkiMusic/platforms/resso.py",
-        "symbol": "import-outside-toplevel",
-        "message": "Import outside toplevel (youtube.YouTube)",
-        "message-id": "C0415"
+        "symbol": "too-many-locals",
+        "message": "Too many local variables (17/15)",
+        "message-id": "R0914"
     },
     {
         "type": "error",
         "module": "YukkiMusic.platforms.resso",
         "obj": "Resso.track",
-        "line": 47,
-        "column": 36,
-        "endLine": 47,
-        "endColumn": 41,
+        "line": 49,
+        "column": 31,
+        "endLine": 49,
+        "endColumn": 36,
         "path": "YukkiMusic/platforms/resso.py",
-        "symbol": "possibly-used-before-assignment",
-        "message": "Possibly using variable 'title' before assignment",
-        "message-id": "E0606"
+        "symbol": "used-before-assignment",
+        "message": "Using variable 'title' before assignment",
+        "message-id": "E0601"
     }
 ]

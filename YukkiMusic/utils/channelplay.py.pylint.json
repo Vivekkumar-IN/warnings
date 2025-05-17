@@ -1,15 +1,28 @@
 [
     {
-        "type": "warning",
+        "type": "convention",
         "module": "YukkiMusic.utils.channelplay",
-        "obj": "",
-        "line": 19,
-        "column": 13,
-        "endLine": null,
-        "endColumn": null,
+        "obj": "get_channeplayCB",
+        "line": 16,
+        "column": 0,
+        "endLine": 16,
+        "endColumn": 26,
         "path": "YukkiMusic/utils/channelplay.py",
-        "symbol": "fixme",
-        "message": "TODO: REMOVE IT AND USE PARSE FLAGS",
-        "message-id": "W0511"
+        "symbol": "invalid-name",
+        "message": "Function name \"get_channeplayCB\" doesn't conform to snake_case naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "convention",
+        "module": "YukkiMusic.utils.channelplay",
+        "obj": "get_channeplayCB",
+        "line": 16,
+        "column": 39,
+        "endLine": 16,
+        "endColumn": 52,
+        "path": "YukkiMusic/utils/channelplay.py",
+        "symbol": "invalid-name",
+        "message": "Argument name \"CallbackQuery\" doesn't conform to snake_case naming style",
+        "message-id": "C0103"
     }
 ]

@@ -1,41 +1,54 @@
 [
     {
-        "type": "error",
-        "module": "YukkiMusic.plugins.play.live",
-        "obj": "",
-        "line": 15,
-        "column": 0,
-        "endLine": null,
-        "endColumn": null,
-        "path": "YukkiMusic/plugins/play/live.py",
-        "symbol": "syntax-error",
-        "message": "Cannot import 'YukkiMusic.platforms' due to 'invalid syntax. Perhaps you forgot a comma? (YukkiMusic.platforms, line 32)'",
-        "message-id": "E0001"
-    },
-    {
-        "type": "error",
-        "module": "YukkiMusic.plugins.play.live",
-        "obj": "",
-        "line": 15,
-        "column": 0,
-        "endLine": 15,
-        "endColumn": 40,
-        "path": "YukkiMusic/plugins/play/live.py",
-        "symbol": "no-name-in-module",
-        "message": "No name 'platforms' in module 'YukkiMusic'",
-        "message-id": "E0611"
-    },
-    {
-        "type": "error",
+        "type": "convention",
         "module": "YukkiMusic.plugins.play.live",
         "obj": "play_live_stream",
-        "line": 49,
-        "column": 18,
-        "endLine": 55,
-        "endColumn": 13,
+        "line": 23,
+        "column": 35,
+        "endLine": 23,
+        "endColumn": 48,
         "path": "YukkiMusic/plugins/play/live.py",
-        "symbol": "not-callable",
-        "message": "stream is not callable",
-        "message-id": "E1102"
+        "symbol": "invalid-name",
+        "message": "Argument name \"CallbackQuery\" doesn't conform to snake_case naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "refactor",
+        "module": "YukkiMusic.plugins.play.live",
+        "obj": "play_live_stream",
+        "line": 23,
+        "column": 0,
+        "endLine": 23,
+        "endColumn": 26,
+        "path": "YukkiMusic/plugins/play/live.py",
+        "symbol": "too-many-locals",
+        "message": "Too many local variables (19/15)",
+        "message-id": "R0914"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.plugins.play.live",
+        "obj": "play_live_stream",
+        "line": 23,
+        "column": 27,
+        "endLine": 23,
+        "endColumn": 33,
+        "path": "YukkiMusic/plugins/play/live.py",
+        "symbol": "unused-argument",
+        "message": "Unused argument 'client'",
+        "message-id": "W0613"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.plugins.play.live",
+        "obj": "play_live_stream",
+        "line": 47,
+        "column": 17,
+        "endLine": 47,
+        "endColumn": 25,
+        "path": "YukkiMusic/plugins/play/live.py",
+        "symbol": "unused-variable",
+        "message": "Unused variable 'track_id'",
+        "message-id": "W0612"
     }
 ]

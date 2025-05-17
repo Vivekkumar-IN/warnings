@@ -1,28 +1,41 @@
 [
     {
-        "type": "convention",
+        "type": "refactor",
         "module": "YukkiMusic.platforms.apple",
-        "obj": "Apple.__track",
-        "line": 52,
+        "obj": "Apple.valid",
+        "line": 24,
         "column": 8,
-        "endLine": 52,
-        "endColumn": 36,
+        "endLine": 27,
+        "endColumn": 24,
         "path": "YukkiMusic/platforms/apple.py",
-        "symbol": "import-outside-toplevel",
-        "message": "Import outside toplevel (youtube.YouTube)",
-        "message-id": "C0415"
+        "symbol": "simplifiable-if-statement",
+        "message": "The if statement can be replaced with 'return bool(test)'",
+        "message-id": "R1703"
     },
     {
-        "type": "convention",
+        "type": "refactor",
         "module": "YukkiMusic.platforms.apple",
-        "obj": "Apple.playlist",
-        "line": 69,
+        "obj": "Apple.valid",
+        "line": 24,
         "column": 8,
-        "endLine": 69,
-        "endColumn": 36,
+        "endLine": 27,
+        "endColumn": 24,
         "path": "YukkiMusic/platforms/apple.py",
-        "symbol": "import-outside-toplevel",
-        "message": "Import outside toplevel (youtube.YouTube)",
-        "message-id": "C0415"
+        "symbol": "no-else-return",
+        "message": "Unnecessary \"else\" after \"return\", remove the \"else\" and de-indent the code inside it",
+        "message-id": "R1705"
+    },
+    {
+        "type": "refactor",
+        "module": "YukkiMusic.platforms.apple",
+        "obj": "Apple.track",
+        "line": 29,
+        "column": 4,
+        "endLine": 29,
+        "endColumn": 19,
+        "path": "YukkiMusic/platforms/apple.py",
+        "symbol": "too-many-locals",
+        "message": "Too many local variables (17/15)",
+        "message-id": "R0914"
     }
 ]

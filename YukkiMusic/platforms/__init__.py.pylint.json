@@ -1,15 +1,15 @@
 [
     {
-        "type": "error",
+        "type": "convention",
         "module": "YukkiMusic.platforms.__init__",
         "obj": "",
-        "line": 32,
-        "column": 9,
+        "line": 28,
+        "column": 0,
         "endLine": null,
         "endColumn": null,
         "path": "YukkiMusic/platforms/__init__.py",
-        "symbol": "syntax-error",
-        "message": "Parsing failed: 'invalid syntax. Perhaps you forgot a comma? (YukkiMusic.platforms.__init__, line 32)'",
-        "message-id": "E0001"
+        "symbol": "missing-final-newline",
+        "message": "Final newline missing",
+        "message-id": "C0304"
     }
 ]

@@ -1,0 +1,28 @@
+[
+    {
+        "type": "warning",
+        "module": "YukkiMusic.plugins.sudo.videolimit",
+        "obj": "set_video_limit_kid",
+        "line": 22,
+        "column": 30,
+        "endLine": 22,
+        "endColumn": 36,
+        "path": "YukkiMusic/plugins/sudo/videolimit.py",
+        "symbol": "unused-argument",
+        "message": "Unused argument 'client'",
+        "message-id": "W0613"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.plugins.sudo.videolimit",
+        "obj": "set_video_limit_kid",
+        "line": 26,
+        "column": 4,
+        "endLine": 26,
+        "endColumn": 19,
+        "path": "YukkiMusic/plugins/sudo/videolimit.py",
+        "symbol": "pointless-statement",
+        "message": "Statement seems to have no effect",
+        "message-id": "W0104"
+    }
+]
