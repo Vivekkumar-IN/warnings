@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: TheTeamVivek/YukkiMusic
-          ref: dev
+          ref: master
           path: YukkiMusic
           
       - name: Checkout Current Repository
