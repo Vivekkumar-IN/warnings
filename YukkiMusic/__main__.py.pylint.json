@@ -13,6 +13,19 @@
         "message-id": "R0912"
     },
     {
+        "type": "refactor",
+        "module": "YukkiMusic.__main__",
+        "obj": "init",
+        "line": 26,
+        "column": 0,
+        "endLine": 26,
+        "endColumn": 14,
+        "path": "YukkiMusic/__main__.py",
+        "symbol": "too-many-statements",
+        "message": "Too many statements (51/50)",
+        "message-id": "R0915"
+    },
+    {
         "type": "warning",
         "module": "YukkiMusic.__main__",
         "obj": "init",

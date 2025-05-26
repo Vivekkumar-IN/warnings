@@ -206,18 +206,5 @@
         "symbol": "logging-fstring-interpolation",
         "message": "Use lazy % formatting in logging functions",
         "message-id": "W1203"
-    },
-    {
-        "type": "convention",
-        "module": "YukkiMusic.core.bot",
-        "obj": "",
-        "line": 288,
-        "column": 0,
-        "endLine": null,
-        "endColumn": null,
-        "path": "YukkiMusic/core/bot.py",
-        "symbol": "missing-final-newline",
-        "message": "Final newline missing",
-        "message-id": "C0304"
     }
 ]

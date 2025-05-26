@@ -1,18 +1,5 @@
 [
     {
-        "type": "convention",
-        "module": "YukkiMusic.plugins.play.toptracks",
-        "obj": "get_play_markup",
-        "line": 35,
-        "column": 34,
-        "endLine": 35,
-        "endColumn": 47,
-        "path": "YukkiMusic/plugins/play/toptracks.py",
-        "symbol": "invalid-name",
-        "message": "Argument name \"CallbackQuery\" doesn't conform to snake_case naming style",
-        "message-id": "C0103"
-    },
-    {
         "type": "warning",
         "module": "YukkiMusic.plugins.play.toptracks",
         "obj": "get_play_markup",
@@ -26,19 +13,6 @@
         "message-id": "W0613"
     },
     {
-        "type": "convention",
-        "module": "YukkiMusic.plugins.play.toptracks",
-        "obj": "get_topz_playlists",
-        "line": 48,
-        "column": 37,
-        "endLine": 48,
-        "endColumn": 50,
-        "path": "YukkiMusic/plugins/play/toptracks.py",
-        "symbol": "invalid-name",
-        "message": "Argument name \"CallbackQuery\" doesn't conform to snake_case naming style",
-        "message-id": "C0103"
-    },
-    {
         "type": "warning",
         "module": "YukkiMusic.plugins.play.toptracks",
         "obj": "get_topz_playlists",
@@ -50,19 +24,6 @@
         "symbol": "unused-argument",
         "message": "Unused argument 'client'",
         "message-id": "W0613"
-    },
-    {
-        "type": "convention",
-        "module": "YukkiMusic.plugins.play.toptracks",
-        "obj": "server_to_play",
-        "line": 61,
-        "column": 33,
-        "endLine": 61,
-        "endColumn": 46,
-        "path": "YukkiMusic/plugins/play/toptracks.py",
-        "symbol": "invalid-name",
-        "message": "Argument name \"CallbackQuery\" doesn't conform to snake_case naming style",
-        "message-id": "C0103"
     },
     {
         "type": "warning",
@@ -94,9 +55,9 @@
         "type": "warning",
         "module": "YukkiMusic.plugins.play.toptracks",
         "obj": "server_to_play.get_stats",
-        "line": 102,
+        "line": 103,
         "column": 19,
-        "endLine": 102,
+        "endLine": 103,
         "endColumn": 24,
         "path": "YukkiMusic/plugins/play/toptracks.py",
         "symbol": "unused-variable",

@@ -1,0 +1,15 @@
+[
+    {
+        "type": "warning",
+        "module": "YukkiMusic.plugins.admins.mute",
+        "obj": "mute_admin",
+        "line": 24,
+        "column": 21,
+        "endLine": 24,
+        "endColumn": 24,
+        "path": "YukkiMusic/plugins/admins/mute.py",
+        "symbol": "unused-argument",
+        "message": "Unused argument 'cli'",
+        "message-id": "W0613"
+    }
+]

@@ -39,19 +39,6 @@
         "message-id": "C0103"
     },
     {
-        "type": "convention",
-        "module": "YukkiMusic.utils.decorators.language",
-        "obj": "languageCB.wrapper",
-        "line": 44,
-        "column": 25,
-        "endLine": 44,
-        "endColumn": 38,
-        "path": "YukkiMusic/utils/decorators/language.py",
-        "symbol": "invalid-name",
-        "message": "Argument name \"CallbackQuery\" doesn't conform to snake_case naming style",
-        "message-id": "C0103"
-    },
-    {
         "type": "warning",
         "module": "YukkiMusic.utils.decorators.language",
         "obj": "languageCB.wrapper",

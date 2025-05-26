@@ -1,18 +1,5 @@
 [
     {
-        "type": "convention",
-        "module": "YukkiMusic.plugins.play.live",
-        "obj": "play_live_stream",
-        "line": 23,
-        "column": 35,
-        "endLine": 23,
-        "endColumn": 48,
-        "path": "YukkiMusic/plugins/play/live.py",
-        "symbol": "invalid-name",
-        "message": "Argument name \"CallbackQuery\" doesn't conform to snake_case naming style",
-        "message-id": "C0103"
-    },
-    {
         "type": "refactor",
         "module": "YukkiMusic.plugins.play.live",
         "obj": "play_live_stream",

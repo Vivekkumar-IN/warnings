@@ -52,19 +52,6 @@
         "message-id": "W0613"
     },
     {
-        "type": "convention",
-        "module": "YukkiMusic.plugins.tools.languages",
-        "obj": "lanuagecb",
-        "line": 59,
-        "column": 28,
-        "endLine": 59,
-        "endColumn": 41,
-        "path": "YukkiMusic/plugins/tools/languages.py",
-        "symbol": "invalid-name",
-        "message": "Argument name \"CallbackQuery\" doesn't conform to snake_case naming style",
-        "message-id": "C0103"
-    },
-    {
         "type": "warning",
         "module": "YukkiMusic.plugins.tools.languages",
         "obj": "lanuagecb",
@@ -76,19 +63,6 @@
         "symbol": "unused-argument",
         "message": "Unused argument 'client'",
         "message-id": "W0613"
-    },
-    {
-        "type": "convention",
-        "module": "YukkiMusic.plugins.tools.languages",
-        "obj": "language_markup",
-        "line": 70,
-        "column": 34,
-        "endLine": 70,
-        "endColumn": 47,
-        "path": "YukkiMusic/plugins/tools/languages.py",
-        "symbol": "invalid-name",
-        "message": "Argument name \"CallbackQuery\" doesn't conform to snake_case naming style",
-        "message-id": "C0103"
     },
     {
         "type": "warning",

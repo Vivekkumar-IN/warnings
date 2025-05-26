@@ -11,18 +11,5 @@
         "symbol": "invalid-name",
         "message": "Function name \"get_channeplayCB\" doesn't conform to snake_case naming style",
         "message-id": "C0103"
-    },
-    {
-        "type": "convention",
-        "module": "YukkiMusic.utils.channelplay",
-        "obj": "get_channeplayCB",
-        "line": 16,
-        "column": 39,
-        "endLine": 16,
-        "endColumn": 52,
-        "path": "YukkiMusic/utils/channelplay.py",
-        "symbol": "invalid-name",
-        "message": "Argument name \"CallbackQuery\" doesn't conform to snake_case naming style",
-        "message-id": "C0103"
     }
 ]

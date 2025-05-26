@@ -76,18 +76,5 @@
         "symbol": "invalid-name",
         "message": "Function name \"ActualAdminCB\" doesn't conform to snake_case naming style",
         "message-id": "C0103"
-    },
-    {
-        "type": "convention",
-        "module": "YukkiMusic.utils.decorators.admins",
-        "obj": "ActualAdminCB.wrapper",
-        "line": 139,
-        "column": 30,
-        "endLine": 139,
-        "endColumn": 43,
-        "path": "YukkiMusic/utils/decorators/admins.py",
-        "symbol": "invalid-name",
-        "message": "Argument name \"CallbackQuery\" doesn't conform to snake_case naming style",
-        "message-id": "C0103"
     }
 ]
