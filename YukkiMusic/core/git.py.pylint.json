@@ -6,7 +6,7 @@
         "line": 82,
         "column": 4,
         "endLine": 82,
-        "endColumn": 74,
+        "endColumn": 64,
         "path": "YukkiMusic/core/git.py",
         "symbol": "logging-fstring-interpolation",
         "message": "Use lazy % formatting in logging functions",

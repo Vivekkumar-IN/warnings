@@ -71,7 +71,7 @@
         "line": 85,
         "column": 12,
         "endLine": 89,
-        "endColumn": 66,
+        "endColumn": 65,
         "path": "YukkiMusic/plugins/admins/stop.py",
         "symbol": "no-else-return",
         "message": "Unnecessary \"else\" after \"return\", remove the \"else\" and de-indent the code inside it",

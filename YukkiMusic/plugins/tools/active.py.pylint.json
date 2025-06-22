@@ -1,15 +1,15 @@
 [
     {
-        "type": "warning",
+        "type": "error",
         "module": "YukkiMusic.plugins.tools.active",
-        "obj": "vc",
-        "line": 86,
-        "column": 13,
-        "endLine": 86,
-        "endColumn": 19,
+        "obj": "",
+        "line": 15,
+        "column": 0,
+        "endLine": 15,
+        "endColumn": 42,
         "path": "YukkiMusic/plugins/tools/active.py",
-        "symbol": "unused-argument",
-        "message": "Unused argument 'client'",
-        "message-id": "W0613"
+        "symbol": "no-name-in-module",
+        "message": "No name 'pick_commands' in module 'strings'",
+        "message-id": "E0611"
     }
 ]

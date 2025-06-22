@@ -45,7 +45,7 @@
         "line": 74,
         "column": 16,
         "endLine": 78,
-        "endColumn": 70,
+        "endColumn": 69,
         "path": "YukkiMusic/utils/decorators/admins.py",
         "symbol": "no-else-return",
         "message": "Unnecessary \"else\" after \"return\", remove the \"else\" and de-indent the code inside it",

@@ -19,7 +19,7 @@
         "line": 30,
         "column": 8,
         "endLine": 41,
-        "endColumn": 58,
+        "endColumn": 56,
         "path": "YukkiMusic/plugins/admins/loop.py",
         "symbol": "no-else-return",
         "message": "Unnecessary \"else\" after \"return\", remove the \"else\" and de-indent the code inside it",
