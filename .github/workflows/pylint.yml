@@ -43,7 +43,7 @@ jobs:
           find . -mindepth 1 ! -name 'script.py' ! -name '.pylintrc' ! -path './.git' ! -path './.git/*' ! -path './.github' ! -path './.github/*' -exec rm -rf {} +
          
           cd ../YukkiMusic
-          pylint --exit-zero --output-format=json20 --reports=no . > ../current_dir/warnings.json
+          pylint --exit-zero --output-format=json2 --reports=no . > ../current_dir/warnings.json
           cd ../current_dir
           python script.py
           
