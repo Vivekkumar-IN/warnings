@@ -1,15 +1,54 @@
 [
     {
+        "type": "error",
+        "module": "YukkiMusic.plugins.admins.pause",
+        "obj": "",
+        "line": 15,
+        "column": 0,
+        "endLine": 15,
+        "endColumn": 42,
+        "path": "YukkiMusic/plugins/admins/pause.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'pick_commands' in module 'strings'",
+        "message-id": "E0611"
+    },
+    {
         "type": "warning",
         "module": "YukkiMusic.plugins.admins.pause",
         "obj": "pause_admin",
-        "line": 24,
+        "line": 25,
         "column": 22,
-        "endLine": 24,
+        "endLine": 25,
         "endColumn": 25,
         "path": "YukkiMusic/plugins/admins/pause.py",
         "symbol": "unused-argument",
         "message": "Unused argument 'cli'",
         "message-id": "W0613"
+    },
+    {
+        "type": "warning",
+        "module": "YukkiMusic.plugins.admins.pause",
+        "obj": "resume_com",
+        "line": 37,
+        "column": 21,
+        "endLine": 37,
+        "endColumn": 24,
+        "path": "YukkiMusic/plugins/admins/pause.py",
+        "symbol": "unused-argument",
+        "message": "Unused argument 'cli'",
+        "message-id": "W0613"
+    },
+    {
+        "type": "convention",
+        "module": "YukkiMusic.plugins.admins.pause",
+        "obj": "",
+        "line": 80,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "YukkiMusic/plugins/admins/pause.py",
+        "symbol": "line-too-long",
+        "message": "Line too long (102/100)",
+        "message-id": "C0301"
     }
 ]
