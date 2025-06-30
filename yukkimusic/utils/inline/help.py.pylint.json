@@ -1,0 +1,28 @@
+[
+    {
+        "type": "warning",
+        "module": "yukkimusic.utils.inline.help",
+        "obj": "help_back_markup",
+        "line": 35,
+        "column": 57,
+        "endLine": 35,
+        "endColumn": 80,
+        "path": "yukkimusic/utils/inline/help.py",
+        "symbol": "f-string-without-interpolation",
+        "message": "Using an f-string that does not have any interpolated variables",
+        "message-id": "W1309"
+    },
+    {
+        "type": "warning",
+        "module": "yukkimusic.utils.inline.help",
+        "obj": "help_back_markup",
+        "line": 37,
+        "column": 75,
+        "endLine": 37,
+        "endColumn": 83,
+        "path": "yukkimusic/utils/inline/help.py",
+        "symbol": "f-string-without-interpolation",
+        "message": "Using an f-string that does not have any interpolated variables",
+        "message-id": "W1309"
+    }
+]

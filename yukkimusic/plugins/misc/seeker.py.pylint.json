@@ -1,0 +1,28 @@
+[
+    {
+        "type": "refactor",
+        "module": "yukkimusic.plugins.misc.seeker",
+        "obj": "markup_timer",
+        "line": 88,
+        "column": 0,
+        "endLine": 88,
+        "endColumn": 22,
+        "path": "yukkimusic/plugins/misc/seeker.py",
+        "symbol": "too-many-branches",
+        "message": "Too many branches (19/12)",
+        "message-id": "R0912"
+    },
+    {
+        "type": "refactor",
+        "module": "yukkimusic.plugins.misc.seeker",
+        "obj": "markup_timer",
+        "line": 88,
+        "column": 0,
+        "endLine": 88,
+        "endColumn": 22,
+        "path": "yukkimusic/plugins/misc/seeker.py",
+        "symbol": "too-many-statements",
+        "message": "Too many statements (62/50)",
+        "message-id": "R0915"
+    }
+]

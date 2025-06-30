@@ -1,0 +1,28 @@
+[
+    {
+        "type": "warning",
+        "module": "yukkimusic.plugins.sudo.autoend",
+        "obj": "auto_end_stream",
+        "line": 18,
+        "column": 26,
+        "endLine": 18,
+        "endColumn": 32,
+        "path": "yukkimusic/plugins/sudo/autoend.py",
+        "symbol": "unused-argument",
+        "message": "Unused argument 'client'",
+        "message-id": "W0613"
+    },
+    {
+        "type": "convention",
+        "module": "yukkimusic.plugins.sudo.autoend",
+        "obj": "",
+        "line": 27,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "yukkimusic/plugins/sudo/autoend.py",
+        "symbol": "line-too-long",
+        "message": "Line too long (140/100)",
+        "message-id": "C0301"
+    }
+]

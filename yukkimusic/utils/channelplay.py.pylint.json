@@ -1,0 +1,15 @@
+[
+    {
+        "type": "convention",
+        "module": "yukkimusic.utils.channelplay",
+        "obj": "get_channeplayCB",
+        "line": 16,
+        "column": 0,
+        "endLine": 16,
+        "endColumn": 26,
+        "path": "yukkimusic/utils/channelplay.py",
+        "symbol": "invalid-name",
+        "message": "Function name \"get_channeplayCB\" doesn't conform to snake_case naming style",
+        "message-id": "C0103"
+    }
+]

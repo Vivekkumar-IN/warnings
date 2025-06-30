@@ -1,0 +1,80 @@
+[
+    {
+        "type": "warning",
+        "module": "yukkimusic.utils.inlinequery",
+        "obj": "",
+        "line": 18,
+        "column": 24,
+        "endLine": 18,
+        "endColumn": 127,
+        "path": "yukkimusic/utils/inlinequery.py",
+        "symbol": "f-string-without-interpolation",
+        "message": "Using an f-string that does not have any interpolated variables",
+        "message-id": "W1309"
+    },
+    {
+        "type": "warning",
+        "module": "yukkimusic.utils.inlinequery",
+        "obj": "",
+        "line": 24,
+        "column": 24,
+        "endLine": 24,
+        "endColumn": 110,
+        "path": "yukkimusic/utils/inlinequery.py",
+        "symbol": "f-string-without-interpolation",
+        "message": "Using an f-string that does not have any interpolated variables",
+        "message-id": "W1309"
+    },
+    {
+        "type": "warning",
+        "module": "yukkimusic.utils.inlinequery",
+        "obj": "",
+        "line": 30,
+        "column": 24,
+        "endLine": 30,
+        "endColumn": 106,
+        "path": "yukkimusic/utils/inlinequery.py",
+        "symbol": "f-string-without-interpolation",
+        "message": "Using an f-string that does not have any interpolated variables",
+        "message-id": "W1309"
+    },
+    {
+        "type": "warning",
+        "module": "yukkimusic.utils.inlinequery",
+        "obj": "",
+        "line": 36,
+        "column": 24,
+        "endLine": 36,
+        "endColumn": 111,
+        "path": "yukkimusic/utils/inlinequery.py",
+        "symbol": "f-string-without-interpolation",
+        "message": "Using an f-string that does not have any interpolated variables",
+        "message-id": "W1309"
+    },
+    {
+        "type": "convention",
+        "module": "yukkimusic.utils.inlinequery",
+        "obj": "",
+        "line": 42,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "yukkimusic/utils/inlinequery.py",
+        "symbol": "line-too-long",
+        "message": "Line too long (114/100)",
+        "message-id": "C0301"
+    },
+    {
+        "type": "warning",
+        "module": "yukkimusic.utils.inlinequery",
+        "obj": "",
+        "line": 42,
+        "column": 24,
+        "endLine": 42,
+        "endColumn": 192,
+        "path": "yukkimusic/utils/inlinequery.py",
+        "symbol": "f-string-without-interpolation",
+        "message": "Using an f-string that does not have any interpolated variables",
+        "message-id": "W1309"
+    }
+]

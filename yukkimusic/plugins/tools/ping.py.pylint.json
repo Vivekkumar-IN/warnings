@@ -1,0 +1,67 @@
+[
+    {
+        "type": "warning",
+        "module": "yukkimusic.plugins.tools.ping",
+        "obj": "ping_com",
+        "line": 25,
+        "column": 19,
+        "endLine": 25,
+        "endColumn": 25,
+        "path": "yukkimusic/plugins/tools/ping.py",
+        "symbol": "unused-argument",
+        "message": "Unused argument 'client'",
+        "message-id": "W0613"
+    },
+    {
+        "type": "convention",
+        "module": "yukkimusic.plugins.tools.ping",
+        "obj": "ping_com",
+        "line": 32,
+        "column": 4,
+        "endLine": 32,
+        "endColumn": 6,
+        "path": "yukkimusic/plugins/tools/ping.py",
+        "symbol": "invalid-name",
+        "message": "Variable name \"UP\" doesn't conform to snake_case naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "convention",
+        "module": "yukkimusic.plugins.tools.ping",
+        "obj": "ping_com",
+        "line": 32,
+        "column": 8,
+        "endLine": 32,
+        "endColumn": 11,
+        "path": "yukkimusic/plugins/tools/ping.py",
+        "symbol": "invalid-name",
+        "message": "Variable name \"CPU\" doesn't conform to snake_case naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "convention",
+        "module": "yukkimusic.plugins.tools.ping",
+        "obj": "ping_com",
+        "line": 32,
+        "column": 13,
+        "endLine": 32,
+        "endColumn": 16,
+        "path": "yukkimusic/plugins/tools/ping.py",
+        "symbol": "invalid-name",
+        "message": "Variable name \"RAM\" doesn't conform to snake_case naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "convention",
+        "module": "yukkimusic.plugins.tools.ping",
+        "obj": "ping_com",
+        "line": 32,
+        "column": 18,
+        "endLine": 32,
+        "endColumn": 22,
+        "path": "yukkimusic/plugins/tools/ping.py",
+        "symbol": "invalid-name",
+        "message": "Variable name \"DISK\" doesn't conform to snake_case naming style",
+        "message-id": "C0103"
+    }
+]

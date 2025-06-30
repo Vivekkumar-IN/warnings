@@ -1,0 +1,15 @@
+[
+    {
+        "type": "error",
+        "module": "yukkimusic",
+        "obj": "",
+        "line": 30,
+        "column": 0,
+        "endLine": 30,
+        "endColumn": 3,
+        "path": "yukkimusic/__init__.py",
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'dbb'",
+        "message-id": "E0602"
+    }
+]

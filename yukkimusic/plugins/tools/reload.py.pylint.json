@@ -1,0 +1,15 @@
+[
+    {
+        "type": "warning",
+        "module": "yukkimusic.plugins.tools.reload",
+        "obj": "reload_admin_cache",
+        "line": 26,
+        "column": 29,
+        "endLine": 26,
+        "endColumn": 35,
+        "path": "yukkimusic/plugins/tools/reload.py",
+        "symbol": "unused-argument",
+        "message": "Unused argument 'client'",
+        "message-id": "W0613"
+    }
+]

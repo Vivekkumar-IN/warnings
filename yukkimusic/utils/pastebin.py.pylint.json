@@ -1,0 +1,15 @@
+[
+    {
+        "type": "convention",
+        "module": "yukkimusic.utils.pastebin",
+        "obj": "Yukkibin",
+        "line": 24,
+        "column": 0,
+        "endLine": 24,
+        "endColumn": 18,
+        "path": "yukkimusic/utils/pastebin.py",
+        "symbol": "invalid-name",
+        "message": "Function name \"Yukkibin\" doesn't conform to snake_case naming style",
+        "message-id": "C0103"
+    }
+]

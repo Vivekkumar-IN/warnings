@@ -1,0 +1,67 @@
+[
+    {
+        "type": "warning",
+        "module": "yukkimusic.plugins.play.toptracks",
+        "obj": "get_play_markup",
+        "line": 35,
+        "column": 26,
+        "endLine": 35,
+        "endColumn": 32,
+        "path": "yukkimusic/plugins/play/toptracks.py",
+        "symbol": "unused-argument",
+        "message": "Unused argument 'client'",
+        "message-id": "W0613"
+    },
+    {
+        "type": "warning",
+        "module": "yukkimusic.plugins.play.toptracks",
+        "obj": "get_topz_playlists",
+        "line": 48,
+        "column": 29,
+        "endLine": 48,
+        "endColumn": 35,
+        "path": "yukkimusic/plugins/play/toptracks.py",
+        "symbol": "unused-argument",
+        "message": "Unused argument 'client'",
+        "message-id": "W0613"
+    },
+    {
+        "type": "warning",
+        "module": "yukkimusic.plugins.play.toptracks",
+        "obj": "server_to_play",
+        "line": 61,
+        "column": 25,
+        "endLine": 61,
+        "endColumn": 31,
+        "path": "yukkimusic/plugins/play/toptracks.py",
+        "symbol": "unused-argument",
+        "message": "Unused argument 'client'",
+        "message-id": "W0613"
+    },
+    {
+        "type": "error",
+        "module": "yukkimusic.plugins.play.toptracks",
+        "obj": "server_to_play",
+        "line": 83,
+        "column": 11,
+        "endLine": 83,
+        "endColumn": 16,
+        "path": "yukkimusic/plugins/play/toptracks.py",
+        "symbol": "possibly-used-before-assignment",
+        "message": "Possibly using variable 'stats' before assignment",
+        "message-id": "E0606"
+    },
+    {
+        "type": "warning",
+        "module": "yukkimusic.plugins.play.toptracks",
+        "obj": "server_to_play.get_stats",
+        "line": 103,
+        "column": 19,
+        "endLine": 103,
+        "endColumn": 24,
+        "path": "yukkimusic/plugins/play/toptracks.py",
+        "symbol": "unused-variable",
+        "message": "Unused variable 'count'",
+        "message-id": "W0612"
+    }
+]

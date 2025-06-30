@@ -1,0 +1,28 @@
+[
+    {
+        "type": "convention",
+        "module": "yukkimusic.utils.formatters",
+        "obj": "get_readable_time",
+        "line": 26,
+        "column": 4,
+        "endLine": 27,
+        "endColumn": 62,
+        "path": "yukkimusic/utils/formatters.py",
+        "symbol": "consider-using-enumerate",
+        "message": "Consider using enumerate instead of iterating with range and len",
+        "message-id": "C0200"
+    },
+    {
+        "type": "refactor",
+        "module": "yukkimusic.utils.formatters",
+        "obj": "seconds_to_min",
+        "line": 81,
+        "column": 8,
+        "endLine": 88,
+        "endColumn": 32,
+        "path": "yukkimusic/utils/formatters.py",
+        "symbol": "no-else-return",
+        "message": "Unnecessary \"elif\" after \"return\", remove the leading \"el\" from \"elif\"",
+        "message-id": "R1705"
+    }
+]

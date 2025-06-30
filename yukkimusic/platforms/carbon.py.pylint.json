@@ -1,0 +1,28 @@
+[
+    {
+        "type": "refactor",
+        "module": "yukkimusic.platforms.carbon",
+        "obj": "Carbon",
+        "line": 77,
+        "column": 0,
+        "endLine": 77,
+        "endColumn": 12,
+        "path": "yukkimusic/platforms/carbon.py",
+        "symbol": "too-few-public-methods",
+        "message": "Too few public methods (1/2)",
+        "message-id": "R0903"
+    },
+    {
+        "type": "warning",
+        "module": "yukkimusic.platforms.carbon",
+        "obj": "Carbon.generate",
+        "line": 109,
+        "column": 16,
+        "endLine": 109,
+        "endColumn": 68,
+        "path": "yukkimusic/platforms/carbon.py",
+        "symbol": "raise-missing-from",
+        "message": "Consider explicitly re-raising using 'except Exception as exc' and 'raise UnableToFetchCarbon('Can not reach the Host!') from exc'",
+        "message-id": "W0707"
+    }
+]

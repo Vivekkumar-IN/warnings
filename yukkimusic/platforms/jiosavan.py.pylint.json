@@ -1,0 +1,28 @@
+[
+    {
+        "type": "convention",
+        "module": "yukkimusic.platforms.jiosavan",
+        "obj": "",
+        "line": 117,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "yukkimusic/platforms/jiosavan.py",
+        "symbol": "line-too-long",
+        "message": "Line too long (104/100)",
+        "message-id": "C0301"
+    },
+    {
+        "type": "error",
+        "module": "yukkimusic.platforms.jiosavan",
+        "obj": "Saavn._resize_thumb",
+        "line": 138,
+        "column": 58,
+        "endLine": 138,
+        "endColumn": 71,
+        "path": "yukkimusic/platforms/jiosavan.py",
+        "symbol": "no-member",
+        "message": "Module 'PIL.Image' has no 'LANCZOS' member",
+        "message-id": "E1101"
+    }
+]

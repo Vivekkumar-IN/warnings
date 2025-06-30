@@ -1,0 +1,28 @@
+[
+    {
+        "type": "warning",
+        "module": "yukkimusic.utils.decorators.language",
+        "obj": "language.decorator.wrapper",
+        "line": 31,
+        "column": 12,
+        "endLine": 31,
+        "endColumn": 20,
+        "path": "yukkimusic/utils/decorators/language.py",
+        "symbol": "redefined-outer-name",
+        "message": "Redefining name 'language' from outer scope (line 24)",
+        "message-id": "W0621"
+    },
+    {
+        "type": "refactor",
+        "module": "yukkimusic.utils.decorators.language",
+        "obj": "language",
+        "line": 54,
+        "column": 4,
+        "endLine": 57,
+        "endColumn": 31,
+        "path": "yukkimusic/utils/decorators/language.py",
+        "symbol": "no-else-return",
+        "message": "Unnecessary \"elif\" after \"return\", remove the leading \"el\" from \"elif\"",
+        "message-id": "R1705"
+    }
+]

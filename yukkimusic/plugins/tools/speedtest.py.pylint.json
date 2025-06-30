@@ -1,0 +1,28 @@
+[
+    {
+        "type": "warning",
+        "module": "yukkimusic.plugins.tools.speedtest",
+        "obj": "speedtest_function",
+        "line": 41,
+        "column": 29,
+        "endLine": 41,
+        "endColumn": 35,
+        "path": "yukkimusic/plugins/tools/speedtest.py",
+        "symbol": "unused-argument",
+        "message": "Unused argument 'client'",
+        "message-id": "W0613"
+    },
+    {
+        "type": "warning",
+        "module": "yukkimusic.plugins.tools.speedtest",
+        "obj": "speedtest_function",
+        "line": 56,
+        "column": 4,
+        "endLine": 56,
+        "endColumn": 7,
+        "path": "yukkimusic/plugins/tools/speedtest.py",
+        "symbol": "unused-variable",
+        "message": "Unused variable 'msg'",
+        "message-id": "W0612"
+    }
+]

@@ -1,0 +1,41 @@
+[
+    {
+        "type": "refactor",
+        "module": "yukkimusic.plugins.play.live",
+        "obj": "play_live_stream",
+        "line": 23,
+        "column": 0,
+        "endLine": 23,
+        "endColumn": 26,
+        "path": "yukkimusic/plugins/play/live.py",
+        "symbol": "too-many-locals",
+        "message": "Too many local variables (19/15)",
+        "message-id": "R0914"
+    },
+    {
+        "type": "warning",
+        "module": "yukkimusic.plugins.play.live",
+        "obj": "play_live_stream",
+        "line": 23,
+        "column": 27,
+        "endLine": 23,
+        "endColumn": 33,
+        "path": "yukkimusic/plugins/play/live.py",
+        "symbol": "unused-argument",
+        "message": "Unused argument 'client'",
+        "message-id": "W0613"
+    },
+    {
+        "type": "warning",
+        "module": "yukkimusic.plugins.play.live",
+        "obj": "play_live_stream",
+        "line": 47,
+        "column": 17,
+        "endLine": 47,
+        "endColumn": 25,
+        "path": "yukkimusic/plugins/play/live.py",
+        "symbol": "unused-variable",
+        "message": "Unused variable 'track_id'",
+        "message-id": "W0612"
+    }
+]

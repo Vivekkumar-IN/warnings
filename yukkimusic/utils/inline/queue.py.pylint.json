@@ -1,0 +1,41 @@
+[
+    {
+        "type": "convention",
+        "module": "yukkimusic.utils.inline.queue",
+        "obj": "queue_markup",
+        "line": 16,
+        "column": 4,
+        "endLine": 16,
+        "endColumn": 12,
+        "path": "yukkimusic/utils/inline/queue.py",
+        "symbol": "invalid-name",
+        "message": "Argument name \"DURATION\" doesn't conform to snake_case naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "convention",
+        "module": "yukkimusic.utils.inline.queue",
+        "obj": "queue_markup",
+        "line": 17,
+        "column": 4,
+        "endLine": 17,
+        "endColumn": 9,
+        "path": "yukkimusic/utils/inline/queue.py",
+        "symbol": "invalid-name",
+        "message": "Argument name \"CPLAY\" doesn't conform to snake_case naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "convention",
+        "module": "yukkimusic.utils.inline.queue",
+        "obj": "queue_back_markup",
+        "line": 56,
+        "column": 25,
+        "endLine": 56,
+        "endColumn": 30,
+        "path": "yukkimusic/utils/inline/queue.py",
+        "symbol": "invalid-name",
+        "message": "Argument name \"CPLAY\" doesn't conform to snake_case naming style",
+        "message-id": "C0103"
+    }
+]

@@ -1,0 +1,54 @@
+[
+    {
+        "type": "convention",
+        "module": "yukkimusic.misc",
+        "obj": "",
+        "line": 24,
+        "column": 0,
+        "endLine": 24,
+        "endColumn": 4,
+        "path": "yukkimusic/misc.py",
+        "symbol": "invalid-name",
+        "message": "Variable name \"HAPP\" doesn't conform to snake_case naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "warning",
+        "module": "yukkimusic.misc",
+        "obj": "heroku",
+        "line": 59,
+        "column": 4,
+        "endLine": 59,
+        "endColumn": 15,
+        "path": "yukkimusic/misc.py",
+        "symbol": "global-statement",
+        "message": "Using the global statement",
+        "message-id": "W0603"
+    },
+    {
+        "type": "convention",
+        "module": "yukkimusic.misc",
+        "obj": "heroku",
+        "line": 63,
+        "column": 16,
+        "endLine": 63,
+        "endColumn": 22,
+        "path": "yukkimusic/misc.py",
+        "symbol": "invalid-name",
+        "message": "Variable name \"Heroku\" doesn't conform to snake_case naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "convention",
+        "module": "yukkimusic.misc",
+        "obj": "",
+        "line": 68,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "yukkimusic/misc.py",
+        "symbol": "line-too-long",
+        "message": "Line too long (116/100)",
+        "message-id": "C0301"
+    }
+]

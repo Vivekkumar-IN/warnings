@@ -1,0 +1,28 @@
+[
+    {
+        "type": "warning",
+        "module": "yukkimusic.plugins.sudo.cleanmode",
+        "obj": "setcleanmode",
+        "line": 21,
+        "column": 23,
+        "endLine": 21,
+        "endColumn": 29,
+        "path": "yukkimusic/plugins/sudo/cleanmode.py",
+        "symbol": "unused-argument",
+        "message": "Unused argument 'client'",
+        "message-id": "W0613"
+    },
+    {
+        "type": "refactor",
+        "module": "yukkimusic.plugins.sudo.cleanmode",
+        "obj": "setcleanmode",
+        "line": 31,
+        "column": 4,
+        "endLine": 41,
+        "endColumn": 9,
+        "path": "yukkimusic/plugins/sudo/cleanmode.py",
+        "symbol": "no-else-return",
+        "message": "Unnecessary \"elif\" after \"return\", remove the leading \"el\" from \"elif\"",
+        "message-id": "R1705"
+    }
+]

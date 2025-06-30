@@ -1,0 +1,15 @@
+[
+    {
+        "type": "error",
+        "module": "yukkimusic.platforms.soundcloud",
+        "obj": "SoundCloud.download",
+        "line": 36,
+        "column": 23,
+        "endLine": 36,
+        "endColumn": 24,
+        "path": "yukkimusic/platforms/soundcloud.py",
+        "symbol": "undefined-variable",
+        "message": "Undefined variable 'd'",
+        "message-id": "E0602"
+    }
+]

@@ -1,0 +1,15 @@
+[
+    {
+        "type": "error",
+        "module": "yukkimusic.plugins.tools.active",
+        "obj": "",
+        "line": 15,
+        "column": 0,
+        "endLine": 15,
+        "endColumn": 42,
+        "path": "yukkimusic/plugins/tools/active.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'pick_commands' in module 'strings'",
+        "message-id": "E0611"
+    }
+]

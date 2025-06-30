@@ -1,0 +1,54 @@
+[
+    {
+        "type": "refactor",
+        "module": "yukkimusic.utils.stream.queue",
+        "obj": "put_queue",
+        "line": 17,
+        "column": 0,
+        "endLine": 17,
+        "endColumn": 19,
+        "path": "yukkimusic/utils/stream/queue.py",
+        "symbol": "too-many-arguments",
+        "message": "Too many arguments (11/5)",
+        "message-id": "R0913"
+    },
+    {
+        "type": "refactor",
+        "module": "yukkimusic.utils.stream.queue",
+        "obj": "put_queue",
+        "line": 17,
+        "column": 0,
+        "endLine": 17,
+        "endColumn": 19,
+        "path": "yukkimusic/utils/stream/queue.py",
+        "symbol": "too-many-positional-arguments",
+        "message": "Too many positional arguments (11/5)",
+        "message-id": "R0917"
+    },
+    {
+        "type": "refactor",
+        "module": "yukkimusic.utils.stream.queue",
+        "obj": "put_queue_index",
+        "line": 68,
+        "column": 0,
+        "endLine": 68,
+        "endColumn": 25,
+        "path": "yukkimusic/utils/stream/queue.py",
+        "symbol": "too-many-arguments",
+        "message": "Too many arguments (9/5)",
+        "message-id": "R0913"
+    },
+    {
+        "type": "refactor",
+        "module": "yukkimusic.utils.stream.queue",
+        "obj": "put_queue_index",
+        "line": 68,
+        "column": 0,
+        "endLine": 68,
+        "endColumn": 25,
+        "path": "yukkimusic/utils/stream/queue.py",
+        "symbol": "too-many-positional-arguments",
+        "message": "Too many positional arguments (9/5)",
+        "message-id": "R0917"
+    }
+]

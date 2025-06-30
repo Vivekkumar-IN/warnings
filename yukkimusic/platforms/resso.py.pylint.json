@@ -1,0 +1,54 @@
+[
+    {
+        "type": "refactor",
+        "module": "yukkimusic.platforms.resso",
+        "obj": "Resso.valid",
+        "line": 24,
+        "column": 8,
+        "endLine": 27,
+        "endColumn": 24,
+        "path": "yukkimusic/platforms/resso.py",
+        "symbol": "simplifiable-if-statement",
+        "message": "The if statement can be replaced with 'return bool(test)'",
+        "message-id": "R1703"
+    },
+    {
+        "type": "refactor",
+        "module": "yukkimusic.platforms.resso",
+        "obj": "Resso.valid",
+        "line": 24,
+        "column": 8,
+        "endLine": 27,
+        "endColumn": 24,
+        "path": "yukkimusic/platforms/resso.py",
+        "symbol": "no-else-return",
+        "message": "Unnecessary \"else\" after \"return\", remove the \"else\" and de-indent the code inside it",
+        "message-id": "R1705"
+    },
+    {
+        "type": "refactor",
+        "module": "yukkimusic.platforms.resso",
+        "obj": "Resso.track",
+        "line": 29,
+        "column": 4,
+        "endLine": 29,
+        "endColumn": 19,
+        "path": "yukkimusic/platforms/resso.py",
+        "symbol": "too-many-locals",
+        "message": "Too many local variables (17/15)",
+        "message-id": "R0914"
+    },
+    {
+        "type": "error",
+        "module": "yukkimusic.platforms.resso",
+        "obj": "Resso.track",
+        "line": 49,
+        "column": 31,
+        "endLine": 49,
+        "endColumn": 36,
+        "path": "yukkimusic/platforms/resso.py",
+        "symbol": "used-before-assignment",
+        "message": "Using variable 'title' before assignment",
+        "message-id": "E0601"
+    }
+]
