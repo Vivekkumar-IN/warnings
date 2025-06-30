@@ -35,8 +35,7 @@ jobs:
       - name: Install Dependencies
         run: |
           pip install uv
-          uv pip install git+https://github.com/pylint-dev/pylint@main
-          uv pip install git+https://github.com/TheTeamVivek/YukkiMusic@dev
+          uv pip install --system git+https://github.com/pylint-dev/pylint@main git+https://github.com/TheTeamVivek/YukkiMusic@dev
           
 
       - name: Run Pylint Check
