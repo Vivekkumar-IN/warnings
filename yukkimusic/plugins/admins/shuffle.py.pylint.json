@@ -1,18 +1,5 @@
 [
     {
-        "type": "error",
-        "module": "yukkimusic.plugins.admins.shuffle",
-        "obj": "",
-        "line": 17,
-        "column": 0,
-        "endLine": 17,
-        "endColumn": 42,
-        "path": "yukkimusic/plugins/admins/shuffle.py",
-        "symbol": "no-name-in-module",
-        "message": "No name 'pick_commands' in module 'strings'",
-        "message-id": "E0611"
-    },
-    {
         "type": "convention",
         "module": "yukkimusic.plugins.admins.shuffle",
         "obj": "admins",

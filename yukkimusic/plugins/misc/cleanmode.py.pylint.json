@@ -1,5 +1,18 @@
 [
     {
+        "type": "error",
+        "module": "yukkimusic.plugins.misc.cleanmode",
+        "obj": "",
+        "line": 22,
+        "column": 0,
+        "endLine": 22,
+        "endColumn": 54,
+        "path": "yukkimusic/plugins/misc/cleanmode.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'pick_command' in module 'strings'",
+        "message-id": "E0611"
+    },
+    {
         "type": "convention",
         "module": "yukkimusic.plugins.misc.cleanmode",
         "obj": "",

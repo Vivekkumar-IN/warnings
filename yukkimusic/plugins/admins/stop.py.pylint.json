@@ -1,18 +1,5 @@
 [
     {
-        "type": "error",
-        "module": "yukkimusic.plugins.admins.stop",
-        "obj": "",
-        "line": 14,
-        "column": 0,
-        "endLine": 14,
-        "endColumn": 54,
-        "path": "yukkimusic/plugins/admins/stop.py",
-        "symbol": "no-name-in-module",
-        "message": "No name 'pick_commands' in module 'strings'",
-        "message-id": "E0611"
-    },
-    {
         "type": "refactor",
         "module": "yukkimusic.plugins.admins.stop",
         "obj": "stop_music",

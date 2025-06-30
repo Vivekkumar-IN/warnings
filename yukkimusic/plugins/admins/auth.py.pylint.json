@@ -1,18 +1,5 @@
 [
     {
-        "type": "error",
-        "module": "yukkimusic.plugins.admins.auth",
-        "obj": "",
-        "line": 15,
-        "column": 0,
-        "endLine": 15,
-        "endColumn": 42,
-        "path": "yukkimusic/plugins/admins/auth.py",
-        "symbol": "no-name-in-module",
-        "message": "No name 'pick_commands' in module 'strings'",
-        "message-id": "E0611"
-    },
-    {
         "type": "warning",
         "module": "yukkimusic.plugins.admins.auth",
         "obj": "auth",

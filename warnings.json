@@ -676,19 +676,6 @@
         "message-id": "W0613"
     },
     {
-        "type": "error",
-        "module": "yukkimusic.plugins.sudo.active",
-        "obj": "",
-        "line": 15,
-        "column": 0,
-        "endLine": 15,
-        "endColumn": 42,
-        "path": "yukkimusic/plugins/sudo/active.py",
-        "symbol": "no-name-in-module",
-        "message": "No name 'pick_commands' in module 'strings'",
-        "message-id": "E0611"
-    },
-    {
         "type": "warning",
         "module": "yukkimusic.plugins.sudo.maintenance",
         "obj": "maintenance",
@@ -3952,19 +3939,6 @@
         "message-id": "C0301"
     },
     {
-        "type": "error",
-        "module": "yukkimusic.plugins.admins.auth",
-        "obj": "",
-        "line": 15,
-        "column": 0,
-        "endLine": 15,
-        "endColumn": 42,
-        "path": "yukkimusic/plugins/admins/auth.py",
-        "symbol": "no-name-in-module",
-        "message": "No name 'pick_commands' in module 'strings'",
-        "message-id": "E0611"
-    },
-    {
         "type": "warning",
         "module": "yukkimusic.plugins.admins.auth",
         "obj": "auth",
@@ -4041,19 +4015,6 @@
         "symbol": "line-too-long",
         "message": "Line too long (102/100)",
         "message-id": "C0301"
-    },
-    {
-        "type": "error",
-        "module": "yukkimusic.plugins.admins.pause",
-        "obj": "",
-        "line": 15,
-        "column": 0,
-        "endLine": 15,
-        "endColumn": 42,
-        "path": "yukkimusic/plugins/admins/pause.py",
-        "symbol": "no-name-in-module",
-        "message": "No name 'pick_commands' in module 'strings'",
-        "message-id": "E0611"
     },
     {
         "type": "warning",
@@ -4158,19 +4119,6 @@
         "symbol": "line-too-long",
         "message": "Line too long (149/100)",
         "message-id": "C0301"
-    },
-    {
-        "type": "error",
-        "module": "yukkimusic.plugins.admins.skip",
-        "obj": "",
-        "line": 17,
-        "column": 0,
-        "endLine": 17,
-        "endColumn": 42,
-        "path": "yukkimusic/plugins/admins/skip.py",
-        "symbol": "no-name-in-module",
-        "message": "No name 'pick_commands' in module 'strings'",
-        "message-id": "E0611"
     },
     {
         "type": "refactor",
@@ -4306,19 +4254,6 @@
         "type": "error",
         "module": "yukkimusic.plugins.admins.mute",
         "obj": "",
-        "line": 15,
-        "column": 0,
-        "endLine": 15,
-        "endColumn": 42,
-        "path": "yukkimusic/plugins/admins/mute.py",
-        "symbol": "no-name-in-module",
-        "message": "No name 'pick_commands' in module 'strings'",
-        "message-id": "E0611"
-    },
-    {
-        "type": "error",
-        "module": "yukkimusic.plugins.admins.mute",
-        "obj": "",
         "line": 17,
         "column": 0,
         "endLine": 17,
@@ -4444,19 +4379,6 @@
         "symbol": "line-too-long",
         "message": "Line too long (110/100)",
         "message-id": "C0301"
-    },
-    {
-        "type": "error",
-        "module": "yukkimusic.plugins.admins.stop",
-        "obj": "",
-        "line": 14,
-        "column": 0,
-        "endLine": 14,
-        "endColumn": 54,
-        "path": "yukkimusic/plugins/admins/stop.py",
-        "symbol": "no-name-in-module",
-        "message": "No name 'pick_commands' in module 'strings'",
-        "message-id": "E0611"
     },
     {
         "type": "warning",
@@ -4615,19 +4537,6 @@
         "message-id": "C0301"
     },
     {
-        "type": "error",
-        "module": "yukkimusic.plugins.admins.shuffle",
-        "obj": "",
-        "line": 17,
-        "column": 0,
-        "endLine": 17,
-        "endColumn": 42,
-        "path": "yukkimusic/plugins/admins/shuffle.py",
-        "symbol": "no-name-in-module",
-        "message": "No name 'pick_commands' in module 'strings'",
-        "message-id": "E0611"
-    },
-    {
         "type": "convention",
         "module": "yukkimusic.plugins.admins.shuffle",
         "obj": "admins",
@@ -4743,19 +4652,6 @@
         "symbol": "line-too-long",
         "message": "Line too long (137/100)",
         "message-id": "C0301"
-    },
-    {
-        "type": "error",
-        "module": "yukkimusic.plugins.admins.loop",
-        "obj": "",
-        "line": 15,
-        "column": 0,
-        "endLine": 15,
-        "endColumn": 42,
-        "path": "yukkimusic/plugins/admins/loop.py",
-        "symbol": "no-name-in-module",
-        "message": "No name 'pick_commands' in module 'strings'",
-        "message-id": "E0611"
     },
     {
         "type": "refactor",
@@ -4953,19 +4849,6 @@
         "message-id": "C0301"
     },
     {
-        "type": "error",
-        "module": "yukkimusic.plugins.admins.reload",
-        "obj": "",
-        "line": 18,
-        "column": 0,
-        "endLine": 18,
-        "endColumn": 42,
-        "path": "yukkimusic/plugins/admins/reload.py",
-        "symbol": "no-name-in-module",
-        "message": "No name 'pick_commands' in module 'strings'",
-        "message-id": "E0611"
-    },
-    {
         "type": "warning",
         "module": "yukkimusic.plugins.admins.reload",
         "obj": "reboot",
@@ -5042,19 +4925,6 @@
         "symbol": "line-too-long",
         "message": "Line too long (103/100)",
         "message-id": "C0301"
-    },
-    {
-        "type": "error",
-        "module": "yukkimusic.plugins.admins.seek",
-        "obj": "",
-        "line": 14,
-        "column": 0,
-        "endLine": 14,
-        "endColumn": 42,
-        "path": "yukkimusic/plugins/admins/seek.py",
-        "symbol": "no-name-in-module",
-        "message": "No name 'pick_commands' in module 'strings'",
-        "message-id": "E0611"
     },
     {
         "type": "refactor",
@@ -5406,6 +5276,19 @@
         "symbol": "unused-argument",
         "message": "Unused argument 'client'",
         "message-id": "W0613"
+    },
+    {
+        "type": "error",
+        "module": "yukkimusic.plugins.misc.cleanmode",
+        "obj": "",
+        "line": 22,
+        "column": 0,
+        "endLine": 22,
+        "endColumn": 54,
+        "path": "yukkimusic/plugins/misc/cleanmode.py",
+        "symbol": "no-name-in-module",
+        "message": "No name 'pick_command' in module 'strings'",
+        "message-id": "E0611"
     },
     {
         "type": "convention",
@@ -8563,7 +8446,7 @@
         "endColumn": null,
         "path": "scripts/envgen.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==yukkimusic.platforms.apple:[44:60]\n==yukkimusic.platforms.resso:[49:63]\n        for result in (await results.next())[\"result\"]:\n            title = result[\"title\"]\n            ytlink = result[\"link\"]\n            vidid = result[\"id\"]\n            duration_min = result[\"duration\"]\n            thumbnail = result[\"thumbnails\"][0][\"url\"].split(\"?\")[0]\n        track_details = {\n            \"title\": title,\n            \"link\": ytlink,\n            \"vidid\": vidid,\n            \"duration_min\": duration_min,\n            \"thumb\": thumbnail,\n        }\n        return track_details, vidid\n\n    async def playlist(self, url, playid: bool | str = None):",
+        "message": "Similar lines in 2 files\n==yukkimusic.platforms.apple:[44:60]\n==yukkimusic.platforms.resso:[49:63]\n        for result in (await results.next())[\"result\"]:\n            title = result[\"title\"]\n            ytlink = result[\"link\"]\n            vidid = result[\"id\"]\n            duration_min = result[\"duration\"]\n            thumbnail = result[\"thumbnails\"][0][\"url\"].split(\"?\")[0]\n        track_details = {\n            \"title\": title,\n            \"link\": ytlink,\n            \"vidid\": vidid,\n            \"duration_min\": duration_min,\n            \"thumb\": thumbnail,\n        }\n        return track_details, vidid",
         "message-id": "R0801"
     },
     {
@@ -8667,7 +8550,7 @@
         "endColumn": null,
         "path": "scripts/envgen.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==yukkimusic.plugins.play.playlist:[395:412]\n==yukkimusic.plugins.play.toptracks:[35:52]\n    try:\n        await query.answer()\n    except Exception:\n        pass\n    buttons = botplaylist_markup(_)\n    return await query.edit_message_reply_markup(\n        reply_markup=InlineKeyboardMarkup(buttons)\n    )\n\n\n@app.on_callback_query(filters.regex(\"get_top_playlists\") & ~BANNED_USERS)\n@language\nasync def get_topz_playlists(client, query, _):\n    try:\n        await query.answer()\n    except Exception:\n        pass",
+        "message": "Similar lines in 2 files\n==yukkimusic.plugins.play.playlist:[395:412]\n==yukkimusic.plugins.play.toptracks:[35:52]\n    try:\n        await query.answer()\n    except Exception:\n        pass\n    buttons = botplaylist_markup(_)\n    return await query.edit_message_reply_markup(\n        reply_markup=InlineKeyboardMarkup(buttons)\n    )\n\n\n@app.on_callback_query(filters.regex(\"delete_warning\") & ~BANNED_USERS)\n@language\nasync def delete_warning_message(client, query, _):\n    try:\n        await query.answer()\n    except Exception:\n        pass",
         "message-id": "R0801"
     },
     {
@@ -8680,7 +8563,7 @@
         "endColumn": null,
         "path": "scripts/envgen.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==yukkimusic.platforms.resso:[52:63]\n==yukkimusic.platforms.spotify:[52:66]\n            vidid = result[\"id\"]\n            duration_min = result[\"duration\"]\n            thumbnail = result[\"thumbnails\"][0][\"url\"].split(\"?\")[0]\n        track_details = {\n            \"title\": title,\n            \"link\": ytlink,\n            \"vidid\": vidid,\n            \"duration_min\": duration_min,\n            \"thumb\": thumbnail,\n        }\n        return track_details, vidid\n\n    @asyncify\n    def playlist(self, url: str) -> tuple:",
+        "message": "Similar lines in 2 files\n==yukkimusic.platforms.resso:[52:63]\n==yukkimusic.platforms.spotify:[52:66]\n            vidid = result[\"id\"]\n            duration_min = result[\"duration\"]\n            thumbnail = result[\"thumbnails\"][0][\"url\"].split(\"?\")[0]\n        track_details = {\n            \"title\": title,\n            \"link\": ytlink,\n            \"vidid\": vidid,\n            \"duration_min\": duration_min,\n            \"thumb\": thumbnail,\n        }\n        return track_details, vidid",
         "message-id": "R0801"
     },
     {
@@ -8693,7 +8576,7 @@
         "endColumn": null,
         "path": "scripts/envgen.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==yukkimusic.core.call:[599:613]\n==yukkimusic.plugins.admins.skip:[205:219]\n                photo=(\n                    config.TELEGRAM_AUDIO_URL\n                    if str(streamtype) == \"audio\"\n                    else config.TELEGRAM_VIDEO_URL\n                ),\n                caption=_[\"stream_1\"].format(\n                    title, config.SUPPORT_GROUP, check[0][\"dur\"], user\n                ),\n                reply_markup=InlineKeyboardMarkup(button),\n            )\n            db[chat_id][0][\"mystic\"] = run\n            db[chat_id][0][\"markup\"] = \"tg\"\n        elif videoid == \"soundcloud\":\n            button = telegram_markup(_, chat_id)",
+        "message": "Similar lines in 2 files\n==yukkimusic.core.call:[599:613]\n==yukkimusic.plugins.admins.skip:[205:219]\n                        photo=(\n                            config.TELEGRAM_AUDIO_URL\n                            if str(streamtype) == \"audio\"\n                            else config.TELEGRAM_VIDEO_URL\n                        ),\n                        caption=_[\"stream_1\"].format(\n                            title, config.SUPPORT_GROUP, check[0][\"dur\"], user\n                        ),\n                        reply_markup=InlineKeyboardMarkup(button),\n                    )\n                    db[chat_id][0][\"mystic\"] = run\n                    db[chat_id][0][\"markup\"] = \"tg\"\n                elif videoid == \"soundcloud\":\n                    button = telegram_markup(_, chat_id)",
         "message-id": "R0801"
     },
     {
@@ -8732,7 +8615,7 @@
         "endColumn": null,
         "path": "scripts/envgen.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==yukkimusic.plugins.admins.callback:[310:321]\n==yukkimusic.plugins.admins.skip:[172:183]\n                photo=img,\n                caption=_[\"stream_1\"].format(\n                    title[:27],\n                    flink,\n                    duration_min,\n                    user,\n                ),\n                reply_markup=InlineKeyboardMarkup(button),\n            )\n            db[chat_id][0][\"mystic\"] = run\n            db[chat_id][0][\"markup\"] = \"stream\"",
+        "message": "Similar lines in 2 files\n==yukkimusic.plugins.admins.callback:[310:321]\n==yukkimusic.plugins.admins.skip:[172:183]\n            photo=img,\n            caption=_[\"stream_1\"].format(\n                title[:27],\n                flink,\n                duration_min,\n                user,\n            ),\n            reply_markup=InlineKeyboardMarkup(button),\n        )\n        db[chat_id][0][\"mystic\"] = run\n        db[chat_id][0][\"markup\"] = \"stream\"",
         "message-id": "R0801"
     },
     {
@@ -8745,7 +8628,7 @@
         "endColumn": null,
         "path": "scripts/envgen.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==yukkimusic.plugins.play.play:[68:78]\n==yukkimusic.utils.decorators.play:[68:78]\n        audio_telegram = (\n            (message.reply_to_message.audio or message.reply_to_message.voice)\n            if message.reply_to_message\n            else None\n        )\n        video_telegram = (\n            (message.reply_to_message.video or message.reply_to_message.document)\n            if message.reply_to_message\n            else None\n        )",
+        "message": "Similar lines in 2 files\n==yukkimusic.plugins.play.play:[68:78]\n==yukkimusic.utils.decorators.play:[68:78]\n    audio_telegram = (\n        (message.reply_to_message.audio or message.reply_to_message.voice)\n        if message.reply_to_message\n        else None\n    )\n    video_telegram = (\n        (message.reply_to_message.video or message.reply_to_message.document)\n        if message.reply_to_message\n        else None\n    )",
         "message-id": "R0801"
     },
     {
@@ -8758,7 +8641,7 @@
         "endColumn": null,
         "path": "scripts/envgen.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==yukkimusic.plugins.play.play:[378:388]\n==yukkimusic.plugins.play.stream:[51:61]\n        await mystic.edit_text(_[\"str_2\"])\n        try:\n            await stream(\n                _,\n                mystic,\n                message.from_user.id,\n                url,\n                chat_id,\n                message.from_user.first_name,\n                message.chat.id,",
+        "message": "Similar lines in 2 files\n==yukkimusic.plugins.play.play:[378:388]\n==yukkimusic.plugins.play.stream:[51:61]\n            await mystic.edit_text(_[\"str_2\"])\n            try:\n                await stream(\n                    _,\n                    mystic,\n                    message.from_user.id,\n                    url,\n                    chat_id,\n                    message.from_user.first_name,\n                    message.chat.id,",
         "message-id": "R0801"
     },
     {
@@ -8797,7 +8680,7 @@
         "endColumn": null,
         "path": "scripts/envgen.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==yukkimusic.plugins.admins.callback:[260:269]\n==yukkimusic.plugins.admins.skip:[125:134]\n                photo=img,\n                caption=_[\"stream_1\"].format(\n                    user,\n                    f\"https://t.me/{app.username}?start=info_{videoid}\",\n                ),\n                reply_markup=InlineKeyboardMarkup(button),\n            )\n            db[chat_id][0][\"mystic\"] = run\n            db[chat_id][0][\"markup\"] = \"tg\"",
+        "message": "Similar lines in 2 files\n==yukkimusic.plugins.admins.callback:[260:269]\n==yukkimusic.plugins.admins.skip:[125:134]\n            photo=img,\n            caption=_[\"stream_1\"].format(\n                user,\n                f\"https://t.me/{app.username}?start=info_{videoid}\",\n            ),\n            reply_markup=InlineKeyboardMarkup(button),\n        )\n        db[chat_id][0][\"mystic\"] = run\n        db[chat_id][0][\"markup\"] = \"tg\"",
         "message-id": "R0801"
     },
     {
@@ -8940,7 +8823,7 @@
         "endColumn": null,
         "path": "scripts/envgen.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==yukkimusic.plugins.admins.callback:[352:359]\n==yukkimusic.plugins.admins.skip:[212:219]\n                    ),\n                    reply_markup=InlineKeyboardMarkup(button),\n                )\n                db[chat_id][0][\"mystic\"] = run\n                db[chat_id][0][\"markup\"] = \"tg\"\n            elif videoid == \"soundcloud\":\n                button = telegram_markup(_, chat_id)",
+        "message": "Similar lines in 2 files\n==yukkimusic.plugins.admins.callback:[352:359]\n==yukkimusic.plugins.admins.skip:[212:219]\n                ),\n                reply_markup=InlineKeyboardMarkup(button),\n            )\n            db[chat_id][0][\"mystic\"] = run\n            db[chat_id][0][\"markup\"] = \"tg\"\n        elif videoid == \"soundcloud\":\n            button = telegram_markup(_, chat_id)",
         "message-id": "R0801"
     },
     {
@@ -9018,7 +8901,7 @@
         "endColumn": null,
         "path": "scripts/envgen.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==yukkimusic.core.modules:[44:54]\n==yukkimusic.logging:[13:23]\nformatter = logging.Formatter(\n    \"{asctime} - {levelname} - {message}\", style=\"{\", datefmt=\"%d-%b-%y %H:%M:%S\"\n)\n\nfile_handler = RotatingFileHandler(\"logs.txt\", maxBytes=5_000_000, backupCount=10)\nfile_handler.setFormatter(formatter)\n\nstream_handler = logging.StreamHandler()\nstream_handler.setFormatter(formatter)\n",
+        "message": "Similar lines in 2 files\n==yukkimusic.core.modules:[44:54]\n==yukkimusic.logging:[13:23]\n    formatter = logging.Formatter(\n        \"{asctime} - {levelname} - {message}\", style=\"{\", datefmt=\"%d-%b-%y %H:%M:%S\"\n    )\n\n    file_handler = RotatingFileHandler(\"logs.txt\", maxBytes=5_000_000, backupCount=10)\n    file_handler.setFormatter(formatter)\n\n    stream_handler = logging.StreamHandler()\n    stream_handler.setFormatter(formatter)\n",
         "message-id": "R0801"
     },
     {
@@ -9044,7 +8927,7 @@
         "endColumn": null,
         "path": "scripts/envgen.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==yukkimusic.utils.database.memorydatabase:[161:170]\n==yukkimusic.utils.database.mongodatabase:[69:81]\n            {\"chat_id\": chat_id},\n            {\"$set\": {\"notes\": notesd}},\n            upsert=True,\n        )\n        return True\n    return False\n\n\n# Users\n\n\nasync def is_served_user(user_id: int) -> bool:",
+        "message": "Similar lines in 2 files\n==yukkimusic.utils.database.memorydatabase:[161:170]\n==yukkimusic.utils.database.mongodatabase:[69:81]\n            {\"chat_id\": chat_id},\n            {\"$set\": {\"notes\": notesd}},\n            upsert=True,\n        )\n        return True\n    return False\n\n\nasync def deleteall_notes(chat_id: int):",
         "message-id": "R0801"
     },
     {
@@ -9070,7 +8953,7 @@
         "endColumn": null,
         "path": "scripts/envgen.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==yukkimusic.plugins.admins.stop:[83:89]\n==yukkimusic.utils.decorators.play:[113:119]\n            if message.from_user.id not in SUDOERS:\n                admins = adminlist.get(message.chat.id)\n                if not admins:\n                    return await message.reply_text(_[\"admin_1\"])\n                else:\n                    if message.from_user.id not in admins:",
+        "message": "Similar lines in 2 files\n==yukkimusic.plugins.admins.stop:[83:89]\n==yukkimusic.utils.decorators.play:[113:119]\n        if message.from_user.id not in SUDOERS:\n            admins = adminlist.get(message.chat.id)\n            if not admins:\n                return await message.reply_text(_[\"admin_1\"])\n            else:\n                if message.from_user.id not in admins:",
         "message-id": "R0801"
     },
     {
@@ -9096,7 +8979,7 @@
         "endColumn": null,
         "path": "scripts/envgen.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==yukkimusic.core.call:[546:553]\n==yukkimusic.plugins.admins.skip:[191:198]\n            photo=config.STREAM_IMG_URL,\n            caption=_[\"stream_2\"].format(user),\n            reply_markup=InlineKeyboardMarkup(button),\n        )\n        db[chat_id][0][\"mystic\"] = run\n        db[chat_id][0][\"markup\"] = \"tg\"\n    else:",
+        "message": "Similar lines in 2 files\n==yukkimusic.core.call:[546:553]\n==yukkimusic.plugins.admins.skip:[191:198]\n                    photo=config.STREAM_IMG_URL,\n                    caption=_[\"stream_2\"].format(user),\n                    reply_markup=InlineKeyboardMarkup(button),\n                )\n                db[chat_id][0][\"mystic\"] = run\n                db[chat_id][0][\"markup\"] = \"tg\"\n            else:",
         "message-id": "R0801"
     },
     {
@@ -9122,7 +9005,7 @@
         "endColumn": null,
         "path": "scripts/envgen.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==yukkimusic.plugins.tools.songs:[107:113]\n==yukkimusic.plugins.tools.stats:[100:106]\n    (\n        title,\n        duration_min,\n        duration_sec,\n        thumbnail,\n        vidid,",
+        "message": "Similar lines in 2 files\n==yukkimusic.plugins.tools.songs:[107:113]\n==yukkimusic.plugins.tools.stats:[100:106]\n        (\n            title,\n            duration_min,\n            duration_sec,\n            thumbnail,\n            vidid,",
         "message-id": "R0801"
     },
     {
@@ -9135,7 +9018,7 @@
         "endColumn": null,
         "path": "scripts/envgen.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==yukkimusic.plugins.admins.callback:[615:626]\n==yukkimusic.plugins.play.toptracks:[129:135]\n        )\n    except Exception as e:\n        ex_type = type(e).__name__\n        err = e if ex_type == \"AssistantErr\" else _[\"general_3\"].format(ex_type)\n        return await mystic.edit_text(err)\n    return await mystic.delete()",
+        "message": "Similar lines in 2 files\n==yukkimusic.plugins.admins.callback:[615:626]\n==yukkimusic.plugins.play.toptracks:[129:135]\n        )\n    except Exception as e:\n        ex_type = type(e).__name__\n        err = e if ex_type == \"AssistantErr\" else _[\"general_3\"].format(ex_type)\n        return await mystic.edit_text(err)\n    return await mystic.delete()\n\n\n@app.on_callback_query(filters.regex(\"slider\") & ~BANNED_USERS)\n@language\nasync def slider_queries(client, query, _):",
         "message-id": "R0801"
     },
     {
@@ -9148,7 +9031,7 @@
         "endColumn": null,
         "path": "scripts/envgen.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==yukkimusic.plugins.admins.callback:[517:523]\n==yukkimusic.plugins.play.live:[62:68]\n                forceplay=ffplay,\n            )\n        except Exception as e:\n            ex_type = type(e).__name__\n            err = e if ex_type == \"AssistantErr\" else _[\"general_3\"].format(ex_type)\n            return await mystic.edit_text(err)",
+        "message": "Similar lines in 2 files\n==yukkimusic.plugins.admins.callback:[517:523]\n==yukkimusic.plugins.play.live:[62:68]\n            forceplay=ffplay,\n        )\n    except Exception as e:\n        ex_type = type(e).__name__\n        err = e if ex_type == \"AssistantErr\" else _[\"general_3\"].format(ex_type)\n        return await mystic.edit_text(err)",
         "message-id": "R0801"
     },
     {
@@ -9161,7 +9044,7 @@
         "endColumn": null,
         "path": "scripts/envgen.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==yukkimusic.plugins.play.playlist:[54:60]\n==yukkimusic.utils.stream.stream:[134:140]\n    link = await Yukkibin(msg)\n    lines = msg.count(\"\\n\")\n    if lines >= 17:\n        car = os.linesep.join(msg.split(os.linesep)[:17])\n    else:\n        car = msg",
+        "message": "Similar lines in 2 files\n==yukkimusic.plugins.play.playlist:[54:60]\n==yukkimusic.utils.stream.stream:[134:140]\n            link = await Yukkibin(msg)\n            lines = msg.count(\"\\n\")\n            if lines >= 17:\n                car = os.linesep.join(msg.split(os.linesep)[:17])\n            else:\n                car = msg",
         "message-id": "R0801"
     },
     {
@@ -9174,7 +9057,7 @@
         "endColumn": null,
         "path": "scripts/envgen.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==yukkimusic.plugins.admins.callback:[518:528]\n==yukkimusic.plugins.play.playlist:[155:166]\n        )\n    except Exception as e:\n        ex_type = type(e).__name__\n        err = e if ex_type == \"AssistantErr\" else _[\"general_3\"].format(ex_type)\n        return await mystic.edit_text(err)\n    return await mystic.delete()\n\n\n@app.on_message(command(\"PLAY_PLAYLIST_COMMAND\") & ~BANNED_USERS & filters.group)\n@language\nasync def play_playlist_command(client, message, _):",
+        "message": "Similar lines in 2 files\n==yukkimusic.plugins.admins.callback:[518:528]\n==yukkimusic.plugins.play.playlist:[155:166]\n        )\n    except Exception as e:\n        ex_type = type(e).__name__\n        err = e if ex_type == \"AssistantErr\" else _[\"general_3\"].format(ex_type)\n        return await mystic.edit_text(err)\n    return await mystic.delete()\n\n\n@app.on_callback_query(filters.regex(\"AnonymousAdmin\") & ~BANNED_USERS)\nasync def anonymous_check(client, query):",
         "message-id": "R0801"
     },
     {
@@ -9213,7 +9096,7 @@
         "endColumn": null,
         "path": "scripts/envgen.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==yukkimusic.core.call:[425:431]\n==yukkimusic.utils.stream.stream:[529:535]\n            button = telegram_markup(_, chat_id)\n            run = await app.send_photo(\n                original_chat_id,\n                photo=img,\n                caption=_[\"stream_1\"].format(\n                    title[:27],",
+        "message": "Similar lines in 2 files\n==yukkimusic.core.call:[425:431]\n==yukkimusic.utils.stream.stream:[529:535]\n                button = telegram_markup(_, chat_id)\n                run = await app.send_photo(\n                    original_chat_id,\n                    photo=img,\n                    caption=_[\"stream_1\"].format(\n                        title[:27],",
         "message-id": "R0801"
     },
     {
@@ -9252,7 +9135,7 @@
         "endColumn": null,
         "path": "scripts/envgen.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==yukkimusic.core.call:[509:514]\n==yukkimusic.utils.stream.stream:[530:535]\n                run = await app.send_photo(\n                    original_chat_id,\n                    photo=img,\n                    caption=_[\"stream_1\"].format(\n                        title[:27],",
+        "message": "Similar lines in 2 files\n==yukkimusic.core.call:[509:514]\n==yukkimusic.utils.stream.stream:[530:535]\n            run = await app.send_photo(\n                original_chat_id,\n                photo=img,\n                caption=_[\"stream_1\"].format(\n                    title[:27],",
         "message-id": "R0801"
     },
     {
@@ -9291,7 +9174,7 @@
         "endColumn": null,
         "path": "scripts/envgen.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==yukkimusic.plugins.admins.stop:[45:50]\n==yukkimusic.utils.decorators.play:[62:68]\n        if await is_commanddelete_on(message.chat.id):\n            try:\n                await message.delete()\n            except Exception:\n                pass\n",
+        "message": "Similar lines in 2 files\n==yukkimusic.plugins.admins.stop:[45:50]\n==yukkimusic.utils.decorators.play:[62:68]\n    if await is_commanddelete_on(message.chat.id):\n        try:\n            await message.delete()\n        except Exception:\n            pass",
         "message-id": "R0801"
     },
     {
@@ -9304,7 +9187,7 @@
         "endColumn": null,
         "path": "scripts/envgen.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==yukkimusic.plugins.admins.skip:[172:177]\n==yukkimusic.utils.stream.stream:[231:236]\n                photo=img,\n                caption=_[\"stream_1\"].format(\n                    title[:27],\n                    flink,\n                    duration_min,",
+        "message": "Similar lines in 2 files\n==yukkimusic.plugins.admins.skip:[172:177]\n==yukkimusic.utils.stream.stream:[231:236]\n            photo=img,\n            caption=_[\"stream_1\"].format(\n                title[:27],\n                flink,\n                duration_min,",
         "message-id": "R0801"
     },
     {
@@ -9317,7 +9200,7 @@
         "endColumn": null,
         "path": "scripts/envgen.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==yukkimusic.core.call:[357:362]\n==yukkimusic.plugins.admins.skip:[50:55]\n                                if popped.get(\"mystic\"):\n                                    try:\n                                        await popped.get(\"mystic\").delete()\n                                    except Exception:\n                                        pass",
+        "message": "Similar lines in 2 files\n==yukkimusic.core.call:[357:362]\n==yukkimusic.plugins.admins.skip:[50:55]\n                if popped.get(\"mystic\"):\n                    try:\n                        await popped.get(\"mystic\").delete()\n                    except Exception:\n                        pass",
         "message-id": "R0801"
     },
     {
@@ -9330,7 +9213,7 @@
         "endColumn": null,
         "path": "scripts/envgen.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==yukkimusic.plugins.admins.callback:[322:327]\n==yukkimusic.plugins.admins.skip:[183:188]\n        await mystic.delete()\n    elif \"index_\" in queued:\n        try:\n            await yukki.skip_stream(chat_id, videoid, video=status)\n        except Exception:",
+        "message": "Similar lines in 2 files\n==yukkimusic.plugins.admins.callback:[322:327]\n==yukkimusic.plugins.admins.skip:[183:188]\n            await mystic.delete()\n        elif \"index_\" in queued:\n            try:\n                await yukki.skip_stream(chat_id, videoid, video=status)\n            except Exception:",
         "message-id": "R0801"
     },
     {
@@ -9343,7 +9226,7 @@
         "endColumn": null,
         "path": "scripts/envgen.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==yukkimusic.plugins.admins.callback:[229:234]\n==yukkimusic.plugins.admins.skip:[94:99]\n                try:\n                    return await yukki.stop_stream(chat_id)\n                except Exception:\n                    return\n        except Exception:",
+        "message": "Similar lines in 2 files\n==yukkimusic.plugins.admins.callback:[229:234]\n==yukkimusic.plugins.admins.skip:[94:99]\n                    try:\n                        return await yukki.stop_stream(chat_id)\n                    except Exception:\n                        return\n            except Exception:",
         "message-id": "R0801"
     },
     {
@@ -9382,7 +9265,7 @@
         "endColumn": null,
         "path": "scripts/envgen.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==yukkimusic.plugins.admins.callback:[601:607]\n==yukkimusic.plugins.play.play:[317:323]\n            return await mystic.edit_text(_[\"play_3\"])\n    try:\n        await stream(\n            _,\n            mystic,\n            user_id,",
+        "message": "Similar lines in 2 files\n==yukkimusic.plugins.admins.callback:[601:607]\n==yukkimusic.plugins.play.play:[317:323]\n                    return await mystic.edit_text(_[\"play_3\"])\n            try:\n                await stream(\n                    _,\n                    mystic,\n                    user_id,",
         "message-id": "R0801"
     },
     {
@@ -9395,7 +9278,7 @@
         "endColumn": null,
         "path": "scripts/envgen.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==yukkimusic.plugins.admins.callback:[602:607]\n==yukkimusic.plugins.play.play:[147:152]\n    try:\n        await stream(\n            _,\n            mystic,\n            user_id,",
+        "message": "Similar lines in 2 files\n==yukkimusic.plugins.admins.callback:[602:607]\n==yukkimusic.plugins.play.play:[147:152]\n            try:\n                await stream(\n                    _,\n                    mystic,\n                    user_id,",
         "message-id": "R0801"
     },
     {
@@ -9408,7 +9291,7 @@
         "endColumn": null,
         "path": "scripts/envgen.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==yukkimusic.plugins.bot.settings:[228:233]\n==yukkimusic.plugins.play.playmode:[39:44]\n        if playty == \"Everyone\":\n            Playtype = None\n        else:\n            Playtype = True\n        buttons = playmode_users_markup(_, Direct, Group, Playtype)",
+        "message": "Similar lines in 2 files\n==yukkimusic.plugins.bot.settings:[228:233]\n==yukkimusic.plugins.play.playmode:[39:44]\n    if playty == \"Everyone\":\n        Playtype = None\n    else:\n        Playtype = True\n    buttons = playmode_users_markup(_, Direct, Group, Playtype)",
         "message-id": "R0801"
     },
     {
@@ -9447,7 +9330,7 @@
         "endColumn": null,
         "path": "scripts/envgen.py",
         "symbol": "duplicate-code",
-        "message": "Similar lines in 2 files\n==yukkimusic.plugins.play.play:[98:103]\n==yukkimusic.plugins.play.playlist:[193:198]\n            try:\n                await stream(\n                    _,\n                    mystic,\n                    user_id,",
+        "message": "Similar lines in 2 files\n==yukkimusic.plugins.play.play:[98:103]\n==yukkimusic.plugins.play.playlist:[193:198]\n    try:\n        await stream(\n            _,\n            mystic,\n            user_id,",
         "message-id": "R0801"
     },
     {
